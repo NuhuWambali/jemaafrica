@@ -85,9 +85,9 @@ const NEWS = [
 ];
 
 const OFFICES = [
-  { title: 'Mining Division HQ', address: 'Jema Tech Building. Mkuyuni, Industrial Area. Mwanza. Tanzania.', phone: '+255 28 255 0380' },
+  { title: 'Mining Division HQ', address: 'Jema Tech Building. Industrial Area. Mwanza. Tanzania.', phone: '+255 28 255 0380' },
   { title: 'Non-Mining Division HQ', address: '5th floor, TAN House, Victoria, Dar es Salaam.', phone: '+255 677 091 421' },
-  { title: 'JIT Main Campus', address: 'Jema Tech Building. Mkuyuni, Industrial Area. Mwanza. Tanzania.', phone: '+255 76 628 3530' },
+  { title: 'JIT Main Campus', address: 'Jema Tech Building. Industrial Area. Mwanza. Tanzania.', phone: '+255 76 628 3530' },
 ];
 
 export default function LifeSciencePage() {
@@ -313,11 +313,13 @@ export default function LifeSciencePage() {
                 <p>We are here to assist you with any questions, support needs, or service inquiries. Whether you&apos;re looking for more information about our services or would like to speak directly with our team, we&apos;re ready to help.</p>
                 <div className="ls-contact-detail">
                   <span className="lbl">Mobile</span>
-                  <a href="tel:+255658460859">+255 658 460 859</a>
+                  <a href="tel:+255282550380">+255 28 255 0380</a>
+                  <a href="tel:+255677091421">+255 677 091 421</a>
                 </div>
                 <div className="ls-contact-detail">
                   <span className="lbl">Location</span>
-                  <p>Makaburi Street, Dar es Salaam - plot no 377 - Regent estate. Mikocheni A</p>
+                  <p>Jema Tech Building. Industrial Area. Mwanza. Tanzania.</p>
+                  <p>5th floor, TAN House, Victoria, Dar es Salaam.</p>
                 </div>
               </div>
             </Reveal>

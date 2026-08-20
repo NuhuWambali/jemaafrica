@@ -38,22 +38,14 @@ export default function Footer() {
           <div className="footer-col">
             <h4>Our Offices</h4>
             <div className="footer-office">
-              <h5>Nairobi</h5>
-              <p>Westlands, ABC Place</p>
-              <p>Nairobi, Kenya</p>
-              <Link href="tel:+254700000000">+254 700 000 000</Link>
-            </div>
-            <div className="footer-office">
-              <h5>Kampala</h5>
-              <p>Kololo, Plot 12</p>
-              <p>Kampala, Uganda</p>
-              <Link href="tel:+256700000000">+256 700 000 000</Link>
+              <h5>Mwanza</h5>
+              <p>Jema Tech Building. Industrial Area. Mwanza. Tanzania.</p>
+              <Link href="tel:+255282550380">+255 28 255 0380</Link>
             </div>
             <div className="footer-office">
               <h5>Dar es Salaam</h5>
-              <p>Masaki, Ocean Road</p>
-              <p>Dar es Salaam, Tanzania</p>
-              <Link href="tel:+255700000000">+255 700 000 000</Link>
+              <p>5th floor, TAN House, Victoria, Dar es Salaam.</p>
+              <Link href="tel:+255677091421">+255 677 091 421</Link>
             </div>
           </div>
 

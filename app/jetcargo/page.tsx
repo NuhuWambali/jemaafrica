@@ -53,9 +53,9 @@ const NEWS = [
 ];
 
 const OFFICES = [
-  { title: 'Mining Division HQ', address: 'Jema Tech Building. Mkuyuni, Industrial Area. Mwanza. Tanzania.', phone: '+255 28 255 0380' },
+  { title: 'Mining Division HQ', address: 'Jema Tech Building. Industrial Area. Mwanza. Tanzania.', phone: '+255 28 255 0380' },
   { title: 'Non-Mining Division HQ', address: '5th floor, TAN House, Victoria, Dar es Salaam.', phone: '+255 677 091 421' },
-  { title: 'JIT Main Campus', address: 'Jema Tech Building. Mkuyuni, Industrial Area. Mwanza. Tanzania.', phone: '+255 76 628 3530' },
+  { title: 'JIT Main Campus', address: 'Jema Tech Building. Industrial Area. Mwanza. Tanzania.', phone: '+255 76 628 3530' },
 ];
 
 export default function JetCargoPage() {
@@ -277,11 +277,12 @@ export default function JetCargoPage() {
                 <p>We&apos;re here to make sure your experience is seamless and hassle-free.</p>
                 <div className="jc-contact-detail">
                   <span className="lbl">Mobile</span>
-                  <p>Office Phone Number +255 710 021 889 &amp; +255 673 223 976</p>
+                  <p>Office Phone Number +255 28 255 0380 &amp; +255 677 091 421</p>
                 </div>
                 <div className="jc-contact-detail">
                   <span className="lbl">Location</span>
-                  <p>Kariakoo Street Mafia na Likoma</p>
+                  <p>Jema Tech Building. Industrial Area. Mwanza. Tanzania.</p>
+                  <p>5th floor, TAN House, Victoria, Dar es Salaam.</p>
                 </div>
               </div>
             </Reveal>

@@ -150,7 +150,7 @@ body.light-mode .elu-why-intro {
   transform: scaleX(1);
 }
 .elu-feature-num {
-  font-family: 'Fraunces', serif;
+  font-family: 'Montserrat', sans-serif;
   font-size: 2.4rem;
   line-height: 1;
   color: var(--gold);
@@ -312,7 +312,7 @@ body.light-mode .elu-stats {
   background: var(--gold);
 }
 .elu-stat .num {
-  font-family: 'Fraunces', serif;
+  font-family: 'Montserrat', sans-serif;
   font-size: clamp(2.4rem, 4.5vw, 3.4rem);
   line-height: 1;
   color: #111111;
@@ -379,7 +379,7 @@ body.light-mode .elu-stat .lbl {
 .elu-helpdesk a {
   font-size: 1.05rem;
   color: var(--ivory);
-  font-family: 'Fraunces', serif;
+  font-family: 'Montserrat', sans-serif;
   text-decoration: none;
   border-bottom: 1px solid var(--gold-soft);
   transition: color 0.3s ease;
@@ -799,7 +799,7 @@ body.light-mode .elu-news-head p {
   box-shadow: 0 12px 30px rgba(227, 107, 57, 0.4);
 }
 .elu-news-date strong {
-  font-family: 'Fraunces', serif;
+  font-family: 'Montserrat', sans-serif;
   font-size: 1.3rem;
   font-weight: 400;
 }
@@ -878,7 +878,7 @@ body.light-mode .elu-news-head p {
   margin-bottom: 8px;
 }
 .elu-cta-item a {
-  font-family: 'Fraunces', serif;
+  font-family: 'Montserrat', sans-serif;
   font-size: 1.2rem;
   color: var(--ivory);
   text-decoration: none;

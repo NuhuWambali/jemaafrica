@@ -372,7 +372,7 @@ body.light-mode .jj-contact-wrap .field label {
   margin-bottom: 20px;
 }
 .jj-service-num {
-  font-family: 'Fraunces', serif;
+  font-family: 'Montserrat', sans-serif;
   font-size: 2.2rem;
   line-height: 1;
   color: var(--gold);
@@ -650,7 +650,7 @@ body.light-mode .jj-news-head h2 {
   box-shadow: 0 12px 30px rgba(227, 107, 57, 0.4);
 }
 .jj-news-date strong {
-  font-family: 'Fraunces', serif;
+  font-family: 'Montserrat', sans-serif;
   font-size: 1.3rem;
   font-weight: 400;
 }

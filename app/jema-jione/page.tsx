@@ -46,9 +46,9 @@ const TEAM = [
 ];
 
 const OFFICES = [
-  { title: 'Mining Division HQ', address: 'Jema Tech Building. Mkuyuni, Industrial Area. Mwanza. Tanzania.', phone: '+255 28 255 0380' },
+  { title: 'Mining Division HQ', address: 'Jema Tech Building. Industrial Area. Mwanza. Tanzania.', phone: '+255 28 255 0380' },
   { title: 'Non-Mining Division HQ', address: '5th floor, TAN House, Victoria, Dar es Salaam.', phone: '+255 677 091 421' },
-  { title: 'JIT Main Campus', address: 'Jema Tech Building. Mkuyuni, Industrial Area. Mwanza. Tanzania.', phone: '+255 76 628 3530' },
+  { title: 'JIT Main Campus', address: 'Jema Tech Building. Industrial Area. Mwanza. Tanzania.', phone: '+255 76 628 3530' },
 ];
 
 export default function JemaJionePage() {
@@ -167,11 +167,12 @@ export default function JemaJionePage() {
                 <p>Advanced fleet management and real-time tracking ensure your cargo is secure and on the move.</p>
                 <div className="jj-contact-detail">
                   <span className="lbl">Mobile</span>
-                  <p>Office Number +255 752 686 464 &amp; +255 677 111 024</p>
+                  <p>Office Number +255 28 255 0380 &amp; +255 677 091 421</p>
                 </div>
                 <div className="jj-contact-detail">
                   <span className="lbl">Location</span>
-                  <p>4th Floor, Noble Center, Dar es Salaam. Tanzania</p>
+                  <p>Jema Tech Building. Industrial Area. Mwanza. Tanzania.</p>
+                  <p>5th floor, TAN House, Victoria, Dar es Salaam.</p>
                 </div>
               </div>
             </Reveal>

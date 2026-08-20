@@ -107,7 +107,7 @@ body.light-mode .jit-pillars {
   transform: scaleX(1);
 }
 .jit-pillar-num {
-  font-family: 'Fraunces', serif;
+  font-family: 'Montserrat', sans-serif;
   font-size: 2.6rem;
   line-height: 1;
   color: var(--gold);
@@ -349,7 +349,7 @@ body.light-mode .jit-highlights-head p {
   opacity: 0.7;
 }
 .jit-cta-contact a {
-  font-family: 'Fraunces', serif;
+  font-family: 'Montserrat', sans-serif;
   font-size: clamp(1.4rem, 2.4vw, 1.9rem);
   color: var(--ivory);
   text-decoration: none;
@@ -637,7 +637,7 @@ body.light-mode .jit-contact-detail p {
   color: #4b4b47;
 }
 .jit-contact-detail a {
-  font-family: 'Fraunces', serif;
+  font-family: 'Montserrat', sans-serif;
   font-size: 1.15rem;
   color: var(--ivory);
   text-decoration: none;
@@ -780,7 +780,7 @@ body.light-mode .jit-news-head h2 {
   box-shadow: 0 12px 30px rgba(227, 107, 57, 0.4);
 }
 .jit-news-date strong {
-  font-family: 'Fraunces', serif;
+  font-family: 'Montserrat', sans-serif;
   font-size: 1.3rem;
   font-weight: 400;
 }

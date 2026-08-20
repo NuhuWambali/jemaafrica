@@ -79,7 +79,7 @@ body.light-mode .ls-hero {
   padding: 40px 48px;
 }
 .ls-year-num {
-  font-family: 'Fraunces', serif;
+  font-family: 'Montserrat', sans-serif;
   font-size: clamp(2.4rem, 4.5vw, 3.4rem);
   line-height: 1;
   color: var(--gold);
@@ -161,7 +161,7 @@ body.light-mode .ls-pillars-head p {
   transform: scaleX(1);
 }
 .ls-pillar-card h3 {
-  font-family: 'Fraunces', serif;
+  font-family: 'Montserrat', sans-serif;
   font-size: 1.4rem;
   margin-bottom: 10px;
 }
@@ -585,7 +585,7 @@ body.light-mode .ls-contact-info > p {
 }
 .ls-contact-detail a {
   color: #111111;
-  font-family: 'Fraunces', serif;
+  font-family: 'Montserrat', sans-serif;
   font-size: 1.15rem;
   text-decoration: none;
   border-bottom: 1px solid var(--gold-soft);
@@ -723,7 +723,7 @@ body.light-mode .ls-contact-wrap .field textarea {
   box-shadow: 0 12px 30px rgba(227, 107, 57, 0.4);
 }
 .ls-news-date strong {
-  font-family: 'Fraunces', serif;
+  font-family: 'Montserrat', sans-serif;
   font-size: 1.3rem;
   font-weight: 400;
 }

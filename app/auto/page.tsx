@@ -53,9 +53,9 @@ const NEWS = [
 ];
 
 const OFFICES = [
-  { title: 'Mining Division HQ', address: 'Jema Tech Building. Mkuyuni, Industrial Area. Mwanza. Tanzania.', phone: '+255 28 255 0380' },
+  { title: 'Mining Division HQ', address: 'Jema Tech Building. Industrial Area. Mwanza. Tanzania.', phone: '+255 28 255 0380' },
   { title: 'Non-Mining Division HQ', address: '5th floor, TAN House, Victoria, Dar es Salaam.', phone: '+255 677 091 421' },
-  { title: 'JIT Main Campus', address: 'Jema Tech Building. Mkuyuni, Industrial Area. Mwanza. Tanzania.', phone: '+255 76 628 3530' },
+  { title: 'JIT Main Campus', address: 'Jema Tech Building. Industrial Area. Mwanza. Tanzania.', phone: '+255 76 628 3530' },
 ];
 
 export default function AutoPage() {
@@ -230,7 +230,8 @@ export default function AutoPage() {
               </div>
               <div className="auto-support-contact">
                 <span className="lbl">Expert Advisor</span>
-                <a href="tel:+255710001241">+255 710 001 241</a>
+                <a href="tel:+255282550380">+255 28 255 0380</a>
+                  <a href="tel:+255677091421">+255 677 091 421</a>
               </div>
             </div>
           </Reveal>

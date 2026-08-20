@@ -223,7 +223,7 @@
   background: var(--gold);
 }
 .sus-stat .num {
-  font-family: 'Fraunces', serif;
+  font-family: 'Montserrat', sans-serif;
   font-size: clamp(2.4rem, 4.5vw, 3.4rem);
   line-height: 1;
   color: #111111;
@@ -379,7 +379,7 @@
   padding-right: 16px;
 }
 .sus-partners-name {
-  font-family: 'Fraunces', serif;
+  font-family: 'Montserrat', sans-serif;
   font-size: 1.05rem;
   color: #4b4b47;
   border: 1px solid rgba(0, 0, 0, 0.12);

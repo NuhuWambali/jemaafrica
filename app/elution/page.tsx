@@ -21,10 +21,11 @@ const FEATURES = [
 ];
 
 const BRANCHES = [
-  { city: 'Mwanza Branch', address: 'Mkuyuni, Industrial Area.', phone: '+255 769 498 997' },
-  { city: 'Kahama Branch', address: 'Mbulu Street.', phone: '+255 743 550 535' },
-  { city: 'Geita Branch', address: 'Mpomvu Street.', phone: '+255 745 694 989' },
-  { city: 'Musoma Branch', address: 'Musoma Bus Stop Street.', phone: '+255 677 079 517' },
+  { city: 'Mwanza Branch', address: 'Jema Tech Building. Industrial Area. Mwanza. Tanzania.', phone: '+255 677 066 855' },
+  { city: 'Kahama Branch', address: 'Kahama, Tanzania.', phone: '+255 767 060 719' },
+  { city: 'Geita Branch', address: 'Geita, Tanzania.', phone: '+255 745 694 989' },
+  { city: 'Chunya Branch', address: 'Chunya, Tanzania.', phone: '+255 627 067 369' },
+  { city: 'Saza Branch', address: 'Saza, Tanzania.', phone: '+255 629 260 739' },
 ];
 
 const TEAM = [
@@ -56,9 +57,9 @@ const NEWS = [
 ];
 
 const OFFICES = [
-  { title: 'Mining Division HQ', address: 'Jema Tech Building. Mkuyuni, Industrial Area. Mwanza. Tanzania.', phone: '+255 28 255 0380' },
+  { title: 'Mining Division HQ', address: 'Jema Tech Building. Industrial Area. Mwanza. Tanzania.', phone: '+255 28 255 0380' },
   { title: 'Non-Mining Division HQ', address: '5th floor, TAN House, Victoria, Dar es Salaam.', phone: '+255 677 091 421' },
-  { title: 'JIT Main Campus', address: 'Jema Tech Building. Mkuyuni, Industrial Area. Mwanza. Tanzania.', phone: '+255 76 628 3530' },
+  { title: 'JIT Main Campus', address: 'Jema Tech Building. Industrial Area. Mwanza. Tanzania.', phone: '+255 76 628 3530' },
 ];
 
 export default function ElutionPage() {
@@ -306,8 +307,8 @@ export default function ElutionPage() {
                   <span className="lbl">Location</span>
                   <p>Jema Tech Building. Industrial Area. Mwanza. Tanzania.</p>
                   <a href="tel:+255282550380">Office Phone Number +255 28 255 0380</a>
-                  <p>4th Floor, Noble Center, Dar es Salaam. Tanzania.</p>
-                  <a href="tel:+255677091522">Office Phone Number +255 677 091 522</a>
+                  <p>5th floor, TAN House, Victoria, Dar es Salaam.</p>
+                  <a href="tel:+255677091421">Office Phone Number +255 677 091 421</a>
                 </div>
               </div>
             </Reveal>

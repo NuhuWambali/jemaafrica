@@ -217,7 +217,7 @@ body.light-mode .jc-services-head p {
   display: none;
 }
 .jc-stat-num {
-  font-family: 'Fraunces', serif;
+  font-family: 'Montserrat', sans-serif;
   font-size: 3.2rem;
   font-weight: 400;
   color: var(--ivory);
@@ -388,7 +388,7 @@ body.light-mode .jc-cta-info .lbl {
   text-transform: uppercase;
 }
 .jc-cta-advisor a {
-  font-family: 'Fraunces', serif;
+  font-family: 'Montserrat', sans-serif;
   font-size: clamp(1.4rem, 2.4vw, 1.9rem);
   color: #111111;
   text-decoration: none;
@@ -625,7 +625,7 @@ body.light-mode .jc-news-head p {
   box-shadow: 0 12px 30px rgba(227, 107, 57, 0.4);
 }
 .jc-news-date strong {
-  font-family: 'Fraunces', serif;
+  font-family: 'Montserrat', sans-serif;
   font-size: 1.3rem;
   font-weight: 400;
 }

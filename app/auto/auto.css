@@ -473,7 +473,7 @@ body.light-mode .auto-why-foot p {
 }
 .auto-process-num {
   display: block;
-  font-family: 'Fraunces', serif;
+  font-family: 'Montserrat', sans-serif;
   font-size: 2.6rem;
   line-height: 1;
   color: var(--gold);
@@ -528,7 +528,7 @@ body.light-mode .auto-why-foot p {
   margin-bottom: 8px;
 }
 .auto-support-contact a {
-  font-family: 'Fraunces', serif;
+  font-family: 'Montserrat', sans-serif;
   font-size: 1.4rem;
   color: var(--ivory);
   text-decoration: none;
@@ -629,7 +629,7 @@ body.light-mode .auto-news-head h2 {
   box-shadow: 0 12px 30px rgba(227, 107, 57, 0.4);
 }
 .auto-news-date strong {
-  font-family: 'Fraunces', serif;
+  font-family: 'Montserrat', sans-serif;
   font-size: 1.3rem;
   font-weight: 400;
 }
