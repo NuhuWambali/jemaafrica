@@ -102,40 +102,30 @@ export default function Home() {
       const video = countdownVideoRef.current;
       if (!section || !sticky || !number) return;
       const digits = number.querySelectorAll<HTMLElement>('.countdown-digit');
-      const readyEl = section.querySelector<HTMLElement>('.countdown-ready');
       const scrollableDistance = section.offsetHeight - window.innerHeight;
       const progress = Math.max(0, Math.min(-section.getBoundingClientRect().top / scrollableDistance, 1));
 
-      if (progress < 0.12) {
-        if (readyEl) readyEl.style.opacity = String(1);
-        number.style.opacity = '0';
-        if (video) { video.pause(); video.currentTime = 0; }
-        sticky.classList.remove('is-video-revealing');
-      } else if (progress < 0.22) {
-        if (readyEl) readyEl.style.opacity = String(Math.max(0, 1 - (progress - 0.12) / 0.1));
+      if (progress < 0.22) {
         number.style.opacity = '1';
         digits.forEach(d => d.classList.toggle('is-active', d.getAttribute('data-countdown-value') === '3'));
         number.setAttribute('aria-label', '3');
         if (video) { video.pause(); video.currentTime = 0; }
         sticky.classList.remove('is-video-revealing');
-      } else if (progress < 0.35) {
-        if (readyEl) readyEl.style.opacity = '0';
+      } else if (progress < 0.38) {
         number.style.opacity = '1';
         digits.forEach(d => d.classList.toggle('is-active', d.getAttribute('data-countdown-value') === '2'));
         number.setAttribute('aria-label', '2');
         if (video) { video.pause(); video.currentTime = 0; }
         sticky.classList.remove('is-video-revealing');
-      } else if (progress < 0.5) {
-        if (readyEl) readyEl.style.opacity = '0';
+      } else if (progress < 0.52) {
         number.style.opacity = '1';
         digits.forEach(d => d.classList.toggle('is-active', d.getAttribute('data-countdown-value') === '1'));
         number.setAttribute('aria-label', '1');
         if (video) { video.pause(); video.currentTime = 0; }
         sticky.classList.remove('is-video-revealing');
       } else {
-        if (readyEl) readyEl.style.opacity = '0';
         number.style.opacity = '0';
-        const videoReveal = Math.max(0, Math.min((progress - 0.5) / 0.5, 1));
+        const videoReveal = Math.max(0, Math.min((progress - 0.52) / 0.48, 1));
         sticky.style.setProperty('--video-reveal', String(videoReveal));
         sticky.classList.toggle('is-video-revealing', videoReveal > 0);
         if (videoReveal > 0 && video) {
@@ -602,7 +592,6 @@ export default function Home() {
       {/* COUNTDOWN REVEAL */}
       <section className="countdown-reveal" aria-label="Jema Africa film reveal">
         <div className="countdown-sticky" ref={countdownStickyRef} id="countdown-sticky">
-          <span className="countdown-ready">Are you ready?</span>
           <span className="countdown-number" ref={countdownNumberRef} aria-live="polite" aria-label="3">
             <span className="countdown-digit is-active" data-countdown-value="3" aria-hidden="true">3</span>
             <span className="countdown-digit" data-countdown-value="2" aria-hidden="true">2</span>
