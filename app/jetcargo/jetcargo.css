@@ -863,11 +863,68 @@ body.light-mode .jc-contact-wrap .field textarea {
   }
 }
 @media (max-width: 520px) {
+  .jc-hero {
+    padding: 140px 0 64px;
+  }
+  .jc-hero h1 {
+    font-size: 2.5rem;
+  }
+  .jc-services,
+  .jc-why,
+  .jc-cta,
+  .jc-key,
+  .jc-news,
+  .jc-contact {
+    padding: 50px 0;
+  }
+  .jc-offices {
+    padding: 30px 0 50px;
+  }
   .jc-news-grid {
     grid-template-columns: 1fr;
+  }
+  .jc-service-card,
+  .jc-why-card,
+  .jc-key-card,
+  .jc-office-card {
+    padding: 24px 20px;
+    border-radius: 10px;
+  }
+  .jc-stat-block {
+    padding: 26px 20px;
+  }
+  .jc-stat-num {
+    font-size: 2.6rem;
+  }
+  .jc-services-image img {
+    height: 200px;
+  }
+  .jc-news-entry {
+    border-radius: 10px;
+  }
+  .jc-news-body {
+    padding: 20px 18px 24px;
+  }
+  .jc-news-body h3 {
+    font-size: 1.15rem;
+  }
+  .jc-cta-in {
+    padding: 32px 24px;
+    border-radius: 12px;
   }
   .jc-form-row {
     grid-template-columns: 1fr;
     gap: 0;
+  }
+  .jc-contact-wrap .field input,
+  .jc-contact-wrap .field textarea {
+    font-size: 16px;
+  }
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+  .jc-why-figure::before {
+    inset: 14px -14px -14px 14px;
   }
 }

@@ -903,16 +903,78 @@ body.light-mode .jit-news-head h2 {
   }
 }
 @media (max-width: 520px) {
+  .jit-hero {
+    padding: 140px 0 64px;
+  }
+  .jit-hero h1 {
+    font-size: 2.5rem;
+  }
+  .jit-hero-actions {
+    margin-top: 28px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 18px;
+  }
+  .jit-pillars,
+  .jit-offices {
+    padding: 30px 0 50px;
+  }
+  .jit-about,
+  .jit-highlights,
+  .jit-value,
+  .jit-team,
+  .jit-contact,
+  .jit-news {
+    padding: 50px 0;
+  }
+  .jit-cta {
+    padding: 10px 0 50px;
+  }
   .jit-pillars-grid,
   .jit-highlights-grid,
-  .jit-news-grid {
-    grid-template-columns: 1fr;
-  }
+  .jit-news-grid,
   .jit-team-grid {
     grid-template-columns: 1fr;
+  }
+  .jit-pillar-card,
+  .jit-highlight-card,
+  .jit-office-card {
+    padding: 24px 20px;
+    border-radius: 10px;
+  }
+  .jit-news-entry {
+    border-radius: 10px;
+  }
+  .jit-news-body {
+    padding: 20px 18px 24px;
+  }
+  .jit-news-body h3 {
+    font-size: 1.15rem;
+  }
+  .jit-cta-in {
+    padding: 32px 24px;
+    border-radius: 12px;
   }
   .jit-form-row {
     grid-template-columns: 1fr;
     gap: 0;
+  }
+  .jit-contact-wrap .field input,
+  .jit-contact-wrap .field textarea {
+    font-size: 16px;
+  }
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+  .jit-about-figure::before {
+    inset: 14px -14px -14px 14px;
+  }
+  .jit-value-figure::before {
+    inset: 14px 14px -14px -14px;
+  }
+  .jit-about-badge {
+    left: 8px;
+    bottom: -12px;
   }
 }

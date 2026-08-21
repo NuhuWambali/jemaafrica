@@ -1300,7 +1300,8 @@ form { display: flex; flex-direction: column; gap: 26px; }
 /* ---------- RESPONSIVE ---------- */
 @media (max-width: 900px) {
   .hero-grid { grid-template-columns: 1fr; }
-  .hero { background-position: 65% center; }
+  .hero { background-position: 65% center; padding: 160px 0 80px; }
+  .hero-title { font-size: clamp(2.4rem, 7vw, 3.6rem); }
   .services-head { align-items: start; flex-direction: column; gap: 18px; }
   .services-reveal { height: 260vh; }
   .services-sticky { min-height: 560px; }
@@ -1316,33 +1317,52 @@ form { display: flex; flex-direction: column; gap: 26px; }
   .partnerships-layout { grid-template-columns: 1fr; gap: 64px; }
   .partnerships-figure { max-width: 380px; justify-self: start; }
   .partnerships-figure::before { inset: 16px -16px -16px 16px; }
+  .story-layout { grid-template-columns: 1fr; gap: 40px; }
+  .story-frame { aspect-ratio: 16/10; }
 }
 @media (max-width: 520px) {
-  .countdown-sticky { min-height: 500px; }
-  .countdown-video { inset: 18px; }
-  .services-reveal { height: 280vh; }
-  .services-sticky { min-height: 520px; }
-  .services-grid { grid-template-columns: repeat(2, 1fr); gap: 12px; }
-  .service-card { min-height: 210px; padding: 18px; }
-  .service-card:nth-child(1) { --dx: -50px; --dy: -40px; --rot: -10deg; }
-  .service-card:nth-child(2) { --dx: 50px; --dy: -40px; --rot: 10deg; }
-  .service-card:nth-child(3) { --dx: -50px; --dy: 40px; --rot: -10deg; }
-  .service-card:nth-child(4) { --dx: 50px; --dy: 40px; --rot: 10deg; }
+  .hero { padding: 140px 0 60px; }
+  .hero-title { font-size: clamp(1.8rem, 8vw, 2.4rem); }
+  .hero-eyebrow { font-size: 0.65rem; }
+  .hero-type { font-size: 0.82rem; flex-wrap: wrap; }
+  .hero-actions { gap: 12px; }
+  .hero-actions .btn-primary { width: 100%; text-align: center; }
+  .countdown-sticky { min-height: 420px; }
+  .countdown-number { font-size: clamp(6rem, 28vw, 14rem); }
+  .countdown-video { inset: 12px; }
+  .countdown-progress { font-size: 0.65rem; bottom: 16px; }
+  .services-reveal { height: 300vh; }
+  .services-sticky { min-height: 480px; }
+  .services-grid { grid-template-columns: repeat(2, 1fr); gap: 10px; }
+  .service-card { min-height: 180px; padding: 14px; }
+  .service-card h3 { font-size: 0.82rem; }
+  .service-card:nth-child(1) { --dx: -30px; --dy: -25px; --rot: -6deg; }
+  .service-card:nth-child(2) { --dx: 30px; --dy: -25px; --rot: 6deg; }
+  .service-card:nth-child(3) { --dx: -30px; --dy: 25px; --rot: -6deg; }
+  .service-card:nth-child(4) { --dx: 30px; --dy: 25px; --rot: 6deg; }
   .leadership-reveal { height: 240vh; }
-  .leadership-sticky { min-height: 520px; }
-  .leadership-grid { grid-template-columns: repeat(2, 1fr); gap: 22px 14px; }
+  .leadership-sticky { min-height: 480px; }
+  .leadership-grid { grid-template-columns: repeat(2, 1fr); gap: 16px 10px; }
   .leader-card:nth-child(n) { margin-top: 0; }
-  .leader-details { padding: 14px 0 0; }
+  .leader-card { border-radius: 12px; }
+  .leader-details { padding: 10px 0 0; }
+  .leader-details h3 { font-size: 0.82rem; }
+  .leader-details p { font-size: 0.7rem; }
   .leader-image, .leader-card:first-child .leader-image { aspect-ratio: 1.15; }
-  .news-entry { grid-template-columns: 46px 82px 1fr 20px; gap: 12px; padding: 24px 0; }
+  .news-entry { grid-template-columns: 40px 64px 1fr 18px; gap: 10px; padding: 18px 0; }
   .news-entry:hover { transform: translateX(0); }
-  .news-date strong { font-size: 1.55rem; }
-  .news-arrow { font-size: 1rem; }
-  .hero-actions { flex-direction: column; align-items: flex-start; gap: 18px; }
+  .news-date strong { font-size: 1.3rem; }
+  .news-date span { font-size: 0.6rem; }
+  .news-title { font-size: 0.82rem; }
+  .news-meta { font-size: 0.65rem; }
+  .news-arrow { font-size: 0.9rem; }
   .scroll-cue { display: none; }
-  .hero-orb-1 { width: 320px; height: 320px; right: -100px; }
-  .hero-orb-2 { width: 280px; height: 280px; left: -100px; }
-  .hero-type { font-size: 0.9rem; }
-  .partnerships-figure::before { inset: 12px -12px -12px 12px; }
-  .partnerships-badge { left: -6px; }
+  .hero-orb-1 { width: 260px; height: 260px; right: -80px; }
+  .hero-orb-2 { width: 220px; height: 220px; left: -80px; }
+  .partnerships-figure::before { inset: 10px -10px -10px 10px; }
+  .partnerships-badge { left: -4px; font-size: 0.75rem; padding: 8px 14px; }
+  .contact-wrap .field { padding: 12px 16px; }
+  .submit-btn { padding: 10px 20px; width: 100%; }
+  .story-frame { border-radius: 10px; }
+  .story-badge { font-size: 0.7rem; padding: 6px 12px; }
 }

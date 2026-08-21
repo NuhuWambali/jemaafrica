@@ -1019,14 +1019,80 @@ body.light-mode .tech-office-card p {
   }
 }
 @media (max-width: 520px) {
+  .tech-hero {
+    padding: 140px 0 64px;
+  }
+  .tech-hero h1 {
+    font-size: 2.5rem;
+  }
+  .tech-hero-actions {
+    margin-top: 28px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 18px;
+  }
+  .tech-services {
+    padding: 30px 0 50px;
+  }
+  .tech-about,
+  .tech-story,
+  .tech-team,
+  .tech-reasons,
+  .tech-process,
+  .tech-news,
+  .tech-contact,
+  .tech-offices {
+    padding: 50px 0;
+  }
   .tech-services-grid,
   .tech-mission-grid,
   .tech-process-grid,
   .tech-reasons-list,
-  .tech-news-grid {
-    grid-template-columns: 1fr;
-  }
+  .tech-news-grid,
   .tech-team-grid {
     grid-template-columns: 1fr;
+  }
+  .tech-mission-card,
+  .tech-reason-card,
+  .tech-process-card,
+  .tech-office-card {
+    padding: 24px 20px;
+    border-radius: 10px;
+  }
+  .tech-service-card h3 {
+    padding: 20px 18px 0;
+  }
+  .tech-service-card > p {
+    padding: 8px 18px;
+  }
+  .tech-service-link {
+    padding: 0 18px 20px;
+  }
+  .tech-news-entry {
+    border-radius: 10px;
+  }
+  .tech-news-body {
+    padding: 20px 18px 24px;
+  }
+  .tech-news-body h3 {
+    font-size: 1.15rem;
+  }
+  .tech-contact-wrap .field input,
+  .tech-contact-wrap .field textarea {
+    font-size: 16px;
+  }
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+  .tech-about-figure::before {
+    inset: 14px -14px -14px 14px;
+  }
+  .tech-story-figure::before {
+    inset: 14px 14px -14px -14px;
+  }
+  .tech-about-badge {
+    left: 8px;
+    bottom: -12px;
   }
 }

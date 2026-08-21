@@ -991,19 +991,86 @@ body.light-mode .elu-offices {
   }
 }
 @media (max-width: 520px) {
-  .elu-features-grid {
-    grid-template-columns: 1fr;
+  .elu-hero {
+    padding: 140px 0 64px;
+  }
+  .elu-hero h1 {
+    font-size: 2.5rem;
+  }
+  .elu-hero-actions {
+    margin-top: 28px;
+  }
+  .elu-why,
+  .elu-cta,
+  .elu-offices {
+    padding: 30px 0 50px;
+  }
+  .elu-callback {
+    padding: 10px 0 50px;
+  }
+  .elu-process,
+  .elu-contact,
+  .elu-form-section,
+  .elu-team,
+  .elu-news {
+    padding: 50px 0;
+  }
+  .elu-stats {
+    padding: 40px 24px;
+    border-radius: 14px;
   }
   .elu-stats-grid {
     grid-template-columns: 1fr;
+    gap: 28px;
   }
-  .elu-branches-grid {
-    grid-template-columns: 1fr;
-  }
+  .elu-features-grid,
+  .elu-branches-grid,
   .elu-team-grid {
     grid-template-columns: 1fr;
   }
+  .elu-feature-card,
+  .elu-branch-card,
+  .elu-office-card,
+  .elu-equipment {
+    padding: 24px 20px;
+    border-radius: 10px;
+  }
+  .elu-news-entry {
+    border-radius: 10px;
+  }
+  .elu-news-body {
+    padding: 20px 18px 24px;
+  }
+  .elu-news-body h3 {
+    font-size: 1.15rem;
+  }
   .elu-news-image {
     aspect-ratio: 1.4;
+  }
+  .elu-callback-in {
+    padding: 30px 22px;
+    border-radius: 12px;
+  }
+  .elu-callback-actions {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 20px;
+  }
+  .elu-cta-in {
+    padding: 36px 22px;
+    border-radius: 12px;
+  }
+  .elu-cta-actions {
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+  }
+  .elu-form-wrap .field input,
+  .elu-form-wrap .field textarea {
+    font-size: 16px;
+  }
+  img {
+    max-width: 100%;
+    height: auto;
   }
 }

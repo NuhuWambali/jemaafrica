@@ -763,9 +763,78 @@ body.light-mode .auto-office-card p {
   }
 }
 @media (max-width: 520px) {
+  .auto-hero {
+    padding: 140px 0 64px;
+  }
+  .auto-hero h1 {
+    font-size: 2.5rem;
+  }
+  .auto-hero-actions {
+    margin-top: 28px;
+  }
+  .auto-welcome {
+    padding: 30px 0 50px;
+  }
+  .auto-services,
+  .auto-why,
+  .auto-process,
+  .auto-news,
+  .auto-offices {
+    padding: 50px 0;
+  }
+  .auto-cta {
+    padding: 10px 0 50px;
+  }
   .auto-services-grid,
   .auto-process-grid,
-  .auto-news-grid {
+  .auto-news-grid,
+  .auto-why-grid {
     grid-template-columns: 1fr;
+  }
+  .auto-why-card,
+  .auto-process-card,
+  .auto-office-card {
+    padding: 24px 20px;
+    border-radius: 10px;
+  }
+  .auto-service-group {
+    margin: 20px 18px 0;
+  }
+  .auto-service-card h3 {
+    padding: 12px 18px 0;
+  }
+  .auto-service-card p {
+    padding: 8px 18px 22px;
+  }
+  .auto-news-entry {
+    border-radius: 10px;
+  }
+  .auto-news-body {
+    padding: 20px 18px 24px;
+  }
+  .auto-news-body h3 {
+    font-size: 1.15rem;
+  }
+  .auto-cta-in {
+    padding: 36px 24px;
+    border-radius: 14px;
+  }
+  .auto-support {
+    padding: 28px 22px;
+    border-radius: 12px;
+  }
+  .auto-why-foot {
+    padding: 24px 20px;
+  }
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+  .auto-welcome-figure::before {
+    inset: 14px -14px -14px 14px;
+  }
+  .auto-welcome-badge {
+    right: 8px;
+    bottom: -12px;
   }
 }

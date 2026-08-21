@@ -540,11 +540,25 @@ section { padding: 130px 0; position: relative; }
   section { padding: 90px 0; }
   .footer-grid { grid-template-columns: repeat(2, 1fr); gap: 44px; }
   .footer-africa { opacity: 0.1; }
+  h1 { font-size: clamp(2.2rem, 6vw, 3.2rem); }
+  h2 { font-size: clamp(1.6rem, 4vw, 2.4rem); }
+  .eyebrow { font-size: 0.7rem; }
+  .btn-primary { padding: 12px 24px; font-size: 0.88rem; }
+  .section-head h2 { font-size: clamp(1.5rem, 4vw, 2.2rem); }
 }
 @media (max-width: 520px) {
-  .footer-africa { width: 46vw; right: -24px; top: 12px; }
-  .footer-africa-left { left: -24px; }
-  .footer-bottom-in { flex-direction: column; text-align: center; }
+  .container { padding: 0 18px; }
+  section { padding: 70px 0; }
+  .footer-grid { grid-template-columns: 1fr; gap: 36px; }
+  .footer-africa { width: 50vw; right: -20px; top: 8px; }
+  .footer-africa-left { left: -20px; }
+  .footer-bottom-in { flex-direction: column; text-align: center; gap: 8px; }
+  h1 { font-size: clamp(1.8rem, 7vw, 2.6rem); }
+  h2 { font-size: clamp(1.4rem, 5vw, 2rem); }
+  .eyebrow { font-size: 0.65rem; letter-spacing: 0.14em; }
+  .btn-primary { padding: 10px 20px; font-size: 0.82rem; width: 100%; text-align: center; }
+  .section-head { margin-bottom: 40px; }
+  .section-head h2 { font-size: clamp(1.3rem, 5vw, 1.8rem); }
 }
 @media (prefers-reduced-motion: reduce) {
   * {

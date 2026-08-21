@@ -850,12 +850,76 @@ body.light-mode .ls-offices {
   }
 }
 @media (max-width: 520px) {
-  .ls-pillars-grid {
-    grid-template-columns: 1fr;
+  .ls-hero {
+    padding: 140px 0 64px;
   }
+  .ls-hero h1 {
+    font-size: 2.5rem;
+  }
+  .ls-hero-actions {
+    margin-top: 28px;
+  }
+  .ls-year {
+    padding: 10px 0 50px;
+  }
+  .ls-year-in {
+    padding: 28px 22px;
+    border-radius: 12px;
+  }
+  .ls-pillars,
+  .ls-offices {
+    padding: 30px 0 50px;
+  }
+  .ls-about,
+  .ls-sectors,
+  .ls-commitment,
+  .ls-activities,
+  .ls-values,
+  .ls-contact,
+  .ls-news {
+    padding: 50px 0;
+  }
+  .ls-pillars-grid,
   .ls-sectors-grid,
   .ls-values-grid,
-  .ls-news-grid {
+  .ls-news-grid,
+  .ls-activities-grid {
     grid-template-columns: 1fr;
+  }
+  .ls-pillar-card,
+  .ls-value-card,
+  .ls-activity-card,
+  .ls-office-card {
+    padding: 24px 20px;
+    border-radius: 10px;
+  }
+  .ls-sector-card h3 {
+    padding: 18px 18px 4px;
+  }
+  .ls-sector-tag {
+    padding: 0 18px 18px;
+  }
+  .ls-news-entry {
+    border-radius: 10px;
+  }
+  .ls-news-body {
+    padding: 20px 18px 24px;
+  }
+  .ls-news-body h3 {
+    font-size: 1.15rem;
+  }
+  .ls-contact-wrap .field input,
+  .ls-contact-wrap .field textarea {
+    font-size: 16px;
+  }
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+  .ls-about-figure::before {
+    inset: 14px -14px -14px 14px;
+  }
+  .ls-commitment-figure::before {
+    inset: 14px 14px -14px -14px;
   }
 }
