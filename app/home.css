@@ -9,6 +9,7 @@
   background-image: url('/assets/hero-bg.jpg');
   background-size: cover;
   background-position: center 30%;
+  background-repeat: no-repeat;
   animation: heroKenBurns 26s ease-in-out infinite alternate;
 }
 .hero::before {
