@@ -1,5 +1,7 @@
 'use client';
 
+import { useTranslation } from 'react-i18next';
+
 import { useSearchParams } from 'next/navigation';
 import Link from 'next/link';
 import { Suspense } from 'react';
@@ -248,6 +250,7 @@ function BlogContent() {
 }
 
 export default function BlogPage() {
+  const { t } = useTranslation();
   return (
     <Suspense
       fallback={

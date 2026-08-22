@@ -1,5 +1,7 @@
 'use client';
 
+import { useTranslation } from 'react-i18next';
+
 import { useCallback, useEffect, useState } from 'react';
 import Link from 'next/link';
 import Navbar from '@/components/Navbar';
@@ -97,6 +99,7 @@ const OFFICES = [
 ];
 
 export default function ChemicalsPage() {
+  const { t } = useTranslation();
   const [sent, setSent] = useState(false);
   const [openFaq, setOpenFaq] = useState(0);
 

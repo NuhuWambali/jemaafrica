@@ -1,6 +1,10 @@
+'use client';
+
 import Link from 'next/link';
+import { useTranslation } from 'react-i18next';
 
 export default function Footer() {
+  const { t } = useTranslation();
   return (
     <footer className="site-footer">
       <div className="footer-africa">
@@ -16,44 +20,43 @@ export default function Footer() {
             <div className="logo">
               <img src="/assets/logo-white.png" alt="Jema Africa" />
             </div>
-            <p className="footer-tag">A Private Collective</p>
+            <p className="footer-tag">{t('footer.tagline')}</p>
             <p className="footer-about">
-              A diversified Pan-African group operating across mining, technology, logistics,
-              finance, education, and industrial services since 2012.
+              {t('footer.about')}
             </p>
           </div>
 
           <div className="footer-col">
-            <h4>What We Do</h4>
+            <h4>{t('footer.whatWeDo')}</h4>
             <ul>
-              <li><Link href="/business/mining">Mining</Link></li>
-              <li><Link href="/business/technology">Technology</Link></li>
-              <li><Link href="/business/logistics">Logistics</Link></li>
-              <li><Link href="/business/finance">Finance</Link></li>
-              <li><Link href="/business/education">Education</Link></li>
-              <li><Link href="/business/industrial">Industrial Services</Link></li>
+              <li><Link href="/business/mining">{t('footer.mining')}</Link></li>
+              <li><Link href="/business/technology">{t('footer.technology')}</Link></li>
+              <li><Link href="/business/logistics">{t('footer.logistics')}</Link></li>
+              <li><Link href="/business/finance">{t('footer.financeLabel')}</Link></li>
+              <li><Link href="/business/education">{t('footer.education')}</Link></li>
+              <li><Link href="/business/industrial">{t('footer.industrialServices')}</Link></li>
             </ul>
           </div>
 
           <div className="footer-col">
-            <h4>Our Offices</h4>
+            <h4>{t('footer.ourOffices')}</h4>
             <div className="footer-office">
               <h5>Mwanza</h5>
-              <p>Jema Tech Building. Industrial Area. Mwanza. Tanzania.</p>
+              <p>{t('footer.mwanzaAddress')}</p>
               <Link href="tel:+255282550380">+255 28 255 0380</Link>
             </div>
             <div className="footer-office">
               <h5>Dar es Salaam</h5>
-              <p>5th floor, TAN House, Victoria, Dar es Salaam.</p>
+              <p>{t('footer.darAddress')}</p>
               <Link href="tel:+255677091421">+255 677 091 421</Link>
             </div>
           </div>
 
           <div className="footer-col">
-            <h4>Stay Updated</h4>
-            <p className="footer-sub">Get the latest insights and news from Jema Africa delivered to your inbox.</p>
+            <h4>{t('footer.stayUpdated')}</h4>
+            <p className="footer-sub">{t('footer.newsletterSub')}</p>
             <form className="footer-field" onSubmit={(e) => e.preventDefault()}>
-              <input type="email" placeholder="Your email address" />
+              <input type="email" placeholder={t('footer.emailPlaceholder')} />
               <button type="submit">→</button>
             </form>
             <span className="footer-form-note"></span>
@@ -66,7 +69,7 @@ export default function Footer() {
           <div className="footer-bottom-in">
             <span>&copy; {new Date().getFullYear()} Jema Africa. All rights reserved.</span>
             <span>
-              <Link href="/privacy">Privacy Policy</Link> &nbsp;&middot;&nbsp; <Link href="/terms">Terms of Use</Link>
+              <Link href="/privacy">{t('footer.privacy')}</Link> &nbsp;&middot;&nbsp; <Link href="/terms">{t('footer.terms')}</Link>
             </span>
           </div>
         </div>

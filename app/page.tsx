@@ -6,6 +6,7 @@ import Footer from '@/components/Footer';
 import Grain from '@/components/Grain';
 import CookieBanner from '@/components/CookieBanner';
 import Reveal from '@/components/Reveal';
+import { useTranslation } from 'react-i18next';
 import './home.css';
 
 const PARTNER_NAMES = [
@@ -16,9 +17,9 @@ const PARTNER_NAMES = [
   'National Institute for Medical Science', 'Milli-Q', 'TAFC', 'Taken',
 ];
 
-const TYPING_WORDS = ['Mining', 'Technology & Education', 'Logistics & Transport', 'Finance & Investment', 'Industrial Services'];
-
 export default function Home() {
+  const { t } = useTranslation();
+  const words = t('hero.typingWords', { returnObjects: true }) as string[];
   const [sent, setSent] = useState(false);
   const [activeFilter, setActiveFilter] = useState('all');
   const servicesRef = useRef<HTMLElement>(null);
@@ -181,7 +182,7 @@ export default function Home() {
     let wi = 0, ci = 0, deleting = false;
     let timeout: ReturnType<typeof setTimeout>;
     const tick = () => {
-      const word = TYPING_WORDS[wi];
+      const word = words[wi];
       if (!deleting) {
         ci++;
         if (ci >= word.length) {
@@ -192,7 +193,7 @@ export default function Home() {
         }
       } else {
         ci--;
-        if (ci === 0) { deleting = false; wi = (wi + 1) % TYPING_WORDS.length; }
+        if (ci === 0) { deleting = false; wi = (wi + 1) % words.length; }
       }
       typeEl.textContent = word.slice(0, ci);
       timeout = setTimeout(tick, deleting ? 45 : 80);
@@ -286,31 +287,31 @@ export default function Home() {
           <div>
             <div className="hero-eyebrow reveal">
               <span className="rule" />
-              <span className="eyebrow">Our Legacy of Innovation and Growth</span>
+              <span className="eyebrow">{t('hero.eyebrow')}</span>
             </div>
             <h1 className="hero-title">
-              <span className="hero-word">Building</span>
-              <span className="hero-word">Tomorrow,</span>
-              <span className="hero-word"><em>Today.</em></span>
+              <span className="hero-word">{t('hero.title1')}</span>
+              <span className="hero-word">{t('hero.title2')}</span>
+              <span className="hero-word"><em>{t('hero.title3')}</em></span>
             </h1>
             <Reveal delay={2}>
-              <p className="lead">A diversified Pan-African group operating across mining, technology, logistics, finance, education, and industrial services. Since 2012, we have been driving innovation, investment, and sustainable economic transformation across Africa.</p>
+              <p className="lead">{t('hero.lead')}</p>
             </Reveal>
             <div className="hero-type">
-              <span className="type-label">We power</span>
+              <span className="type-label">{t('hero.typeLabel')}</span>
               <span className="type-text" ref={typeTextRef} />
               <span className="type-caret" aria-hidden="true" />
             </div>
             <Reveal delay={3}>
               <div className="hero-actions">
-                <a href="#mission" className="btn-primary">Explore Our Business</a>
+                <a href="#mission" className="btn-primary">{t('hero.ctaPrimary')}</a>
               </div>
             </Reveal>
           </div>
         </div>
         <div className="scroll-cue">
           <span className="line" />
-          <span>Scroll</span>
+          <span>{t('hero.scrollCue')}</span>
         </div>
       </section>
 
@@ -325,22 +326,22 @@ export default function Home() {
             <div className="stats-marquee-item" key={i}>
               <div className="stats-marquee-feature">
                 <span className="num" data-count="12" data-suffix="+">12+</span>
-                <span className="lbl">We&apos;ve Year Of Experiences</span>
+                <span className="lbl">{t('stats.years')}</span>
               </div>
               <div className="stats-marquee-divider" />
               <div className="stats-marquee-stat">
                 <span className="num" data-count="95" data-suffix="%">95%</span>
-                <span className="lbl">Growth in Strategic Partnerships</span>
+                <span className="lbl">{t('stats.partnerships')}</span>
               </div>
               <div className="stats-marquee-divider" />
               <div className="stats-marquee-stat">
                 <span className="num" data-count="95" data-suffix="%">95%</span>
-                <span className="lbl">Sustainable Practices Implemented</span>
+                <span className="lbl">{t('stats.sustainable')}</span>
               </div>
               <div className="stats-marquee-divider" />
               <div className="stats-marquee-stat">
                 <span className="num" data-count="76" data-suffix="%">76%</span>
-                <span className="lbl">Repeat Clients Across</span>
+                <span className="lbl">{t('stats.clients')}</span>
               </div>
             </div>
           ))}
@@ -357,9 +358,9 @@ export default function Home() {
           <div className="partnerships-layout">
             <Reveal>
               <div className="partnerships-text">
-                <span className="partnerships-kicker">Who are we</span>
-                <h2 className="partnerships-title">We believe innovation is the <em>foundation</em> of Africa&apos;s future.</h2>
-                <p className="partnerships-body">At Jema Africa, we believe every challenge presents an opportunity to create meaningful and sustainable value. Rather than simply solving problems, we build businesses, technologies, and strategic partnerships that transform industries and improve lives across Africa.</p>
+                <span className="partnerships-kicker">{t('partnerships.kicker')}</span>
+                <h2 className="partnerships-title">{t('partnerships.title')}</h2>
+                <p className="partnerships-body">{t('partnerships.body')}</p>
               </div>
             </Reveal>
             <Reveal delay={1}>
@@ -367,7 +368,7 @@ export default function Home() {
                 <div className="partnerships-frame">
                   <img src="/assets/who.png" alt="Jema Africa" loading="lazy" />
                 </div>
-                <span className="partnerships-badge">Since 2012</span>
+                <span className="partnerships-badge">{t('partnerships.badge')}</span>
               </div>
             </Reveal>
           </div>
@@ -380,10 +381,10 @@ export default function Home() {
           <div className="container">
             <div className="services-head">
               <div className="section-head">
-                <span className="eyebrow">Our Expertise</span>
-                <h2>Built to move Africa forward.</h2>
+                <span className="eyebrow">{t('services.eyebrow')}</span>
+                <h2>{t('services.heading')}</h2>
               </div>
-              <p className="services-intro">Practical expertise, local knowledge, and dependable delivery across the industries shaping the continent.</p>
+              <p className="services-intro">{t('services.intro')}</p>
             </div>
             <div className="services-grid">
               <article className="service-card" data-index="01">
@@ -394,9 +395,9 @@ export default function Home() {
                     <path d="M7 12h11M12.5 6.5v11" />
                   </svg>
                 </div>
-                <h3>Mining Solutions</h3>
-                <p>Delivering top-tier solutions for Africa&apos;s mining sector, from chemicals to flotation plants and elution services.</p>
-                <a className="service-link" href="#contact">Details</a>
+                <h3>{t('services.card1.title')}</h3>
+                <p>{t('services.card1.text')}</p>
+                <a className="service-link" href="#contact">{t('services.details')}</a>
               </article>
               <article className="service-card" data-index="02">
                 <span className="service-number">02 / 04</span>
@@ -407,9 +408,9 @@ export default function Home() {
                     <path d="M39 23h4v8h-4" />
                   </svg>
                 </div>
-                <h3>Logistics &amp; Transportation</h3>
-                <p>Efficient, reliable logistics and transportation services for businesses moving across Africa.</p>
-                <a className="service-link" href="#contact">Details</a>
+                <h3>{t('services.card2.title')}</h3>
+                <p>{t('services.card2.text')}</p>
+                <a className="service-link" href="#contact">{t('services.details')}</a>
               </article>
               <article className="service-card" data-index="03">
                 <span className="service-number">03 / 04</span>
@@ -419,9 +420,9 @@ export default function Home() {
                     <path d="M17 41h14M24 31v10M15 19h18M24 12v14M18 13l12 12M30 13 18 25" />
                   </svg>
                 </div>
-                <h3>Technology &amp; Education</h3>
-                <p>Empowering Africa&apos;s future through technology and education for the mining and tech sectors.</p>
-                <a className="service-link" href="#contact">Details</a>
+                <h3>{t('services.card3.title')}</h3>
+                <p>{t('services.card3.text')}</p>
+                <a className="service-link" href="#contact">{t('services.details')}</a>
               </article>
               <article className="service-card" data-index="04">
                 <span className="service-number">04 / 04</span>
@@ -432,9 +433,9 @@ export default function Home() {
                     <path d="M19 19v-4h10v4" />
                   </svg>
                 </div>
-                <h3>Automotive Import</h3>
-                <p>Dependable vehicle sourcing and import services, connecting businesses and individuals with quality vehicles.</p>
-                <a className="service-link" href="#contact">Details</a>
+                <h3>{t('services.card4.title')}</h3>
+                <p>{t('services.card4.text')}</p>
+                <a className="service-link" href="#contact">{t('services.details')}</a>
               </article>
             </div>
           </div>
@@ -448,10 +449,10 @@ export default function Home() {
             <Reveal>
               <div className="leadership-head">
                 <div className="section-head">
-                  <span className="eyebrow">Our Senior Management</span>
-                  <h2>Driving success across all divisions.</h2>
+                  <span className="eyebrow">{t('leadership.eyebrow')}</span>
+                  <h2>{t('leadership.heading')}</h2>
                 </div>
-                <p className="leadership-copy">Meet the visionary leaders guiding Jema Africa&apos;s diverse ventures toward growth and innovation.</p>
+                <p className="leadership-copy">{t('leadership.copy')}</p>
               </div>
             </Reveal>
             <div className="leadership-grid">
@@ -503,10 +504,10 @@ export default function Home() {
             <div className="news-intro">
               <Reveal>
                 <div className="section-head">
-                  <span className="eyebrow">News &amp; Updates</span>
-                  <h2>Latest from Jema Africa.</h2>
+                  <span className="eyebrow">{t('news.eyebrow')}</span>
+                  <h2>{t('news.heading')}</h2>
                 </div>
-                <p>Get the latest updates, success stories, and innovations from Jema Africa. Our team is constantly driving growth and making an impact across multiple industries.</p>
+                <p>{t('news.intro')}</p>
               </Reveal>
               <Reveal delay={1}>
                 <div className="news-filters">
@@ -517,7 +518,7 @@ export default function Home() {
                       data-filter={f}
                       onClick={() => setActiveFilter(f)}
                     >
-                      {f === 'all' ? 'All' : f.charAt(0).toUpperCase() + f.slice(1)}
+                      {f === 'all' ? t('news.all') : f === 'corporate' ? t('news.corporate') : f === 'mining' ? t('news.mining') : t('news.automotive')}
                     </button>
                   ))}
                 </div>
@@ -597,7 +598,7 @@ export default function Home() {
             <span className="countdown-digit" data-countdown-value="2" aria-hidden="true">2</span>
             <span className="countdown-digit" data-countdown-value="1" aria-hidden="true">1</span>
           </span>
-          <span className="countdown-progress">Jema Africa / 2026</span>
+          <span className="countdown-progress">{t('countdown.progressLabel')}</span>
           <div className="countdown-video">
             <video
               ref={countdownVideoRef}
@@ -620,10 +621,10 @@ export default function Home() {
           <Reveal>
             <div className="partners-head">
               <div className="section-head">
-                <span className="eyebrow">Our Partners</span>
-                <h2>Progress is built together.</h2>
+                <span className="eyebrow">{t('homePartners.eyebrow')}</span>
+                <h2>{t('homePartners.heading')}</h2>
               </div>
-              <p>Our network connects specialist expertise, regional knowledge, and global capability across every Jema Africa division.</p>
+              <p>{t('homePartners.intro')}</p>
             </div>
           </Reveal>
           <Reveal>
@@ -650,21 +651,21 @@ export default function Home() {
           <div className="contact-wrap">
             <Reveal>
               <div className="contact-left">
-                <span className="eyebrow">Get In Touch</span>
-                <h2 style={{ marginTop: 18 }}>Let&apos;s build Africa&apos;s future together.</h2>
-                <p>Whether you&apos;re an entrepreneur, partner, or investor — we&apos;d love to hear from you. Reach out through any of our channels below.</p>
+                <span className="eyebrow">{t('contact.eyebrow')}</span>
+                <h2 style={{ marginTop: 18 }}>{t('contact.heading')}</h2>
+                <p>{t('contact.intro')}</p>
                 <div className="contact-detail">
                   <div>
-                    <span className="lbl">Correspondence</span>
+                    <span className="lbl">{t('contact.correspondence')}</span>
                     <a href="mailto:info@jemaafrica.co.tz">info@jemaafrica.co.tz</a>
                   </div>
                   <div>
-                    <span className="lbl">Head Offices</span>
-                    Jema Tech Building. Industrial Area. Mwanza. Tanzania. &middot; 5th floor, TAN House, Victoria, Dar es Salaam.
+                    <span className="lbl">{t('contact.headOffices')}</span>
+                    {t('contact.address')}
                   </div>
                 </div>
                 <div className="contact-social">
-                  <span className="lbl">Follow Us</span>
+                  <span className="lbl">{t('contact.followUs')}</span>
                   <div className="contact-social-links">
                     <a href="#" aria-label="LinkedIn">LinkedIn</a>
                     <a href="#" aria-label="Instagram">Instagram</a>
@@ -677,31 +678,31 @@ export default function Home() {
             <Reveal delay={1}>
               <form onSubmit={handleFormSubmit}>
                 <div className="field">
-                  <label htmlFor="name">Full Name</label>
+                  <label htmlFor="name">{t('contact.form.fullName')}</label>
                   <input id="name" type="text" required />
                 </div>
                 <div className="field">
-                  <label htmlFor="email">Email</label>
+                  <label htmlFor="email">{t('contact.form.email')}</label>
                   <input id="email" type="email" required />
                 </div>
                 <div className="field">
-                  <label htmlFor="interest">Area of Interest</label>
+                  <label htmlFor="interest">{t('contact.form.areaOfInterest')}</label>
                   <select id="interest">
-                    <option>Mining Solutions</option>
-                    <option>Logistics &amp; Transportation</option>
-                    <option>Technology &amp; Education</option>
-                    <option>Automotive Import</option>
-                    <option>Partnerships</option>
-                    <option>Careers</option>
-                    <option>Other</option>
+                    <option>{t('contact.form.mining')}</option>
+                    <option>{t('contact.form.logistics')}</option>
+                    <option>{t('contact.form.tech')}</option>
+                    <option>{t('contact.form.auto')}</option>
+                    <option>{t('contact.form.partnerships')}</option>
+                    <option>{t('contact.form.careers')}</option>
+                    <option>{t('contact.form.other')}</option>
                   </select>
                 </div>
                 <div className="field">
-                  <label htmlFor="note">A Note (optional)</label>
+                  <label htmlFor="note">{t('contact.form.note')}</label>
                   <textarea id="note" />
                 </div>
                 <button type="submit" className="submit-btn">
-                  {sent ? 'Message Sent' : 'Send Message'}
+                  {sent ? t('contact.form.sent') : t('contact.form.submit')}
                 </button>
               </form>
             </Reveal>

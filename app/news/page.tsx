@@ -1,5 +1,7 @@
 'use client';
 
+import { useTranslation } from 'react-i18next';
+
 import { useState } from 'react';
 import Link from 'next/link';
 import Navbar from '@/components/Navbar';
@@ -45,6 +47,7 @@ const NEWS_ITEMS = [
 const FILTERS = ['all', 'corporate', 'mining', 'automotive'] as const;
 
 export default function NewsPage() {
+  const { t } = useTranslation();
   const [activeFilter, setActiveFilter] = useState<string>('all');
 
   return (

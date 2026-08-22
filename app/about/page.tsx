@@ -2,6 +2,7 @@
 
 import { useEffect, useRef } from 'react';
 import Link from 'next/link';
+import { useTranslation } from 'react-i18next';
 import Navbar from '@/components/Navbar';
 import Footer from '@/components/Footer';
 import Grain from '@/components/Grain';
@@ -37,6 +38,7 @@ const TIMELINE = [
 const VALUES = ['Integrity', 'Innovation', 'Excellence', 'Partnership', 'Sustainability', 'Impact'];
 
 export default function AboutPage() {
+  const { t } = useTranslation();
   const statsRef = useRef<HTMLElement>(null);
   const statsCounted = useRef(false);
 
@@ -93,20 +95,20 @@ export default function AboutPage() {
       <section className="about-hero">
         <div className="container">
           <Reveal>
-            <span className="eyebrow">About Jema Africa</span>
+            <span className="eyebrow">{t('about.eyebrow')}</span>
           </Reveal>
           <Reveal delay={1}>
-            <h1>One group. <em>Africa&apos;s tomorrow.</em></h1>
+            <h1>{t('about.title')}</h1>
           </Reveal>
           <Reveal delay={2}>
-            <p className="lead">A diversified Pan-African group operating across mining, technology, logistics, finance, education, and industrial services since 2012.</p>
+            <p className="lead">{t('about.lead')}</p>
           </Reveal>
           <Reveal delay={3}>
             <div className="about-hero-meta">
-              <span><b>2012</b><small>Founded in Tanzania</small></span>
-              <span><b>8+</b><small>Business divisions</small></span>
-              <span><b>2</b><small>Head offices</small></span>
-              <span><b>5</b><small>Branches across the region</small></span>
+              <span><b>2012</b><small>{t('about.founded')}</small></span>
+              <span><b>8+</b><small>{t('about.divisions')}</small></span>
+              <span><b>2</b><small>{t('about.offices')}</small></span>
+              <span><b>5</b><small>{t('about.branches')}</small></span>
             </div>
           </Reveal>
         </div>
@@ -118,10 +120,10 @@ export default function AboutPage() {
           <div className="story-layout">
             <Reveal>
               <div className="story-text">
-                <span className="eyebrow">Who we are</span>
-                <h2>We believe innovation is the <em>foundation</em> of Africa&apos;s future.</h2>
-                <p>At Jema Africa, we believe every challenge presents an opportunity to create meaningful and sustainable value. Rather than simply solving problems, we <strong>build businesses, technologies, and strategic partnerships</strong> that transform industries and improve lives across Africa.</p>
-                <p>From gold elution and mining chemicals to logistics, automotive import, financial services, and technical education, our divisions work as one — sharing expertise, infrastructure, and ambition to move the continent forward.</p>
+                <span className="eyebrow">{t('about.whoWeAre')}</span>
+                <h2>{t('about.storyTitle')}</h2>
+                <p>{t('about.storyP1')}</p>
+                <p>{t('about.storyP2')}</p>
               </div>
             </Reveal>
             <Reveal delay={1}>
@@ -129,7 +131,7 @@ export default function AboutPage() {
                 <div className="story-frame">
                   <img src="/assets/who.png" alt="Jema Africa" loading="lazy" />
                 </div>
-                <span className="story-badge">Since 2012</span>
+                <span className="story-badge">{t('about.badge')}</span>
               </div>
             </Reveal>
           </div>
@@ -143,25 +145,25 @@ export default function AboutPage() {
             <Reveal>
               <div className="about-stat">
                 <span className="num" data-count="12" data-suffix="+">12+</span>
-                <span className="lbl">Years Of Experience</span>
+                <span className="lbl">{t('stats.years')}</span>
               </div>
             </Reveal>
             <Reveal delay={1}>
               <div className="about-stat">
                 <span className="num" data-count="95" data-suffix="%">95%</span>
-                <span className="lbl">Growth In Strategic Partnerships</span>
+                <span className="lbl">{t('stats.partnerships')}</span>
               </div>
             </Reveal>
             <Reveal delay={2}>
               <div className="about-stat">
                 <span className="num" data-count="95" data-suffix="%">95%</span>
-                <span className="lbl">Sustainable Practices Implemented</span>
+                <span className="lbl">{t('stats.sustainable')}</span>
               </div>
             </Reveal>
             <Reveal delay={3}>
               <div className="about-stat">
                 <span className="num" data-count="76" data-suffix="%">76%</span>
-                <span className="lbl">Repeat Clients Across</span>
+                <span className="lbl">{t('stats.clients')}</span>
               </div>
             </Reveal>
           </div>
@@ -173,8 +175,8 @@ export default function AboutPage() {
         <div className="container">
           <Reveal>
             <div className="section-head">
-              <span className="eyebrow">Our Purpose</span>
-              <h2>What drives everything we do.</h2>
+              <span className="eyebrow">{t('about.purposeEyebrow')}</span>
+              <h2>{t('about.purposeHeading')}</h2>
             </div>
           </Reveal>
           <div className="purpose-grid">
@@ -183,8 +185,8 @@ export default function AboutPage() {
                 <div className="glyph">
                   <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.6"><circle cx="12" cy="12" r="10"/><circle cx="12" cy="12" r="4"/></svg>
                 </div>
-                <h3>Our Mission</h3>
-                <p>To build businesses, technologies, and partnerships that transform industries and improve lives across Africa — with integrity and lasting impact.</p>
+                <h3>{t('about.mission.title')}</h3>
+                <p>{t('about.mission.text')}</p>
               </article>
             </Reveal>
             <Reveal delay={1}>
@@ -192,13 +194,13 @@ export default function AboutPage() {
                 <div className="glyph">
                   <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.6"><path d="M2 12s3.5-7 10-7 10 7 10 7-3.5 7-10 7-10-7-10-7z"/><circle cx="12" cy="12" r="3"/></svg>
                 </div>
-                <h3>Our Vision</h3>
-                <p>To be the Pan-African group recognised for driving sustainable economic transformation across every region we operate in.</p>
+                <h3>{t('about.vision.title')}</h3>
+                <p>{t('about.vision.text')}</p>
               </article>
             </Reveal>
             <Reveal delay={2}>
               <div className="values-block">
-                <h3>Our Values</h3>
+                <h3>{t('about.valuesTitle')}</h3>
                 <div className="values-chips">
                   {VALUES.map(v => (
                     <span className="value-chip" key={v}>{v}</span>
@@ -216,10 +218,10 @@ export default function AboutPage() {
           <Reveal>
             <div className="journey-head">
               <div>
-                <span className="eyebrow">Our Journey</span>
-                <h2>Milestones along the way.</h2>
+                <span className="eyebrow">{t('about.journeyEyebrow')}</span>
+                <h2>{t('about.journeyHeading')}</h2>
               </div>
-              <p className="journey-note">From a single operation in Mwanza to a diversified group serving clients across the continent.</p>
+              <p className="journey-note">{t('about.journeyNote')}</p>
             </div>
           </Reveal>
           <div className="timeline">
@@ -242,10 +244,10 @@ export default function AboutPage() {
           <Reveal>
             <div className="leadership-head">
               <div>
-                <span className="eyebrow">Our Senior Management</span>
-                <h2>Driving success across all divisions.</h2>
+                <span className="eyebrow">{t('leadership.eyebrow')}</span>
+                <h2>{t('leadership.heading')}</h2>
               </div>
-              <p className="leadership-copy">Meet the visionary leaders guiding Jema Africa&apos;s diverse ventures toward growth and innovation.</p>
+              <p className="leadership-copy">{t('leadership.copy')}</p>
             </div>
           </Reveal>
           <div className="leadership-grid">
@@ -272,10 +274,10 @@ export default function AboutPage() {
           <Reveal>
             <div className="divisions-head">
               <div>
-                <span className="eyebrow">What We Do</span>
-                <h2>Eight divisions, one standard.</h2>
+                <span className="eyebrow">{t('about.divisionsEyebrow')}</span>
+                <h2>{t('about.divisionsHeading')}</h2>
               </div>
-              <p>Each division brings specialist expertise, while sharing the group&apos;s infrastructure, relationships, and ambition.</p>
+              <p>{t('about.divisionsIntro')}</p>
             </div>
           </Reveal>
           <div className="divisions-grid">
@@ -285,7 +287,7 @@ export default function AboutPage() {
                   <span className="division-num">{div.num}</span>
                   <h3>{div.name}</h3>
                   <p>{div.desc}</p>
-                  <Link href="/business" className="division-link">Explore <span aria-hidden="true">&rarr;</span></Link>
+                  <Link href="/business" className="division-link">{t('about.explore')} <span aria-hidden="true">&rarr;</span></Link>
                 </article>
               </Reveal>
             ))}
@@ -294,10 +296,10 @@ export default function AboutPage() {
           <Reveal>
             <div className="about-cta">
               <div>
-                <h3>Ready to build Africa&apos;s future together?</h3>
-                <p>Whether you&apos;re an entrepreneur, partner, or investor — reach out and let&apos;s explore what we can achieve together.</p>
+                <h3>{t('about.ctaTitle')}</h3>
+                <p>{t('about.ctaText')}</p>
               </div>
-              <Link href="/contact" className="nav-cta">Get In Touch</Link>
+              <Link href="/contact" className="nav-cta">{t('about.ctaButton')}</Link>
             </div>
           </Reveal>
         </div>

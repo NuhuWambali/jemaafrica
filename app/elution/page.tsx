@@ -2,6 +2,7 @@
 
 import { useCallback, useEffect, useRef, useState } from 'react';
 import Link from 'next/link';
+import { useTranslation } from 'react-i18next';
 import Navbar from '@/components/Navbar';
 import Footer from '@/components/Footer';
 import Grain from '@/components/Grain';
@@ -63,6 +64,7 @@ const OFFICES = [
 ];
 
 export default function ElutionPage() {
+  const { t } = useTranslation();
   const statsRef = useRef<HTMLElement>(null);
   const statsCounted = useRef(false);
   const [sent, setSent] = useState(false);
@@ -144,16 +146,16 @@ export default function ElutionPage() {
       <section className="elu-hero">
         <div className="container">
           <Reveal>
-            <span className="eyebrow">Welcome to Jema Elution</span>
+            <span className="eyebrow">{t('elution.hero.eyebrow')}</span>
           </Reveal>
           <Reveal delay={1}>
-            <h1>Leaders in Efficient <em>Gold Recovery</em> and Processing</h1>
+            <h1>{t('elution.hero.title')}</h1>
           </Reveal>
           <Reveal delay={2}>
-            <p className="lead">Welcome to Jema Elution, where we specialize in efficient gold recovery and processing from activated carbon, delivering results in the shortest time while maximizing cost savings.</p>
+            <p className="lead">{t('elution.hero.lead')}</p>
           </Reveal>
           <Reveal delay={3}>
-            <p className="elu-capacity">Our advanced high-pressure, high-temperature machines operate 24 hours, with a capacity of up to 1000kg.</p>
+            <p className="elu-capacity">{t('elution.hero.capacity')}</p>
           </Reveal>
           <Reveal delay={4}>
             <div className="elu-hero-actions">

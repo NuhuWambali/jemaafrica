@@ -1,5 +1,7 @@
 'use client';
 
+import { useTranslation } from 'react-i18next';
+
 import { useCallback, useEffect, useState } from 'react';
 import Navbar from '@/components/Navbar';
 import Footer from '@/components/Footer';
@@ -52,6 +54,7 @@ const OFFICES = [
 ];
 
 export default function JemaJionePage() {
+  const { t } = useTranslation();
   const [sent, setSent] = useState(false);
 
   useEffect(() => {

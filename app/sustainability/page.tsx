@@ -1,5 +1,7 @@
 'use client';
 
+import { useTranslation } from 'react-i18next';
+
 import { useEffect, useRef } from 'react';
 import Link from 'next/link';
 import Navbar from '@/components/Navbar';
@@ -18,6 +20,7 @@ const PARTNER_NAMES = [
 ];
 
 export default function SustainabilityPage() {
+  const { t } = useTranslation();
   const statsRef = useRef<HTMLElement>(null);
   const statsCounted = useRef(false);
 

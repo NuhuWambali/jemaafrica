@@ -1,8 +1,10 @@
 'use client';
 
 import { useState, useEffect } from 'react';
+import { useTranslation } from 'react-i18next';
 
 export default function CookieBanner() {
+  const { t } = useTranslation();
   const [visible, setVisible] = useState(false);
 
   useEffect(() => {
@@ -26,15 +28,14 @@ export default function CookieBanner() {
   return (
     <div className={`cookie-banner${visible ? ' show' : ''}`}>
       <p>
-        We use cookies to enhance your experience and analyze site traffic. By continuing, you
-        agree to our use of cookies.
+        {t('cookie.message')}
       </p>
       <div className="cookie-actions">
         <button className="cookie-btn settings" onClick={handleSettings}>
-          Cookies Settings
+          {t('cookie.settings')}
         </button>
         <button className="cookie-btn accept" onClick={handleAccept}>
-          Accept All Cookies
+          {t('cookie.accept')}
         </button>
       </div>
     </div>

@@ -1,5 +1,7 @@
 'use client';
 
+import { useTranslation } from 'react-i18next';
+
 import { useCallback, useEffect, useState } from 'react';
 import Navbar from '@/components/Navbar';
 import Footer from '@/components/Footer';
@@ -67,6 +69,7 @@ const OFFICES = [
 ];
 
 export default function TechPage() {
+  const { t } = useTranslation();
   const [sent, setSent] = useState(false);
 
   useEffect(() => {
@@ -102,18 +105,18 @@ export default function TechPage() {
       <section className="tech-hero">
         <div className="container">
           <Reveal>
-            <span className="eyebrow">We make it happen.</span>
+            <span className="eyebrow">{t('tech.eyebrow')}</span>
           </Reveal>
           <Reveal delay={1}>
-            <h1>Jet into the <em>Future...</em></h1>
+            <h1>{t('tech.title')}</h1>
           </Reveal>
           <Reveal delay={2}>
-            <p className="lead">Jet into the future with expectation and high academic achievement. We focus on creating tools that are not only functional but also meaningful and scalable. Our approach blends innovation with practical problem-solving to deliver real value.</p>
+            <p className="lead">{t('tech.lead')}</p>
           </Reveal>
           <Reveal delay={3}>
             <div className="tech-hero-actions">
-              <a href="#contact" className="btn-primary">Contact Us</a>
-              <a href="#about" className="btn-text">Read More</a>
+              <a href="#contact" className="btn-primary">{t('tech.cta')}</a>
+              <a href="#about" className="btn-text">{t('common.readMore')}</a>
             </div>
           </Reveal>
         </div>
@@ -139,7 +142,7 @@ export default function TechPage() {
                   </div>
                   <h3>{s.title}</h3>
                   <p>{s.desc}</p>
-                  <span className="tech-service-link">Read More &#8594;</span>
+                  <span className="tech-service-link">{t('common.readMore')} &#8594;</span>
                 </article>
               </Reveal>
             ))}
@@ -313,7 +316,7 @@ export default function TechPage() {
                   <div className="tech-news-body">
                     <span className="tech-news-meta">{n.category} · {n.date}</span>
                     <h3>{n.title}</h3>
-                    <span className="tech-news-link">READ MORE &#8594;</span>
+                    <span className="tech-news-link">{t('common.readMore')} &#8594;</span>
                   </div>
                 </a>
               </Reveal>
@@ -350,11 +353,11 @@ export default function TechPage() {
                   <input id="name" type="text" required />
                 </div>
                 <div className="field">
-                  <label htmlFor="phone">Phone</label>
+                  <label htmlFor="phone">{t('common.phone')}</label>
                   <input id="phone" type="tel" required />
                 </div>
                 <div className="field">
-                  <label htmlFor="email">Email</label>
+                  <label htmlFor="email">{t('common.email')}</label>
                   <input id="email" type="email" required />
                 </div>
                 <div className="field">
@@ -362,7 +365,7 @@ export default function TechPage() {
                   <textarea id="comment" />
                 </div>
                 <button type="submit" className="submit-btn">
-                  {sent ? 'Message Sent' : 'Send Message'}
+                  {sent ? t('contact.form.sent') : t('contact.form.submit')}
                 </button>
               </form>
             </Reveal>

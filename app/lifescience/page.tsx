@@ -1,5 +1,7 @@
 'use client';
 
+import { useTranslation } from 'react-i18next';
+
 import { useCallback, useEffect, useState } from 'react';
 import Link from 'next/link';
 import Navbar from '@/components/Navbar';
@@ -91,6 +93,7 @@ const OFFICES = [
 ];
 
 export default function LifeSciencePage() {
+  const { t } = useTranslation();
   const [sent, setSent] = useState(false);
 
   useEffect(() => {
@@ -126,20 +129,20 @@ export default function LifeSciencePage() {
       <section className="ls-hero">
         <div className="container">
           <Reveal>
-            <span className="eyebrow">Welcome</span>
+            <span className="eyebrow">{t('lifescience.eyebrow')}</span>
           </Reveal>
           <Reveal delay={1}>
-            <h1>Jema <em>Life Science</em></h1>
+            <h1>{t('lifescience.title')}</h1>
           </Reveal>
           <Reveal delay={2}>
-            <p className="lead">Launched in May 2023, the Jema Life Science Division was established to diversify Jema Chemicals&apos; business portfolio, marking a significant expansion into the life sciences sector.</p>
+            <p className="lead">{t('lifescience.lead')}</p>
           </Reveal>
           <Reveal delay={3}>
             <p className="ls-hero-sub">Our initial partnership with Merck, a leading global pharmaceutical company, granted us exclusive distribution rights for Merck&apos;s products across Tanzania. This collaboration set the foundation for our operations and growth.</p>
           </Reveal>
           <Reveal delay={4}>
             <div className="ls-hero-actions">
-              <a href="#about" className="btn-primary">Read More</a>
+              <a href="#about" className="btn-primary">{t('lifescience.cta')}</a>
             </div>
           </Reveal>
         </div>
@@ -330,11 +333,11 @@ export default function LifeSciencePage() {
                   <input id="name" type="text" required />
                 </div>
                 <div className="field">
-                  <label htmlFor="phone">Phone</label>
+                  <label htmlFor="phone">{t('common.phone')}</label>
                   <input id="phone" type="tel" required />
                 </div>
                 <div className="field">
-                  <label htmlFor="email">Email</label>
+                  <label htmlFor="email">{t('common.email')}</label>
                   <input id="email" type="email" required />
                 </div>
                 <div className="field">
@@ -342,7 +345,7 @@ export default function LifeSciencePage() {
                   <textarea id="comment" />
                 </div>
                 <button type="submit" className="submit-btn">
-                  {sent ? 'Message Sent' : 'Send Message'}
+                  {sent ? t('contact.form.sent') : t('contact.form.submit')}
                 </button>
               </form>
             </Reveal>
@@ -372,7 +375,7 @@ export default function LifeSciencePage() {
                   <div className="ls-news-body">
                     <span className="ls-news-meta">{n.date}</span>
                     <h3>{n.title}</h3>
-                    <span className="ls-news-link">READ MORE &#8594;</span>
+                    <span className="ls-news-link">{t('common.readMore')} &#8594;</span>
                   </div>
                 </a>
               </Reveal>

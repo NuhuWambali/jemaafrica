@@ -1,5 +1,7 @@
 'use client';
 
+import { useTranslation } from 'react-i18next';
+
 import { useState, useEffect, useCallback } from 'react';
 import Link from 'next/link';
 import Navbar from '@/components/Navbar';
@@ -91,6 +93,8 @@ export default function Careers() {
 
       <section className="careers-section">
         <div className="container">
+
+
           <Reveal>
             <div className="careers-head">
               <div>
@@ -153,6 +157,8 @@ export default function Careers() {
               </Link>
             </div>
           </Reveal>
+
+          
         </div>
       </section>
 
