@@ -85,7 +85,17 @@
       "note": "A Note (optional)",
       "submit": "Send Message",
       "sent": "Message Sent"
-    }
+    },
+    "sendAMessage": "Send a Message",
+    "weWouldLove": "We'd love to hear from you.",
+    "findUs": "Find Us",
+    "ourLocation": "Our location.",
+    "ourBranches": "Our Branches",
+    "reachUs": "Reach us across the region.",
+    "officePhones": "Office Phone Numbers",
+    "mailForInfo": "Mail For Information",
+    "locationsLabel": "Locations",
+    "scrollExplore": "Scroll to explore"
   },
   "about": {
     "eyebrow": "About Jema Africa",
@@ -241,7 +251,8 @@
     "newsletterSub": "Get the latest insights and news from Jema Africa delivered to your inbox.",
     "emailPlaceholder": "Your email address",
     "privacy": "Privacy Policy",
-    "terms": "Terms of Use"
+    "terms": "Terms of Use",
+    "copyright": "All rights reserved."
   },
   "cookie": {
     "message": "We use cookies to enhance your experience and analyze site traffic. By continuing, you agree to our use of cookies.",

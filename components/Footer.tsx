@@ -67,7 +67,7 @@ export default function Footer() {
       <div className="footer-bottom">
         <div className="container">
           <div className="footer-bottom-in">
-            <span>&copy; {new Date().getFullYear()} Jema Africa. All rights reserved.</span>
+            <span>&copy; {new Date().getFullYear()} Jema Africa. {t('footer.copyright')}</span>
             <span>
               <Link href="/privacy">{t('footer.privacy')}</Link> &nbsp;&middot;&nbsp; <Link href="/terms">{t('footer.terms')}</Link>
             </span>

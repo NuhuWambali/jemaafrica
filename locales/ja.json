@@ -75,17 +75,27 @@
       "fullName": "氏名",
       "email": "メールアドレス",
       "areaOfInterest": "関心分野",
-      "mining": "鉱業ソリューション",
-      "logistics": "物流と輸送",
-      "tech": "テクノロジーと教育",
+      "mining": "鉱山ソリューション",
+      "logistics": "物流・輸送",
+      "tech": "テクノロジー・教育",
       "auto": "自動車輸入",
       "partnerships": "パートナーシップ",
       "careers": "採用情報",
       "other": "その他",
-      "note": "メッセージ（任意）",
-      "submit": "送信",
+      "note": "備考（任意）",
+      "submit": "メッセージ送信",
       "sent": "送信完了"
-    }
+    },
+    "sendAMessage": "メッセージを送る",
+    "weWouldLove": "お気軽にお問い合わせください。",
+    "findUs": "アクセス",
+    "ourLocation": "所在地",
+    "ourBranches": "各地オフィス",
+    "reachUs": "地域全体でサポートしています。",
+    "officePhones": "オフィス電話番号",
+    "mailForInfo": "お問い合わせメール",
+    "locationsLabel": "所在地",
+    "scrollExplore": "スクロールして確認"
   },
   "about": {
     "eyebrow": "Jema Africaについて",
@@ -241,7 +251,8 @@
     "newsletterSub": "Jema Africaからの最新のインサイトとニュースをお届けします。",
     "emailPlaceholder": "メールアドレス",
     "privacy": "プライバシーポリシー",
-    "terms": "利用規約"
+    "terms": "利用規約",
+    "copyright": "全著作権所有。"
   },
   "cookie": {
     "message": "ウェブサイトの体験向上とトラフィック分析のためにクッキーを使用しています。続行することで、クッキーの使用に同意したことになります。",

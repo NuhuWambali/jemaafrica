@@ -75,18 +75,27 @@
       "fullName": "Jina Kamili",
       "email": "Barua Pepe",
       "areaOfInterest": "Eneo la Maslahi",
-      "mining": "Suluhisho za Uchimbaji",
+      "mining": "Suluhisho la Uchimbaji",
       "logistics": "Usafirishaji na Usafiri",
       "tech": "Teknolojia na Elimu",
-      "auto": "Uagizaji wa Magari",
+      "auto": "Kuagiza Magari",
       "partnerships": "Ushirikiano",
       "careers": "Kazi",
-      "engineer": "Mhandisi",
       "other": "Nyingine",
       "note": "Ujumbe (si lazima)",
       "submit": "Tuma Ujumbe",
       "sent": "Ujumbe Umetumwa"
-    }
+    },
+    "sendAMessage": "Tuma Ujumbe",
+    "weWouldLove": "Tungependa kusikia kutoka kwako.",
+    "findUs": "Tutafute",
+    "ourLocation": "Mahali petu.",
+    "ourBranches": "Matawi Yetu",
+    "reachUs": "Fikia kupitia eneo lote.",
+    "officePhones": "Nambari za Simu za Ofisi",
+    "mailForInfo": "Barua kwa Taarifa",
+    "locationsLabel": "Vijiji",
+    "scrollExplore": "Sogeza ili kuchunguza"
   },
   "about": {
     "eyebrow": "Kuhusu Jema Africa",
@@ -242,7 +251,8 @@
     "newsletterSub": "Pata maarifa na habari za hivi karibuni kutoka Jema Africa moja kwa moja kwenye kikasha chako.",
     "emailPlaceholder": "Anwani yako ya barua pepe",
     "privacy": "Sera ya Faragha",
-    "terms": "Masharti ya Matumizi"
+    "terms": "Masharti ya Matumizi",
+    "copyright": "Haki zote zimehifadhiwa."
   },
   "cookie": {
     "message": "Tunatumia vidakuzi kuboresha uzoefu wako na kuchambua trafiki ya tovuti. Kwa kuendelea, unakubaliana na matumizi yetu ya vidakuzi.",
