@@ -450,37 +450,37 @@ export default function Home() {
             <div className="leadership-grid">
               <article className="leader-card">
                 <div className="leader-image">
-                  <img src="/assets/team/mr.-fredrick-otieno.png" alt="Mr. Frederick Otieno" loading="lazy" />
+                  <img src="/assets/team/mr.-fredrick-otieno.png" alt="Frederick Otieno" loading="lazy" />
                 </div>
                 <div className="leader-details">
-                  <h3>Mr. Frederick Otieno</h3>
+                  <h3>Frederick Otieno</h3>
                   <p>DCO</p>
                 </div>
               </article>
               <article className="leader-card">
                 <div className="leader-image">
-                  <img src="/assets/team/luchele.png" alt="Mr. Juma Luchele" loading="lazy" />
+                  <img src="/assets/team/luchele.png" alt="Juma Luchele" loading="lazy" />
                 </div>
                 <div className="leader-details">
-                  <h3>Mr. Juma Luchele</h3>
+                  <h3>Juma Luchele</h3>
                   <p>COO - Mining Division</p>
                 </div>
               </article>
               <article className="leader-card">
                 <div className="leader-image">
-                  <img src="/assets/team/608.png" alt="Ms. Agnes Daniel" loading="lazy" />
+                  <img src="/assets/team/608.png" alt="Agnes Daniel" loading="lazy" />
                 </div>
                 <div className="leader-details">
-                  <h3>Ms. Agnes Daniel</h3>
+                  <h3>Agnes Daniel</h3>
                   <p>COO - Non Mining Division</p>
                 </div>
               </article>
               <article className="leader-card">
                 <div className="leader-image">
-                  <img src="/assets/team/mr.-benezeth-kamihanda.png" alt="Mr. Benezeth Kamihanda" loading="lazy" />
+                  <img src="/assets/team/mr.-benezeth-kamihanda.png" alt="Benezeth Kamihanda" loading="lazy" />
                 </div>
                 <div className="leader-details">
-                  <h3>Mr. Benezeth Kamihanda</h3>
+                  <h3>Benezeth Kamihanda</h3>
                   <p>Principal - JIT</p>
                 </div>
               </article>

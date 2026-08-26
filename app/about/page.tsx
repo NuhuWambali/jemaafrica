@@ -21,10 +21,10 @@ const DIVISIONS = [
 ];
 
 const LEADERS = [
-  { name: 'Mr. Frederick Otieno', roleKey: 'leadership.roles.dco', img: '/assets/team/mr.-fredrick-otieno.png' },
-  { name: 'Mr. Juma Luchele', roleKey: 'leadership.roles.cooMining', img: '/assets/team/luchele.png' },
-  { name: 'Ms. Agnes Daniel', roleKey: 'leadership.roles.cooNonMining', img: '/assets/team/608.png' },
-  { name: 'Mr. Benezeth Kamihanda', roleKey: 'leadership.roles.principalJit', img: '/assets/team/mr.-benezeth-kamihanda.png' },
+  { name: 'Frederick Otieno', roleKey: 'leadership.roles.dco', img: '/assets/team/mr.-fredrick-otieno.png' },
+  { name: 'Juma Luchele', roleKey: 'leadership.roles.cooMining', img: '/assets/team/luchele.png' },
+  { name: 'Agnes Daniel', roleKey: 'leadership.roles.cooNonMining', img: '/assets/team/608.png' },
+  { name: 'Benezeth Kamihanda', roleKey: 'leadership.roles.principalJit', img: '/assets/team/mr.-benezeth-kamihanda.png' },
 ];
 
 const TIMELINE = [

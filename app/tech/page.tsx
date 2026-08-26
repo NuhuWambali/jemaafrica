@@ -37,9 +37,9 @@ const PROCESS = [
 ];
 
 const TEAM = [
-  { name: 'Ms. Rita Augustine', role: 'Technology Lead', img: '/assets/jematech/team-rita.png' },
-  { name: 'Ms. Agnes Daniel', role: 'COO - Non Mining Division', img: '/assets/team/608.png' },
-  { name: 'Mr. Daniel Nyanda', role: 'Innovation & Development', img: '/assets/jematech/team-nyanda.png' },
+  { name: 'Rita Augustine', role: 'Technology Lead', img: '/assets/jematech/team-rita.png' },
+  { name: 'Agnes Daniel', role: 'COO - Non Mining Division', img: '/assets/team/608.png' },
+  { name: 'Daniel Nyanda', role: 'Innovation & Development', img: '/assets/jematech/team-nyanda.png' },
 ];
 
 const NEWS = [
