@@ -562,37 +562,37 @@
       "img": "/assets/chemicals/team-makindi.png"
     },
     "member1": {
-      "name": "Mr. Felix Mokili",
+      "name": "Felix Mokili",
       "role": "قائد العمليات",
       "img": "/assets/chemicals/team-felix-mokili.png"
     },
     "member2": {
-      "name": "Mr. Juma Luchele",
+      "name": "Juma Luchele",
       "role": "المدير العملياتي - قسم التعدين",
       "img": "/assets/chemicals/team-luchele.png"
     },
     "member3": {
-      "name": "Mr. Naim Karama",
+      "name": "Naim Karama",
       "role": "التسويق - قسم التعدين",
       "img": "/assets/chemicals/team-naim-karama.png"
     },
     "member4": {
-      "name": "Mr. Mokili Daniel Sese",
+      "name": "Mokili Daniel Sese",
       "role": "رئيس فرع جيتا",
       "img": "/assets/chemicals/team-mokili-sese.png"
     },
     "member5": {
-      "name": "Mr. Macdonald Julius Masambe",
+      "name": "Macdonald Julius Masambe",
       "role": "قائد مشاريع مباندا",
       "img": "/assets/chemicals/team-macdonald.png"
     },
     "member6": {
-      "name": "Mr. Benjamin Daniel",
+      "name": "Benjamin Daniel",
       "role": "رئيس فرع تشويا",
       "img": "/assets/chemicals/team-benjamin.png"
     },
     "member7": {
-      "name": "Mr. Baraka Lusake",
+      "name": "Baraka Lusake",
       "role": "رئيس فرع مソما",
       "img": "/assets/chemicals/team-baraka.png"
     },
@@ -1402,12 +1402,12 @@
     "teamHighlight": "ستساعدك",
     "teamLead": "هل أنت مستعد للبدء؟ سواء كنت تشحن مواد كيميائية أو آلات ثقيلة أو منتجات طازجة، Jema Jione جاهز لتقديم حل لوجستي مخصص. تواصل معنا للحصول على عرض أسعار تنافسي وخدمة سريعة وموثوقة.",
     "team0": {
-      "name": "Ms. Happiness Ndege",
+      "name": "Happiness Ndege",
       "role": "ضابط إعلان رئيسي",
       "img": "/assets/jione/team-ndege.png"
     },
     "team1": {
-      "name": "Mr. Fortunatus Wambura",
+      "name": "Fortunatus Wambura",
       "role": "مشرف",
       "img": "/assets/jione/team-wambura.png"
     },

@@ -562,37 +562,37 @@
       "img": "/assets/chemicals/team-makindi.png"
     },
     "member1": {
-      "name": "Mr. Felix Mokili",
+      "name": "Felix Mokili",
       "role": "オペレーションリーダー",
       "img": "/assets/chemicals/team-felix-mokili.png"
     },
     "member2": {
-      "name": "Mr. Juma Luchele",
+      "name": "Juma Luchele",
       "role": "鉱山部門COO",
       "img": "/assets/chemicals/team-luchele.png"
     },
     "member3": {
-      "name": "Mr. Naim Karama",
+      "name": "Naim Karama",
       "role": "鉱山部門マーケティング",
       "img": "/assets/chemicals/team-naim-karama.png"
     },
     "member4": {
-      "name": "Mr. Mokili Daniel Sese",
+      "name": "Mokili Daniel Sese",
       "role": "ゲイタ支店長",
       "img": "/assets/chemicals/team-mokili-sese.png"
     },
     "member5": {
-      "name": "Mr. Macdonald Julius Masambe",
+      "name": "Macdonald Julius Masambe",
       "role": "ンパンダプロジェクトリーダー",
       "img": "/assets/chemicals/team-macdonald.png"
     },
     "member6": {
-      "name": "Mr. Benjamin Daniel",
+      "name": "Benjamin Daniel",
       "role": "チュニャ支店長",
       "img": "/assets/chemicals/team-benjamin.png"
     },
     "member7": {
-      "name": "Mr. Baraka Lusake",
+      "name": "Baraka Lusake",
       "role": "ムソマ支店長",
       "img": "/assets/chemicals/team-baraka.png"
     },
@@ -1402,12 +1402,12 @@
     "teamHighlight": "あなたをサポートします",
     "teamLead": "準備はできましたか？化学製品、重機、新鮮な農産物を問わず、Jema Jioneはカスタマイズされた物流ソリューションを提供する準備ができています。競争力のある見積もりと迅速で信頼性の高いサービスについてお問い合わせください。",
     "team0": {
-      "name": "Ms. Happiness Ndege",
+      "name": "Happiness Ndege",
       "role": "シニア申告官",
       "img": "/assets/jione/team-ndege.png"
     },
     "team1": {
-      "name": "Mr. Fortunatus Wambura",
+      "name": "Fortunatus Wambura",
       "role": "スーパーバイザー",
       "img": "/assets/jione/team-wambura.png"
     },

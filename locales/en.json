@@ -562,37 +562,37 @@
       "img": "/assets/chemicals/team-makindi.png"
     },
     "member1": {
-      "name": "Mr. Felix Mokili",
+      "name": "Felix Mokili",
       "role": "Operations Lead",
       "img": "/assets/chemicals/team-felix-mokili.png"
     },
     "member2": {
-      "name": "Mr. Juma Luchele",
+      "name": "Juma Luchele",
       "role": "COO - Mining Division",
       "img": "/assets/chemicals/team-luchele.png"
     },
     "member3": {
-      "name": "Mr. Naim Karama",
+      "name": "Naim Karama",
       "role": "Marketing - Mining Division",
       "img": "/assets/chemicals/team-naim-karama.png"
     },
     "member4": {
-      "name": "Mr. Mokili Daniel Sese",
+      "name": "Mokili Daniel Sese",
       "role": "Geita Branch Lead",
       "img": "/assets/chemicals/team-mokili-sese.png"
     },
     "member5": {
-      "name": "Mr. Macdonald Julius Masambe",
+      "name": "Macdonald Julius Masambe",
       "role": "Mpanda Projects Lead",
       "img": "/assets/chemicals/team-macdonald.png"
     },
     "member6": {
-      "name": "Mr. Benjamin Daniel",
+      "name": "Benjamin Daniel",
       "role": "Chunya Branch Lead",
       "img": "/assets/chemicals/team-benjamin.png"
     },
     "member7": {
-      "name": "Mr. Baraka Lusake",
+      "name": "Baraka Lusake",
       "role": "Musoma Branch Lead",
       "img": "/assets/chemicals/team-baraka.png"
     },
@@ -761,17 +761,17 @@
     "teamHighlight": "JEMA Institute of Technology",
     "teamText": "It is with great pride and enthusiasm that I welcome you to JEMA Institute of Technology. JIT is a place where innovation meets excellence, and where aspiring professionals are given the opportunity to develop the knowledge, technical skills, and confidence required to contribute to the future of technology and industry. We are committed to creating an environment where students can learn, experiment, innovate and develop into responsible professionals. Your potential is the beginning. Your skills are the foundation. Your innovation can shape the future.",
     "member0": {
-      "name": "Mr. Benezeth Kamihanda",
+      "name": "Benezeth Kamihanda",
       "role": "Principal - JIT",
       "img": "/assets/jit/team-kamihanda.png"
     },
     "member1": {
-      "name": "Mr. Japhet Ngoro",
+      "name": "Japhet Ngoro",
       "role": "College Manager",
       "img": "/assets/jit/team-ngoro.png"
     },
     "member2": {
-      "name": "Mr. Nibusam Damas Kashind",
+      "name": "Nibusam Damas Kashind",
       "role": "College Administrator",
       "img": "/assets/jit/team-kashind.png"
     },
@@ -1402,12 +1402,12 @@
     "teamHighlight": "Will Help You",
     "teamLead": "Ready to get started? Whether you're shipping chemicals, heavy machinery, or fresh produce, Jema Jione is ready to provide a customized logistics solution. Get in touch with us for a competitive quote and fast, reliable service.",
     "team0": {
-      "name": "Ms. Happiness Ndege",
+      "name": "Happiness Ndege",
       "role": "Senior Declaration Officer",
       "img": "/assets/jione/team-ndege.png"
     },
     "team1": {
-      "name": "Mr. Fortunatus Wambura",
+      "name": "Fortunatus Wambura",
       "role": "Supervisor",
       "img": "/assets/jione/team-wambura.png"
     },
