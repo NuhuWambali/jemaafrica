@@ -65,11 +65,123 @@ body.light-mode .elu-hero {
   margin-top: 40px;
 }
 
-/* =========== WHY =========== */
-.elu-why {
-  padding: 30px 0 130px;
+/* =========== INTRO =========== */
+.elu-intro {
+  padding: 90px 0 110px;
   background: #ffffff;
   border-radius: 0 0 60px 60px;
+}
+body.light-mode .elu-intro {
+  background: var(--obsidian-2);
+}
+.elu-intro p {
+  max-width: 820px;
+  color: #4b4b47;
+  font-weight: 300;
+  line-height: 1.75;
+  margin-bottom: 22px;
+}
+body.light-mode .elu-intro p {
+  color: var(--ivory-dim);
+}
+.elu-intro-lead {
+  font-size: clamp(1.35rem, 2.6vw, 1.9rem);
+  line-height: 1.4 !important;
+  color: #111111 !important;
+  font-weight: 400 !important;
+  border-left: 2px solid var(--gold);
+  padding-left: 28px;
+  margin-bottom: 34px !important;
+}
+body.light-mode .elu-intro-lead {
+  color: var(--ivory) !important;
+}
+
+/* =========== SERVICES =========== */
+.elu-services {
+  padding: 130px 0;
+  background: linear-gradient(180deg, transparent, rgba(0, 0, 0, 0.32));
+  border-top: 1px solid var(--line);
+  border-radius: 60px 60px 0 0;
+}
+.elu-services-head {
+  max-width: 760px;
+  margin-bottom: 56px;
+}
+.elu-services-head .eyebrow {
+  display: inline-flex;
+  align-items: center;
+  gap: 14px;
+  margin-bottom: 22px;
+}
+.elu-services-head .eyebrow::before {
+  content: '';
+  width: 44px;
+  height: 1px;
+  background: var(--gold);
+}
+.elu-services-head h2 {
+  font-size: clamp(2rem, 4vw, 2.9rem);
+  line-height: 1.12;
+}
+.elu-services-head h2 em {
+  font-style: italic;
+  color: var(--gold);
+}
+.elu-services-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 22px;
+}
+.elu-service-card {
+  position: relative;
+  background: var(--obsidian-2);
+  border: 1px solid var(--line);
+  border-radius: 14px;
+  padding: 32px 28px;
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  overflow: hidden;
+  transition: transform 0.4s ease cubic-bezier(.2, .7, .2, 1), box-shadow 0.4s ease cubic-bezier(.2, .7, .2, 1);
+}
+.elu-service-card::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 3px;
+  background: linear-gradient(90deg, var(--gold), transparent);
+  transform: scaleX(0);
+  transform-origin: left;
+  transition: transform 0.45s ease cubic-bezier(.2, .7, .2, 1);
+}
+.elu-service-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 24px 50px rgba(0, 0, 0, 0.45);
+}
+.elu-service-card:hover::before {
+  transform: scaleX(1);
+}
+.elu-service-card h3 {
+  font-size: 1.18rem;
+  line-height: 1.3;
+  color: var(--gold);
+}
+.elu-service-card p {
+  font-size: 0.86rem;
+  color: var(--ivory-dim);
+  font-weight: 300;
+  line-height: 1.7;
+}
+
+/* =========== WHY CHOOSE =========== */
+.elu-why {
+  padding: 110px 0;
+  background: #ffffff;
+  border-radius: 60px;
+  margin: 40px 0;
 }
 body.light-mode .elu-why {
   background: var(--obsidian-2);
@@ -93,7 +205,6 @@ body.light-mode .elu-why {
 .elu-why-head h2 {
   font-size: clamp(2rem, 4vw, 2.9rem);
   line-height: 1.12;
-  margin-bottom: 26px;
   color: #111111;
 }
 body.light-mode .elu-why-head h2 {
@@ -102,16 +213,6 @@ body.light-mode .elu-why-head h2 {
 .elu-why-head h2 em {
   font-style: italic;
   color: var(--gold);
-}
-.elu-why-intro {
-  color: #4b4b47;
-  font-weight: 300;
-  max-width: 620px;
-  border-left: 1px solid var(--gold-soft);
-  padding-left: 22px;
-}
-body.light-mode .elu-why-intro {
-  color: var(--ivory-dim);
 }
 .elu-features-grid {
   display: grid;
@@ -165,61 +266,96 @@ body.light-mode .elu-why-intro {
   font-weight: 300;
   flex: 1;
 }
-
-/* =========== PROCESS =========== */
-.elu-process {
-  padding: 130px 0;
-  background: linear-gradient(180deg, transparent, rgba(0, 0, 0, 0.32));
-  border-top: 1px solid var(--line);
-  border-radius: 60px 60px 0 0;
-}
-.elu-process-layout {
+.elu-feature-list {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 8px 16px;
+}
+.elu-feature-list li {
+  position: relative;
+  padding-left: 16px;
+  font-size: 0.82rem;
+  font-weight: 500;
+  color: var(--ivory);
+}
+.elu-feature-list li::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 0.55em;
+  width: 7px;
+  height: 7px;
+  background: var(--gold);
+  transform: rotate(45deg);
+}
+
+/* =========== TECHNOLOGY =========== */
+.elu-tech {
+  padding: 130px 0;
+}
+.elu-tech-layout {
+  display: grid;
+  grid-template-columns: 1.05fr 0.95fr;
   gap: 70px;
   align-items: start;
 }
-.elu-process-text .eyebrow {
+.elu-tech-text .eyebrow {
   display: inline-flex;
   align-items: center;
   gap: 14px;
   margin-bottom: 22px;
 }
-.elu-process-text .eyebrow::before {
+.elu-tech-text .eyebrow::before {
   content: '';
   width: 44px;
   height: 1px;
   background: var(--gold);
 }
-.elu-process-text h2 {
+.elu-tech-text h2 {
   font-size: clamp(2rem, 4vw, 2.9rem);
   line-height: 1.12;
   margin-bottom: 22px;
 }
-.elu-process-text h2 em {
+.elu-tech-text h2 em {
   font-style: italic;
   color: var(--gold);
 }
-.elu-process-intro {
+.elu-tech-intro {
   color: var(--ivory-dim);
   font-weight: 300;
-  margin-bottom: 34px;
+  margin-bottom: 26px;
   max-width: 520px;
 }
-.elu-process-item {
-  padding: 22px 0;
-  border-top: 1px solid var(--line);
+.elu-tech-list {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 12px 24px;
+  margin-bottom: 30px;
 }
-.elu-process-item h3 {
-  font-size: 1.3rem;
-  margin-bottom: 10px;
-  color: var(--gold);
+.elu-tech-list li {
+  position: relative;
+  padding-left: 22px;
+  color: var(--ivory);
+  font-size: 0.92rem;
+  font-weight: 300;
 }
-.elu-process-item p {
+.elu-tech-list li::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 0.45em;
+  width: 8px;
+  height: 8px;
+  background: var(--gold);
+  transform: rotate(45deg);
+}
+.elu-tech-outro {
   color: var(--ivory-dim);
   font-weight: 300;
   font-size: 0.92rem;
   max-width: 520px;
+  border-top: 1px solid var(--line);
+  padding-top: 24px;
 }
 .elu-process-figure {
   position: sticky;
@@ -246,184 +382,167 @@ body.light-mode .elu-why-intro {
   height: auto;
   display: block;
 }
-.elu-equipment {
-  background: var(--obsidian-2);
-  border: 1px solid var(--line);
-  border-radius: 14px;
-  padding: 30px 30px;
-}
-.elu-equipment-label {
-  display: block;
-  font-size: 0.72rem;
-  letter-spacing: 0.18em;
-  text-transform: uppercase;
-  color: var(--gold);
-  font-weight: 600;
-  margin-bottom: 12px;
-}
-.elu-equipment p {
-  color: var(--ivory-dim);
-  font-weight: 300;
-  font-size: 0.9rem;
-  margin-bottom: 18px;
-}
-.elu-equipment-cta {
-  display: inline-block;
-  color: var(--gold);
-  font-size: 0.8rem;
-  letter-spacing: 0.1em;
-  border-bottom: 1px solid var(--gold-soft);
-  padding-bottom: 3px;
-  transition: color 0.3s ease, border-color 0.3s ease;
-}
-.elu-equipment-cta:hover {
-  color: var(--ivory);
-  border-color: var(--gold);
-}
 
-/* =========== STATS =========== */
-.elu-stats {
-  border-top: 1px solid var(--line);
-  border-bottom: 1px solid var(--line);
-  padding: 64px 48px;
+/* =========== SUSTAINABILITY =========== */
+.elu-sustain {
+  padding: 100px 48px;
   background: #ffffff;
-  border-radius: 60px 60px 60px 60px;
+  border-radius: 60px;
   margin: 40px 0;
+  text-align: center;
 }
-body.light-mode .elu-stats {
+body.light-mode .elu-sustain {
   background: var(--obsidian-2);
 }
-.elu-stats-grid {
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  gap: 40px;
+.elu-sustain-head {
+  max-width: 720px;
+  margin: 0 auto 40px;
 }
-.elu-stat {
-  position: relative;
-  padding-left: 22px;
-}
-.elu-stat::before {
-  content: '';
-  position: absolute;
-  left: 0;
-  top: 6px;
-  width: 3px;
-  height: 28px;
-  background: var(--gold);
-}
-.elu-stat .num {
-  font-family: 'Montserrat', sans-serif;
-  font-size: clamp(2.4rem, 4.5vw, 3.4rem);
-  line-height: 1;
-  color: #111111;
-  display: block;
-  margin-bottom: 12px;
-}
-body.light-mode .elu-stat .num {
-  color: var(--ivory);
-}
-.elu-stat .lbl {
-  font-size: 0.74rem;
-  letter-spacing: 0.12em;
-  text-transform: uppercase;
-  color: #4b4b47;
-}
-body.light-mode .elu-stat .lbl {
-  color: var(--ivory-dim);
-}
-
-/* =========== CALLBACK =========== */
-.elu-callback {
-  padding: 20px 0 130px;
-}
-.elu-callback-in {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  gap: 40px;
-  background: var(--obsidian-2);
-  border-radius: 16px;
-  padding: 56px 48px;
-}
-.elu-callback-in h2 {
-  font-size: clamp(1.8rem, 3vw, 2.4rem);
-  line-height: 1.15;
-  margin-bottom: 10px;
-}
-.elu-callback-in h2 em {
-  font-style: italic;
-  color: var(--gold);
-}
-.elu-callback-in p {
-  color: var(--ivory-dim);
-  font-weight: 300;
-  font-size: 0.92rem;
-}
-.elu-callback-actions {
-  display: flex;
-  align-items: center;
-  gap: 32px;
-  flex: none;
-}
-.elu-helpdesk {
-  text-align: left;
-}
-.elu-helpdesk .lbl {
-  display: block;
-  font-size: 0.66rem;
-  letter-spacing: 0.14em;
-  text-transform: uppercase;
-  color: var(--gold);
-  margin-bottom: 6px;
-}
-.elu-helpdesk a {
-  font-size: 1.05rem;
-  color: var(--ivory);
-  font-family: 'Montserrat', sans-serif;
-  text-decoration: none;
-  border-bottom: 1px solid var(--gold-soft);
-  transition: color 0.3s ease;
-}
-.elu-helpdesk a:hover {
-  color: var(--gold);
-}
-
-/* =========== CONTACT / BRANCHES =========== */
-.elu-contact {
-  padding: 130px 0;
-  border-radius: 60px 60px 0 0;
-  background: linear-gradient(180deg, transparent, rgba(0, 0, 0, 0.32));
-}
-.elu-contact-head {
-  max-width: 640px;
-  margin-bottom: 56px;
-}
-.elu-contact-head .eyebrow {
+.elu-sustain-head .eyebrow {
   display: inline-flex;
   align-items: center;
   gap: 14px;
   margin-bottom: 22px;
 }
-.elu-contact-head .eyebrow::before {
+.elu-sustain-head .eyebrow::before,
+.elu-sustain-head .eyebrow::after {
   content: '';
   width: 44px;
   height: 1px;
   background: var(--gold);
 }
-.elu-contact-head h2 {
+.elu-sustain-head h2 {
+  font-size: clamp(2rem, 4vw, 2.9rem);
+  line-height: 1.12;
+  color: #111111;
+}
+body.light-mode .elu-sustain-head h2 {
+  color: var(--ivory);
+}
+.elu-sustain-head h2 em {
+  font-style: italic;
+  color: var(--gold);
+}
+.elu-sustain p {
+  max-width: 780px;
+  margin: 0 auto 20px;
+  color: #4b4b47;
+  font-weight: 300;
+  line-height: 1.75;
+}
+body.light-mode .elu-sustain p {
+  color: var(--ivory-dim);
+}
+
+/* =========== TRUSTED PARTNER =========== */
+.elu-trust {
+  padding: 130px 0;
+  text-align: center;
+}
+.elu-trust-head {
+  max-width: 780px;
+  margin: 0 auto 46px;
+}
+.elu-trust-head .eyebrow {
+  display: inline-flex;
+  align-items: center;
+  gap: 14px;
+  margin-bottom: 22px;
+}
+.elu-trust-head .eyebrow::before,
+.elu-trust-head .eyebrow::after {
+  content: '';
+  width: 44px;
+  height: 1px;
+  background: var(--gold);
+}
+.elu-trust-head h2 {
   font-size: clamp(2rem, 4vw, 2.9rem);
   line-height: 1.12;
   margin-bottom: 20px;
 }
-.elu-contact-head h2 em {
+.elu-trust-head h2 em {
   font-style: italic;
   color: var(--gold);
 }
-.elu-contact-head p {
+.elu-trust-head p {
   color: var(--ivory-dim);
   font-weight: 300;
-  font-size: 0.95rem;
-  max-width: 540px;
+  line-height: 1.7;
+}
+.elu-formula {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 10px 14px;
+  margin-bottom: 40px;
+}
+.elu-formula-item {
+  display: inline-flex;
+  align-items: center;
+  gap: 14px;
+}
+.elu-formula-chip {
+  display: inline-block;
+  background: var(--obsidian-2);
+  border: 1px solid var(--line);
+  border-radius: 999px;
+  padding: 12px 24px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 0.85rem;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--ivory);
+  transition: border-color 0.3s ease, color 0.3s ease, transform 0.3s ease;
+}
+.elu-formula-chip:hover {
+  border-color: var(--gold);
+  color: var(--gold);
+  transform: translateY(-3px);
+}
+.elu-formula-plus {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.2rem;
+  color: var(--gold);
+}
+.elu-trust-outro {
+  max-width: 720px;
+  margin: 0 auto;
+  color: var(--ivory-dim);
+  font-weight: 300;
+  line-height: 1.7;
+}
+
+/* =========== STRATEGIC LOCATIONS =========== */
+.elu-locations {
+  padding: 100px 48px;
+  background: #ffffff;
+  border-radius: 60px;
+  margin: 40px 0;
+}
+body.light-mode .elu-locations {
+  background: var(--obsidian-2);
+}
+.elu-locations-head {
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+.elu-locations-head .eyebrow::after {
+  content: '';
+  width: 44px;
+  height: 1px;
+  background: var(--gold);
+}
+.elu-branch-tag {
+  display: inline-block;
+  margin-bottom: 10px;
+  font-size: 0.64rem;
+  font-weight: 600;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--gold);
 }
 .elu-branches-grid {
   display: grid;
@@ -450,426 +569,123 @@ body.light-mode .elu-stat .lbl {
   font-weight: 300;
   font-size: 0.88rem;
   margin-bottom: 14px;
+  line-height: 1.65;
 }
-.elu-branch-card a {
-  color: var(--ivory);
-  font-size: 0.9rem;
-  text-decoration: none;
-  border-bottom: 1px solid var(--gold-soft);
-  transition: color 0.3s ease, border-color 0.3s ease;
-}
-.elu-branch-card a:hover {
-  color: var(--gold);
-  border-color: var(--gold);
-}
-
-/* =========== FORM =========== */
-.elu-form-section {
-  padding: 130px 0;
-  background: #ffffff;
-  border-radius: 60px;
-}
-body.light-mode .elu-form-section {
-  background: var(--obsidian-2);
-}
-.elu-form-wrap {
-  display: grid;
-  grid-template-columns: 0.9fr 1.1fr;
-  gap: 80px;
-  align-items: start;
-}
-.elu-form-info .eyebrow {
-  display: inline-flex;
-  align-items: center;
-  gap: 14px;
-  margin-bottom: 22px;
-}
-.elu-form-info .eyebrow::before {
-  content: '';
-  width: 44px;
-  height: 1px;
-  background: var(--gold);
-}
-.elu-form-info h2 {
-  font-size: clamp(2rem, 3.6vw, 2.9rem);
-  line-height: 1.12;
-  margin-bottom: 22px;
-  color: #111111;
-}
-body.light-mode .elu-form-info h2 {
-  color: var(--ivory);
-}
-.elu-form-info h2 em {
-  font-style: italic;
-  color: var(--gold);
-}
-.elu-form-info > p {
+.elu-locations-note {
+  margin-top: 44px;
+  text-align: center;
   color: #4b4b47;
   font-weight: 300;
-  max-width: 440px;
-  margin-bottom: 36px;
-}
-body.light-mode .elu-form-info > p {
-  color: var(--ivory-dim);
-}
-.elu-form-location {
-  border-top: 1px solid var(--line);
-  padding-top: 28px;
-}
-.elu-form-location .lbl {
-  display: block;
-  font-size: 0.68rem;
-  letter-spacing: 0.12em;
-  text-transform: uppercase;
-  color: var(--gold);
-  margin-bottom: 10px;
-}
-.elu-form-location p {
-  color: #4b4b47;
-  font-weight: 300;
-  font-size: 0.9rem;
-  margin-bottom: 6px;
-}
-body.light-mode .elu-form-location p {
-  color: var(--ivory-dim);
-}
-.elu-form-location a {
-  display: inline-block;
-  color: #111111;
-  font-size: 0.9rem;
-  border-bottom: 1px solid var(--gold-soft);
-  margin-bottom: 16px;
-  text-decoration: none;
-  transition: color 0.3s ease;
-}
-body.light-mode .elu-form-location a {
-  color: var(--ivory);
-}
-.elu-form-location a:hover {
-  color: var(--gold);
-}
-.elu-form-wrap .field {
-  background: rgba(0, 0, 0, 0.03);
-  border: 1px solid rgba(0, 0, 0, 0.1);
-  border-radius: 12px;
-  padding: 16px 20px;
-  margin-bottom: 16px;
-  transition: border-color 0.3s ease;
-}
-body.light-mode .elu-form-wrap .field {
-  background: rgba(255, 255, 255, 0.04);
-  border-color: rgba(255, 255, 255, 0.08);
-}
-.elu-form-wrap .field:focus-within {
-  border-color: var(--gold);
-}
-.elu-form-wrap .field label {
-  color: #5f5f5b;
-}
-body.light-mode .elu-form-wrap .field label {
-  color: var(--ivory-dim);
-}
-.elu-form-wrap .field input,
-.elu-form-wrap .field textarea {
-  color: #111111;
-  background: transparent;
-  border: none;
-  outline: none;
-  width: 100%;
   font-size: 0.95rem;
+  max-width: 640px;
+  margin-left: auto;
+  margin-right: auto;
 }
-body.light-mode .elu-form-wrap .field input,
-body.light-mode .elu-form-wrap .field textarea {
-  color: var(--ivory);
-}
-.elu-form-wrap .field textarea {
-  min-height: 100px;
-  resize: vertical;
+body.light-mode .elu-locations-note {
+  color: var(--ivory-dim);
 }
 
-/* =========== TEAM =========== */
-.elu-team {
+/* =========== COMMITMENT =========== */
+.elu-commit {
   padding: 130px 0;
-  border-radius: 60px 60px 0 0;
+  text-align: center;
 }
-.elu-team-head {
-  max-width: 640px;
-  margin-bottom: 56px;
+.elu-commit-head {
+  max-width: 780px;
+  margin: 0 auto 36px;
 }
-.elu-team-head .eyebrow {
+.elu-commit-head .eyebrow {
   display: inline-flex;
   align-items: center;
   gap: 14px;
   margin-bottom: 22px;
 }
-.elu-team-head .eyebrow::before {
+.elu-commit-head .eyebrow::before,
+.elu-commit-head .eyebrow::after {
   content: '';
   width: 44px;
   height: 1px;
   background: var(--gold);
 }
-.elu-team-head h2 {
+.elu-commit-head h2 {
   font-size: clamp(2rem, 4vw, 2.9rem);
   line-height: 1.12;
   margin-bottom: 20px;
 }
-.elu-team-head h2 em {
+.elu-commit-head h2 em {
   font-style: italic;
   color: var(--gold);
 }
-.elu-team-head p {
+.elu-commit-head p {
   color: var(--ivory-dim);
   font-weight: 300;
-  font-size: 0.95rem;
-  max-width: 560px;
+  line-height: 1.7;
 }
-.elu-team-grid {
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  gap: 22px;
-}
-.elu-team-card {
-  position: relative;
-  min-width: 0;
-}
-.elu-team-image {
-  position: relative;
-  aspect-ratio: 0.85;
-  overflow: hidden;
-  background: var(--obsidian-2);
-  clip-path: polygon(0 0, calc(100% - 28px) 0, 100% 28px, 100% 100%, 0 100%);
-}
-.elu-team-image::after {
-  content: '';
-  position: absolute;
-  z-index: 2;
-  right: 16px;
-  bottom: 16px;
-  width: 22px;
-  height: 22px;
-  border: 1px solid var(--gold);
-  transform: rotate(45deg);
-  transition: transform 0.45s cubic-bezier(.2, .7, .2, 1), background 0.35s ease;
-}
-.elu-team-image img {
-  width: 100%;
-  height: 100%;
-  display: block;
-  object-fit: cover;
-  filter: grayscale(100%) sepia(12%);
-  transform: scale(1.01);
-  transition: filter 0.5s ease, transform 0.65s cubic-bezier(.2, .7, .2, 1);
-}
-.elu-team-card:hover .elu-team-image img {
-  filter: grayscale(0%) sepia(0%);
-  transform: scale(1.08);
-}
-.elu-team-card:hover .elu-team-image::after {
-  background: var(--gold);
-  transform: rotate(135deg);
-}
-.elu-team-details {
-  position: relative;
-  padding: 20px 4px 0;
-}
-.elu-team-details::before {
-  content: '';
-  position: absolute;
-  top: 0;
-  left: 4px;
-  width: 32px;
-  height: 1px;
-  background: var(--gold);
-  transition: width 0.35s ease;
-}
-.elu-team-card:hover .elu-team-details::before {
-  width: 100%;
-}
-.elu-team-details h3 {
-  font-size: 1.05rem;
-  line-height: 1.2;
-}
-.elu-team-details p {
-  margin-top: 6px;
-  color: var(--gold);
-  font-size: 0.68rem;
-  font-weight: 600;
-  letter-spacing: 0.12em;
-  line-height: 1.5;
-  text-transform: uppercase;
-}
-
-/* =========== NEWS =========== */
-.elu-news {
-  padding: 130px 0;
-  background: #ffffff;
-  border-radius: 60px 60px 0 0;
-  border-top: 1px solid var(--line);
-}
-body.light-mode .elu-news {
-  background: var(--obsidian-2);
-}
-.elu-news-head {
-  max-width: 640px;
-  margin-bottom: 56px;
-}
-.elu-news-head .eyebrow {
-  display: inline-flex;
-  align-items: center;
-  gap: 14px;
-  margin-bottom: 22px;
-}
-.elu-news-head .eyebrow::before {
-  content: '';
-  width: 44px;
-  height: 1px;
-  background: var(--gold);
-}
-.elu-news-head h2 {
-  font-size: clamp(2rem, 4vw, 2.9rem);
-  line-height: 1.12;
-  margin-bottom: 20px;
-  color: #111111;
-}
-body.light-mode .elu-news-head h2 {
-  color: var(--ivory);
-}
-.elu-news-head h2 em {
-  font-style: italic;
-  color: var(--gold);
-}
-.elu-news-head p {
-  color: #4b4b47;
-  font-weight: 300;
-  font-size: 0.95rem;
-  max-width: 560px;
-}
-body.light-mode .elu-news-head p {
+.elu-commit > .container > p {
+  max-width: 720px;
+  margin: 0 auto 20px;
   color: var(--ivory-dim);
-}
-.elu-news-grid {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 24px;
-}
-.elu-news-entry {
-  display: block;
-  color: inherit;
-  text-decoration: none;
-  background: var(--obsidian-2);
-  border: 1px solid var(--line);
-  border-radius: 14px;
-  overflow: hidden;
-  transition: transform 0.4s ease cubic-bezier(.2, .7, .2, 1), box-shadow 0.4s ease cubic-bezier(.2, .7, .2, 1);
-}
-.elu-news-entry:hover {
-  transform: translateY(-6px);
-  box-shadow: 0 20px 46px rgba(0, 0, 0, 0.4);
-}
-.elu-news-image {
-  position: relative;
-  aspect-ratio: 1.6;
-  overflow: hidden;
-  background: var(--obsidian-2);
-}
-.elu-news-image img {
-  width: 100%;
-  height: 100%;
-  display: block;
-  object-fit: cover;
-  filter: grayscale(100%) sepia(16%);
-  transition: filter 0.4s ease, transform 0.6s cubic-bezier(.2, .7, .2, 1);
-}
-.elu-news-entry:hover .elu-news-image img {
-  filter: grayscale(0%) sepia(0%);
-  transform: scale(1.08);
-}
-.elu-news-date {
-  position: absolute;
-  top: 14px;
-  left: 14px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  background: var(--gold);
-  color: #111111;
-  padding: 8px 12px;
-  line-height: 1;
-  border-radius: 4px;
-  box-shadow: 0 12px 30px rgba(227, 107, 57, 0.4);
-}
-.elu-news-date strong {
-  font-family: 'Montserrat', sans-serif;
-  font-size: 1.3rem;
-  font-weight: 400;
-}
-.elu-news-date span {
-  margin-top: 4px;
-  font-size: 0.6rem;
-  font-weight: 600;
-  letter-spacing: 0.12em;
-  text-transform: uppercase;
-}
-.elu-news-body {
-  padding: 26px 26px 30px;
-}
-.elu-news-meta {
-  display: block;
-  margin-bottom: 10px;
-  color: var(--ivory);
-  font-size: 0.64rem;
-  font-weight: 600;
-  letter-spacing: 0.1em;
-  text-transform: uppercase;
-}
-.elu-news-body h3 {
-  font-size: 1.3rem;
-  line-height: 1.28;
-  margin-bottom: 16px;
-  color: var(--ivory);
-  transition: color 0.3s ease;
-}
-.elu-news-entry:hover .elu-news-body h3 {
-  color: var(--gold);
-}
-.elu-news-link {
-  font-size: 0.7rem;
-  font-weight: 600;
-  letter-spacing: 0.16em;
-  color: var(--ivory);
-  transition: color 0.3s ease;
-}
-.elu-news-entry:hover .elu-news-link {
-  color: var(--gold);
+  font-weight: 300;
+  line-height: 1.7;
 }
 
-/* =========== CTA =========== */
-.elu-cta {
+/* =========== PARTNER WITH US =========== */
+.elu-partner {
   padding: 30px 0 130px;
 }
-.elu-cta-in {
-  text-align: center;
-  border: 1px solid var(--line);
+.elu-partner-in {
+  display: grid;
+  grid-template-columns: 1.15fr 0.85fr;
+  gap: 70px;
+  align-items: start;
   background: var(--obsidian-2);
+  border: 1px solid var(--line);
   border-radius: 16px;
-  padding: 60px 48px;
+  padding: 60px 56px;
 }
-.elu-cta-in h2 {
+.elu-partner-text .eyebrow {
+  display: inline-flex;
+  align-items: center;
+  gap: 14px;
+  margin-bottom: 22px;
+}
+.elu-partner-text .eyebrow::before {
+  content: '';
+  width: 44px;
+  height: 1px;
+  background: var(--gold);
+}
+.elu-partner-text h2 {
   font-size: clamp(2rem, 3.6vw, 2.9rem);
   line-height: 1.12;
-  margin-bottom: 32px;
+  margin-bottom: 22px;
 }
-.elu-cta-in h2 em {
+.elu-partner-text h2 em {
   font-style: italic;
   color: var(--gold);
 }
-.elu-cta-actions {
-  display: flex;
-  justify-content: center;
-  gap: 64px;
-  flex-wrap: wrap;
+.elu-partner-text p {
+  color: var(--ivory-dim);
+  font-weight: 300;
+  line-height: 1.7;
+  max-width: 520px;
 }
-.elu-cta-item .lbl {
+.elu-partner-experience {
+  margin-top: 18px;
+  color: var(--ivory) !important;
+}
+.elu-partner-experience strong {
+  color: var(--gold);
+  font-weight: 600;
+}
+.elu-partner-contact {
+  border-left: 1px solid var(--line);
+  padding-left: 48px;
+  display: flex;
+  flex-direction: column;
+  gap: 28px;
+}
+.elu-partner-row .lbl {
   display: block;
   font-size: 0.66rem;
   letter-spacing: 0.14em;
@@ -877,117 +693,72 @@ body.light-mode .elu-news-head p {
   color: var(--gold);
   margin-bottom: 8px;
 }
-.elu-cta-item a {
+.elu-partner-row p {
+  color: var(--ivory-dim);
+  font-weight: 300;
+  line-height: 1.6;
+}
+.elu-partner-row a {
   font-family: 'Montserrat', sans-serif;
-  font-size: 1.2rem;
+  font-size: 1.05rem;
   color: var(--ivory);
   text-decoration: none;
   border-bottom: 1px solid var(--gold-soft);
   transition: color 0.3s ease, border-color 0.3s ease;
 }
-.elu-cta-item a:hover {
+.elu-partner-row a:hover {
   color: var(--gold);
   border-color: var(--gold);
 }
-
-/* =========== OFFICES =========== */
-.elu-offices {
-  padding: 30px 0 130px;
-  border-top: 1px solid var(--line);
-  background: #ffffff;
-  border-radius: 60px 60px 0 0;
-}
-body.light-mode .elu-offices {
-  background: var(--obsidian-2);
-}
-.elu-offices-grid {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 24px;
-}
-.elu-office-card {
-  background: var(--obsidian-2);
-  border: 1px solid var(--line);
-  border-radius: 14px;
-  padding: 36px 32px;
-  transition: transform 0.4s ease cubic-bezier(.2, .7, .2, 1), box-shadow 0.4s ease cubic-bezier(.2, .7, .2, 1);
-}
-.elu-office-card:hover {
-  transform: translateY(-6px);
-  box-shadow: 0 20px 46px rgba(0, 0, 0, 0.4);
-}
-.elu-office-card h3 {
-  font-size: 1.3rem;
-  margin-bottom: 12px;
-  color: var(--ivory);
-}
-.elu-office-card p {
+.elu-partner-tagline {
+  margin-top: 36px;
+  text-align: center;
   color: var(--ivory-dim);
+  font-size: 0.88rem;
   font-weight: 300;
-  font-size: 0.92rem;
-  margin-bottom: 16px;
-  line-height: 1.6;
+  letter-spacing: 0.04em;
 }
-.elu-office-card a {
-  color: var(--gold);
-  font-size: 0.9rem;
-  text-decoration: none;
-  border-bottom: 1px solid var(--gold-soft);
-  transition: border-color 0.3s ease;
-}
-.elu-office-card a:hover {
-  border-color: var(--gold);
+.elu-partner-tagline strong {
+  color: var(--ivory);
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  letter-spacing: 0.12em;
 }
 
 /* =========== RESPONSIVE =========== */
 @media (max-width: 980px) {
+  .elu-services-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
   .elu-features-grid {
     grid-template-columns: repeat(2, 1fr);
   }
-  .elu-process-layout {
+  .elu-tech-layout {
     grid-template-columns: 1fr;
     gap: 48px;
   }
   .elu-process-figure {
     position: static;
   }
-  .elu-stats-grid {
-    grid-template-columns: repeat(2, 1fr);
-    gap: 32px;
-  }
   .elu-branches-grid {
     grid-template-columns: repeat(2, 1fr);
   }
-  .elu-form-wrap {
+  .elu-partner-in {
     grid-template-columns: 1fr;
-    gap: 50px;
+    gap: 48px;
+    padding: 44px 40px;
   }
-  .elu-team-grid {
-    grid-template-columns: repeat(2, 1fr);
-  }
-  .elu-news-grid {
-    grid-template-columns: 1fr;
-    gap: 22px;
-  }
-  .elu-offices-grid {
-    grid-template-columns: 1fr;
-  }
-  .elu-callback-in {
-    flex-direction: column;
-    align-items: flex-start;
-    padding: 36px 32px;
-  }
-  .elu-callback-actions {
-    flex-wrap: wrap;
+  .elu-partner-contact {
+    border-left: none;
+    padding-left: 0;
+    border-top: 1px solid var(--line);
+    padding-top: 40px;
   }
 }
 @media (max-width: 760px) {
   .elu-hero {
     padding: 150px 0 70px;
     min-height: 70vh;
-  }
-  .elu-cta-actions {
-    gap: 32px;
   }
 }
 @media (max-width: 520px) {
@@ -1000,74 +771,50 @@ body.light-mode .elu-offices {
   .elu-hero-actions {
     margin-top: 28px;
   }
+  .elu-intro {
+    padding: 60px 0 70px;
+    border-radius: 0 0 24px 24px;
+  }
+  .elu-services {
+    padding: 60px 0;
+    border-radius: 24px 24px 0 0;
+  }
   .elu-why,
-  .elu-cta,
-  .elu-offices {
-    padding: 30px 0 50px;
+  .elu-sustain,
+  .elu-locations {
+    padding: 50px 24px;
+    border-radius: 24px;
+    margin: 24px 0;
   }
-  .elu-callback {
-    padding: 10px 0 50px;
+  .elu-tech,
+  .elu-trust,
+  .elu-commit {
+    padding: 60px 0;
   }
-  .elu-process,
-  .elu-contact,
-  .elu-form-section,
-  .elu-team,
-  .elu-news {
-    padding: 50px 0;
+  .elu-partner {
+    padding: 10px 0 60px;
   }
-  .elu-stats {
-    padding: 40px 24px;
-    border-radius: 14px;
-  }
-  .elu-stats-grid {
-    grid-template-columns: 1fr;
-    gap: 28px;
-  }
+  .elu-services-grid,
   .elu-features-grid,
-  .elu-branches-grid,
-  .elu-team-grid {
+  .elu-branches-grid {
     grid-template-columns: 1fr;
   }
+  .elu-tech-list {
+    grid-template-columns: 1fr;
+  }
+  .elu-service-card,
   .elu-feature-card,
-  .elu-branch-card,
-  .elu-office-card,
-  .elu-equipment {
+  .elu-branch-card {
     padding: 24px 20px;
     border-radius: 10px;
   }
-  .elu-news-entry {
-    border-radius: 10px;
+  .elu-formula-chip {
+    padding: 10px 18px;
+    font-size: 0.76rem;
   }
-  .elu-news-body {
-    padding: 20px 18px 24px;
-  }
-  .elu-news-body h3 {
-    font-size: 1.15rem;
-  }
-  .elu-news-image {
-    aspect-ratio: 1.4;
-  }
-  .elu-callback-in {
-    padding: 30px 22px;
+  .elu-partner-in {
+    padding: 32px 22px;
     border-radius: 12px;
-  }
-  .elu-callback-actions {
-    flex-direction: column;
-    align-items: flex-start;
-    gap: 20px;
-  }
-  .elu-cta-in {
-    padding: 36px 22px;
-    border-radius: 12px;
-  }
-  .elu-cta-actions {
-    flex-direction: column;
-    align-items: center;
-    gap: 24px;
-  }
-  .elu-form-wrap .field input,
-  .elu-form-wrap .field textarea {
-    font-size: 16px;
   }
   img {
     max-width: 100%;

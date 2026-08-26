@@ -1,3 +1,5 @@
+/* eslint-disable @next/next/no-img-element */
+
 'use client';
 
 import { useState, useEffect, useCallback } from 'react';
@@ -14,6 +16,8 @@ export default function Navbar() {
   const { t } = useTranslation();
   const [scrolled, setScrolled] = useState(false);
   const [theme, setTheme] = useState<'dark' | 'light'>(getInitialTheme);
+  const [menuOpen, setMenuOpen] = useState(false);
+  const [bizOpen, setBizOpen] = useState(false);
 
   useEffect(() => {
     document.body.classList.toggle('light-mode', theme === 'light');
@@ -25,6 +29,11 @@ export default function Navbar() {
     return () => window.removeEventListener('scroll', onScroll);
   }, []);
 
+  useEffect(() => {
+    document.body.style.overflow = menuOpen ? 'hidden' : '';
+    return () => { document.body.style.overflow = ''; };
+  }, [menuOpen]);
+
   const toggleTheme = useCallback(() => {
     setTheme((prev) => {
       const next = prev === 'dark' ? 'light' : 'dark';
@@ -35,54 +44,51 @@ export default function Navbar() {
 
   return (
     <nav className={`main-nav${scrolled ? ' scrolled' : ''}`}>
-      <Link href="/" className="nav-logo">
-        <img src="/assets/logo-white.png" alt="Jema Africa" className="logo-white" />
+      <Link href="/" className="nav-logo" onClick={() => setMenuOpen(false)}>
+        <img src="/assets/logo/logo-white.png" alt="Jema Africa" className="logo-white" />
         <img src="/assets/logo.png" alt="Jema Africa" className="logo-black" />
       </Link>
 
-      <div className="nav-links">
-        <div className="nav-item">
-          <Link href="/business">
+      <div className={`nav-links${menuOpen ? ' open' : ''}`}>
+        <div className={`nav-item${bizOpen ? ' open' : ''}`}>
+          <Link href="/business" onClick={(e) => { e.preventDefault(); setBizOpen(!bizOpen); }}>
             {t('nav.business')} <span className="nav-caret" />
           </Link>
           <div className="dropdown">
             <div className="dropdown-col">
-              <Link href="/elution">Elution</Link>
+              <Link href="/elution" onClick={() => setMenuOpen(false)}>{t('nav.elution')}</Link>
             </div>
             <div className="dropdown-col">
-              <Link href="/chemicals">Chemicals</Link>
+              <Link href="/chemicals" onClick={() => setMenuOpen(false)}>{t('nav.chemicals')}</Link>
             </div>
             <div className="dropdown-col">
-              <Link href="/lifescience">Life Science</Link>
+              <Link href="/lifescience" onClick={() => setMenuOpen(false)}>{t('nav.lifeScience')}</Link>
             </div>
             <div className="dropdown-col">
-              <Link href="/tech">Technology</Link>
+              <Link href="/tech" onClick={() => setMenuOpen(false)}>{t('nav.technology')}</Link>
             </div>
             <div className="dropdown-col">
-              <Link href="/auto">Auto</Link>
+              <Link href="/auto" onClick={() => setMenuOpen(false)}>{t('nav.auto')}</Link>
             </div>
             <div className="dropdown-col">
-              <Link href="/jit">Institute of Technology</Link>
+              <Link href="/jit" onClick={() => setMenuOpen(false)}>{t('nav.instituteOfTechnology')}</Link>
             </div>
             <div className="dropdown-col">
-              <Link href="/jetcargo">JETCargo</Link>
+              <Link href="/jetcargo" onClick={() => setMenuOpen(false)}>{t('nav.jetcargo')}</Link>
             </div>
             <div className="dropdown-col">
-              <Link href="/jema-jione">Jema Jione</Link>
+              <Link href="/jema-jione" onClick={() => setMenuOpen(false)}>{t('nav.jemaJione')}</Link>
             </div>
             <div className="dropdown-col">
-              <Link href="/finance">Finance</Link>
+              <Link href="/finance" onClick={() => setMenuOpen(false)}>{t('nav.finance')}</Link>
             </div>
-            <div className="dropdown-col">
-              <Link href="/business/education">Education</Link>
-            </div>
+
           </div>
         </div>
 
-        <Link href="/insights">{t('nav.insights')}</Link>
-        <Link href="/careers">{t('nav.careers')}</Link>
-        <Link href="/about">{t('nav.about')}</Link>
-        <Link href="/contact">{t('nav.contact')}</Link>
+        <Link href="/careers" onClick={() => setMenuOpen(false)}>{t('nav.careers')}</Link>
+        <Link href="/about" onClick={() => setMenuOpen(false)}>{t('nav.about')}</Link>
+        <Link href="/contact" onClick={() => setMenuOpen(false)}>{t('nav.contact')}</Link>
       </div>
 
       <div className="nav-right">
@@ -103,7 +109,9 @@ export default function Navbar() {
             <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z" />
           </svg>
         </button>
-        <Link href="/contact" className="nav-cta">{t('nav.cta')}</Link>
+        <button className="nav-hamburger" onClick={() => setMenuOpen(!menuOpen)} aria-label="Menu" aria-expanded={menuOpen}>
+          <span /><span /><span />
+        </button>
       </div>
     </nav>
   );

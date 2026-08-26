@@ -1,22 +1,99 @@
 {
   "nav": {
     "business": "Biashara Yetu",
+    "elution": "Utoaji",
+    "chemicals": "Kemikali",
+    "lifeScience": "Sayansi ya Maisha",
+    "technology": "Teknolojia",
+    "auto": "Magari",
+    "instituteOfTechnology": "Taasisi ya Teknolojia",
+    "jetcargo": "JETCargo",
+    "jemaJione": "Jema Jione",
+    "finance": "Fedha",
+    "education": "Elimu",
+    "sustainability": "Ustawi",
     "insights": "Maarifa",
     "careers": "Kazi",
-    "about": "Kuhusu",
-    "contact": "Wasiliana",
+    "about": "Kuhusu Jema Africa",
+    "contact": "Wasiliana Nasi",
     "cta": "Wasiliana Nasi"
   },
   "hero": {
-    "eyebrow": "Urithi Wetu wa Ubunifu na Ukuaji",
-    "title1": "Tunajenga",
-    "title2": "Kesho,",
-    "title3": "Leo.",
-    "lead": "Kikundi kilichogawanyika cha Kiafrika kinachofanya kazi katika uchimbaji, teknolojia, usafirishaji, fedha, elimu, na huduma za viwanda. Tangu 2012, tumekuwa tukiongoza ubunifu, uwekezaji, na mabadiliko endelevu ya kiuchumi barani Afrika.",
     "typeLabel": "Tunawezesha",
-    "ctaPrimary": "Chunguza Biashara Yetu",
     "scrollCue": "Sogeza",
-    "typingWords": ["Uchimbaji", "Teknolojia na Elimu", "Usafirishaji", "Fedha na Uwekezaji", "Huduma za Viwanda"]
+    "slides": {
+      "brand": {
+        "eyebrow": "Urithi Wetu wa Ubunifu na Ukuaji",
+        "title1": "Tunajenga",
+        "title2": "Kesho,",
+        "title3": "Leo.",
+        "lead": "Kikundi kilichogawanyika cha Kiafrika kinachofanya kazi katika uchimbaji, teknolojia, usafirishaji, fedha, elimu, na huduma za viwanda. Tangu 2012, tumekuwa tukiongoza ubunifu, uwekezaji, na mabadiliko endelevu ya kiuchumi barani Afrika.",
+        "cta": "Chunguza Biashara Yetu",
+        "typing": [
+          "Uchimbaji",
+          "Teknolojia na Elimu",
+          "Usafirishaji",
+          "Fedha na Uwekezaji",
+          "Huduma za Viwanda"
+        ]
+      },
+      "mining": {
+        "eyebrow": "Uchimbaji na Kemikali",
+        "title1": "Tunachimba",
+        "title2": "Utajiri wa",
+        "title3": "Afrika.",
+        "lead": "Suluhisho bora kwa sekta ya uchimbaji wa Afrika — kuanzia kemikali na kaboni iliyoamilishwa hadi mitambo ya kuelea na huduma za elution.",
+        "cta": "Chunguza Uchimbaji",
+        "typing": [
+          "Kemikali",
+          "Kaboni Iliyoamilishwa",
+          "Mitambo ya Elution",
+          "Huduma za Elution"
+        ]
+      },
+      "logistics": {
+        "eyebrow": "Usafirishaji na Usafiri",
+        "title1": "Tunasafirisha",
+        "title2": "Afrika,",
+        "title3": "Kwa Uaminifu.",
+        "lead": "Huduma bora na za kuaminika za usafirishaji na usafiri kwa biashara zinazosafiri Afrika — kwa barabara, reli, na zaidi.",
+        "cta": "Chunguza Usafirishaji",
+        "typing": [
+          "Usafirishaji wa Barabara",
+          "Usafirishaji wa Mikoani",
+          "Usimamizi wa Meli",
+          "Usafirishaji wa Mizigo Mizito"
+        ]
+      },
+      "tech": {
+        "eyebrow": "Teknolojia na Elimu",
+        "title1": "Tunawawezesha",
+        "title2": "Kizazi",
+        "title3": "Kijacho.",
+        "lead": "Kujenga mustakabali wa Afrika kupitia teknolojia, programu, na elimu ya ufundi kwa sekta za uchimbaji na teknolojia.",
+        "cta": "Chunguza Teknolojia",
+        "typing": [
+          "Maendeleo ya Programu",
+          "Suluhisho za IoT",
+          "Uchambuzi wa Takwimu",
+          "Elimu ya Ufundi"
+        ]
+      },
+      "auto": {
+        "eyebrow": "Uagizaji wa Magari",
+        "title1": "Tunaendesha",
+        "title2": "Ndoto Yako",
+        "title3": "Mbele.",
+        "lead": "Uagizaji wa magari wa kuaminika kutoka Japan — kukuunganisha na magari bora kwa bei za ushindani.",
+        "cta": "Chunguza Magari",
+        "typing": [
+          "Uagizaji wa Japan",
+          "Uchaguzi Mpana",
+          "Uthibitisho wa Ubora",
+          "Usaidizi wa Usafirishaji"
+        ]
+      }
+    }
   },
   "stats": {
     "years": "Miaka ya Uzoefu",
@@ -35,15 +112,33 @@
     "heading": "Imejengwa kusukuma Afrika mbele.",
     "intro": "Ujuzi wa vitendo, maarifa ya eneo, na utoaji wa kuaminika katika viwanda vinavyobadilisha bara.",
     "details": "Maelezo",
-    "card1": { "title": "Suluhisho za Uchimbaji", "text": "Kutoa suluhisho za daraja la juu kwa sekta ya uchimbaji wa Afrika, kutoka kemikali hadi mitambo ya flotation na huduma za elution." },
-    "card2": { "title": "Usafirishaji na Usafiri", "text": "Huduma za usafirishaji na usafiri zenye ufanisi na kuaminika kwa biashara zinazofanya kazi barani Afrika." },
-    "card3": { "title": "Teknolojia na Elimu", "text": "Kuwezesha mustakabali wa Afrika kupitia teknolojia na elimu kwa sekta za uchimbaji na teknolojia." },
-    "card4": { "title": "Uagizaji wa Magari", "text": "Huduma za upatikanaji na uagizaji wa magari ya kuaminika, kuunganisha biashara na watu binafsi na magari bora." }
+    "card1": {
+      "title": "Suluhisho za Uchimbaji",
+      "text": "Kutoa suluhisho za daraja la juu kwa sekta ya uchimbaji wa Afrika, kutoka kemikali hadi mitambo ya flotation na huduma za elution."
+    },
+    "card2": {
+      "title": "Usafirishaji na Usafiri",
+      "text": "Huduma za usafirishaji na usafiri zenye ufanisi na kuaminika kwa biashara zinazofanya kazi barani Afrika."
+    },
+    "card3": {
+      "title": "Teknolojia na Elimu",
+      "text": "Kuwezesha mustakabali wa Afrika kupitia teknolojia na elimu kwa sekta za uchimbaji na teknolojia."
+    },
+    "card4": {
+      "title": "Uagizaji wa Magari",
+      "text": "Huduma za upatikanaji na uagizaji wa magari ya kuaminika, kuunganisha biashara na watu binafsi na magari bora."
+    }
   },
   "leadership": {
     "eyebrow": "Uongozi wetu wa Juu",
     "heading": "Kuongoza mafanikio katika sehemu zote.",
-    "copy": "Kutana na viongozi wanaoongoza biashara mbalimbali za Jema Africa kuelekea ukuaji na ubunifu."
+    "copy": "Kutana na viongozi wanaoongoza biashara mbalimbali za Jema Africa kuelekea ukuaji na ubunifu.",
+    "roles": {
+      "dco": "DCO",
+      "cooMining": "COO - Idara ya Madini",
+      "cooNonMining": "COO - Idara Isiyo ya Madini",
+      "principalJit": "Mkuu - JIT"
+    }
   },
   "news": {
     "eyebrow": "Habari na Sasisho",
@@ -67,9 +162,14 @@
     "eyebrow": "Wasiliana Nasi",
     "heading": "Tujenge mustakabali wa Afrika pamoja.",
     "intro": "Iwe wewe ni mfanyabiashara, mshirika, au mwekezaji — tungependa kusikia kutoka kwako. Wasiliana kupitia yoyote ya njia zetu hapa chini.",
+    "branchesCount": "Matawi kote Tanzania",
+    "officesCount": "Ofisi kuu",
+    "support": "Usaidizi unapatikana",
     "correspondence": "Barua",
     "headOffices": "Ofisi Kuu",
     "address": "Jengo la Jema Tech. Eneo la Viwanda. Mwanza. Tanzania. · Sakafu ya 5, TAN House, Victoria, Dar es Salaam.",
+    "touchP1": "Katika Jema Africa, tunaamini kuwa kila uhusiano ni fursa ya kujenga ushirikiano wenye maana. Timu yetu iko tayari kukusaidia katika uchimbaji, teknolojia, usafirishaji, fedha, na zaidi.",
+    "touchP2": "Iwe unahitaji ushauri wa kitaalamu, unatafuta ushirikiano, au una maswali kuhusu huduma zetu — wasiliana nasi na tuanze mazungumzo.",
     "followUs": "Tufuate",
     "form": {
       "fullName": "Jina Kamili",
@@ -110,95 +210,104 @@
     "storyP1": "Katika Jema Africa, tunaamini kuwa kila changamoto inatoa fursa ya kuunda thamani yenye maana na endelevu. Badala ya kutatua matatizo tu, tunajenga biashara, teknolojia, na ushirikiano wa kimkakati unaobadilisha viwanda na kuboresha maisha barani Afrika.",
     "storyP2": "Kutoka elution ya dhahabu na kemikali za uchimbaji hadi usafirishaji, uagizaji wa magari, huduma za fedha, na elimu ya kiufundi, sehemu zetu zinakazi kama moja — kushiriki utaalamu, miundombinu, na ndoto ya kusukuma bara mbele.",
     "badge": "Tangu 2012",
-    "mission": { "title": "Dhamira Yetu", "text": "Tunajenga biashara, teknolojia, na ushirikiano unaobadilisha viwanda na kuboresha maisha barani Afrika — kwa uadilifu na athari za muda mrefu." },
-    "vision": { "title": "Dhana Yetu", "text": "Kuwa kikundi cha Kiafrika kinachotambulika kwa kuendesha mabadiliko endelevu ya kiuchumi katika kila eneo tunalofanya kazi." },
+    "mission": {
+      "title": "Dhamira Yetu",
+      "text": "Tunajenga biashara, teknolojia, na ushirikiano unaobadilisha viwanda na kuboresha maisha barani Afrika — kwa uadilifu na athari za muda mrefu."
+    },
+    "vision": {
+      "title": "Dhana Yetu",
+      "text": "Kuwa kikundi cha Kiafrika kinachotambulika kwa kuendesha mabadiliko endelevu ya kiuchumi katika kila eneo tunalofanya kazi."
+    },
     "valuesTitle": "Thamani Zetu",
-    "values": ["Uadilifu", "Ubunifu", "Bora", "Ushirikiano", "Uendelevu", "Athari"],
+    "values": [
+      "Uadilifu",
+      "Ubunifu",
+      "Bora",
+      "Ushirikiano",
+      "Uendelevu",
+      "Athari"
+    ],
     "journeyEyebrow": "Safari Yetu",
     "journeyHeading": "Hatua muhimu njiani.",
     "journeyNote": "Kutoka operesheni moja Mwanza hadi kikundi kilichogawanyika kinachohudumia wateja barani.",
+    "timeline": [
+      {
+        "year": "2012",
+        "title": "Jema Africa ilianzishwa",
+        "text": "Operesheni zilianza Mwanza, Tanzania, zikiweka msingi wa kikundi anuwai cha Pan-Afrika."
+      },
+      {
+        "year": "Upanuzi",
+        "title": "Madini na kemikali kukua",
+        "text": "Huduma za elution ya dhahabu na usambazaji wa kemikali za madini kuwa nguvu kuu, zikisaidia sekta ya madini ya mkoa."
+      },
+      {
+        "year": "Ukuaji",
+        "title": "Divisheni mpya kujiunga na familia",
+        "text": "JetCargo, Jema Auto, Jema Life Science, Jema Financial Services, na Jema Jione zinaeneza kikundi katika usafirishaji, magari, sayansi ya maisha, na huduma za kifedha."
+      },
+      {
+        "year": "Elimu",
+        "title": "Jema Institute of Technology inafunguliwa",
+        "text": "JIT inawawezesha wazalendo wa handasi na mafundi katika campus yake kuu Mwanza."
+      },
+      {
+        "year": "2026",
+        "title": "Miaka 14 ya ukuaji na matokeo",
+        "text": "Leo Jema Africa inaendelea kufanya kazi Tanzania na nje — ikiendeshwa na imani ile ile tulioianza nayo: ubunifu ni msingi wa mustakabali wa Afrika."
+      }
+    ],
     "divisionsEyebrow": "Tunafanya Nini",
     "divisionsHeading": "Sehemu nane, kiwango kimoja.",
     "divisionsIntro": "Kila sehemu inaleta utaalamu maalum, huku ikishiriki miundombinu, uhusiano, na ndoto ya kikundi.",
     "explore": "Chunguza",
+    "divisionsList": [
+      {
+        "num": "01 / 08",
+        "name": "Jema Elution",
+        "desc": "Huduma za elution na uchakavuji wa dhahabu zinazowasaidia wachimbaji wa Tanzania kugeuza mawe kuwa thamani."
+      },
+      {
+        "num": "02 / 08",
+        "name": "Jema Chemicals",
+        "desc": "Usambazaji wa kemikali za madini, reagents, na vifaa vinavyowaendesha mitambo ya uchakataji."
+      },
+      {
+        "num": "03 / 08",
+        "name": "Jema Life Science",
+        "desc": "Vifaa vya maabara, reagents, na mahitaji ya sayansi ya maisha kwa taasisi za utafiti na matibabu."
+      },
+      {
+        "num": "04 / 08",
+        "name": "JetCargo",
+        "desc": "Huduma bora na za uhakika za usafirishaji na usafiri kwa biashara zinazohamia Afrika."
+      },
+      {
+        "num": "05 / 08",
+        "name": "Jema Auto",
+        "desc": "Huduma za kuaminika za utafutaji na uuaguzi wa magari yanayounganisha wateja na magari bora."
+      },
+      {
+        "num": "06 / 08",
+        "name": "Jema Jione",
+        "desc": "Huduma za usambazaji na biashara zinazounganisha bidhaa bora na wateja kote mkoa."
+      },
+      {
+        "num": "07 / 08",
+        "name": "Jema Financial Services",
+        "desc": "Huduma za kifedha zinazowaunga mkono wateja, washirika, na jamii za kikundi."
+      },
+      {
+        "num": "08 / 08",
+        "name": "JIT",
+        "desc": "Jema Institute of Technology — kuwawezesha handasi na mafundi wa Afrika wajao."
+      }
+    ],
     "purposeEyebrow": "Dhamira Yetu",
     "purposeHeading": "Nini kinachoendesha kila tunachofanya.",
     "ctaTitle": "Uko tayari tunajenga mustakabali wa Afrika pamoja?",
     "ctaText": "Iwe wewe ni mfanyabiashara, mshirika, au mwekezaji — wasiliana nasi na tuchunguze tunachoweza kufanikisha pamoja.",
     "ctaButton": "Wasiliana Nasi"
-  },
-  "elution": {
-    "eyebrow": "Karibu Jema Elution",
-    "title": "Waliongoza katika Uokoaji na Usindiko wa Dhahabu kwa Ufanisi",
-    "titleHighlight": "Uokoaji wa Dhahabu",
-    "lead": "Karibu Jema Elution, ambapo tunataalamu katika uokoaji na usindiko wa dhahabu kwa ufanisi kutoka kaboni iliyoamilishwa, kutoa matokeo kwa muda mfupi zaidi huku tukiboresha akiba ya gharama.",
-    "capacityNote": "Mashine zetu za hali ya juu za shinikizo la juu na joto la juu zinafanya kazi masaa 24, kwa uwezo wa hadi kg 1000.",
-    "cta": "Wasiliana Nasi Leo",
-    "whyEyebrow": "Kwa nini Jema Africa Elution?",
-    "whyTitle": "Ruhusu tukusaidie kufikia malengo yako kwa teknolojia bora zaidi ya uokoaji wa dhahabu inayopatikana leo.",
-    "whyHighlight": "teknolojia bora zaidi ya uokoaji wa dhahabu",
-    "whyIntro": "Katika Jema Elution, tunashughulikia mashine zetu mara kwa mara, kuhakikisha kuwa kiwanda cha elution unaendelea kufanya kazi vizuri, kupunguza muda wa kusimama na kuongeza utendaji.",
-    "processEyebrow": "Jema Elution",
-    "processTitle": "Mchakato Wetu wa Uokoaji wa Dhahabu.",
-    "processHighlight": "Mchakato.",
-    "processIntro": "Katika Jema Elution, tunatumia mchakato uliothibitishwa kuhakikisha uokoaji wa ufanisi wa dhahabu kutoka kaboni iliyoamilishwa:",
-    "processItem1Title": "Boresha Uokoaji",
-    "processItem1Text": "Kwa kutumia miundombinu ya hali ya juu ya ufuatiliaji na udhibiti, tunaboresha kila kipengele cha mchakato wa uokoaji, kuhakikisha utoaji wa dhahabu thabiti na wa kuaminika.",
-    "processItem2Title": "Uendelevu",
-    "processItem2Text": "Tumefanya kazi na mazoea endelevu. Mashine zetu zimebuniwa kupunguza athari za mazingira, kutumia maji na kemikali kidogo wakati wa mchakato wa uokoaji.",
-    "stat1Label": "Hadithi za Mafanikio",
-    "stat2Label": "Mashirika na Fedha",
-    "stat3Label": "Mashine Zinazofanya Kazi",
-    "stat4Label": "Uwezo wa Juu",
-    "callbackTitle": "Jema Elution iko hapa kukusaidia.",
-    "callbackHighlight": "kukusaidia.",
-    "callbackSubtitle": "Ongea moja kwa moja na timu yetu kuhusu mahitaji yako ya uokoaji wa dhahabu.",
-    "callbackButton": "Omba Simu ya Kurudi",
-    "helpdeskLabel": "HELP DESK 24H/7",
-    "helpdeskPhone": "+255 28 255 0380",
-    "contactEyebrow": "Eneo",
-    "contactTitle": "Wasiliana nasi leo.",
-    "contactHighlight": "leo.",
-    "contactIntro": "Tuko hapa kukusaidia na maswali yoyote, mahitaji ya msaada, au maswali ya huduma.",
-    "features": {
-      "feature1": { "title": "Uthabiti wa Kampuni", "text": "Tunaweza kusaidia shughuli zako za uchimbaji wa dhahabu kwa mshirika wa kuaminika, wa muda mrefu unayeweza kuamini." },
-      "feature2": { "title": "Mashine za Uwezo Mkubwa", "text": "Mashine zetu za shinikizo la juu na joto la juu zinafanya kazi masaa 24 kwa uwezo wa hadi kg 1000." },
-      "feature3": { "title": "Umeme wa Kuaminika", "text": "Uaminifu na ufanisi wa juu, kuhakikisha kiwanda cha elution kinaendelea kufanya kazi mchana na usiku." },
-      "feature4": { "title": "Huduma Bora kwa Wateja", "text": "Timu ya huduma za wateja iliyojitolea iko tayari kukusaidia katika kila hatua ya mchakato wako wa uokoaji." },
-      "feature5": { "title": "Uwazi", "text": "Uwazi kamili kwa kila kundi, kila gharama, na kila matokeo — hakuna mshangao." },
-      "feature6": { "title": "Wafanyakazi Wenye Uzoefu", "text": "Timu yenye ujuzi inayofanya kazi na maelfu ya wateja wa uchimbaji katika eneo." },
-      "feature7": { "title": "Bei Shindani", "text": "Bei rafiki kwa uwekezaji inayoongeza kiwango chako cha uokoaji na faida." },
-      "feature8": { "title": "Ulinzi", "text": "Usindikaji salama wa uokoaji wako wa dhahabu kuanzia mwanzo hadi mwisho." }
-    },
-    "newsTitle": "Jema Africa Limited Inasherehekea Miaka 14"
-  },
-  "chemicals": {
-    "eyebrow": "Jema Chemicals",
-    "title": "Kutoa Uzoefu wa Uchimbaji Barani Afrika",
-    "lead": "Jema Chemicals inatoa kemikali bora za uchimbaji, violezo, na vifaa vya matumizini kwa mitambo ya usindiko Tanzania na zaidi.",
-    "cta": "Chunguza Bidhaa Zetu",
-    "partnerTitle": "Mshirika Unayeweza Kuamini",
-    "partnerText": "Ushirikiano wetu na wazalishaji wa kimataifa unaahakikisha tunatoa bidhaa za kiwango cha juu na ujuzi wa eneo na msaada.",
-    "consultTitle": "Unahitaji Ushauri wa Wataalamu?",
-    "consultText": "Timu yetu ya wataalamu iko tayari kukusaidia kupata kemikali na suluhisho sahihi kwa shughuli yako.",
-    "consultButton": "Wasiliana Nasi",
-    "stats": {
-      "stat1Label": "Bidhaa Zilizotolewa",
-      "stat2Label": "Shughuli za Uchimbaji",
-      "stat3Label": "Timu ya Wataalamu",
-      "stat4Label": "Miaka ya Uzoefu"
-    }
-  },
-  "jit": {
-    "eyebrow": "Taasisi ya Teknolojia ya Jema",
-    "title": "Kuwezesha Kizazi Kijacho cha Afrika",
-    "lead": "JIT inatoa elimu na mafunzo ya kiufundi ya kiwango cha juu, kuandaa kizazi kijacho cha wahandisi na mafundi kwa viwanda vinavyokua vya Afrika.",
-    "cta": "Jifunze Zaidi",
-    "features": {
-      "feature1": { "title": "Vifaa vya Kisasa", "text": "Maabara na warsha za hali ya juu zilizo na vifaa vya viwanda." },
-      "feature2": { "title": "Walimu Wataalamu", "text": "Jifunze kutoka kwa wataalamu wenye uzoefu wa ulimwengu wa vitendo." },
-      "feature3": { "title": "Miunganisho ya Viwanda", "text": "Njia za moja kwa moja za ajira na mtandao wa kampuni za Jema Africa." }
-    }
   },
   "tech": {
     "eyebrow": "Jema Technology",
@@ -212,27 +321,150 @@
     "lead": "Jema Life Science inatoa vifaa vya maabara, violezo, na vifaa vya kisayansi kwa taasisi za utafiti na afya barani Afrika.",
     "cta": "Chunguza Bidhaa"
   },
-  "auto": {
-    "eyebrow": "Jema Auto",
-    "title": "Magari Bora, Uagizaji Unaoweza Kuaminiwa",
-    "lead": "Jema Auto inaunganisha biashara na watu binafsi na magari bora kutoka Japani na zaidi, kushughulikia mchakato mzima wa uagizaji.",
-    "cta": "Agiza Pamoja Nasi"
-  },
   "cargo": {
-    "eyebrow": "JETCargo",
-    "title": "Usafirishaji wa Ufanisi Barani Afrika",
-    "lead": "JETCargo inatoa huduma za usafirishaji na usafiri wa kuaminika, kuunganisha biashara Tanzania na bara la Afrika kwa ujumla.",
-    "cta": "Tumia Sisi",
-    "stat1Label": "Upelekaji Uliokamilika",
-    "stat2Label": "Nchi Zilizoshughulikiwa",
-    "stat3Label": "Magari ya Ofa",
-    "stat4Label": "Kuridhika kwa Wateja"
-  },
-  "finance": {
-    "eyebrow": "Huduma za Fedha za Jema",
-    "title": "Suluhisho za Fedha kwa Ukuaji",
-    "lead": "Huduma za Fedha za Jema zinatoa suluhisho maalum za fedha kusaidia biashara na jamii barani Afrika.",
-    "cta": "Huduma Zetu"
+    "heroEyebrow": "Karibu",
+    "heroTitle": "Karibu JETCargo,",
+    "heroHighlight": "ambapo tunainua mustakabali wa lojistika barani Afrika.",
+    "heroLead": "Dhamana yetu ni kutoa suluhisho la usafirishaji wa mizigo linaloendelea, linalotegemewa, na linalofanya kazi, lililobuniwa kukidhi mahitaji mbalimbali ya wateja wetu. Kwa kuzingatia uvumbuzi na ubora, JETCargo inabadilisha mandhari ya lojistika kupitia teknolojia ya hali ya juu na huduma bora kwa wateja.",
+    "heroCta": "Wasiliana Nasi",
+    "servicesEyebrow": "Huduma Zetu",
+    "servicesTitle": "JETCargo",
+    "servicesHighlight": "Inayotoa.",
+    "servicesLead": "JETCargo ni jukwaa lako la kuaminika na rahisi kutumia kwa kuhifadhi mizigo kwa urahisi na kwa ufanisi. Iwe wewe ni biashara au mtu binafsi, jukwaa letu na programu ya simu hufanya iwe rahisi kusimamia lojistika yako. Tunatoa chaguo mbalimbali za utoaji zilizobuniwa kukidhi mahitaji yako ya usafirishaji, kwa kuzingatia ufanisi, uvumbuzi, na kuridhika kwa wateja.",
+    "service0": {
+      "title": "Mchakato wa Uhifadhi Rahisi",
+      "text": "Jukwaa letu na programu ya simu hufanya uhifadhi wa mizigo kuwa wa haraka na rahisi. Iwe wewe ni biashara au mtu binafsi, unaweza kuhifadhi shisha yako kwa mibofyo michache tu."
+    },
+    "service1": {
+      "title": "Huduma ya Kufunga Mlango",
+      "text": "JETCargo inatoa huduma kamili ya kufunga mlango, ikichukua vifaa kutoka eneo lako na kuvipeleka moja kwa moja kwenye mahali pake, ndani ya nchi au kote nchini."
+    },
+    "service2": {
+      "title": "Ufuatiliaji wa Wakati Halisi",
+      "text": "Mfumo wetu wa ufuatiliaji wa wakati halisi unakuruhusu kufuatilia maendeleo ya shisha yako katika kila hatua, ikikuhakikishia kuwa una taarifa daima."
+    },
+    "service3": {
+      "title": "Chaguo za Utoaji wa Kumekanika",
+      "text": "Tunaelewa kuwa kila shisha ni ya kipekea. JETCargo inatoa chaguo mbalimbali za utoaji, kuanzia utoaji wa haraka hadi suluhisho zenye bei nafuu."
+    },
+    "service4": {
+      "title": "Msaada Maalum kwa Wateja",
+      "text": "Timu yetu ya msaada wa wateja ipo tayari kukusaidia na maswali yoyote au matatizo, ikikuhakikishia uzoefu wa usafirishaji rahisi na usio na matatizo."
+    },
+    "statLabel": "Yenye Mafanikio",
+    "whyEyebrow": "Kwa Nini Muchague JETCargo",
+    "whyTitle": "Kwa Nini JETCargo ndiyo Chaguo Bora kwa",
+    "whyHighlight": "Mahitaji Yako ya Usafirishaji.",
+    "whyLead": "JETCargo inatoa chaguo mbalimbali za bei kukidhi mahitaji tofauti, iwe unashisha kifungu kidogo au kiasi kikubwa cha bidhaa.",
+    "why0": {
+      "title": "Lojistika Inayoendeshwa na Uvumbuzi",
+      "text": "Katika JETCargo, tumejikita kutumia teknolojia ya hivi karibuni kuboresha mchakato wa usafirishaji. Programu yetu na jukwaa letu zimebuniwa kufanya lojistika iwe rahisi zaidi na yenye ufanisi kwa kila mtu."
+    },
+    "why1": {
+      "title": "Huduma Nafuu na za Kuaminika",
+      "text": "Tunaelewa kuwa bei nafuu na kutegemewa ndiyo muhimu. Kwa hivyo tunatoa chaguo za usafirishaji zinazonyumbulika kufaa bajeti yako bila kuhatarisha kasi au usalama."
+    },
+    "why2": {
+      "title": "Njia Inayozingatia Wateja",
+      "text": "Kuridhika kwako ndiyo kipaumbele chetu kikuu. Kuanzia uhifadhi hadi utoaji, timu yetu ya msaada wa wateja iko taimari kukusaidia kutatua tatizo lolote."
+    },
+    "ctaTitle": "Unahitaji haraka? Pokea shisha yako",
+    "ctaHighlight": "ndani ya masaa 24-48.",
+    "ctaPricing": "Bei inatofautiana kulingana na ukubwa wa shisha.",
+    "ctaAdvisor": "Mshauri wa Kitaalamu",
+    "keyEyebrow": "Huduma Muhimu",
+    "keyTitle": "Tunaelewa",
+    "keyHighlight": "mahitaji ya kipekea ya",
+    "keyHighlightEm": "biashara za rejareja.",
+    "keyLead": "JETCargo imejikita kurekebisha lojistika kwa wauzaji, ikiwatoa zana na msaada wanayahitaji ili kustawi katika soko la ushindani. Pamoja, tunaendeleza mafanikio kwa kuhakikisha bidhaa zinatiririka kwa urahisi, kwa ufanisi, na kwa uaminifu kutoka kwa wazalishaji hadi rafu.",
+    "key0": {
+      "title": "Wamiliki wa Mizigo - Watu Binafsi",
+      "text": "Huduma rahisi kwa upelekaji binafsi."
+    },
+    "key1": {
+      "title": "Wamiliki wa Mizigo - Wauzaji",
+      "text": "Lojistika iliyobuniwa kwa biashara za e-commerce."
+    },
+    "key2": {
+      "title": "Wamiliki wa Mizigo - Wateja wa Biashara",
+      "text": "Kuweka na kusimamia maagizo kwa urahisi kupitia programu yetu ya wavuti."
+    },
+    "key3": {
+      "title": "Washirika wa Usafirishaji - Wamiliki wa Matairi",
+      "text": "Programu maalum ya kuboresha shughuli."
+    },
+    "key4": {
+      "title": "Washirika wa Usafirishaji - Madereva",
+      "text": "Programu ya kudereva kwa usimamizi wa mizigo wenye ufanisi."
+    },
+    "key5": {
+      "title": "Washirika wa Usafirishaji - Ndege na Kampuni za Basi",
+      "text": "Programu ya wavuti iliyounganishwa kwa ufuatiliaji wa mizigo."
+    },
+    "newsEyebrow": "Blogu na Habari",
+    "newsTitle": "Habari",
+    "newsHighlight": "Za Hivi Karibuni",
+    "newsLead": "Pata sasisho za hivi karibuni, hadithi za mafanikio, na uvumbuzi kutoka Jema Africa. Timu yetu inaendeleza ukuaji na kutoa athari katika viwanda mbalimbali.",
+    "readMore": "SOMA ZAIDI",
+    "news0": {
+      "day": "01",
+      "month": "Aprili",
+      "date": "Aprili 1, 2026",
+      "category": "Jema Africa",
+      "title": "Jema Africa Limited inasherehekea miaka 14 ya ukuaji, ubunifu, na athari.",
+      "href": "https://jemaafrica.co.tz/jema-africa-limited-celebrates-14-years-of-growth-innovation-and-impact/",
+      "img": "https://images.unsplash.com/photo-1522071820081-009f0129c71c?auto=format&fit=crop&w=500&q=85"
+    },
+    "news1": {
+      "day": "08",
+      "month": "Desemba",
+      "date": "Desemba 8, 2025",
+      "category": "Jema Auto",
+      "title": "Kwa Nini Watanzania Wanapaswa Kuchagua JEMA AUTO Katika Uagizaji wa Magari Kutoka Japan",
+      "href": "https://jemaafrica.co.tz/kwa-nini-watanzania-wanapaswa-kuchagua-jema-auto-katika-uagizaji-wa-magari-kutoka-japan/",
+      "img": "https://images.unsplash.com/photo-1492144534655-ae79c964c9d7?auto=format&fit=crop&w=500&q=85"
+    },
+    "news2": {
+      "day": "08",
+      "month": "Desemba",
+      "date": "Desemba 8, 2025",
+      "category": "Jema Africa",
+      "title": "Jema Africa Ltd Inaongoza Jukwaa Kama Mdhamini wa Dhahabu katika Maonyesho ya Mining Show 2025",
+      "href": "https://jemaafrica.co.tz/jema-africa-ltd-leads-the-stage-as-gold-sponsor-at-the-2025-mining-show-exhibition-in-dubai/",
+      "img": "https://images.unsplash.com/photo-1581094794329-c8112a89af12?auto=format&fit=crop&w=500&q=85"
+    },
+    "contactEyebrow": "Wasiliana Nasi",
+    "contactTitle": "Pokea shisha yako",
+    "contactHighlight": "ndani ya masaa 24-48.",
+    "contactLead": "Tuko hapa kuhakikisha uzoefu wako ni rahisi na usio na matatizo.",
+    "contactMobile": "Simu ya Kiganjani",
+    "contactPhoneText": "Nambari ya Simu ya Ofisi +255 28 255 0380 & +255 677 091 421",
+    "contactLocation": "Mahali",
+    "contactAddress1": "Jema Tech Building. Industrial Area. Mwanza. Tanzania.",
+    "contactAddress2": "5th floor, TAN House, Victoria, Dar es Salaam.",
+    "formFirstName": "Jina la Kwanza",
+    "formLastName": "Jina la Mwisho",
+    "formEmail": "Barua pepe",
+    "formPhone": "Simu",
+    "formSubject": "Somo",
+    "formComment": "Maoni",
+    "formSubmit": "Tuma Ujumbe",
+    "formSent": "Ujumbe Umetumwa",
+    "office0": {
+      "title": "Makao Makuu ya Idara ya Uchimbaji",
+      "address": "Jema Tech Building. Industrial Area. Mwanza. Tanzania.",
+      "phone": "+255 28 255 0380"
+    },
+    "office1": {
+      "title": "Makao Makuu ya Idara Isiyo ya Uchimbaji",
+      "address": "5th floor, TAN House, Victoria, Dar es Salaam.",
+      "phone": "+255 677 091 421"
+    },
+    "office2": {
+      "title": "Makao Makuu ya JIT",
+      "address": "Jema Tech Building. Industrial Area. Mwanza. Tanzania.",
+      "phone": "+255 76 628 3530"
+    }
   },
   "footer": {
     "tagline": "Kikundi Binafsi",
@@ -260,12 +492,961 @@
     "accept": "Kubali Vidakuzi Vyote"
   },
   "common": {
-    "email": "Barua Pepe",
+    "email": "Barua pepe",
     "phone": "Simu",
-    "readMore": "Soma Zaidi",
-    "learnMore": "Jifunze Zaidi",
-    "viewAll": "Ona Zote",
+    "readMore": "Soma zaidi",
+    "learnMore": "Jifunze zaidi",
+    "viewAll": "Ona yote",
     "close": "Funga",
     "back": "Rudi"
+  },
+  "chemicals": {
+    "heroTitle": "Kuwezesha Uzoefu wa Uchimbaji Kupitia",
+    "heroHighlight": "Suluhisho za Kemikali za Ubora",
+    "heroLead": "JEMA Chemicals ni kampuni maalum ya kemikali za uchimbaji chini ya JEMA Africa, inayojikita katika kutoa kemikali za usindikaji wa madini za ubora na suluhisho za kiufundo kwa shughuli za uchimbaji Tanzania na katika eneo la Afrika Mashariki. Tunatoa bidhaa zinazotegemewa, msaada wa kitaalamu, na suluhisho za mpango wa usambazaji kwa kampuni ndogo, za kati na kubwa za uchimbaji.",
+    "heroCta": "Chunguza Bidhaa Zetu",
+    "partnerEyebrow": "Sisi ni Nani",
+    "partnerTitle": "Mshirika anayetegemewa na",
+    "partnerHighlight": "Shughuli za Uchimbaji katika Afrika Yote",
+    "partnerP1": "Imeanzishwa kukidhi mahitaji yanayokua ya sekta ya uchimbaji, JEMA Chemicals imekuwa mshirika anayetegemewa kwa kutoa bidhaa zinazotegemewa, msaada wa kitaalamu, na suluhisho za mpango wa usambazaji. Kujitolea kwetu ni kuhakikisha shughuli za uchimbaji zinapata bidhaa sahihi, kwa wakati sahihi, na katika kiasi sahihi ili kudhibiti uzalishaji na ufanisi wa kazi.",
+    "partnerP2": "JEMA Chemicals inafanya kazi kama mtu wa kuingiza, msambazaji, mtoaji wa huduma za kuhifadhia, msafirishaji, na muuzaji wa kemikali za uchimbaji, ikisaidiwa na mtandao thabiti wa matawi yaliyowekwa mikakati katika mikoa mikubwa ya uchimbaji Tanzania.",
+    "pillar01": {
+      "title": "Ushirikiano wa Kimkakati",
+      "text": "Tunashirikiana na watengizaji, wauzaji, na watoa teknolojia wa kimataifa ili kuhakikisha upatikanaji wa bidhaa za ubora na mazoea bora. Ushirikiano wetu unatuwezesha kutoa ubora wa bidhaa thabiti na bei ya ushindani kwa wateja wetu."
+    },
+    "pillar02": {
+      "title": "Usalama, Ufatiliaji na Shughuli Zinazojibeba",
+      "text": "Usalama na ufatiliaji ni sehemu ya msingi ya shughuli zetu. JEMA Chemicals inafuata kanuni za ndani na viwango vya sekta vinavyohusiana na kuagiza, kuhifadhia, kusafirisha, na kushughulikia kemikali. Tunakuza matumizi ya kemikali kwa uwajibikaji na kusaidia mazoea yenye uwazi wa mazingira."
+    },
+    "pillar03": {
+      "title": "Mtandao wa Matawi ya Kimkakati",
+      "text": "JEMA Chemicals ina matawi katika mikoa mikubwa ya uchimbaji — Mwanza, Geita, Kahama, Musoma, Chunya, na Mpanda — ili kuhakikisha huduma ya haraka, upatikanaji wa bidhaa, na msaada wa wateja unaohojibika. Ukaribu wetu na jamii za uchimbaji unatuwezesha kuelewa mahitaji ya sekta ya ndani na kutoa suluhisho maalum."
+    },
+    "bandTitle": "Pata Bidhaa za Ubora Leo!",
+    "purposeEyebrow": "Madhumuni Yetu",
+    "purposeTitle": "Kusaidia Mafanikio ya Uchimbaji Kupitia",
+    "purposeHighlight": "Usambazaji wa Kutegemewa",
+    "purposeP1": "Shughuli za uchimbaji zinahitaji usambazaji wa kemikali za ubora ili kufikia fidia bora, usindikaji wenye ufanisi, na uzalishaji endelevu. Katika Jema Chemicals, dhamana yetu ni kufunua pengo kati ya watengizaji wa kemikali wa ulimwengu na shughuli za uchimbaji za ndani.",
+    "purposeP2": "Tunaamini kuwa usambazaji wa kemikali usiozuiliwa ni muhimu kwa mafanikio ya uchimbaji. Kwa hivyo tunawekeza katika usimamizi wa bidhaa, lojistikia, miundombinu ya kuhifadhia, na mitandao ya matawi ili kuhakikisha upatikanaji wa bidhaa kwa wakati na kupunguza muda wa kusimama kwa kazi.",
+    "feature0": {
+      "title": "Kemikali za Uchimbaji za Ubora",
+      "text": "Jema Chemicals inatoa anuwai kamili ya kemikali zinazotumika katika usindikaji wa madini, utoaji wa dhahabu, usafi wa maji, na shughuli za metallurgical."
+    },
+    "feature1": {
+      "title": "Uchaguzi wa Kimataifa na Mpango wa Usambazaji",
+      "text": "Tunaagiza bidhaa kutoka kwa watengizaji wanaotambulika kimataifa nchini Korea Kusini, China, India, na Sri Lanka, ikihakikisha ubora wa bidhaa thabiti na bei ya ushindani."
+    },
+    "feature2": {
+      "title": "Maeneo ya Kimkakati",
+      "text": "Mtandao wetu wa matawi katika miji mikubwa ya uchimbaji unahakikisha upatikanaji wa bidhaa kwa wakati na msaada wa wateja unaohojibika katika Tanzania yote."
+    },
+    "feature3": {
+      "title": "Msaada wa Kiufundo na Ushauri",
+      "text": "Zaidi ya mtu wa kutoa — mshirika wa kiufundo. Timu yetu inatoa mwongozo wa kuchagua bidhaa, mapendekezo ya matumizi, ushauri wa kuboresha mchakato, na msaada wa kazi."
+    },
+    "productsEyebrow": "Bidhaa Zetu",
+    "productsTitle": "Kemikali za Usindikaji wa Uchimbaji",
+    "productsHighlight": "Za Ubora",
+    "productsLead": "Jema Chemicals inatoa anuwai kamili ya kemikali zinazotumika katika usindikaji wa madini, utoaji wa dhahabu, usafi wa maji, na shughuli za metallurgical. Kutoka soda ya cyanide kwa utoaji wa dhahabu hadi mizizi ya kusaga kwa usindikaji wa madini, bidhaa zetu zimeundwa kutoa ufanisi na ubora wa hali ya juu.",
+    "product0": {
+      "name": "Sodium Cyanide",
+      "desc": "Inatumika sana katika michakato ya utoaji wa dhahabu, ikicheza jukumu muhimu katika kuboresha ufanisi wa urejeshaji wa dhahabu.",
+      "img": "/assets/chemicals/sodium-cyanide.png"
+    },
+    "product1": {
+      "name": "Mkaa wa Activated",
+      "desc": "Mkaa wa activated wa ubora wa juu unaothaminiwa katika michakato ya kuvutia na kurejesha dhahabu, ukisaidia uchaguzi wenye ufanisi na utendaji bora wa kiwanda.",
+      "img": "/assets/chemicals/activated-carbon.png"
+    },
+    "product2": {
+      "name": "Flocculants",
+      "desc": "Zinatumika katika utakaso wa maji, usindikaji wa maji machafu, na shughuli za usindikaji wa madini ili kuboresha ufanisi wa ugawanyaji.",
+      "img": "/assets/chemicals/flocculants.png"
+    },
+    "product3": {
+      "name": "Hydrogen Peroxide",
+      "desc": "Inatumika katika michakato ya usindikaji wa madini, matumizi ya kuondoa sumu, na kuboresha michakato.",
+      "img": "/assets/chemicals/hydrogen-peroxide.png"
+    },
+    "product4": {
+      "name": "Sodium Metabisulfite",
+      "desc": "Inatumika kwa kuondoa sumu ya cyanide na usimamizi wa mazingira.",
+      "img": "/assets/chemicals/sodium-metabisulfite.png"
+    },
+    "product5": {
+      "name": "Caustic Soda",
+      "desc": "Haiepukiki katika kudhibiti kiwango cha asidi na udhibiti wa michakato katika shughuli za uchimbaji.",
+      "img": "/assets/chemicals/caustic-soda-a.png"
+    },
+    "product6": {
+      "name": "Mizizi ya Kusaga",
+      "desc": "Nyenzo za kusaga za ubora wa juu zinazotumika katika mizizi ya mpira ili kuboresha kupunguza ukubwa wa madini na ufanisi wa usindikaji.",
+      "img": "/assets/chemicals/caustic-soda.png"
+    },
+    "whyEyebrow": "Kwa nini Muchague Jema Chemicals?",
+    "whyTitle": "Bidhaa za Ubora. Usambazaji wa Kutegemewa.",
+    "whyHighlight": "Ushirikiano unaotegemewa.",
+    "whyText": "Kujitolea kwetu kwa ubora, mtandao thabiti wa matawi katika miji mikubwa ya uchimbaji, na timu ya wataalamu wa sekta huhakikisha kupata suluhisho maalum kwa shughuli zako. Tunaunda uhusiano mrefu unaotegemea uaminifu, uharibifu, na kutegemewa.",
+    "faq0": {
+      "q": "Nini kinachofanya Jema Chemicals tofauti na wauzaji wengine?",
+      "a": "Tunachanganya bidhaa za ubora wa juu kutoka kwa watengizaji wanaotambulika kimataifa na msaada wa kiufundo unaobinafsishwa na mtandao wa kimkakati wa matawi katika Tanzania yote. Uwepo wetu katika miji mikubwa ya uchimbaji uhakikisha upatikanaji wa haraka wa kemikali, ukiungwa na timu maalum iliyo tayari kusaidia shughuli zako."
+    },
+    "faq1": {
+      "q": "Jinsi mnavyohakikisha ubora wa kemikali zenu za uchimbaji?",
+      "a": "Ubora ni kipaumbele chetu kikuu. Tunaagiza bidhaa kutoka kwa watengizaji waaminifu nchini Korea Kusini, China, India, na Sri Lanka, ikihakikisha vinakidhi viwango vya sekta. Timu yetu inatoa msaada wa kiufundo wa endelevu ili kuhakikisha kemikali zinafanya kazi kwa ufanisi katika matumizi yako."
+    },
+    "faq2": {
+      "q": "Je, Jema Chemicals inaweza kusaidia shughuli kubwa za uchimbaji?",
+      "a": "Bila shaka. Kwa bidhaa zetu nyingi, maeneo ya kimkakati ya matawi katika Mwanza, Geita, Kahama, Musoma, Chunya, na Mpanda, na utaalamu wa lojistikia, tuko tayari kukidhi mahitaji ya shughuli ndogo, za kati, na kubwa za uchimbaji kwa ufanisi na kutegemewa."
+    },
+    "faq3": {
+      "q": "Huduma gani mnazotoa zaidi ya kutoa kemikali?",
+      "a": "Zaidi ya usambazaji wa bidhaa, tunatoa ushauri wa kiufundo, mwongozo wa kuchagua bidhaa, msaada wa matumizi ya kemikali, ushauri wa kuboresha mchakato, na msaada wa kazi. Pia tunadumisha miundombinu ya kuhifadhia, huduma za usafirishaji, na mitandao ya usambazaji ili kuhakikisha usafirishaji kwa wakati."
+    },
+    "consultEyebrow": "Msaada wa Kiufundo na Ushauri",
+    "consultTitle": "Zaidi ya Mtunzaji —",
+    "consultHighlight": "Mshirika wa Kiufundo",
+    "consultText": "Katika Jema Chemicals, tunaamini kuwa kutoa bidhaa peke yake haitoshi. Timu yetu inafanya kazi karibu na wateja ili kutoa mwongozo wa kuchagua bidhaa, msaada wa matumizi ya kemikali, mapendekezo ya matumizi, ushauri wa kuboresha mchakato, ushauri wa kiufundo, na msaada wa kazi.",
+    "formSubject": "Somo",
+    "formMessage": "Ujumbe",
+    "formComment": "Maoni",
+    "teamEyebrow": "Timu Yetu",
+    "teamTitle": "Jua watu walio nyuma ya",
+    "teamHighlight": "Ubora",
+    "teamText": "Timu yetu ni nguzo ya Jema Chemicals. Kwa ujuzi mkubwa wa sekta na shauku ya ubunifu, wamejikita katika kutoa suluhisho bora kwa wateja wetu. Kutoka viongozi wa matawi katika Tanzania yote hadi wataalamu wa kazi na uuzaji, tuko hapa kufanya safari yako ya uchimbaji iwe rahisi.",
+    "member0": {
+      "name": "Samweli Makindi",
+      "role": "Kiongozi wa Tawi la Mwanza",
+      "img": "/assets/chemicals/team-makindi.png"
+    },
+    "member1": {
+      "name": "Bw. Felix Mokili",
+      "role": "Kiongozi wa Kazi",
+      "img": "/assets/chemicals/team-felix-mokili.png"
+    },
+    "member2": {
+      "name": "Bw. Juma Luchele",
+      "role": "COO - Idara ya Uchimbaji",
+      "img": "/assets/chemicals/team-luchele.png"
+    },
+    "member3": {
+      "name": "Bw. Naim Karama",
+      "role": "Uuzaji - Idara ya Uchimbaji",
+      "img": "/assets/chemicals/team-naim-karama.png"
+    },
+    "member4": {
+      "name": "Bw. Mokili Daniel Sese",
+      "role": "Kiongozi wa Tawi la Geita",
+      "img": "/assets/chemicals/team-mokili-sese.png"
+    },
+    "member5": {
+      "name": "Bw. Macdonald Julius Masambe",
+      "role": "Kiongozi wa Miradi ya Mpanda",
+      "img": "/assets/chemicals/team-macdonald.png"
+    },
+    "member6": {
+      "name": "Bw. Benjamin Daniel",
+      "role": "Kiongozi wa Tawi la Chunya",
+      "img": "/assets/chemicals/team-benjamin.png"
+    },
+    "member7": {
+      "name": "Bw. Baraka Lusake",
+      "role": "Kiongozi wa Tawi la Musoma",
+      "img": "/assets/chemicals/team-baraka.png"
+    },
+    "branchesEyebrow": "Mtandao wa Matawi ya Kimkakati",
+    "branchesTitle": "Karibu na",
+    "branchesHighlight": "Wateja Wetu",
+    "branchesText": "Jema Chemicals ina matawi katika mikoa mikubwa ya uchimbaji ili kuhakikisha huduma ya haraka, upatikanaji wa bidhaa, na msaada wa wateja unaohojibika. Ukaribu wetu na jamii za uchimbaji unatuwezesha kuelewa mahitaji ya sekta ya ndani na kutoa suluhisho maalum.",
+    "branch0": {
+      "city": "Tawi la Mwanza",
+      "address": "Jema Tech Building. Industrial Area. Mwanza. Tanzania.",
+      "phone": "+255 677 066 855",
+      "href": "tel:+255677066855"
+    },
+    "branch1": {
+      "city": "Tawi la Kahama",
+      "address": "Kahama, Tanzania.",
+      "phone": "+255 767 060 719",
+      "href": "tel:+255767060719"
+    },
+    "branch2": {
+      "city": "Tawi la Geita",
+      "address": "Geita, Tanzania.",
+      "phone": "+255 745 694 989",
+      "href": "tel:+255745694989"
+    },
+    "branch3": {
+      "city": "Tawi la Chunya",
+      "address": "Chunya, Tanzania.",
+      "phone": "+255 627 067 369",
+      "href": "tel:+255627067369"
+    },
+    "branch4": {
+      "city": "Tawi la Saza",
+      "address": "Saza, Tanzania.",
+      "phone": "+255 629 260 739",
+      "href": "tel:+255629260739"
+    },
+    "contactEyebrow": "Wasiliana Nasi",
+    "contactTitle": "Kuwa Mshirika na",
+    "contactHighlight": "Jema Chemicals",
+    "contactText": "Iwe wachimbaji wadogo, au kiwanda cha usindikaji kinachokua, au shughuli kubwa ya uchimbaji, tumejikita katika kutoa bidhaa, utaalamu, na huduma inayohitajika kukusaidia kufikia ubora wa kazi.",
+    "contactOffice": "Makao Makuu ya Idara ya Uchimbaji",
+    "contactAddress1": "JEMA Tech Building, Mkuyuni Industrial Area",
+    "contactAddress2": "Mwanza, Tanzania",
+    "contactPhone": "Simu: +255 28 255 0380",
+    "contactEmail": "Barua pepe: info@jemaafrica.co.tz",
+    "newsEyebrow": "Habari na Makala za Hivi Karibuni",
+    "newsTitle": "Habari za Hivi Karibuni za",
+    "newsHighlight": "Eneo la Biashara",
+    "news0": {
+      "day": "01",
+      "month": "Aprili",
+      "category": "Jema Africa",
+      "date": "Aprili 1, 2026",
+      "title": "Jema Africa Limited inasherehekea miaka 14 ya ukuaji, ubunifu, na athari.",
+      "href": "https://jemaafrica.co.tz/jema-africa-limited-celebrates-14-years-of-growth-innovation-and-impact/",
+      "img": "https://images.unsplash.com/photo-1522071820081-009f0129c71c?auto=format&fit=crop&w=500&q=85"
+    },
+    "news1": {
+      "day": "08",
+      "month": "Desemba",
+      "category": "Jema Auto",
+      "date": "Desemba 8, 2025",
+      "title": "Kwa Nini Watanzania Wanapaswa Kuchagua JEMA AUTO Katika Uagizaji wa Magari Kutoka Japan",
+      "href": "https://jemaafrica.co.tz/kwa-nini-watanzania-wanapaswa-kuchagua-jema-auto-katika-uagizaji-wa-magari-kutoka-japan/",
+      "img": "https://images.unsplash.com/photo-1492144534655-ae79c964c9d7?auto=format&fit=crop&w=500&q=85"
+    },
+    "news2": {
+      "day": "08",
+      "month": "Desemba",
+      "category": "Jema Africa",
+      "date": "Desemba 8, 2025",
+      "title": "Jema Africa Ltd Inaongoza Jukwaa Kama Mdhamini wa Dhahabu katika Maonyesho ya Mining Show 2025",
+      "href": "https://jemaafrica.co.tz/jema-africa-ltd-leads-the-stage-as-gold-sponsor-at-the-2025-mining-show-exhibition-in-dubai/",
+      "img": "https://images.unsplash.com/photo-1581094794329-c8112a89af12?auto=format&fit=crop&w=500&q=85"
+    },
+    "office0": {
+      "title": "Makao Makuu ya Idara ya Uchimbaji",
+      "address": "Jema Tech Building. Industrial Area. Mwanza. Tanzania.",
+      "phone": "+255 28 255 0380",
+      "href": "tel:+255282550380"
+    },
+    "office1": {
+      "title": "Makao Makuu ya Idara Isiyo ya Uchimbaji",
+      "address": "5th floor, TAN House, Victoria, Dar es Salaam.",
+      "phone": "+255 677 091 421",
+      "href": "tel:+255677091421"
+    },
+    "office2": {
+      "title": "Makao Makuu ya JIT",
+      "address": "Jema Tech Building. Industrial Area. Mwanza. Tanzania.",
+      "phone": "+255 76 628 3530",
+      "href": "tel:+255766283530"
+    }
+  },
+  "elution": {
+    "heroEyebrow": "Jema Africa · Idara ya Uchimbaji",
+    "heroTitle": "JEMA",
+    "heroHighlight": "ELUTION",
+    "heroLead": "Urejeshaji wa Dhahabu wa Hali ya Juu. Usindikaji wa Kutegemewa. Ushirikiano unaotegemewa.",
+    "heroCapacity": "Mifumo ya shinikizo la juu na joto la juu iliyobuniwa kwa shughuli endelevu — kwa uwezo wa hadi kg 1,000 kwa kila mzunguko.",
+    "heroCta": "Wasiliana Nasi",
+    "introLead": "Jema Elution ni biashara maalum ya urejeshaji na usindikaji wa dhahabu chini ya Jema Africa, inayolenga kutoa huduma za urejeshaji zinazofanya kazi na kutegemewa kwa shughuli za uchimbaji.",
+    "introP1": "Tumebobea katika urejeshaji wa dhahabu kutoka kwa mkaa wa activated kwa kutumia teknolojia ya urejeshaji ya kisasa iliyobuniwa kutoa usindikaji wenye ufanisi, utendaji thabiti, na matokeo ya wakati. Mifumo yetu ya usindikaji wa shinikizo la juu na joto la juu imebuniwa kwa shughuli endelevu na inaweza kushughulikia uwezo wa hadi kg 1,000 kwa kila mzunguko.",
+    "introP2": "Kwa miundombinu iliyostrategia katika mikoa mikubwa ya uchimbaji Tanzania, Jema Elution iko katika nafasi ya kutoa huduma zinazopatikana, zinazotegemewa, na zinazohojibika kwa shughuli ndogo na kubwa za uchimbaji.",
+    "servicesEyebrow": "Tunachofanya",
+    "servicesTitle": "Huduma za",
+    "servicesHighlight": "Urejeshaji",
+    "service0": {
+      "title": "Urejeshaji wa Dhahabu na Usindikaji",
+      "text": "Tunatoa huduma za urejeshaji za kitaalamu zilizobuniwa kurejesha dhahabu kwa ufanisi kutoka kwa mkaa wa activated. Shughuli zetu zinaunganisha vifaa vya kisasa, wafanyakazi wenye ujuzi, na taratibu za usindikaji zilizodhibitiwa ili kutoa matokeo ya urejeshaji ya kutegemewa."
+    },
+    "service1": {
+      "title": "Usindikaji wa Juu",
+      "text": "Mashine zetu za kisasa za urejeshaji zimebuniwa kwa uendeshaji endelevu wa masaa 24, zikiwezesha kushughulikia viwango vikubwa kwa ufanisi. Kwa uwezo wa hadi kg 1,000 kwa kila mzunguko, miundombinu yetu imejaa kusaidia shughuli za uchimbaji zinazohitaji."
+    },
+    "service2": {
+      "title": "Kuboresha Urejeshaji",
+      "text": "Tunatumia mazoea ya hali ya juu ya ufuatiliaji na udhibiti wa mchakato ili kuboresha mchakato wa urejeshaji na kudumisha utendaji thabiti wa kazi. Lengo letu ni kuongeza ufanisi wa urejeshaji huku tukitoa matokeo ya usindikaji yanayoweza kutabirika na kutegemewa."
+    },
+    "service3": {
+      "title": "Matengenezo ya Kiwanda na Utendaji",
+      "text": "Ukaguzi na matengenezo ya mara kwa mara ya vifaa vyetu ni sehemu muhimu ya shughuli zetu. Kwa kudumisha mashine na miundombinu yetu ya usindikaji, tunafanya kazi ya kupunguza muda wa kusimama, kuboresha utendaji wa vifaa, na kudumisha uthabiti wa huduma."
+    },
+    "service4": {
+      "title": "Msaada wa Wateja wa Kitaalamu",
+      "text": "Kujitolea kwetu kunazidi usindikaji. Tunatoa msaada maalum wa wateja, mawasiliano ya hatua, na msaada wa kiufundo ili kusaidia wateja kupata huduma inayotegemewa kupitia mzunguko wa usindikaji."
+    },
+    "whyEyebrow": "Kwa nini Tutuchague",
+    "whyTitle": "Kwa nini Utuchague",
+    "whyHighlight": "JEMA ELUTION?",
+    "reason01": {
+      "title": "Shirika Lililothibitishwa na Limepumzika",
+      "text": "Jema Africa ilianzishwa mwaka 2012 na imekuwa biashara ya Afrika yenye utofauti inayofanya kazi katika uchimbaji, lojistikia, teknolojia, elimu, na sekta nyingine. Msingi huu uliopo unatuunga mkono kujitolea kwetu kwa uhusiano wa biashara wa muda mrefu na utoaji wa huduma unaotegemewa."
+    },
+    "reason02": {
+      "title": "Teknolojia ya Usindikaji ya Hali ya Juu",
+      "text": "Miundombinu yetu ya urejeshaji inatumia teknolojia ya kisasa ya shinikizo la juu na joto la juu iliyobuniwa kuboresha ufanisi wa usindikaji, kupunguza muda wa usindikaji, na kusaidia urejeshaji wa dhahabu thabiti. Vifaa vyetu vimebuniwa kwa uendeshaji endelevu wa masaa 24 kwa uwezo wa hadi kg 1,000 kwa kila mzunguko."
+    },
+    "reason03": {
+      "title": "Shughuli Zinazotegemewa",
+      "text": "Tunaweka kipaumbele utendaji wa vifaa na uthabiti wa kazi kupitia matengenezo na ufuatiliaji wa mashine wa mara kwa mara. Miundombinu yetu pia inasaidiwa na suluhisho za nguvu za kihifadhi ili kusaidia kupunguza interruptions wakati wa kukatwa kwa umeme."
+    },
+    "reason04": {
+      "title": "Maeneo ya Kimkakati ya Uchimbaji",
+      "text": "Uwepo wetu katika mikoa mikubwa ya uchimbaji unatuwezesha kubaki karibu na wateja wetu na kujibu kwa ufanisi mahitaji yao ya kazi."
+    },
+    "reason05": {
+      "title": "Wataalamu Wenye Uzoefu",
+      "text": "Shughuli zetu zimesaidiwa na wafanyakazi wenye ujuzi wa vitendo katika mchakato wa urejeshaji na urejeshaji wa dhahabu. Hii inatuwezesha kudumisha viwango vya kitaalamu vya uendeshaji na kutoa huduma za usindikaji zinazotegemewa kwa wateja."
+    },
+    "reason06": {
+      "title": "Uwazi na Uwajibikaji",
+      "text": "Uwazi ni msingi wa jinsi tunavyofanya biashara. Tunaangazia mawasiliano wazi, uwajibikaji, sasisho za wakati, na bei ya uwazi kupitia uhusiano wetu na wateja."
+    },
+    "reason07": {
+      "title": "Suluhisho za Usindani na Zinazofaa",
+      "text": "Tunajitahidi kutoa huduma za usindikaji za ubora wa juu kwa bei ya usindani. Njia yetu inalenga kutoa thamani kwa wateja huku tukidumisha viwango vya kitaalamu vya uendeshaji na huduma."
+    },
+    "reason08": {
+      "title": "Ulinzi na Ushughulikiaji wa Kudhibitiwa",
+      "text": "Tunaamini umuhimu wa ulinzi kupitia mchakato mzima wa urejeshaji wa dhahabu. Miundombinu yetu inajumuisha ufuatiliaji wa CCTV na taratibu za ushughulikiaji zilizodhibitiwa zilizobuniwa kulinda nyenzo za wateja na kusaidia shughuli salama."
+    },
+    "techEyebrow": "Ubora wa Kazi",
+    "techTitle": "Teknolojia na Ubora",
+    "techHighlight": "wa Kazi",
+    "techIntro": "Katika Jema Elution, teknolojia ni moyo wa shughuli zetu. Mifumo yetu ya urejeshaji ya juu imebuniwa kutoa:",
+    "techPoint0": "Muda mfupi wa usindikaji",
+    "techPoint1": "Urejeshaji wa dhahabu kwa ufanisi",
+    "techPoint2": "Utendaji thabiti wa usindikaji",
+    "techPoint3": "Uwezo mkubwa wa usindikaji",
+    "techPoint4": "Uendeshaji endelevu wa masaa 24",
+    "techPoint5": "Kuboresha ufanisi wa kazi",
+    "techPoint6": "Kupunguza kuchelewa kwa usindikaji",
+    "techOutro": "Uwekezaji wetu katika vifaa vya kisasa na uboreshaji endelevu wa kazi unatuwezesha kutumikia mahitaji ya sekta ya uchimbaji ya leo.",
+    "sustainEyebrow": "Usindikaji wa Kujibeba",
+    "sustainTitle": "Uendelevu na Ushughulikiaji",
+    "sustainHighlight": "wa Kujibeba",
+    "sustainP1": "Tunaamini umuhimu wa uchimbaji wa kujibeba na shughuli zinazojali mazingira.",
+    "sustainP2": "Njia yetu ya urejeshaji imebuniwa kwa kuzingatia ufanisi wa kazi na usimamizi wa rasilimali. Tunaanza kuboresha matumizi ya maji na kemikali za usindikaji huku tukidumisha utendaji thabiti wa urejeshaji na mazoea salama ya uendeshaji.",
+    "sustainP3": "Kama sehemu ya kujitolea kwa Jema Africa kwa maendeleo endelevu na yenye athari za biashara, tunaendelea kulenga suluhisho zinazounda thamani ya muda mrefu kwa wateja wetu, jamii zetu, na sekta ya uchimbaji.",
+    "trustEyebrow": "Utendaji Kamili",
+    "trustTitle": "Mshirika anayetegemewa wa",
+    "trustHighlight": "Shughuli za Uchimbaji",
+    "trustIntro": "Katika Jema Elution, tunaamini kuwa urejeshaji wa dhahabu kwa ufanisi ni sehemu muhimu ya shughuli za uchimbaji zinazofanikiwa. Kwa sababu hii, tunazingatia zaidi ya uwezo wa usindikaji. Tunaunganisha:",
+    "formulatechnology": "Teknolojia",
+    "formulaexperience": "Uzoefu",
+    "formulareliability": "Kutegemewa",
+    "formulasecurity": "Ulinzi",
+    "formulatransparency": "Uwazi",
+    "formulasupport": "Msaada wa Wateja",
+    "trustOutro": "ili kutoa huduma kamili na inayotegemewa ya urejeshaji. Lengo letu ni kusaidia kampuni za uchimbaji kufikia usindikaji wenye ufanisi, kupunguza kuchelewa kwa kazi, na kuongeza thamani iliyotolewa na shughuli zao za urejeshaji wa dhahabu.",
+    "locEyebrow": "Tunapofanya kazi",
+    "locTitle": "Mikoa Yetu",
+    "locHighlight": "ya Kimkakati",
+    "loc0": {
+      "city": "Mwanza",
+      "tag": "Makao Makuu ya Idara ya Uchimbaji",
+      "address": "Jema Tech Building, Mkuyuni Industrial Area, Mwanza, Tanzania."
+    },
+    "loc1": {
+      "city": "Kahama",
+      "address": "Mbulu Street, Kahama, Tanzania."
+    },
+    "loc2": {
+      "city": "Geita",
+      "address": "Mpomvu Street, Geita, Tanzania."
+    },
+    "loc3": {
+      "city": "Musoma",
+      "address": "Musoma Bus Stop Street, Musoma, Tanzania."
+    },
+    "locNote": "Uwepo wetu wa kikanda unawezesha Jema Elution kutoa huduma zinazopatikana na msaada unaohojibika katika maeneo makuu ya uchimbaji Tanzania.",
+    "commitEyebrow": "Kujitolea Kwetu",
+    "commitTitle": "Utendaji. Uadilifu.",
+    "commitHighlight": "Uvumbuzi. Uaminifu.",
+    "commitIntro": "Kujitolea kwetu ni rahisi: kutoa huduma za urejeshaji wa dhahabu kwa ufanisi kupitia teknolojia ya hali ya juu, shughuli za kitaalamu, na huduma bora ya wateja.",
+    "commitP2": "Tunaendelea kuwekeza katika vifaa, watu, mchakato, na uhusiano na wateja ili kuhakikisha Jema Elution inabaki kuwa mshirika wa kutegemewa kwa sekta ya uchimbaji inayokua ya Tanzania.",
+    "commitP3": "Tunaamini kuwa mafanikio ya muda mrefu yamejengwa juu ya utendaji, uadilifu, uvumbuzi, na uaminifu.",
+    "partnerEyebrow": "Piga Simu",
+    "partnerTitle": "Kuwa Mshirika na",
+    "partnerHighlight": "JEMA ELUTION",
+    "partnerText": "Iwe wachimbaji wadogo, shughuli kubwa za uchimbaji, kampuni ya usindikaji wa dhahabu, au biashara ya uchimbaji inayotafuta mshirika wa urejeshaji wa kutegemewa, Jema Elution iko tayari kusaidia shughuli zako.",
+    "partnerExperience": "Furahia usindikaji wenye ufanisi. Furahia huduma ya kitaalamu. Furahia Jema Elution.",
+    "partnerOfficeLabel": "Makao Makuu ya Idara ya Uchimbaji",
+    "partnerOfficeAddress": "Jema Tech Building, Mkuyuni Industrial Area, Mwanza, Tanzania",
+    "partnerTagline": "Urejeshaji wa Dhahabu wa Hali ya Juu | Usindikaji wa Kutegemewa | Ushirikiano unaotegemewa"
+  },
+  "auto": {
+    "heroEyebrow": "Jema Auto",
+    "heroTitle": "Uendeshe Ubora,",
+    "heroHighlight": "Kwa Bei Nafuu.",
+    "heroDesc": "Msindikaji wa juu wa magari matumika ya ubora wa juu kutoka Japan, Ujerumani, USA, Dubai, na masoko mengine ya kutegemewa. Tunahudumia Tanzania na eneo zaidi la Afrika Mashariki na Kati kwa kutegemewa, uwazi, na kuridhika kwa wateja mbele.",
+    "heroCta": "Taarifa Zaidi",
+    "welcomeBadge": "Tangu 2012",
+    "welcomeEyebrow": "Karibu Jema Auto",
+    "welcomeTitle": "Endesha",
+    "welcomeHighlight": "Gari Lako la Ndoto Leo na Jema Auto",
+    "welcomeP1": "Jema Auto ni msindikaji wa juu wa magari matumika ya ubora wa juu kutoka duniani kote, anayehudumia Tanzania na eneo zaidi la Afrika Mashariki na Kati. Kwa kuzingatia kutegemewa na kuridhika kwa wateja, tunanunua magari kutoka masoko ya kutegemewa ikiwa ni pamoja na Japan, Ujerumani, USA, Dubai, na sehemu nyingine nyingi za dunia.",
+    "welcomeP2": "Ofa yetu pana na suluhisho bunifu zinatutofautisha katika tasnia ya magari.",
+    "welcomeP3": "Furahia urahisi na kutegemewa wa kununua gari la matumika na Jema Auto, ambapo ubora, uwazi, na kuridhika kwa wateja ni mbele katika kila tunachofanya.",
+    "servicesEyebrow": "Huduma Zetu",
+    "servicesTitle": "Huduma Tunazotoa kwa",
+    "servicesHighlight": "Wateja Wetu",
+    "servicesLead": "Iwe unatafuta gari la familia, gari la anasa, au lori la kazi linalotegemewa, Jema Auto ni destinatio yako ya kila kitu kwa magari matumika ya ubora Tanzania na eneo zaidi la Afrika Mashariki na Kati.",
+    "service0": {
+      "group": "Uagizaji wa Magari",
+      "title": "Uagizaji wa Kimataifa",
+      "text": "Tunaagiza aina mbalimbali za magari matumika, ikihakikisha chaguo pana kwa wateja wetu. Kwa kununua kutoka masoko yaliyopanuliwa, tunahakikisha ubora na kutegemewa wa magari yetu.",
+      "img": "/assets/auto/sourcing.png"
+    },
+    "service1": {
+      "group": "Uagizaji wa Magari",
+      "title": "Hifadhi Kubwa",
+      "text": "Kutoka jukwaa letu hadi maeneo ya kimkakati ya magari Dar es Salaam, tunahifadhi mamia ya elfu ya magari, kutoa chaguo mbalimbali kukidhi mahitaji na mapendeleo mbalimbali ya wateja wetu.",
+      "img": "/assets/auto/inventory.png"
+    },
+    "service2": {
+      "group": "Jukwaa la Jema Auto",
+      "title": "Upatikanaji wa Manunuzi",
+      "text": "Jukwaa letu jipya la Jema Auto linabadilisha uzoefu wa kununua gari kwa kutoa upatikanaji wa zaidi ya mizizi 200 ya magari ya Japan. Vinjari mamia ya elfu ya magari kwa faraja ya simu yako au kompyuta yako.",
+      "img": "/assets/auto/platform.png"
+    },
+    "service3": {
+      "group": "Jukwaa la Jema Auto",
+      "title": "Chaguo Pana",
+      "text": "Wateja wanaweza kuchagua kutoka aina mbalimbali za magari, kukidhi ladha, mahitaji, na bajeti tofauti.",
+      "img": "/assets/auto/hero.png"
+    },
+    "service4": {
+      "group": "Jukwaa la Jema Auto",
+      "title": "Bei ya Uwazi",
+      "text": "Tunajivunia uwazi. Jukwaa letu linahakikisha hakuna gharama zilizofichwa, kutoa mchakato wa kununua gari ulio wazi na wa kweli.",
+      "img": "/assets/auto/sourcing.png"
+    },
+    "service5": {
+      "group": "Jukwaa la Jema Auto",
+      "title": "Upatikanaji wa Karibu",
+      "text": "Inapatikana masaa 24/7, jukwaa la Jema Auto linawezesha wateja kuchunguza na kununua magari kwa wakati wao, kufanya mchakato uwe rahisi na usio na matatizo.",
+      "img": "/assets/auto/inventory.png"
+    },
+    "ctaTitle": "Chanzo chako kinachotegemewa kwa magari matumika ya ubora katika",
+    "ctaHighlight": "Afrika Mashariki na Kati",
+    "ctaCta": "Jua Zaidi",
+    "whyEyebrow": "Kwa nini Muchague Jema Auto",
+    "whyTitle": "Katika Jema Auto, tunatofautika katika soko la magari kwa",
+    "whyHighlight": "sababu nyingi",
+    "reason0": {
+      "title": "Uthibitishaji wa Ubora",
+      "text": "Kila gari tunaloagiza linapitia ukaguzi mkamilifu ili kuhakikisha linakidhi viwango vyetu vya juu vya usalama na utendaji."
+    },
+    "reason1": {
+      "title": "Njia Inayozingatia Wateja",
+      "text": "Kujitolea kwetu kwa kuridhika kwa wateja kunatupa nguvu ya kutoa huduma bora iwezekanavyo. Kutoka wakati wa kufanya kazi na hifadhi yetu hadi kutoa gari lako, tunajaribu kuzidi matarajio."
+    },
+    "reason2": {
+      "title": "Bei ya Usindani",
+      "text": "Kwa kutumia mtandao wetu wa kimataifa na shughuli zenye ufanisi, tunatoa bei za usindani bila kuhatarisha ubora."
+    },
+    "reason3": {
+      "title": "Msaada wa Wataalamu",
+      "text": "Timu yetu yenye ujuzi iko tayari kusaidia na maswali yoyote, kutoa ushauri wa wataalamu na msaada kupitia mchakato wa kununua."
+    },
+    "whyFoot": "Kuchunguza hifadhi yetu pana ya magari, tafadhali tembelea tovuti yetu au wasiliana nasi moja kwa moja:",
+    "whyFootCta": "Tembelea tovuti yetu",
+    "processEyebrow": "Jinsi Inavyofanya Kazi",
+    "processTitle": "Tunafuata hatua fulani kununua gari kutoka",
+    "processHighlight": "Jema Auto",
+    "step0": {
+      "title": "Vinjari Tovuti Yetu",
+      "text": "Chunguza aina mbalimbali za magari yetu mtandaoni, na maelezo ya kina na picha za ubora wa juu kwa kila gari."
+    },
+    "step1": {
+      "title": "Uliza Kuhusu Gari",
+      "text": "Umevipata vipendavyo? Wasiliana nasi kwa taarifa zaidi, picha, au kujaribu gari."
+    },
+    "step2": {
+      "title": "Pata Ufadhili",
+      "text": "Tunatoa chaguzi za ufadhili zinazonyumbulika kukusaidia kununua gari lako la ndoto. Timu yetu itakuongoza kupitia mchakato kupata mpango bora wa malipo."
+    },
+    "step3": {
+      "title": "Pokea Gari Lako",
+      "text": "Mara unapofanya manunuzi, tunapanga usafirishaji hadi eneo lako. Tuna hakikisha uzoefu wa usafirishaji salama na laini katika Tanzania na eneo zaidi la Afrika Mashariki na Kati."
+    },
+    "supportEyebrow": "Msaada wa Baada ya Kuuza",
+    "supportTitle": "Tumekujitolea kwa kuridhika kwako hata baada ya kuuza. Kutoka matengenezo hadi ukarabati, Jema Auto iko hapa kukusaidia.",
+    "supportLabel": "Mshauri wa Wataalamu",
+    "newsEyebrow": "Habari na Blogu",
+    "newsTitle": "Tuko Hapa Kutoa",
+    "newsHighlight": "Habari Mpya",
+    "newsBy": "na",
+    "newsReadMore": "SOMA ZAIDI",
+    "news0": {
+      "day": "01",
+      "month": "Aprili",
+      "author": "Admin Jema Africa",
+      "category": "Jema Africa",
+      "title": "Jema Africa Limited inasherehekea miaka 14",
+      "href": "https://jemaafrica.co.tz/jema-africa-limited-celebrates-14-years-of-growth-innovation-and-impact/",
+      "img": "https://images.unsplash.com/photo-1522071820081-009f0129c71c?auto=format&fit=crop&w=500&q=85"
+    },
+    "news1": {
+      "day": "08",
+      "month": "Desemba",
+      "author": "Admin Jema Auto",
+      "category": "Jema Auto",
+      "title": "Kwa nini Watanzania Wanapaswa Kuchagua JEMA",
+      "href": "https://jemaafrica.co.tz/kwa-nini-watanzania-wanapaswa-kuchagua-jema-auto-katika-uagizaji-wa-magari-kutoka-japan/",
+      "img": "https://images.unsplash.com/photo-1492144534655-ae79c964c9d7?auto=format&fit=crop&w=500&q=85"
+    },
+    "news2": {
+      "day": "08",
+      "month": "Desemba",
+      "author": "Admin Jema Africa",
+      "category": "Jema Africa",
+      "title": "Jema Auto Ltd Inaongoza Jukwaa",
+      "href": "https://jemaafrica.co.tz/jema-africa-ltd-leads-the-stage-as-gold-sponsor-at-the-2025-mining-show-exhibition-in-dubai/",
+      "img": "https://images.unsplash.com/photo-1581094794329-c8112a89af12?auto=format&fit=crop&w=500&q=85"
+    },
+    "office0": {
+      "title": "Makao Makuu ya Idara ya Uchimbaji",
+      "address": "Jema Tech Building. Industrial Area. Mwanza. Tanzania.",
+      "phone": "+255 28 255 0380",
+      "href": "tel:+255282550380"
+    },
+    "office1": {
+      "title": "Makao Makuu ya Idara Isiyo ya Uchimbaji",
+      "address": "5th floor, TAN House, Victoria, Dar es Salaam.",
+      "phone": "+255 677 091 421",
+      "href": "tel:+255677091421"
+    },
+    "office2": {
+      "title": "Makao Makuu ya JIT",
+      "address": "Jema Tech Building. Industrial Area. Mwanza. Tanzania.",
+      "phone": "+255 76 628 3530",
+      "href": "tel:+255766283530"
+    }
+  },
+  "finance": {
+    "heroEyebrow": "Jema Financial Services",
+    "heroTitle": "Huduma za Kifedha za Kisasa",
+    "heroHighlight": "kwa Mustakabali Bora",
+    "heroLead": "JETFinance ni jukwaa la microfinance la kidijitali lililobuniwa kuwezesha jamii zilizohudumiwa kwa kutoa ufikiaji wa huduma muhimu za kifedha. Lilianzishwa kama mpango wa Jema Africa Limited, JETFinance linalenga kufidia pengo la ushirikishwaji wa kifedha kwa vikundi kama vile Vicoba na biashara ndogo na za kati (SMEs) Tanzania.",
+    "heroCta": "Taarifa Zaidi",
+    "heroExpLabel": "Miaka ya\nUzoefu",
+    "visionLabel": "Maono",
+    "visionText": "Kuwa muuzaji mkubwa wa microfinance ya kidijitali Tanzania, kuendeleza ushirikishwaji wa kifedha na ukuaji wa kiuchumi kupitia suluhisho bunifu na huduma bora kwa wateja.",
+    "missionLabel": "Dhamana",
+    "missionText": "Kuwezesha jamii zilizohudumiwa kwa kutoa huduma za kifedha zinazopatikana, nafuu, na bunifu ambazo zinaendeleza ukuaji wa kiuchumi na kuboresha ubora wa maisha.",
+    "aboutEyebrow": "Kuhusu Jema Financial Services",
+    "aboutTitle": "Kuwezesha Jamii Zilizohudumiwa na",
+    "aboutHighlight": "Jema Financial Services",
+    "aboutP1": "Jema Financial Services, lililozinduliwa na Jema Africa Limited, ni jukwaa la microfinance la kidijitali lililobuniwa kuimarisha ushirikishwaji wa kifedha kwa jamii zilizohudumiwa.",
+    "aboutP2": "Kupitia Jema Financial Services, jukwaa linatoa huduma za kifedha muhimu kwa vikundi kama vile Vicoba (Benki za Jamii za Vijijini) na biashara ndogo na za kati Tanzania.",
+    "tag0": "Mikopo ya Biashara",
+    "tag1": "Msaada wa Vikundi vya Vicoba",
+    "tag2": "Elimu ya Fedha",
+    "tag3": "Suluhisho za Kifedha za Kisasa",
+    "aboutP3": "Jema Financial Services inalenga kufidia pengo la ushirikishwaji wa kifedha kwa kuwezesha jamii hizi kupata mikopo nafuu, akiba, na zana nyingine muhimu za kifedha.",
+    "aboutP4": "Jukwaa linatumia teknolojia kurahisisha mchakato wa kukopa, kufanya huduma za kifedha zinazopatikana kwa watu binafsi na biashara ambazo zilikuwa nje ya mifumo ya benki ya jadi.",
+    "aboutP5": "Kwa kuzingatia kuwezesha vikundi vilivyotengwa, Jema Financial Services inachangia kukuza ukuaji wa kiuchumi na ujitegemezi.",
+    "offeringsEyebrow": "Huduma Kuu",
+    "offeringsTitle": "Suluhisho za Kifedha za Kidijitali kwa",
+    "offeringsHighlight": "Waliohudumiwa",
+    "offeringsLead": "Jema Financial Services imejikita kubadilisha huduma za kifedha Tanzania. Kwa kuzingatia sana uvumbuzi, umiliki wa mteja, na elimu ya fedha, tunalenga kuunda thamani ya muda mrefu kwa watumiaji wetu na kuchangia maendeleo makubwa ya kiuchumi ya nchi.",
+    "offering0": {
+      "title": "Mikopo ya Biashara",
+      "text": "Tunatoa msaada wa kifedha kwa biashara ndogo na za kati kusaidia kutekeleza maagizo, kama vile wateja kutoka kampuni yetu dada Jema Chemicals.",
+      "img": "/assets/finance/fina-1.png"
+    },
+    "offering1": {
+      "title": "Msaada wa Vikundi vya Vicoba",
+      "text": "Bidhaa yetu kuu, programu ya JETFinance Vicoba, inarahisisha shughuli kwa vikundi vya Vicoba, ikitoa uhifadhi salama wa data ya kifedha, upatikanaji wa mikopo, na elimu ya fedha.",
+      "img": "/assets/finance/fina-2.png"
+    },
+    "offering2": {
+      "title": "Elimu ya Fedha",
+      "text": "Tunatoa moduli za mafunzo ili kuboresha elimu ya fedha miongoni mwa wateja wetu, kuwawezesha kufanya maamuzi ya kifedha ya ufahamu na kujenga historia thabiti ya mkopo.",
+      "img": "/assets/finance/fina-3.png"
+    },
+    "offering3": {
+      "title": "Suluhisho za Kifedha za Kisasa",
+      "text": "Kwa kutumia teknolojia, tunatoa huduma za kifedha rahisi kutumika zinazokidhi mahitaji maalum ya jamii zilizohudumiwa, ikihakikisha upatikanaji na bei nafuu.",
+      "img": "/assets/finance/fina-4.png"
+    },
+    "ctaTitle": "Tunalenga kubadilisha mandhari ya kifedha",
+    "ctaHighlight": "Tanzania",
+    "hotline": "Msimamizi",
+    "ctaCta": "Omba Simu ya Kurudi",
+    "whyEyebrow": "Kwa nini Tutuchague",
+    "whyTitle": "Kuendeleza Mabadiliko Chanya katika",
+    "whyHighlight": "Jamii Zilizohudumiwa za Tanzania",
+    "whyP1": "Jema Financial Services imejikita kutoa zaidi ya msaada wa kifedha pekee. Tunaangazia elimu ya fedha, kusaidia wateja wetu kujenga alama zao za mkopo na kupata bidhaa mbalimbali za mikopo kutoka Jema Financial Services na washirika wake.",
+    "whyP2": "Lengo letu ni kukuza maendeleo endelevu kwa kuwezesha watu binafsi na biashara kwa zana na maarifa yanayohitajika ili kustawi kiuchumi.",
+    "whyP3": "Jema Financial Services ilianzishwa kushughulikia mahitaji ya kifedha ya vikundi vilivyowakilishwa vibaya katika jamii yetu.",
+    "whyP4": "Kwa kuitambua changamoto zinazokabiliwa na SME na vikundi vya Vicoba katika upatikanaji wa huduma za kifedha, Jema Financial Services inatoa suluhisho maalum ili kukuza ukuaji wa kiuchumi na uhuru wa kifedha.",
+    "accessEyebrow": "Jema Financial Services",
+    "accessTitle": "Kurahisisha Ufikiaji wa Huduma",
+    "accessHighlight": "za Kifedha",
+    "accessLead": "Katika Jema Financial Services, tunaelewa changamoto zinazokabiliwa na jamii zilizohudumiwa linapokuja suala la kupata bidhaa za kifedha. Kwa sababu hii, Jema Financial Services imebuniwa kurahisisha mchakato na kufanya huduma za kifedha ziwe rahisi iwezekanavyo.",
+    "accessFeature0": {
+      "label": "Usajili Rahisi",
+      "text": "Watumiaji wanaweza kujiandikisha kwa urahisi kwenye jukwaa letu kupitia mchakato rahisi na salama wa usajili, ikitoa ufikiaji wa aina mbalimbali za bidhaa za kifedha."
+    },
+    "accessFeature1": {
+      "label": "Jukwaa la Simu",
+      "text": "Jema Financial Services ni jukwaa la kwanza la simu linalowezesha watu binafsi na biashara kupata huduma za kifedha kwa faraja ya simu zao za smartphone, ikifanya iwe rahisi kwa kuendesha fedha zao wakati wa kwenda."
+    },
+    "accessFeature2": {
+      "label": "Mchakato wa Ombi la Mikopo",
+      "text": "Mchakato wa ombi la mikopo ni rahisi na wa haraka.ombaaji wanaweza kuomba mikopo moja kwa moja kupitia vifaa vyao vya simu, na fedha zinaweza kutolewa mara baada ya kupitishwa."
+    },
+    "accessFeature3": {
+      "label": "Masharti ya Kulipa Yanayonyumbulika",
+      "text": "Jema Financial Services inatoa mipango ya kulipaFlexible ili kufaa hali za kifedha za watu binafsi na biashara ndogo, ikisaidia kuendesha mtiririko wa pesa na kulipa mikopo bila usumbufu usio wa lazima."
+    },
+    "accessFeature4": {
+      "label": "Msaada wa Wateja Siku 24/7",
+      "text": "Timu yetu ya msaada wa wateja iliyotolewa iko inapatikana saa 24 kusaidia watumiaji na maswali yoyote au matatizo wanayoweza kukutana nayo wakati wa kutumia jukwaa."
+    },
+    "newsEyebrow": "Mapya kutoka Jema Africa",
+    "newsTitle": "Katika Jema Financial Services,",
+    "newsHighlight": "tumejikita kusaidia jamii zilizohudumiwa kupata rasilimali za kifedha wanazohitaji.",
+    "news0": {
+      "day": "01",
+      "month": "Aprili",
+      "date": "Aprili 1, 2026",
+      "category": "Jema Africa",
+      "title": "Jema Africa Limited inasherehekea miaka 14 ya ukuaji, ubunifu, na athari.",
+      "href": "https://jemaafrica.co.tz/jema-africa-limited-celebrates-14-years-of-growth-innovation-and-impact/",
+      "img": "https://images.unsplash.com/photo-1522071820081-009f0129c71c?auto=format&fit=crop&w=500&q=85"
+    },
+    "news1": {
+      "day": "08",
+      "month": "Desemba",
+      "date": "Desemba 8, 2025",
+      "category": "Jema Auto",
+      "title": "Kwa Nini Watanzania Wanapaswa Kuchagua JEMA AUTO Katika Uagizaji wa Magari Kutoka Japan",
+      "href": "https://jemaafrica.co.tz/kwa-nini-watanzania-wanapaswa-kuchagua-jema-auto-katika-uagizaji-wa-magari-kutoka-japan/",
+      "img": "https://images.unsplash.com/photo-1492144534655-ae79c964c9d7?auto=format&fit=crop&w=500&q=85"
+    },
+    "news2": {
+      "day": "08",
+      "month": "Desemba",
+      "date": "Desemba 8, 2025",
+      "category": "Jema Africa",
+      "title": "Jema Africa Ltd Inaongoza Jukwaa Kama Mdhamini wa Dhahabu katika Maonyesho ya Mining Show 2025",
+      "href": "https://jemaafrica.co.tz/jema-africa-ltd-leads-the-stage-as-gold-sponsor-at-the-2025-mining-show-exhibition-in-dubai/",
+      "img": "https://images.unsplash.com/photo-1581094794329-c8112a89af12?auto=format&fit=crop&w=500&q=85"
+    },
+    "bottomTitle": "Uko Tayari Kufanya Tofauti",
+    "bottomHighlight": "na Jema Africa?",
+    "emailLabel": "Tutumie Barua Pepe",
+    "office0": {
+      "title": "Makao Makuu ya Idara ya Uchimbaji",
+      "address": "Jema Tech Building. Industrial Area. Mwanza. Tanzania.",
+      "phone": "+255 28 255 0380",
+      "href": "tel:+255282550380"
+    },
+    "office1": {
+      "title": "Makao Makuu ya Idara Isiyo ya Uchimbaji",
+      "address": "5th floor, TAN House, Victoria, Dar es Salaam.",
+      "phone": "+255 677 091 421",
+      "href": "tel:+255677091421"
+    },
+    "office2": {
+      "title": "Makao Makuu ya JIT",
+      "address": "Jema Tech Building. Industrial Area. Mwanza. Tanzania.",
+      "phone": "+255 76 628 3530",
+      "href": "tel:+255766283530"
+    }
+  },
+  "jit": {
+    "heroEyebrow": "JEMA Institute of Technology",
+    "heroTitle": "Kuwekeza Elimu. Kujenga Ujuzi.",
+    "heroHighlight": "Kubadilisha Mustakabali.",
+    "heroLead": "Jema Institute of Technology (JIT) ni taasisi ya elimu ya teknolojia na ufundi iliyosukumwa na teknolojia iliyoanzishwa ili kukuza ujuzi wa vitendo, utaalamu wa kiufundo, uvumbuzi, na uwezo wa kazi kwa nguvu kazi inayobadilika ya Tanzania. Miliki ya JEMA Africa Limited, JIT inaunganisha elimu ya kitaaluma na mafunzo ya vitendo ili kuandaa wanafunzi kwa ajili ya ajira, biashara, uvumbuzi, na maendeleo ya kitaaluma ya maisha yote.",
+    "heroCta1": "Omba Sasa",
+    "heroCta2": "Chunguza Programu",
+    "pillar1": {
+      "title": "Maono Yetu",
+      "text": "Kuwa taasisi iliyosukumwa na teknolojia inayobadilisha viwanda na kuchangia maendeleo endelevu ya kiuchumi ya kitaifa. Maono yetu yanachukua imani yetu kwamba elimu ya kiufundo ni kiendeshaji muhimu wa viwandani, maendeleo ya teknolojia, na mabadiliko ya kiuchumi."
+    },
+    "pillar2": {
+      "title": "Dhamana Yetu",
+      "text": "Kuboresha maisha kwa kujumlisha teknolojia katika maisha ya kila siku ya jamii, kukuza ujuzi wa kidijitali, na kukuza ubunifu na uvumbuzi kwa mustakabali bora. Tunafuata dhamana hii kwa kutoa elimu ya vitendo, kukuza ujuzi wa kiufundo, kukuza uvumbuzi, na kuunda fursa kwa wanafunzi na wataalamu kupata ujuzi unaofaa kwa viwanda vya kisasa."
+    },
+    "pillar3": {
+      "title": "Thamani Yetu Msingi",
+      "text": "Thamani zetu zinaongoza jinsi tunavyofundisha, kufanya kazi, kuongoza na kushirikiana na wanafunzi wetu, washirika na jamii — Uadilifu, Utaalamu, Heshima, Uvumbuzi, Ubora, Utegemezi, na Elimu Msingi kwa Uwezo."
+    },
+    "aboutEyebrow": "Kuhusu JIT",
+    "aboutTitle": "Kukuza Ujuzi kwa",
+    "aboutHighlight": "Dunia Inayobadilika",
+    "aboutP1": "Jema Institute of Technology ilianzishwa na JEMA Africa ili kuchangia maendeleo ya elimu ya kiufundo na ujuzi wa kitaaluma Tanzania. Uzoefu wa Jema Africa katika uchimbaji, teknolojia, biashara na shughuli za viwanda unatoa JIT muunganiko muhimu na mahitaji ya viwanda ya kweli.",
+    "aboutP2": "Leo, JIT inatoa mazingira ya kujifunza ambayo wanafunzi wanaweza kukuza uelewa wa nadharia na uwezo wa vitendo. Mfumo wetu wa elimu umebuniwa karibu na matokeo manne muhimu:",
+    "aboutP3": "JIT iko katika Jema Tech Building katika Mkuyuni Industrial Area, Mwanza, iliyowekwa kimkakati katika mazingira yanayohusishwa na teknolojia, uchimbaji, biashara, na shughuli za viwanda.",
+    "program0": "Usindikaji wa Madini",
+    "program1": "Teknolojia ya Habari na Mawasiliano (ICT)",
+    "program2": "Kurasa Fupi za Kitaalamu",
+    "program3": "Mafunzo Yanayolengwa na Viwanda",
+    "highlightsEyebrow": "Wekeza Elimu kwa Ajili ya Vizazi vijavyo",
+    "highlightsTitle": "Ambapo",
+    "highlightsHighlight": "Uvumbuzi Unakutana na Elimu",
+    "highlightsLead": "Katika JIT, tunaamini kwamba elimu inapaswa kufanya zaidi ya kutoa elimu ya kitaaluma. Inapaswa kuwajali watu uwezo wa vitendo, umiliki, ubunifu, na ujuzi wa teknolojia unaohitajika kutatua matatizo ya kweli na kuchangia jamii kwa maana.",
+    "highlight0": {
+      "title": "Elimu Msingi kwa Uwezo",
+      "text": "Tunazingatia kukuza uwezo wa vitendo ambao wanafunzi wanaweza kutumia katika mazingira ya kazi ya kweli. Mfumo wetu wa elimu umebuniwa karibu na matokeo manne muhimu: Ujuzi, Ujuzi, Uvumbuzi, na Uwezo wa Kazi — kuandaa wanafunzi kwa ajira, biashara, uvumbuzi, na mafanikio ya kitaaluma."
+    },
+    "highlight1": {
+      "title": "Vifaa vya Kisasa vya Kujifunza",
+      "text": "JIT inatoa vifaa vilivyobuniwa kusaidia mafundisho ya nadharia, kujifunza kwa vitendo, maendeleo ya teknolojia, na shughuli za wanafunzi. Mazingira yetu ya kujifunza yanajumuisha maabara ya kisasa, madarasa, vifaa vya mafunzo ya kiufundo, rasilimali za maktaba, miundombinu ya ICT, vifaa vya utafiti, nafasi za uvumbuzi, na kiwanda cha usindikaji wa dhahabu ambacho kinatoa wanafunzi uzoefu wa viwanda wa vitendo."
+    },
+    "highlight2": {
+      "title": "Kujifunza kwa Vitendo na Msingi kwa Uwezo",
+      "text": "Moja ya nguvu kuu za JIT ni msisitizo wake wa kujifunza kwa vitendo. Njia yetu inajumuisha kikao cha maabara, majukumu ya vitendo, maonyesho ya kiufundo, uzoefu wa shambani, mafunzo ya viwanda ya vitendo, kujifunza kwa mradi, kujifunza kwa teknolojia, na shughuli za utafiti na uvumbuzi."
+    },
+    "highlight3": {
+      "title": "Kituo cha Uvumbuzi cha Wanafunzi",
+      "text": "Kituo cha Uvumbuzi cha Wanafunzi wa JIT kinatoa jukwaa kwa wanafunzi kuchunguza mawazo, kukuza miradi, na kufanya majaribio na teknolojia. Kupitia Kituo cha Uvumbuzi, wanafunzi wanaweza kukuza suluhisho za kidijitali, miradi ya kiufundo, mawazo ya biashara, miradi ya utafiti, prototype, na suluhisho msingi wa teknolojia."
+    },
+    "highlight4": {
+      "title": "Utafiti na Uvumbuzi",
+      "text": "JIT inatambua utafiti na uvumbuzi kama sehemu muhimu za elimu ya kiufundo ya kisasa. Shughuli zetu za utafiti na uvumbuzi zinachochea wanafunzi na wafanyakazi kutambua changamoto za kweli na kukuza suluhisho za vitendo kwa kutumia teknolojia, sayansi na ujuzi wa kiufundo."
+    },
+    "highlight5": {
+      "title": "Muunganiko na Viwanda",
+      "text": "JIT inafaidika na uhusiano wake na JEMA Africa na shughuli mbalimbali za biashara ya kampuni hiyo katika uchimbaji, teknolojia, lojistikia, elimu, magari, kemikali na huduma za kifedha. Muunganiko huu ni wa thamani katika utaalamu wa kiufundo ambapo wanafunzi wanahitaji kuelewa jinsi ujuzi wao unavyotumika katika mazingira ya kweli ya ufanyakazi."
+    },
+    "ctaTitle": "WEKEZA ELIMU",
+    "ctaHighlight": "KWA AJILI YA VIZAZI VIJVYO",
+    "ctaLabel": "Wasiliana Nasi",
+    "valueEyebrow": "Kwa nini Muchague JIT",
+    "valueTitle": "Sababu Sita za Kuchagua",
+    "valueHighlight": "JEMA Institute of Technology",
+    "valueLead": "Kutoka elimu ya vitendo na maabara ya kisasa hadi walimu wenye uzoefu, programu zinazofaa viwanda, utafiti na uvumbuzi, na kujifunza linalowezeshwa na teknolojia — JIT imejikita kutoa elimu inayofaa, ya vitendo, na inayojibu mahitaji yanayobadilika ya jamii na viwanda.",
+    "value0": "Ujuzi — Kuelewa kanuni zilizo nyuma ya kazi.",
+    "value1": "Ujuzi — Kukuza uwezo wa vitendo kupitia kujifunza kwa vitendo.",
+    "value2": "Uvumbuzi — Kukuza ubunifu na kutatua matatizo kwa msukumo wa teknolojia.",
+    "value3": "Uwezo wa Kazi — Kuandaa wanafunzi kuchangia kwa ufanisi kazini au kuanzisha biashara zao wenyewe.",
+    "teamEyebrow": "Ujumbe wa Mkurugenzi",
+    "teamTitle": "Karibu",
+    "teamHighlight": "JEMA Institute of Technology",
+    "teamText": "Kwa kiburi na msisimko mkubwa, nakukaribisha katika JEMA Institute of Technology. JIT ni mahali ambapo uvumbuzi unakutana na ubora, na ambapo wasio na kazi wanapata fursa ya kukuza ujuzi, ujuzi wa kiufundo, na ujasiri unaohitajika kuchangia mustakabali wa teknolojia na viwanda. Tumekujitolea kuunda mazingira ambayo wanafunzi wanaweza kujifunza, kufanya majaribio, kuvumbua na kukua kuwa wataalamu wajibika. Uwezo wako ni mwanzo. Ujuzi wako ni msingi. Uvumbuzi wako unaweza kuumba mustakabali.",
+    "member0": {
+      "name": "Bw. Benezeth Kamihanda",
+      "role": "Mkurugenzi - JIT",
+      "img": "/assets/jit/team-kamihanda.png"
+    },
+    "member1": {
+      "name": "Bw. Japhet Ngoro",
+      "role": "Meneja wa Chuo",
+      "img": "/assets/jit/team-ngoro.png"
+    },
+    "member2": {
+      "name": "Bw. Nibusam Damas Kashind",
+      "role": "Msimamizi wa Chuo",
+      "img": "/assets/jit/team-kashind.png"
+    },
+    "contactEyebrow": "Jiunge na JEMA Institute of Technology",
+    "contactTitle": "Badilisha Uwezo Wako Kuwa",
+    "contactHighlight": "Mafanikio ya Kitaalamu",
+    "contactText": "Iwe ni mhitimu wa sekondari, mtaalamu anayetafuta ujuzi zaidi, shirika linalotaka kufundisha nguvu kazi yake, au biashara, JIT inatoa fursa za kukuza ujuzi wa vitendo na uwezo wa kitaalamu.",
+    "contactLocationLabel": "Eneo",
+    "contactLocation": "S.L.P. 269, Mkuyuni, Mwanza, Tanzania",
+    "contactCallLabel": "Piga Simu",
+    "newsEyebrow": "Habari na Blogu",
+    "newsTitle": "Mapya",
+    "newsHighlight": "kutoka Jema Africa",
+    "news0": {
+      "day": "01",
+      "month": "Aprili",
+      "date": "Aprili 1, 2026",
+      "category": "Jema Africa",
+      "title": "Jema Africa Limited inasherehekea miaka 14",
+      "href": "https://jemaafrica.co.tz/jema-africa-limited-celebrates-14-years-of-growth-innovation-and-impact/",
+      "img": "https://images.unsplash.com/photo-1522071820081-009f0129c71c?auto=format&fit=crop&w=500&q=85"
+    },
+    "news1": {
+      "day": "08",
+      "month": "Desemba",
+      "date": "Desemba 8, 2025",
+      "category": "Jema Auto",
+      "title": "Kwa nini Watanzania Wanapaswa Kuchagua JEMA",
+      "href": "https://jemaafrica.co.tz/kwa-nini-watanzania-wanapaswa-kuchagua-jema-auto-katika-uagizaji-wa-magari-kutoka-japan/",
+      "img": "https://images.unsplash.com/photo-1492144534655-ae79c964c9d7?auto=format&fit=crop&w=500&q=85"
+    },
+    "news2": {
+      "day": "08",
+      "month": "Desemba",
+      "date": "Desemba 8, 2025",
+      "category": "Jema Africa",
+      "title": "Jema Auto Ltd Inaongoza Jukwaa",
+      "href": "https://jemaafrica.co.tz/jema-africa-ltd-leads-the-stage-as-gold-sponsor-at-the-2025-mining-show-exhibition-in-dubai/",
+      "img": "https://images.unsplash.com/photo-1581094794329-c8112a89af12?auto=format&fit=crop&w=500&q=85"
+    },
+    "office0": {
+      "title": "Makao Makuu ya JIT",
+      "address": "S.L.P. 269, Mkuyuni, Mwanza, Tanzania.",
+      "phone": "+255 76 628 3530",
+      "href": "tel:+255766283530"
+    },
+    "office1": {
+      "title": "Makao Makuu ya Idara ya Uchimbaji",
+      "address": "Jema Tech Building. Industrial Area. Mwanza. Tanzania.",
+      "phone": "+255 28 255 0380",
+      "href": "tel:+255282550380"
+    },
+    "office2": {
+      "title": "Barua Pepe",
+      "address": "info@jit.ac.tz",
+      "phone": "",
+      "href": "mailto:info@jit.ac.tz"
+    }
+  },
+  "jione": {
+    "heroEyebrow": "Kampuni kuu ya lojistika",
+    "heroHighlight": "YA KUAMINIWA KWAKO",
+    "heroLead": "Jema Jione ni kampuni kuu ya lojistika, iliyojikita katika kutoa suluhisho za lojistika za kamili na za kuaminika katika Afrika Mashariki na Kati. Kwa msafara wa kisasa na timu ya kitaalamu wenye ujuzi mkubwa, tuko tayari kushughulikia aina mbalimbali za mizigo, kutoka bidhaa za kemikali hadi mazao ya kilimo. Kujitolea kwetu kwa ubora, usalama, na ufanisi kuhakikisha bidhaa zako zinafika mahali pake kwa haraka na usalama.",
+    "heroCta1": "Taarifa Zaidi",
+    "heroCta2": "Tazama Video",
+    "pillar0": {
+      "title": "Ujuzi wa Kitaalamu",
+      "text": "Timu yetu yenye uzoefu inaelewa utata wa lojistika na inatoa huduma ya kipekee."
+    },
+    "pillar1": {
+      "title": "Teknolojia ya Hali ya Juu",
+      "text": "Usimamizi wa msafara wa hali ya juu na ufuatiliaji wa wakati halisi kuhakikisha mizigo yako ni salama na inaendelea."
+    },
+    "pillar2": {
+      "title": "Njia Inayozingatia Wateja",
+      "text": "Suluhisho maalum kukidhi mahitaji maalum ya wateja, kujenga uaminifu na kutegemewa."
+    },
+    "rightEyebrow": "Jema Jione",
+    "rightTitle": "Fanya Sahihi",
+    "rightHighlight": "Wakati Sahihi",
+    "rightLead": "Kuchagua Jema Jione kunamaanisha kuchagua kutegemewa, ufanisi, na njia inayozingatia wateja. Mfumo wetu wa kisasa wa usimamizi wa msafara unatoa ufuatiliaji wa wakati halisi na njia bora, ukiboresha ufanisi wa shughuli na kupunguza gharama. Amini Jema Jione kwa mahitaji yako yote ya lojistika na uzoefu tofauti wa ubora na huduma.",
+    "value0Title": "Jema Jione",
+    "value0Text": "Kuanzia usafirishaji wa barabara hadi lojistika maalum, tunatoa huduma mbalimbali zinazokidhi mahitaji mbalimbali ya biashara na watu binafsi.",
+    "value1Title": "Kujitolea kwetu",
+    "value1Text": "Kwa ubora, usalama, na kutegemewa kunafanya iwe chaguo bora kwa mahitaji yako yote ya lojistika.",
+    "contactEyebrow": "Wasiliana Nasi",
+    "contactTitle": "Tunatoa huduma mbalimbali za lojistika",
+    "contactHighlight": "zilizobuniwa kwa mahitaji yako",
+    "contactLead": "Usimamizi wa msafara wa hali ya juu na ufuatiliaji wa wakati halisi kuhakikisha mizigo yako ni salama na inaendelea.",
+    "contactMobile": "Simu ya Kiganjani",
+    "contactPhoneText": "Nambari ya Simu ya Ofisi +255 28 255 0380 & +255 677 091 421",
+    "contactLocation": "Mahali",
+    "contactAddress1": "Jema Tech Building. Industrial Area. Mwanza. Tanzania.",
+    "contactAddress2": "5th floor, TAN House, Victoria, Dar es Salaam.",
+    "formFirstName": "Jina la Kwanza",
+    "formLastName": "Jina la Mwisho",
+    "formEmail": "Barua pepe",
+    "formPhone": "Simu",
+    "formSubject": "Somo",
+    "formComment": "Maoni",
+    "formSubmit": "Tuma Ujumbe",
+    "formSent": "Ujumbe Umetumwa",
+    "serviceEyebrow": "Tunafanya Nini",
+    "serviceTitle": "Piga Simu na Jema Jione",
+    "serviceHighlight": "Lojistika",
+    "serviceLead": "Katika Jema Jione, tunaelewa kuwa aina tofauti za mizigo zinahitaji ushughulikiaji tofauti. Tunatoa huduma mbalimbali za lojistika zilizobuniwa kwa mahitaji yako:",
+    "service0": {
+      "title": "Suluhisho za Kamili za Lojistika",
+      "item0": {
+        "label": "Usafirishaji wa Mizigo:",
+        "text": "Kutumia msafara wetu wa kisasa kwa utoaji wa bidhaa mbalimbali kwa wakati."
+      },
+      "item1": {
+        "label": "Ushughulikiaji wa Mizigo Maalum:",
+        "text": "Timu iliyojifunza inashughulikia mizigo nyeti kama vile kemikali na bidhaa za kilimo kwa utunzaji na kufuata kanuni."
+      }
+    },
+    "service1": {
+      "title": "Mfumo wa Usimamizi wa Msafara",
+      "item0": {
+        "label": "Ufuatiliaji wa Wakati Halisi:",
+        "text": "Fuatilia mahali na hali ya mizigo katika safari yote."
+      },
+      "item1": {
+        "label": "Njia Bora:",
+        "text": "Tumia njia bora zaidi kupunguza muda wa transit na gharama."
+      },
+      "item2": {
+        "label": "Ufuatiliaji wa Usalama:",
+        "text": "Fuatilia utendaji wa gari na mwenendo wa dereva kwa viwango vya juu vya usalama."
+      }
+    },
+    "service2": {
+      "title": "Utoaji na Kusafirisha",
+      "item0": {
+        "label": "Utoaji wa Forodha:",
+        "text": "Ushughulikiaji wa ufanisi wa nyaraka zote za forodha na taratibu."
+      },
+      "item1": {
+        "label": "Kusafirisha Mizigo:",
+        "text": "Kusaidia usafirishaji kutoka bandari hadi sehemu za mwisho."
+      },
+      "item2": {
+        "label": "Kufuata Kanuni:",
+        "text": "Kuhakikisha mizigo inafuata kanuni za ndani na za kimataifa."
+      }
+    },
+    "ctaTitle": "Timu yetu iko hapa kusaidia",
+    "ctaHighlight": "mahitaji yako ya lojistika.",
+    "ctaCta": "Tazama Video.",
+    "teamEyebrow": "Mwanachama wa Timu Yetu",
+    "teamTitle": "Ujuzi Wetu",
+    "teamHighlight": "Utakusaidia",
+    "teamLead": "Uko tayari kuanza? Iwe unashisha kemikali, mashine nzito, au mazao mapya, Jema Jione iko tayari kutoa suluhisho la lojistika lililobuniwa. Wasiliana nasi kwa报价 ya ushindani na huduma ya haraka na ya kuaminika.",
+    "team0": {
+      "name": "Bi. Happiness Ndege",
+      "role": "Ofisa wa Juu wa Uthibitisho",
+      "img": "/assets/jione/team-ndege.png"
+    },
+    "team1": {
+      "name": "Bw. Fortunatus Wambura",
+      "role": "Msimamizi",
+      "img": "/assets/jione/team-wambura.png"
+    },
+    "newsEyebrow": "Habari na Blogu za Hivi Karibuni",
+    "newsTitle": "Mpya katika",
+    "newsHighlight": "Eneo la Biashara",
+    "readMore": "SOMA ZAIDI",
+    "news0": {
+      "day": "01",
+      "month": "Aprili",
+      "date": "Aprili 1, 2026",
+      "category": "Jema Africa",
+      "title": "Jema Africa Limited inasherehekea miaka 14",
+      "href": "https://jemaafrica.co.tz/jema-africa-limited-celebrates-14-years-of-growth-innovation-and-impact/",
+      "img": "https://images.unsplash.com/photo-1522071820081-009f0129c71c?auto=format&fit=crop&w=500&q=85"
+    },
+    "news1": {
+      "day": "08",
+      "month": "Desemba",
+      "date": "Desemba 8, 2025",
+      "category": "Jema Africa",
+      "title": "Jema Africa Ltd Inaongoza Jukwaa kama Mdhamini wa Dhahabu",
+      "href": "https://jemaafrica.co.tz/jema-africa-ltd-leads-the-stage-as-gold-sponsor-at-the-2025-mining-show-exhibition-in-dubai/",
+      "img": "https://images.unsplash.com/photo-1581094794329-c8112a89af12?auto=format&fit=crop&w=500&q=85"
+    },
+    "office0": {
+      "title": "Makao Makuu ya Idara ya Uchimbaji",
+      "address": "Jema Tech Building. Industrial Area. Mwanza. Tanzania.",
+      "phone": "+255 28 255 0380"
+    },
+    "office1": {
+      "title": "Makao Makuu ya Idara Isiyo ya Uchimbaji",
+      "address": "5th floor, TAN House, Victoria, Dar es Salaam.",
+      "phone": "+255 677 091 421"
+    },
+    "office2": {
+      "title": "Makao Makuu ya JIT",
+      "address": "Jema Tech Building. Industrial Area. Mwanza. Tanzania.",
+      "phone": "+255 76 628 3530"
+    }
   }
 }

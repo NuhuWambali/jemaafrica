@@ -1,7 +1,6 @@
 'use client';
 
 import { useTranslation } from 'react-i18next';
-
 import { useState, useEffect, useCallback } from 'react';
 import Navbar from '@/components/Navbar';
 import Footer from '@/components/Footer';
@@ -63,79 +62,80 @@ export default function ContactPage() {
 
       {/* HERO */}
       <section className="contact-hero">
-        <div className="contact-hero-media">
-          <video autoPlay muted loop playsInline preload="metadata" poster="/assets/who.png">
-            <source src="/assets/profile.mp4" type="video/mp4" />
-          </video>
-        </div>
-        <div className="container contact-hero-inner">
+        <div className="container">
           <Reveal>
-            <div className="contact-hero-content">
-              <span className="eyebrow">{t('contact.eyebrow')}</span>
-              <h1>{t('contact.heading')}</h1>
-              <p className="lead">{t('contact.intro')}</p>
-              <div className="contact-hero-actions">
-                <a className="hero-btn" href="#contact-form">
-                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8"><path d="M22 2 11 13" /><path d="M22 2l-7 20-4-9-9-4 20-7z" /></svg>
-                  {t('contact.sendAMessage')}
-                </a>
-                <a className="hero-btn ghost" href="tel:+255282550380">
-                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13.96.36 1.9.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.91.34 1.85.57 2.81.7A2 2 0 0 1 22 16.92z" /></svg>
-                  +255 28 255 0380
-                </a>
-              </div>
+            <span className="eyebrow">{t('contact.eyebrow')}</span>
+          </Reveal>
+          <Reveal delay={1}>
+            <h1>{t('contact.heading')}</h1>
+          </Reveal>
+          <Reveal delay={2}>
+            <p className="lead">{t('contact.intro')}</p>
+          </Reveal>
+          <Reveal delay={3}>
+            <div className="contact-hero-meta">
+              <span>
+                <b>5</b><small>{t('contact.branchesCount')}</small>
+              </span>
+              <span>
+                <b>2</b><small>{t('contact.officesCount')}</small>
+              </span>
+              <span>
+                <b>24/7</b><small>{t('contact.support')}</small>
+              </span>
             </div>
           </Reveal>
         </div>
-        <div className="contact-scroll-cue"><span>{t('contact.scrollExplore')}</span></div>
       </section>
 
-      {/* CONTACT FACTS */}
-      <section className="contact-strip">
+      {/* GET IN TOUCH */}
+      <section className="contact-touch-section">
         <div className="container">
-          <Reveal delay={1}>
-            <div className="contact-facts">
-              <div className="contact-fact">
-                <svg className="fact-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13.96.36 1.9.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.91.34 1.85.57 2.81.7A2 2 0 0 1 22 16.92z" /></svg>
-                <span className="lbl">{t('contact.officePhones')}</span>
-                <div className="contact-phones">
-                  <a href="tel:+255282550380">+255 28 255 0380</a>
-                  <a href="tel:+255677091421">+255 677 091 421</a>
+          <div className="contact-touch-layout">
+            <Reveal>
+              <div className="contact-touch-text">
+                <span className="eyebrow">{t('contact.ourBranches')}</span>
+                <h2>{t('contact.reachUs')}</h2>
+                <p>{t('contact.touchP1')}</p>
+                <p>{t('contact.touchP2')}</p>
+                <div className="contact-touch-actions">
+                  <a className="hero-btn" href="tel:+255282550380">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13.96.36 1.9.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.91.34 1.85.57 2.81.7A2 2 0 0 1 22 16.92z" /></svg>
+                    +255 28 255 0380
+                  </a>
+                  <a className="hero-btn ghost" href="mailto:info@jemaafrica.co.tz">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8"><rect x="2" y="4" width="20" height="16" rx="2" /><path d="m22 7-10 7L2 7" /></svg>
+                    info@jemaafrica.co.tz
+                  </a>
                 </div>
               </div>
-              <div className="contact-fact">
-                <svg className="fact-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5"><rect x="2" y="4" width="20" height="16" rx="2" /><path d="m22 7-10 7L2 7" /></svg>
-                <span className="lbl">{t('contact.mailForInfo')}</span>
-                <div className="contact-phones">
-                  <a href="mailto:info@jemaafrica.co.tz">info@jemaafrica.co.tz</a>
-                </div>
-              </div>
-              <div className="contact-fact">
-                <svg className="fact-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5"><path d="M21 10c0 7-9 12-9 12s-9-5-9-12a9 9 0 0 1 18 0z" /><circle cx="12" cy="10" r="3" /></svg>
-                <span className="lbl">{t('contact.locationsLabel')}</span>
-                <div className="contact-locations">
+            </Reveal>
+            <Reveal delay={1}>
+              <div className="contact-touch-figure">
+                <div className="contact-touch-card">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5"><path d="M21 10c0 7-9 12-9 12s-9-5-9-12a9 9 0 0 1 18 0z" /><circle cx="12" cy="10" r="3" /></svg>
+                  <span className="lbl">{t('contact.locationsLabel')}</span>
                   <p>Jema Tech Building, Industrial Area, Mwanza, Tanzania.</p>
                   <p>5th Floor, TAN House, Victoria, Dar es Salaam.</p>
                 </div>
-              </div>
-              <div className="contact-fact">
-                <svg className="fact-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5"><circle cx="12" cy="12" r="10" /><path d="M2 12h20M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z" /></svg>
-                <span className="lbl">{t('contact.followUs')}</span>
-                <div className="contact-social-links">
-                  <a href="#" aria-label="LinkedIn">LinkedIn</a>
-                  <a href="#" aria-label="Instagram">Instagram</a>
-                  <a href="#" aria-label="X">X</a>
-                  <a href="#" aria-label="Facebook">Facebook</a>
+                <div className="contact-touch-card">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5"><circle cx="12" cy="12" r="10" /><path d="M2 12h20M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z" /></svg>
+                  <span className="lbl">{t('contact.followUs')}</span>
+                  <div className="contact-social-links">
+                    <a href="#">LinkedIn</a>
+                    <a href="#">Instagram</a>
+                    <a href="#">X</a>
+                    <a href="#">Facebook</a>
+                  </div>
                 </div>
               </div>
-            </div>
-          </Reveal>
+            </Reveal>
+          </div>
         </div>
       </section>
 
       {/* BRANCHES */}
       <section className="branches-section">
-        <img className="branches-bg" src="/assets/africa.png" alt="" aria-hidden="true" loading="lazy" />
         <div className="container">
           <Reveal>
             <div className="section-head">
@@ -158,7 +158,6 @@ export default function ContactPage() {
 
       {/* CONTACT FORM */}
       <section className="contact-form-section" id="contact-form">
-        <div className="contact-form-bg" aria-hidden="true" />
         <div className="container">
           <Reveal>
             <div className="section-head">

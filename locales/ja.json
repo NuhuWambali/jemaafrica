@@ -1,6 +1,17 @@
 {
   "nav": {
     "business": "事業内容",
+    "elution": "溶離",
+    "chemicals": "化学品",
+    "lifeScience": "ライフサイエンス",
+    "technology": "テクノロジー",
+    "auto": "自動車",
+    "instituteOfTechnology": "工科研究所",
+    "jetcargo": "JETCargo",
+    "jemaJione": "Jema Jione",
+    "finance": "金融",
+    "education": "教育",
+    "sustainability": "サステナビリティ",
     "insights": "インサイト",
     "careers": "採用情報",
     "about": "会社概要",
@@ -8,15 +19,81 @@
     "cta": "お問い合わせ"
   },
   "hero": {
-    "eyebrow": "革新と成長の遺産",
-    "title1": "明日を",
-    "title2": "構築し、",
-    "title3": "今日。",
-    "lead": "鉱業、テクノロジー、物流、金融、教育、産業サービスを展開する多角的なパンアフリカングループ。2012年から、アフリカ全体で革新、投資、持続可能な経済変革を推進しています。",
     "typeLabel": "私たちは支える",
-    "ctaPrimary": "事業内容を見る",
     "scrollCue": "スクロール",
-    "typingWords": ["鉱業", "テクノロジーと教育", "物流と輸送", "金融と投資", "産業サービス"]
+    "slides": {
+      "brand": {
+        "eyebrow": "革新と成長の遺産",
+        "title1": "明日を",
+        "title2": "構築し、",
+        "title3": "今日。",
+        "lead": "鉱業、テクノロジー、物流、金融、教育、産業サービスを展開する多角的なパンアフリカングループ。2012年から、アフリカ全体で革新、投資、持続可能な経済変革を推進しています。",
+        "cta": "事業内容を見る",
+        "typing": [
+          "鉱業",
+          "テクノロジーと教育",
+          "物流と輸送",
+          "金融と投資",
+          "産業サービス"
+        ]
+      },
+      "mining": {
+        "eyebrow": "鉱業と化学品",
+        "title1": "アフリカの",
+        "title2": "豊かさを",
+        "title3": "掘り起こす。",
+        "lead": "化学品や活性炭から浮選プラント、溶離サービスまで、アフリカの鉱業部門向けの最高水準のソリューション。",
+        "cta": "鉱業を見る",
+        "typing": [
+          "化学品",
+          "活性炭",
+          "浮選プラント",
+          "溶離サービス"
+        ]
+      },
+      "logistics": {
+        "eyebrow": "物流と輸送",
+        "title1": "アフリカを",
+        "title2": "確実に",
+        "title3": "つなぐ。",
+        "lead": "道路・鉄道・その他あらゆる手段で、アフリカ全域を移動する企業に効率的で信頼できる物流・輸送サービスを提供。",
+        "cta": "物流を見る",
+        "typing": [
+          "道路輸送",
+          "地域配送",
+          "車両管理",
+          "重量物輸送"
+        ]
+      },
+      "tech": {
+        "eyebrow": "テクノロジーと教育",
+        "title1": "次世代を",
+        "title2": "エンパワー",
+        "title3": "する。",
+        "lead": "鉱業・テクノロジー分野向けのソフトウェア開発と技術教育を通じて、アフリカの未来を築きます。",
+        "cta": "テクノロジーを見る",
+        "typing": [
+          "ソフトウェア開発",
+          "IoTソリューション",
+          "データ分析",
+          "技術教育"
+        ]
+      },
+      "auto": {
+        "eyebrow": "自動車輸入",
+        "title1": "あなたの",
+        "title2": "夢を",
+        "title3": "走らせる。",
+        "lead": "日本からの信頼できる自動車調達・輸入 — 高品質な車を競争力のある価格でお届けします。",
+        "cta": "自動車を見る",
+        "typing": [
+          "日本からの輸入",
+          "豊富な品揃え",
+          "品質保証",
+          "物流サポート"
+        ]
+      }
+    }
   },
   "stats": {
     "years": "年の経験",
@@ -35,15 +112,33 @@
     "heading": "アフリカを前進させるために構築。",
     "intro": "大陸を形成する産業において、実践的な専門知識、地元の知識、信頼できる提供。",
     "details": "詳細",
-    "card1": { "title": "鉱業ソリューション", "text": "化学薬品から浮選プラント、エルーションサービスまで、アフリカの鉱業セクターにトップクラスのソリューションを提供。" },
-    "card2": { "title": "物流と輸送", "text": "アフリカ全体で事業を展開する企業に効率的で信頼できる物流・輸送サービス。" },
-    "card3": { "title": "テクノロジーと教育", "text": "鉱業・テクノロジーセクター向けのテクノロジーと教育 through、アフリカの未来を支援。" },
-    "card4": { "title": "自動車輸入", "text": "信頼できる車両調達・輸入サービスで、企業と個人を高品質な車両に結びつけます。" }
+    "card1": {
+      "title": "鉱業ソリューション",
+      "text": "化学薬品から浮選プラント、エルーションサービスまで、アフリカの鉱業セクターにトップクラスのソリューションを提供。"
+    },
+    "card2": {
+      "title": "物流と輸送",
+      "text": "アフリカ全体で事業を展開する企業に効率的で信頼できる物流・輸送サービス。"
+    },
+    "card3": {
+      "title": "テクノロジーと教育",
+      "text": "鉱業・テクノロジーセクター向けのテクノロジーと教育 through、アフリカの未来を支援。"
+    },
+    "card4": {
+      "title": "自動車輸入",
+      "text": "信頼できる車両調達・輸入サービスで、企業と個人を高品質な車両に結びつけます。"
+    }
   },
   "leadership": {
     "eyebrow": "上級管理陣",
     "heading": "すべての部門で成功を推進。",
-    "copy": "Jema Africaの多様な事業を成長と革新に導く先見の明のあるリーダーたちをご紹介します。"
+    "copy": "Jema Africaの多様な事業を成長と革新に導く先見の明のあるリーダーたちをご紹介します。",
+    "roles": {
+      "dco": "DCO",
+      "cooMining": "COO - 鉱業部門",
+      "cooNonMining": "COO - 非鉱業部門",
+      "principalJit": "校長 - JIT"
+    }
   },
   "news": {
     "eyebrow": "ニュースと更新情報",
@@ -67,9 +162,14 @@
     "eyebrow": "お問い合わせ",
     "heading": "アフリカの未来を共に構築しましょう。",
     "intro": "起業家、パートナー、投資家の皆さんからのお問い合わせをお待ちしております。以下のどのチャネルからでもお気軽にご連絡ください。",
+    "branchesCount": "タンザニア全土の支店",
+    "officesCount": "本社",
+    "support": "サポート対応",
     "correspondence": "連絡先",
     "headOffices": "本社",
     "address": "ジェマテックビル工業地区ムワンザ・タンザニア・ダルエスサラーム・ヴィクトリアTANハウス5階",
+    "touchP1": "ジェマアフリカでは、すべてのつながりが有意義なパートナーシップの機会だと考えています。鉱業、テクノロジー、物流、金融など、私たちのチームがサポートいたします。",
+    "touchP2": "専門的なアドバイスが必要な場合、パートナーシップの検討、サービスに関するご質問がございましたら、お気軽にご連絡ください。",
     "followUs": "フォローする",
     "form": {
       "fullName": "氏名",
@@ -110,17 +210,99 @@
     "storyP1": "Jema Africaでは、すべての課題が意味のある持続可能な価値を創造する機会であると信じています。問題を解決するだけでなく、アフリカの産業を変革し、生活を向上させる企業、技術、戦略的パートナーシップを構築しています。",
     "storyP2": "金のエルーションや鉱山化学薬品から物流、自動車輸入、金融サービス、技術教育まで、 our部門は一つとして機能し、専門知識、インフラ、野心を共有し、大陸を前進させます。",
     "badge": "2012年から",
-    "mission": { "title": "ミッション", "text": "アフリカの産業を変革し、生活を向上させる企業、技術、パートナーシップを構築する — 正直さと永続的な影響とともに。" },
-    "vision": { "title": "ビジョン", "text": "すべての地域で持続可能な経済変革を推進するパンアフリカングループとして認識されること。" },
+    "mission": {
+      "title": "ミッション",
+      "text": "アフリカの産業を変革し、生活を向上させる企業、技術、パートナーシップを構築する — 正直さと永続的な影響とともに。"
+    },
+    "vision": {
+      "title": "ビジョン",
+      "text": "すべての地域で持続可能な経済変革を推進するパンアフリカングループとして認識されること。"
+    },
     "valuesTitle": "価値観",
-    "values": ["誠実さ", "革新", "卓越", "パートナーシップ", "持続可能性", "影響"],
+    "values": [
+      "誠実さ",
+      "革新",
+      "卓越",
+      "パートナーシップ",
+      "持続可能性",
+      "影響"
+    ],
     "journeyEyebrow": "私たちの歩み",
     "journeyHeading": "道のりの節目。",
     "journeyNote": "ムワンザの単一の事業から、大陸全体の顧客にサービスを提供する多角的なグループへ。",
+    "timeline": [
+      {
+        "year": "2012",
+        "title": "Jema Africa設立",
+        "text": "タンザニア・ムワンザで事業を開始し、多角的なパンアフリカングループの基盤を築きました。"
+      },
+      {
+        "year": "拡大",
+        "title": "鉱業と化学の成長",
+        "text": "金の溶出サービスと鉱業用化学品の供給が中核となり、地域の鉱業セクターを支えています。"
+      },
+      {
+        "year": "成長",
+        "title": "新部門が家族に加わる",
+        "text": "JetCargo、Jema Auto、Jema Life Science、Jema Financial Services、Jema Jioneが物流、自動車、ライフサイエンス、金融サービスへとグループを広げました。"
+      },
+      {
+        "year": "教育",
+        "title": "Jema Institute of Technology開校",
+        "text": "JITはムワンザのメインキャンパスで次世代のエンジニアと技術者を育成しています。"
+      },
+      {
+        "year": "2026",
+        "title": "14年間の成長と影響",
+        "text": "今日、Jema Africaはタンザニア内外で事業を展開しています — 私たちが始めた同じ信念に導かれて：イノベーションはアフリカの未来の基盤です。"
+      }
+    ],
     "divisionsEyebrow": "事業内容",
     "divisionsHeading": "8つの部門、一つの基準。",
     "divisionsIntro": "各部門は専門的な専門知識を提供し、グループのインフラ、関係、野心を共有しています。",
     "explore": "探索",
+    "divisionsList": [
+      {
+        "num": "01 / 08",
+        "name": "Jema Elution",
+        "desc": "金の溶出・製錬サービスで、タンザニアの鉱山業者が鉱石を価値に変えるお手伝いをします。"
+      },
+      {
+        "num": "02 / 08",
+        "name": "Jema Chemicals",
+        "desc": "選鉱プラントの稼働を支える鉱業用化学品、試薬、消耗品を供給します。"
+      },
+      {
+        "num": "03 / 08",
+        "name": "Jema Life Science",
+        "desc": "研究機関や医療機関向けの実験室機器、試薬、ライフサイエンス用品を提供します。"
+      },
+      {
+        "num": "04 / 08",
+        "name": "JetCargo",
+        "desc": "アフリカ各地へ展開する企業のための効率的で信頼性の高い物流・輸送サービス。"
+      },
+      {
+        "num": "05 / 08",
+        "name": "Jema Auto",
+        "desc": "お客様と品質の良い車両をつなぐ、信頼できる車両調達・輸入サービス。"
+      },
+      {
+        "num": "06 / 08",
+        "name": "Jema Jione",
+        "desc": "地域のお客様に質の高い製品をお届けする流通・貿易サービス。"
+      },
+      {
+        "num": "07 / 08",
+        "name": "Jema Financial Services",
+        "desc": "グループの顧客、パートナー、コミュニティを支援する金融サービス。"
+      },
+      {
+        "num": "08 / 08",
+        "name": "JIT",
+        "desc": "Jema Institute of Technology — アフリカの次世代エンジニアと技術者を育成します。"
+      }
+    ],
     "purposeEyebrow": "目的",
     "purposeHeading": "私たちのすべてを駆動するもの。",
     "ctaTitle": "アフリカの未来を共に構築する準備はできていますか？",
@@ -128,76 +310,525 @@
     "ctaButton": "お問い合わせ"
   },
   "elution": {
-    "eyebrow": "ジェマエルーションへようこそ",
-    "title": "効率的な金回収と加工のリーダー",
-    "titleHighlight": "金回収",
-    "lead": "ジェマエルーションへようこそ。活性炭からの効率的な金回収と加工を専門とし、コストを最大限に節約しながら最短時間で結果を提供します。",
-    "capacityNote": "私たちの高度な高圧・高温機械は24時間稼働し、最大1000kgの処理能力を備えています。",
-    "cta": "今すぐお問い合わせ",
-    "whyEyebrow": "なぜジェマアフリカエルーション？",
-    "whyTitle": "今日利用可能な最も効率的な金回収技術で目標達成をお手伝いします。",
-    "whyHighlight": "最も効率的な金回収技術",
-    "whyIntro": "ジェマエルーションでは、機械を定期的にメンテナンスし、エルーションプラントが最適に稼働し続け、ダウンタイムを最小限に、パフォーマンスを最大限に保っています。",
-    "processEyebrow": "ジェマエルーション",
-    "processTitle": "金回収プロセス。",
-    "processHighlight": "プロセス。",
-    "processIntro": "ジェマエルーションでは、活性炭からの効率的な金回収を確実にするため、実績のあるプロセスを使用しています：",
-    "processItem1Title": "回収最適化",
-    "processItem1Text": "高度な監視・制御システムを使用し、回収プロセスのあらゆる側面を最適化し、一貫して信頼できる金抽出を確保します。",
-    "processItem2Title": "持続可能性",
-    "processItem2Text": "持続可能な慣行に取り組んでいます。機械は環境への影響を最小限に抑えるよう設計されており、回収プロセス中の水と化学薬品の使用量を最小限に抑えます。",
-    "stat1Label": "成功事例",
-    "stat2Label": "組織と金融",
-    "stat3Label": "稼働機械",
-    "stat4Label": "最大処理能力",
-    "callbackTitle": "ジェマエルーションはあなたの味方です。",
-    "callbackHighlight": "味方。",
-    "callbackSubtitle": "金回収のニーズについてチームと直接お話ししください。",
-    "callbackButton": "コールバックをリクエスト",
-    "helpdeskLabel": "ヘルプデスク 24時間/7日",
-    "helpdeskPhone": "+255 28 255 0380",
-    "contactEyebrow": "所在地",
-    "contactTitle": "今すぐお問い合わせ。",
-    "contactHighlight": "今すぐ。",
-    "contactIntro": "ご質問、サポートのお申し込み、サービスのお問い合わせにお答えします。",
-    "features": {
-      "feature1": { "title": "会社の安定性", "text": "信頼できる長期的なパートナーとして、金鉱業をお支えします。" },
-      "feature2": { "title": "大容量機械", "text": "高圧・高温機械は24時間稼働し、最大1000kgの処理能力を備えています。" },
-      "feature3": { "title": "信頼できる電力供給", "text": "最大の信頼性と効率性で、エルーションプラントを昼夜稼働させます。" },
-      "feature4": { "title": "卓越した顧客サービス", "text": "回収プロセスのすべてのステップでサポートする専任のカスタマーサービスチーム。" },
-      "feature5": { "title": "透明性", "text": "すべてのバッチ、すべてのコスト、すべての結果に対する完全な透明性 — サプライズはありません。" },
-      "feature6": { "title": "経験豊富なスタッフ", "text": "地域全体で数千もの鉱山顧客と働く熟練チーム。" },
-      "feature7": { "title": "競争力のある価格", "text": "回収率と収益性を最大化する投資フレンドリーな価格設定。" },
-      "feature8": { "title": "安全性", "text": "開始から終了まで、金回収を安全に取り扱います。" }
+    "heroEyebrow": "Jema Africa · 鉱山部門",
+    "heroTitle": "JEMA",
+    "heroHighlight": "ELUTION",
+    "heroLead": "先進的な金回収。信頼性の高い処理。信頼できるパートナーシップ。",
+    "heroCapacity": "連続運転に設計された高圧力・高温システム — 1サイクルあたり最大1,000kgの処理能力。",
+    "heroCta": "お問い合わせ",
+    "introLead": "JEMA ElutionはJEMA Africa傘下の金回収・処理専門事業で、鉱山 operationsに効率的で信頼性の高いエルーションサービスの提供に焦点を当てています。",
+    "introP1": "先進的なエルーション技術を使用して活性炭から金を回収することを専門としており、効率的な処理、一貫した性能、タイムリーな結果を提供するよう設計されています。高圧力・高温処理システムは連続運転に設計されており、1サイクルあたり最大1,000kgの処理能力に対応できます。",
+    "introP2": "タンザニアの主要鉱山地域に戦略的に配置された施設により、JEMA Elutionは小規模・大規模鉱山 operations bothにアクセシブルで信頼性が高く、応答性の高いサービスを提供する位置にあります。",
+    "servicesEyebrow": "私たちの専門",
+    "servicesTitle": "エルーション",
+    "servicesHighlight": "サービス",
+    "service0": {
+      "title": "金回収＆エルーション処理",
+      "text": "活性炭から効率的に金を回収するよう設計された専門的なエルーションサービスを提供しています。最新設備、経験豊富な人員、制御された処理手順を組み合わせ、信頼性の高い回収結果を提供しています。"
     },
-    "newsTitle": "Jema Africa Limitedは14周年を祝う"
+    "service1": {
+      "title": "高処理能力",
+      "text": "最新のエルーションマシンは24時間連続運転に設計されており、大量の処理を効率的に行えます。1サイクルあたり最大1,000kgの処理能力により、 demandingな鉱山 operationsをサポートできます。"
+    },
+    "service2": {
+      "title": "回収最適化",
+      "text": "高度なモニタリングとプロセス管理手法を使用して回収プロセスを最適化し、一貫した運用性能を維持しています。予測可能で信頼性の高い処理結果を提供しながら、回収効率を最大化することが目的です。"
+    },
+    "service3": {
+      "title": "プラント保全と運用信頼性",
+      "text": "設備の定期検査と保全は運用の重要な部分です。機械と処理施設を維持することで、ダウンタイムの最小化、設備性能の向上、サービスの連続性維持に努めています。"
+    },
+    "service4": {
+      "title": "専門的なクライアントサポート",
+      "text": "処理を超えた commitment を持っています。処理サイクル全体を通して信頼性の高いサービスを受けられるよう、専任のカスタマーサポート、積極的なコミュニケーション、技術支援を提供しています。"
+    },
+    "whyEyebrow": "選ばれる理由",
+    "whyTitle": "なぜ",
+    "whyHighlight": "JEMA ELUTIONが選ばれるのか？",
+    "reason01": {
+      "title": "確立された安定組織",
+      "text": "JEMA Africaは2012年に設立され、鉱山、物流、テクノロジー、教育など多様な分野で活動するアフリカ企業に成長しました。この確立された基盤が、長期的なビジネス関係と信頼性の高いサービス提供への commitment を支えています。"
+    },
+    "reason02": {
+      "title": "先進的な処理技術",
+      "text": "エルーション施設は、処理効率の向上、処理時間の短縮、一貫した金回収を支援する現代的な高圧力・高温技術を活用しています。設備は24時間連続運転に設計されており、1サイクルあたり最大1,000kgの処理能力があります。"
+    },
+    "reason03": {
+      "title": "信頼性の高い運用",
+      "text": "定期的な機械のメンテナンスとモニタリングにより、設備の信頼性と運用の連続性を優先しています。停電時の中断を最小限に抑えるための待機電源ソリューションも備えています。"
+    },
+    "reason04": {
+      "title": "戦略的な鉱山ロケーション",
+      "text": "主要鉱山地域への立地により、クライアントに近づき、運用要件に効率的に対応できます。"
+    },
+    "reason05": {
+      "title": "経験豊富な専門家",
+      "text": "エルーションと金回収プロセスの実用的知識を持つ経験豊富な人員が運用をサポートしています。これにより、専門的な運用基準を維持し、クライアントに信頼性の高い処理サービスを提供できます。"
+    },
+    "reason06": {
+      "title": "透明性と説明責任",
+      "text": "透明性はビジネスを運営する基本です。明確なコミュニケーション、説明責任、タイムリーな更新、透明性のある価格設定をクライアントとの関わり全体で重視しています。"
+    },
+    "reason07": {
+      "title": "競争力のあるコスト効果の高いソリューション",
+      "text": "競争力のある価格で高品質な処理サービスを提供することを目指しています。専門的な運用基準とサービス基準を維持しながら、クライアントに価値を提供することに焦点を当てています。"
+    },
+    "reason08": {
+      "title": "セキュリティと管理された取扱い",
+      "text": "金回収プロセス全体におけるセキュリティの重要性を認識しています。CCTV監視とクライアントの資材を保護し、安全な運用を支援する管理された取扱い手順を備えています。"
+    },
+    "techEyebrow": "運用卓越",
+    "techTitle": "テクノロジーと運用の",
+    "techHighlight": "卓越",
+    "techIntro": "JEMA Elutionでは、テクノロジーが運用の中心です。高処理能力のエルーションシステムは以下を提供するよう設計されています：",
+    "techPoint0": "より速い処理時間",
+    "techPoint1": "効率的な金回収",
+    "techPoint2": "一貫した処理性能",
+    "techPoint3": "大量処理能力",
+    "techPoint4": "24時間連続運転",
+    "techPoint5": "運用効率の向上",
+    "techPoint6": "処理遅延の削減",
+    "techOutro": "最新設備への投資と継続的な運用改善により、今日の鉱山業界のニーズに対応しています。",
+    "sustainEyebrow": "責任ある処理",
+    "sustainTitle": "サステナビリティと責任ある",
+    "sustainHighlight": "処理",
+    "sustainP1": "責任ある鉱山と環境配慮型の運用の重要性を認識しています。",
+    "sustainP2": "運用効率と資源管理を念頭に回収アプローチを設計しています。水と処理化学薬品の使用を最適化しながら、効果的な回収性能と責任ある運用慣行を維持しています。",
+    "sustainP3": "JEMA Africaの持続可能で影響力のあるビジネス開発への更なる commitment の一環として、クライアント、コミュニティ、鉱山セクターに長期的な価値を創造するソリューションに焦点を当て続けています。",
+    "trustEyebrow": "完全な信頼性",
+    "trustTitle": "鉱山 operationsの",
+    "trustHighlight": "信頼できるパートナー",
+    "trustIntro": "JEMA Elutionでは、効率的な金回収が成功する鉱山 operationsの重要な部分であることを理解しています。その理由から、処理能力以上のものに焦点を当てています。以下を組み合わせています：",
+    "formulatechnology": "テクノロジー",
+    "formulaexperience": "経験",
+    "formulareliability": "信頼性",
+    "formulasecurity": "セキュリティ",
+    "formulatransparency": "透明性",
+    "formulasupport": "カスタマーサポート",
+    "trustOutro": "完全で信頼性の高いエルーションサービスを提供するため。鉱山会社が効率的な処理を実現し、運用遅延を最小限に抑え、金回収 operationsから生成される価値を最大化することを支援することが私たちの目標です。",
+    "locEyebrow": "活動拠点",
+    "locTitle": "戦略的",
+    "locHighlight": "ロケーション",
+    "loc0": {
+      "city": "ムワンザ",
+      "tag": "鉱山部門本社",
+      "address": "Jema Tech Building, Mkuyuni Industrial Area, Mwanza, Tanzania."
+    },
+    "loc1": {
+      "city": "カハマ",
+      "address": "Mbulu Street, Kahama, Tanzania."
+    },
+    "loc2": {
+      "city": "ゲイタ",
+      "address": "Mpomvu Street, Geita, Tanzania."
+    },
+    "loc3": {
+      "city": "ムソマ",
+      "address": "Musoma Bus Stop Street, Musoma, Tanzania."
+    },
+    "locNote": "地域への立地により、JEMA Elutionはタンザニアの主要鉱山地域全体でアクセシブルなサービスと応答性の高いサポートを提供しています。",
+    "commitEyebrow": "私たちの commitment",
+    "commitTitle": "パフォーマンス。誠実さ。",
+    "commitHighlight": "イノベーション。信頼。",
+    "commitIntro": "私たちの commitment はシンプルです：先進的なテクノロジー、専門的な運用、優れたカスタマーサービスを通じて効率的な金回収サービスを提供することです。",
+    "commitP2": "設備、人材、プロセス、クライアント関係に継続的に投資し、JEMA Elutionがタンザニアの成長する鉱山業界の信頼できるパートナーであり続けることを確保しています。",
+    "commitP3": "長期的な成功はパフォーマンス、誠実さ、イノベーション、信頼の上に築かれると信じています。",
+    "partnerEyebrow": "お問い合わせ",
+    "partnerTitle": "JEMA ELUTIONと",
+    "partnerHighlight": "パートナーになる",
+    "partnerText": "小規模鉱山から大規模鉱山 operations、金処理会社、信頼できるエルーションパートナーを求める鉱山企業まで、JEMA Elutionは your operation をサポートする準備ができています。",
+    "partnerExperience": "効率的な処理を経験してください。専門的なサービスを経験してください。JEMA Elutionを経験してください。",
+    "partnerOfficeLabel": "鉱山部門本社",
+    "partnerOfficeAddress": "Jema Tech Building, Mkuyuni Industrial Area, Mwanza, Tanzania",
+    "partnerTagline": "先進的な金回収 | 信頼性の高い処理 | 信頼できるパートナーシップ"
   },
   "chemicals": {
-    "eyebrow": "ジェマケミカルズ",
-    "title": "アフリカ全体に鉱業の卓越を供給",
-    "lead": "ジェマケミカルズは、タンザニア国内外の処理プラントに高品質な鉱山化学薬品、試薬、消耗品を供給しています。",
-    "cta": "製品を見る",
-    "partnerTitle": "信頼できるパートナー",
-    "partnerText": "国際的なメーカーとの提携により、地元の専門知識とサポートとともに世界クラスの製品を提供しています。",
-    "consultTitle": "専門家のアドバイスが必要ですか？",
-    "consultText": "専門家チームが、お使いのオペレーションに最適な化学薬品とソリューションを見つけるお手伝いをします。",
-    "consultButton": "お問い合わせ",
-    "stats": {
-      "stat1Label": "供給された製品",
-      "stat2Label": "鉱山オペレーション",
-      "stat3Label": "専門家チーム",
-      "stat4Label": "年の経験"
+    "heroTitle": "高品質な化学ソリューションで",
+    "heroHighlight": "鉱業の卓越を支援",
+    "heroLead": "JEMA ChemicalsはJEMA Africa傘下の鉱山化学専門会社です。タンザニアおよび東アフリカ地域の鉱山向けに、高品質の鉱物処理化学薬品と技術ソリューションの供給に専念しています。信頼性の高い製品、専門的なサポート、効率的なサプライチェーンソリューションを小規模・中規模・大規模鉱山会社に提供しています。",
+    "heroCta": "製品を見る",
+    "partnerEyebrow": "私たちについて",
+    "partnerTitle": "アフリカ中の鉱山会社の",
+    "partnerHighlight": "信頼できるパートナー",
+    "partnerP1": "鉱山セクターの成長するニーズに応えるために設立されたJEMA Chemicalsは、信頼性の高い製品、専門的なサポート、効率的なサプライチェーンソリューションの提供により、信頼できるパートナーになりました。私たちは、鉱山 operationsに適切な製品を適切なタイミングで適切な量で提供し、生産性と効率性を維持することに取り組んでいます。",
+    "partnerP2": "JEMA Chemicalsは鉱山化学薬品の輸入、流通、保管、輸送、輸出を担当し、タンザニアの主要鉱山地域に配置された強力な支店ネットワークで支えられています。",
+    "pillar01": {
+      "title": "戦略的パートナーシップ",
+      "text": "国際的なメーカー、サプライヤー、テクノロジープロバイダーと協力し、高品質な製品、業界専門知識、ベストプラクティスへのアクセスを確保しています。このパートナーシップにより、顧客に一貫した製品品質と競争力のある価格を提供しています。"
+    },
+    "pillar02": {
+      "title": "安全・法令遵守・責任ある運営",
+      "text": "安全と法令遵守は運用の不可欠な部分です。JEMA Chemicalsは化学薬品の輸入、保管、輸送、取扱いに関する現地規制および業界基準を遵守しています。責任ある化学薬品の使用を推進し、環境配慮型の慣行の支援に取り組んでいます。"
+    },
+    "pillar03": {
+      "title": "戦略的支店ネットワーク",
+      "text": "JEMA Chemicalsはムワンザ、ゲイタ、カハマ、ムソマ、チュニャ、ンパンダなど主要鉱山地域に支店を展開し、より速いサービス、製品の入手可能性、応答性の高い顧客サポートを確保しています。鉱山コミュニティに近い立地により、地域の業界要件を理解し、最適なソリューションを提供しています。"
+    },
+    "bandTitle": "今すぐ高品質製品を入手！",
+    "purposeEyebrow": "私たちの使命",
+    "purposeTitle": "信頼性の高い供給で",
+    "purposeHighlight": "鉱山の成功を支援",
+    "purposeP1": "鉱山 operationsは最適な回収、効率的な処理、持続可能な生産を達成するために、高品質な化学薬品の信頼性の高い供給を必要としています。JEMA Chemicalsでは、世界の化学メーカーと地元鉱山 operationsの橋渡しをすることが使命です。",
+    "purposeP2": "中断のない化学薬品供給が鉱山の成功にとって不可欠であることを理解しています。したがって、在庫管理、物流、保管施設、支店ネットワークに投資し、タイムリーな製品供給と運用ダウンタイムの削減を確保しています。",
+    "feature0": {
+      "title": "高品質鉱山化学薬品",
+      "text": "鉱物処理、金抽出、水処理、冶金 operationsで使用される幅広い化学薬品を提供しています。"
+    },
+    "feature1": {
+      "title": "グローバル調達とサプライチェーン",
+      "text": "韓国、中国、インド、スリランカの国際的に認識されたメーカーから製品を輸入し、一貫した製品品質と競争力のある価格を確保しています。"
+    },
+    "feature2": {
+      "title": "戦略的ロケーション",
+      "text": "主要鉱山町に展開する支店ネットワークにより、タンザニア全土でタイムリーな製品供給と応答性の高い顧客サポートを提供しています。"
+    },
+    "feature3": {
+      "title": "技術サポートとコンサルティング",
+      "text": "単なるサプライヤーではなく、技術パートナーです。製品選定のガイダンス、使用推奨、プロセス最適化アドバイス、運用サポートを提供しています。"
+    },
+    "productsEyebrow": "製品一覧",
+    "productsTitle": "高品質鉱山処理",
+    "productsHighlight": "化学薬品",
+    "productsLead": "JEMA Chemicalsは鉱物処理、金抽出、水処理、冶金 operationsで使用される幅広い化学薬品を提供しています。金抽出用のシアン化ナトリウムから鉱石処理用の粉砕ボールまで、最高の効率と品質を提供するように設計されています。",
+    "product0": {
+      "name": "シアン化ナトリウム",
+      "desc": "金抽出プロセスで広く使用され、金回収効率の最大化に重要な役割を果たします。",
+      "img": "/assets/chemicals/sodium-cyanide.png"
+    },
+    "product1": {
+      "name": "活性炭",
+      "desc": "金吸着および回収プロセスで使用される高品質活性炭。効率的な抽出とプラント性能の向上を支援します。",
+      "img": "/assets/chemicals/activated-carbon.png"
+    },
+    "product2": {
+      "name": "フロッキュラント",
+      "desc": "水澄清、残渣処理、鉱物処理 operationsで使用され、分離効率を改善します。",
+      "img": "/assets/chemicals/flocculants.png"
+    },
+    "product3": {
+      "name": "過酸化水素",
+      "desc": "鉱石処理プロセス、解毒アプリケーション、プロセス最適化に使用されます。",
+      "img": "/assets/chemicals/hydrogen-peroxide.png"
+    },
+    "product4": {
+      "name": "亜硫酸水素ナトリウム",
+      "desc": "シアン化物解毒および環境管理プロセスに使用されます。",
+      "img": "/assets/chemicals/sodium-metabisulfite.png"
+    },
+    "product5": {
+      "name": "苛性ソーダ",
+      "desc": "鉱山 operationsのpH調節とプロセス制御に不可欠です。",
+      "img": "/assets/chemicals/caustic-soda-a.png"
+    },
+    "product6": {
+      "name": "粉砕ボール",
+      "desc": "ボールミルで使用される高品質粉砕媒体。鉱石のサイズ削減と処理効率を改善します。",
+      "img": "/assets/chemicals/caustic-soda.png"
+    },
+    "whyEyebrow": "JEMA Chemicalsが選ばれる理由",
+    "whyTitle": "高品質製品。信頼性の高い供給。",
+    "whyHighlight": "信頼できるパートナーシップ。",
+    "whyText": "品質への取り組み、主要鉱山町の強力な支店ネットワーク、業界専門家チームにより、operationsに最適化されたソリューションを提供しています。信頼性、応答性、信頼に基づく長期的な関係を構築しています。",
+    "faq0": {
+      "q": "JEMA Chemicalsは他のサプライヤーと何が違うのですか？",
+      "a": "国際的に認識されたメーカーから調達された高品質製品と、個人化された技術サポート、タンザニア全土の戦略的支店ネットワークを組み合わせています。主要鉱山町に位置することで、迅速な化学薬品アクセスを確保し、operationsを支援する専任チームがいます。"
+    },
+    "faq1": {
+      "q": "鉱山化学薬品の品質はどのように確保していますか？",
+      "a": "品質が最優先です。韓国、中国、インド、スリランカの信頼できるメーカーから業界基準を満たす製品を調達しています。チームが継続的な技術サポートを提供し、化学薬品がアプリケーションで効果的に機能するよう支援しています。"
+    },
+    "faq2": {
+      "q": "大規模鉱山 operationsに対応できますか？",
+      "a": "もちろんです。豊富な在庫、ムワンザ、ゲイタ、カハマ、ムソマ、チュニャ、ンパンダの戦略的支店と物流専門知識により、小規模・中規模・大規模鉱山 operationsのニーズに効率的かつ信頼性を持って対応できます。"
+    },
+    "faq3": {
+      "q": "化学薬品供給以外にどのようなサービスを提供していますか？",
+      "a": "製品供給に加え、技術コンサルティング、製品選定ガイダンス、化学薬品使用サポート、プロセス最適化アドバイス、運用サポートを提供しています。また、保管施設、輸送サービス、流通ネットワークを維持し、タイムリーな配送を確保しています。"
+    },
+    "consultEyebrow": "技術サポートとコンサルティング",
+    "consultTitle": "サプライヤーを超えて —",
+    "consultHighlight": "技術パートナー",
+    "consultText": "JEMA Chemicalsでは、製品を提供するだけでは不十分であると信じています。チームは顧客と密接に連携し、製品選定ガイダンス、化学薬品使用サポート、使用推奨、プロセス最適化アドバイス、技術コンサルティング、運用サポートを提供しています。",
+    "formSubject": "件名",
+    "formMessage": "メッセージ",
+    "formComment": "コメント",
+    "teamEyebrow": "チーム紹介",
+    "teamTitle": "卓越を支える",
+    "teamHighlight": "人々",
+    "teamText": "チームはJema Chemicalsの背骨です。豊富な業界知識と革新への情熱を持ち、クライアントに最高のソリューションを提供することに取り組んでいます。タンザニア全土のブランチリーダーからオペレーションおよびマーケティングスペシャリストまで、鉱山之旅をシームレスにするためにここにいます。",
+    "member0": {
+      "name": "Samweli Makindi",
+      "role": "ムワンザ支店長",
+      "img": "/assets/chemicals/team-makindi.png"
+    },
+    "member1": {
+      "name": "Mr. Felix Mokili",
+      "role": "オペレーションリーダー",
+      "img": "/assets/chemicals/team-felix-mokili.png"
+    },
+    "member2": {
+      "name": "Mr. Juma Luchele",
+      "role": "鉱山部門COO",
+      "img": "/assets/chemicals/team-luchele.png"
+    },
+    "member3": {
+      "name": "Mr. Naim Karama",
+      "role": "鉱山部門マーケティング",
+      "img": "/assets/chemicals/team-naim-karama.png"
+    },
+    "member4": {
+      "name": "Mr. Mokili Daniel Sese",
+      "role": "ゲイタ支店長",
+      "img": "/assets/chemicals/team-mokili-sese.png"
+    },
+    "member5": {
+      "name": "Mr. Macdonald Julius Masambe",
+      "role": "ンパンダプロジェクトリーダー",
+      "img": "/assets/chemicals/team-macdonald.png"
+    },
+    "member6": {
+      "name": "Mr. Benjamin Daniel",
+      "role": "チュニャ支店長",
+      "img": "/assets/chemicals/team-benjamin.png"
+    },
+    "member7": {
+      "name": "Mr. Baraka Lusake",
+      "role": "ムソマ支店長",
+      "img": "/assets/chemicals/team-baraka.png"
+    },
+    "branchesEyebrow": "戦略的支店ネットワーク",
+    "branchesTitle": "お客様に",
+    "branchesHighlight": "近い存在",
+    "branchesText": "JEMA Chemicalsは主要鉱山地域に支店を展開し、より速いサービス、製品の入手可能性、応答性の高い顧客サポートを確保しています。鉱山コミュニティに近い立地により、地域の業界要件を理解し、最適なソリューションを提供しています。",
+    "branch0": {
+      "city": "ムワンザ支店",
+      "address": "Jema Tech Building. Industrial Area. Mwanza. Tanzania.",
+      "phone": "+255 677 066 855",
+      "href": "tel:+255677066855"
+    },
+    "branch1": {
+      "city": "カハマ支店",
+      "address": "Kahama, Tanzania.",
+      "phone": "+255 767 060 719",
+      "href": "tel:+255767060719"
+    },
+    "branch2": {
+      "city": "ゲイタ支店",
+      "address": "Geita, Tanzania.",
+      "phone": "+255 745 694 989",
+      "href": "tel:+255745694989"
+    },
+    "branch3": {
+      "city": "チュニャ支店",
+      "address": "Chunya, Tanzania.",
+      "phone": "+255 627 067 369",
+      "href": "tel:+255627067369"
+    },
+    "branch4": {
+      "city": "サザ支店",
+      "address": "Saza, Tanzania.",
+      "phone": "+255 629 260 739",
+      "href": "tel:+255629260739"
+    },
+    "contactEyebrow": "お問い合わせ",
+    "contactTitle": "JEMA Chemicalsと",
+    "contactHighlight": "パートナーになる",
+    "contactText": "小規模鉱山から成長中的処理プラント、大規模鉱山 operationsまで、業務の卓越性を達成するために必要な製品、専門知識、サービスを提供することに取り組んでいます。",
+    "contactOffice": "鉱山部門本社",
+    "contactAddress1": "JEMA Tech Building, Mkuyuni Industrial Area",
+    "contactAddress2": "Mwanza, Tanzania",
+    "contactPhone": "電話: +255 28 255 0380",
+    "contactEmail": "メール: info@jemaafrica.co.tz",
+    "newsEyebrow": "最新ニュース・ブログ",
+    "newsTitle": "ビジネスエリアの",
+    "newsHighlight": "最新情報",
+    "news0": {
+      "day": "01",
+      "month": "4月",
+      "category": "Jema Africa",
+      "date": "2026年4月1日",
+      "title": "JEMA Africa Limitedは14年間の成長、革新、影響を祝う。",
+      "href": "https://jemaafrica.co.tz/jema-africa-limited-celebrates-14-years-of-growth-innovation-and-impact/",
+      "img": "https://images.unsplash.com/photo-1522071820081-009f0129c71c?auto=format&fit=crop&w=500&q=85"
+    },
+    "news1": {
+      "day": "08",
+      "month": "12月",
+      "category": "Jema Auto",
+      "date": "2025年12月8日",
+      "title": "なぜタンザニア人は日本の車輸入でJEMA AUTOを選ぶべきか",
+      "href": "https://jemaafrica.co.tz/kwa-nini-watanzania-wanapaswa-kuchagua-jema-auto-katika-uagizaji-wa-magari-kutoka-japan/",
+      "img": "https://images.unsplash.com/photo-1492144534655-ae79c964c9d7?auto=format&fit=crop&w=500&q=85"
+    },
+    "news2": {
+      "day": "08",
+      "month": "12月",
+      "category": "Jema Africa",
+      "date": "2025年12月8日",
+      "title": "JEMA Africa Ltdが2025年マイニングショー展示会でゴールドスポンサーとしてメインステージを飾る",
+      "href": "https://jemaafrica.co.tz/jema-africa-ltd-leads-the-stage-as-gold-sponsor-at-the-2025-mining-show-exhibition-in-dubai/",
+      "img": "https://images.unsplash.com/photo-1581094794329-c8112a89af12?auto=format&fit=crop&w=500&q=85"
+    },
+    "office0": {
+      "title": "鉱山部門本社",
+      "address": "Jema Tech Building. Industrial Area. Mwanza. Tanzania.",
+      "phone": "+255 28 255 0380",
+      "href": "tel:+255282550380"
+    },
+    "office1": {
+      "title": "非鉱山部門本社",
+      "address": "5th floor, TAN House, Victoria, Dar es Salaam.",
+      "phone": "+255 677 091 421",
+      "href": "tel:+255677091421"
+    },
+    "office2": {
+      "title": "JITメインキャンパス",
+      "address": "Jema Tech Building. Industrial Area. Mwanza. Tanzania.",
+      "phone": "+255 76 628 3530",
+      "href": "tel:+255766283530"
     }
   },
   "jit": {
-    "eyebrow": "ジェマ工科大学",
-    "title": "アフリカの次世代を支援",
-    "lead": "JITは、アフリカの成長産業向けに、次世代のエンジニア和技术者を育成するワールドクラスの技術教育と訓練を提供しています。",
-    "cta": "詳しく見る",
-    "features": {
-      "feature1": { "title": "最新の設備", "text": "業界標準の設備を備えた最先端の実験室とワークショップ。" },
-      "feature2": { "title": "専門の教員", "text": "実際の業界経界経験を持つ経験界経験を持つ経験豊富な専門家から学べます。" },
-      "feature3": { "title": "業界とのつながり", "text": "Jema Africaの企業ネットワークを通じた直接的な就職の道。" }
+    "heroEyebrow": "JEMA Institute of Technology",
+    "heroTitle": "教育に投資。スキルを構築。",
+    "heroHighlight": "未来を変革。",
+    "heroLead": "Jema Institute of Technology（JIT）は、タンザニアの進化する労働力のために、実践的なスキル、技術的専門知識、革新、専門的能力を発展させるために設立されたテクノロジー駆動の技術・職業教育機関です。JEMA Africa Limitedが所有するJITは、学術的学習と実践的な研修を組み合わせ、卒業生を就職、起業、革新、生涯の専門的発展に備えます。",
+    "heroCta1": "今すぐ申し込む",
+    "heroCta2": "プログラムを探す",
+    "pillar1": {
+      "title": "私たちのビジョン",
+      "text": "産業を変革し、持続可能な国家経済開発に貢献するテクノロジー駆動の機関になること。私たちのビジョンは、技術教育が産業化、技術進歩、経済変革の重要な推進力であるという信念を反映しています。"
+    },
+    "pillar2": {
+      "title": "私たちのミッション",
+      "text": "コミュニティの日常生活にテクノロジーを統合し、デジタル知識を拡大し、より良い明日のために創造性と革新を促進することで、生活を向上させること。実践的な教育を提供し、技術的能力を発展させ、革新を促進し、卒業生と専門家が現代の産業に関連するスキルを習得する機会を作ることでこのミッションを追求しています。"
+    },
+    "pillar3": {
+      "title": "私たちのコアバリュー",
+      "text": "私たちの価値観は、生徒、パートナー、コミュニティとの教授、リーダーシップ、関わり方を導いています。誠実さ、プロフェッショナリズム、尊重、革新、卓越、相互依存、 competencesに基づいた教育。"
+    },
+    "aboutEyebrow": "JITについて",
+    "aboutTitle": "変化する世界のための",
+    "aboutHighlight": "スキル開発",
+    "aboutP1": "Jema Institute of Technologyは、タンザニアの技術教育と専門的スキルの開発に貢献するためにJEMA Africaによって設立されました。鉱山、テクノロジー、ビジネス、産業運営全体でのJEMA Africaの経験は、JITに現実の産業要件への重要な接続を提供しています。",
+    "aboutP2": "今日、JITは生徒が理論的理解と実践的能力の両方を発展させることができる学習環境を提供しています。私たちの教育モデルは4つの主要な成果を中心に設計されています：",
+    "aboutP3": "JITはムワンザのMkuyuni Industrial AreaにあるJEMA Tech Buildingに位置し、テクノロジー、鉱山、ビジネス、産業活動に関連する環境の中に戦略的に配置されています。",
+    "program0": "鉱物処理",
+    "program1": "情報通信技術（ICT）",
+    "program2": "プロフェッショナル短期コース",
+    "program3": "産業焦点の研修",
+    "highlightsEyebrow": "未来世代のために教育に投資",
+    "highlightsTitle": "",
+    "highlightsHighlight": "革新が教育と出会う場所",
+    "highlightsLead": "JITでは、教育は学術的知識を提供する以上のものであるべきだと信じています。現実の問題を解決し、社会に有意義に貢献するために必要な実践的能力、自信、創造性、技術スキルで人々を装備すべきです。",
+    "highlight0": {
+      "title": "能力ベースの教育",
+      "text": "生徒が現実の作業環境で適用できる実践的能力の発展に焦点を当てています。教育モデルは4つの主要な成果を中心に設計されています：知識、スキル、革新、雇用可能性 — 卒業生を就職、起業、革新、専門的な成功に備えます。"
+    },
+    "highlight1": {
+      "title": "最新の学習施設",
+      "text": "JITは理論的指導、実践的学習、テクノロジー開発、生徒の活動をサポートするように設計された施設を提供しています。学習環境には最新の実験室、教室、技術研修施設、図書館リソース、ICTインフラ、研究施設、革新スペース、卒業生に実践的な産業的視野を提供する金処理エルーションプラントが含まれています。"
+    },
+    "highlight2": {
+      "title": "実践的・能力ベースの学習",
+      "text": "JITの主要な強みの1つは、実践的学習への重点です。アプローチには実験セッション、実践的な課題、技術デモンストレーション、フィールド視察、産業実習、プロジェクトベース学習、テクノロジーベース学習、研究革新活動が含まれます。"
+    },
+    "highlight3": {
+      "title": "生徒革新ハブ",
+      "text": "JIT生徒革新ハブは、生徒がアイデアを探求し、プロジェクトを開発し、テクノロジーを実験するプラットフォームを提供しています。革新ハブを通じて、生徒はデジタルソリューション、技術プロジェクト、起業家アイデア、研究プロジェクト、プロトタイプ、テクノロジーベースのソリューションを開発できます。"
+    },
+    "highlight4": {
+      "title": "研究と革新",
+      "text": "JITは研究と革新を現代の技術教育の不可欠な構成要素として認識しています。研究革新活動は、生徒とスタッフが現実の課題を特定し、テクノロジー、科学、技術知識を使用して実践的なソリューションを開発することを奨励しています。"
+    },
+    "highlight5": {
+      "title": "産業とのつながり",
+      "text": "JITはJEMA Africaおよび鉱山、テクノロジー、物流、教育、自動車、化学、金融サービスにわたるグループの多様なビジネス運営との関係から恩恵を受けています。このつながりは、生徒が実際の運用環境で知識がどのように適用されるかを理解する必要がある技術分野で特に価値があります。"
+    },
+    "ctaTitle": "教育に投資",
+    "ctaHighlight": "未来世代のために",
+    "ctaLabel": "お問い合わせ",
+    "valueEyebrow": "JITが選ばれる理由",
+    "valueTitle": "JEMA Institute of Technologyが選ばれる",
+    "valueHighlight": "6つの理由",
+    "valueLead": "実践的な教育と最新の実験室から、経験豊富な講師、産業関連のプログラム、研究革新、テクノロジー対応の学習まで — JITは社会と産業の変化するニーズに対応する、関連性が高く実践的な教育を提供することにcommitmentしています。",
+    "value0": "知識 — 職業の背後にある原則を理解すること。",
+    "value1": "スキル — 実践的な学習を通じて実践的な能力を発展させること。",
+    "value2": "革新 — 創造性とテクノロジー駆動の問題解決を促進すること。",
+    "value3": "雇用可能性 — 卒業生が職場で効果的に貢献するか、自分自身の事業を確立するために準備すること。",
+    "teamEyebrow": "学長からのメッセージ",
+    "teamTitle": "ようこそ",
+    "teamHighlight": "JEMA Institute of Technologyへ",
+    "teamText": "大いな誇りと熱意を持って、JEMA Institute of Technologyへようこそお迎えいたします。JITは革新が卓越と出会い、志ある専門家がテクノロジーと産業の未来に貢献するために必要な知識、技術スキル、自信を発展させる機会与えられる場所です。生徒が学び、実験し、革新し、責任ある専門家に成長できる環境を作ることにcommitmentしています。あなたの可能性は始まりです。あなたのスキルは基盤です。あなたの革新が未来を形作ることができます。",
+    "member0": {
+      "name": "Benezeth Kamihanda氏",
+      "role": "学長 - JIT",
+      "img": "/assets/jit/team-kamihanda.png"
+    },
+    "member1": {
+      "name": "Japhet Ngoro氏",
+      "role": "カレッジマネージャー",
+      "img": "/assets/jit/team-ngoro.png"
+    },
+    "member2": {
+      "name": "Nibusam Damas Kashind氏",
+      "role": "カレッジ管理者",
+      "img": "/assets/jit/team-kashind.png"
+    },
+    "contactEyebrow": "JEMA Institute of Technologyに参加",
+    "contactTitle": "あなたの可能性を",
+    "contactHighlight": "専門的な成功に変革",
+    "contactText": "最近の高校卒業生、追加スキルを求める専門家、従業員を研修したい組織、起業を志す人など、JITは実践的な知識と専門的能力を発展させる機会を提供しています。",
+    "contactLocationLabel": "所在地",
+    "contactLocation": "P.O. Box 269, Mkuyuni, Mwanza, Tanzania",
+    "contactCallLabel": "お電話",
+    "newsEyebrow": "ニュース＆ブログ",
+    "newsTitle": "最新情報",
+    "newsHighlight": "Jema Africaから",
+    "news0": {
+      "day": "01",
+      "month": "4月",
+      "date": "2026年4月1日",
+      "category": "Jema Africa",
+      "title": "JEMA Africa Limitedは14年間を祝う",
+      "href": "https://jemaafrica.co.tz/jema-africa-limited-celebrates-14-years-of-growth-innovation-and-impact/",
+      "img": "https://images.unsplash.com/photo-1522071820081-009f0129c71c?auto=format&fit=crop&w=500&q=85"
+    },
+    "news1": {
+      "day": "08",
+      "month": "12月",
+      "date": "2025年12月8日",
+      "category": "Jema Auto",
+      "title": "なぜタンザニア人はJEMAを選ぶべきか",
+      "href": "https://jemaafrica.co.tz/kwa-nini-watanzania-wanapaswa-kuchagua-jema-auto-katika-uagizaji-wa-magari-kutoka-japan/",
+      "img": "https://images.unsplash.com/photo-1492144534655-ae79c964c9d7?auto=format&fit=crop&w=500&q=85"
+    },
+    "news2": {
+      "day": "08",
+      "month": "12月",
+      "date": "2025年12月8日",
+      "category": "Jema Africa",
+      "title": "JEMA Africa Ltdがステージをリード",
+      "href": "https://jemaafrica.co.tz/jema-africa-ltd-leads-the-stage-as-gold-sponsor-at-the-2025-mining-show-exhibition-in-dubai/",
+      "img": "https://images.unsplash.com/photo-1581094794329-c8112a89af12?auto=format&fit=crop&w=500&q=85"
+    },
+    "office0": {
+      "title": "JITメインキャンパス",
+      "address": "P.O. Box 269, Mkuyuni, Mwanza, Tanzania.",
+      "phone": "+255 76 628 3530",
+      "href": "tel:+255766283530"
+    },
+    "office1": {
+      "title": "鉱山部門本社",
+      "address": "Jema Tech Building. Industrial Area. Mwanza. Tanzania.",
+      "phone": "+255 28 255 0380",
+      "href": "tel:+255282550380"
+    },
+    "office2": {
+      "title": "メール",
+      "address": "info@jit.ac.tz",
+      "phone": "",
+      "href": "mailto:info@jit.ac.tz"
     }
   },
   "tech": {
@@ -213,26 +844,433 @@
     "cta": "製品を見る"
   },
   "auto": {
-    "eyebrow": "ジェマオート",
-    "title": "高品質な車両、信頼できる輸入",
-    "lead": "ジェマオートは、日本およびそれ以外の高品質な車両を企業と個人に結びつけ、輸入プロセス全体を処理します。",
-    "cta": "一緒に輸入"
+    "heroEyebrow": "Jema Auto",
+    "heroTitle": "クオリティを、",
+    "heroHighlight": "手に取りやすく。",
+    "heroDesc": "日本、ドイツ、USA、ドバイ、その他の信頼できる市場から高品質な中古車を輸入する premier importer。信頼性、透明性、顧客満足を最優先に、タンザニアおよび東アフリカ・中央アフリカ地域全体にサービスを提供しています。",
+    "heroCta": "詳細を見る",
+    "welcomeBadge": "2012年から",
+    "welcomeEyebrow": "Jema Autoへようこそ",
+    "welcomeTitle": "あなたの",
+    "welcomeHighlight": "ドリームカーをJema Autoで手に入れて",
+    "welcomeP1": "Jema Autoは世界中から高品質な中古車を輸入する premier importerで、タンザニアおよび東アフリカ・中央アフリカ地域全体にサービスを提供しています。信頼性と顧客満足に焦点を当て、日本、ドイツ、USA、ドバイ、世界の他の多くの地域から車両を調達しています。",
+    "welcomeP2": "豊富な在庫と革新的なソリューションが自動車業界で私たちを差別化しています。",
+    "welcomeP3": "Jema Autoでの中古車購入の容易さと信頼性を体験してください。品質、透明性、顧客満足がすべての活動の最前線にあります。",
+    "servicesEyebrow": "サービス一覧",
+    "servicesTitle": "お客様に提供する",
+    "servicesHighlight": "サービス",
+    "servicesLead": "ファミリーカー、高級車、信頼性の高いワックトラックなど、Jema Autoはタンザニアおよび東アフリカ・中央アフリカ地域全体で高品質な中古車のワンストップ_destinationです。",
+    "service0": {
+      "group": "車両輸入",
+      "title": "グローバル調達",
+      "text": "幅広い中古車を輸入し、お客様に幅広い選択肢を提供しています。確立された市場から調達することで、車両の品質と信頼性を保証しています。",
+      "img": "/assets/auto/sourcing.png"
+    },
+    "service1": {
+      "group": "車両輸入",
+      "title": "豊富な在庫",
+      "text": "プラットフォームからダルエスサラームの戦略的なカーヤードまで、数十万台の車両を保持し、お客様の多様なニーズと好みに対応する選択肢を提供しています。",
+      "img": "/assets/auto/inventory.png"
+    },
+    "service2": {
+      "group": "Jema Autoプラットフォーム",
+      "title": "オークションへのアクセス",
+      "text": "新たに発足したJema Autoプラットフォームは、200以上の日本の車両オークションへのアクセスを提供し、カーバイイング体験を革新しています。スマートフォンやラップトップから快適に数十万台の車両を閲覧できます。",
+      "img": "/assets/auto/platform.png"
+    },
+    "service3": {
+      "group": "Jema Autoプラットフォーム",
+      "title": "幅広い選択肢",
+      "text": "エコノミーモデルから高級車、特殊車両まで、多様な好み、要件、予算に対応する幅広い車両からお選びいただけます。",
+      "img": "/assets/auto/hero.png"
+    },
+    "service4": {
+      "group": "Jema Autoプラットフォーム",
+      "title": "透明性のある価格設定",
+      "text": "透明性に誇りを持っています。隠れた料金が一切ない、 straightforwardで正直なカーバイイングプロセスを提供しています。",
+      "img": "/assets/auto/sourcing.png"
+    },
+    "service5": {
+      "group": "Jema Autoプラットフォーム",
+      "title": "便利なアクセス",
+      "text": "24時間365日利用可能で、Jema Autoプラットフォームはお客様の都合に合わせて車両の探索と購入が可能です。",
+      "img": "/assets/auto/inventory.png"
+    },
+    "ctaTitle": "東アフリカ・中央アフリカにおける高品質中古車の",
+    "ctaHighlight": "信頼できる情報源",
+    "ctaCta": "さらに詳しく",
+    "whyEyebrow": "Jema Autoが選ばれる理由",
+    "whyTitle": "Jema Autoは自動車市場で",
+    "whyHighlight": "多くの理由から支持されています",
+    "reason0": {
+      "title": "品質保証",
+      "text": "輸入するすべての車両は、安全性とパフォーマンスの高い基準を満たすために徹底的な検査を受けています。"
+    },
+    "reason1": {
+      "title": "顧客中心主義",
+      "text": "顧客満足へのcommitmentが最高のサービスを提供する原動力です。在庫の閲覧から車両の納車まで、期待を exceededよう努めています。"
+    },
+    "reason2": {
+      "title": "競争力のある価格",
+      "text": "グローバルネットワークと効率的な運用を活用し、品質を妥協することなく競争力のある価格を提供しています。"
+    },
+    "reason3": {
+      "title": "専門家のサポート",
+      "text": "知識豊富なチームがすべてのお問い合わせに対応し、購入プロセス全体を通して専門的なアドバイスとサポートを提供しています。"
+    },
+    "whyFoot": "豊富な車両在庫を探索するには、ウェブサイトにアクセスするか、直接お問い合わせください：",
+    "whyFootCta": "ウェブサイトにアクセス",
+    "processEyebrow": "ご利用の流れ",
+    "processTitle": "Jema Autoから車両を購入するステップ",
+    "processHighlight": "",
+    "step0": {
+      "title": "ウェブサイトを閲覧",
+      "text": "各車両の詳細な説明と高品質な画像とともに、多様な車両をオンラインで探索できます。"
+    },
+    "step1": {
+      "title": "お問い合わせ",
+      "text": "気に入ったものはありますか？追加情報、写真、または試乗についてお問い合わせください。"
+    },
+    "step2": {
+      "title": "ファイナンスの確保",
+      "text": "ドリームカーの購入をサポートする柔軟なファイナンスオプションを提供しています。チームが最適な支払いプランを見つけるお手伝いをします。"
+    },
+    "step3": {
+      "title": "車両の受け取り",
+      "text": "購入後、お客様の所在地への配送を手配します。タンザニアおよび東アフリカ・中央アフリカ地域全体でスムーズで安全な配送を提供しています。"
+    },
+    "supportEyebrow": "アフターサービスサポート",
+    "supportTitle": "販売後もお客様の満足にcommitmentしています。メンテナンスから修理まで、Jema Autoがサポートします。",
+    "supportLabel": "専門アドバイザー",
+    "newsEyebrow": "ニュース＆ブログ",
+    "newsTitle": "最新＆",
+    "newsHighlight": "重要なニュース",
+    "newsBy": "投稿者：",
+    "newsReadMore": "続きを読む",
+    "news0": {
+      "day": "01",
+      "month": "4月",
+      "author": "Admin Jema Africa",
+      "category": "Jema Africa",
+      "title": "JEMA Africa Limitedは14年間を祝う",
+      "href": "https://jemaafrica.co.tz/jema-africa-limited-celebrates-14-years-of-growth-innovation-and-impact/",
+      "img": "https://images.unsplash.com/photo-1522071820081-009f0129c71c?auto=format&fit=crop&w=500&q=85"
+    },
+    "news1": {
+      "day": "08",
+      "month": "12月",
+      "author": "Admin Jema Auto",
+      "category": "Jema Auto",
+      "title": "なぜタンザニア人はJEMAを選ぶべきか",
+      "href": "https://jemaafrica.co.tz/kwa-nini-watanzania-wanapaswa-kuchagua-jema-auto-katika-uagizaji-wa-magari-kutoka-japan/",
+      "img": "https://images.unsplash.com/photo-1492144534655-ae79c964c9d7?auto=format&fit=crop&w=500&q=85"
+    },
+    "news2": {
+      "day": "08",
+      "month": "12月",
+      "author": "Admin Jema Africa",
+      "category": "Jema Africa",
+      "title": "JEMA Africa Ltdがステージをリード",
+      "href": "https://jemaafrica.co.tz/jema-africa-ltd-leads-the-stage-as-gold-sponsor-at-the-2025-mining-show-exhibition-in-dubai/",
+      "img": "https://images.unsplash.com/photo-1581094794329-c8112a89af12?auto=format&fit=crop&w=500&q=85"
+    },
+    "office0": {
+      "title": "鉱山部門本社",
+      "address": "Jema Tech Building. Industrial Area. Mwanza. Tanzania.",
+      "phone": "+255 28 255 0380",
+      "href": "tel:+255282550380"
+    },
+    "office1": {
+      "title": "非鉱山部門本社",
+      "address": "5th floor, TAN House, Victoria, Dar es Salaam.",
+      "phone": "+255 677 091 421",
+      "href": "tel:+255677091421"
+    },
+    "office2": {
+      "title": "JITメインキャンパス",
+      "address": "Jema Tech Building. Industrial Area. Mwanza. Tanzania.",
+      "phone": "+255 76 628 3530",
+      "href": "tel:+255766283530"
+    }
   },
   "cargo": {
-    "eyebrow": "ジェットカーゴ",
-    "title": "アフリカ全体の効率的な物流",
-    "lead": "ジェットカーゴは、タンザニアとアフリカ大陸全体の企業を結ぶ信頼できる物流・輸送サービスを提供しています。",
-    "cta": "利用する",
-    "stat1Label": "完了した配送",
-    "stat2Label": "対象国",
-    "stat3Label": "車両数",
-    "stat4Label": "顧客満足度"
+    "heroEyebrow": "ようこそ",
+    "heroTitle": "JETCargoへようこそ、",
+    "heroHighlight": "アフリカの物流の未来を再定義します。",
+    "heroLead": "JETCargoは、 клиентの多様なニーズに合わせたシームレスで信頼性の高い、効率的な貨物輸送ソリューションを提供することを使命としています。革新と卓越性に焦点を当て、JETCargoは最先端のテクノロジーと献身的なカスタマーサービスを通じて物流の景色を変革しています。",
+    "heroCta": "お問い合わせ",
+    "servicesEyebrow": "サービス内容",
+    "servicesTitle": "JETCargoが",
+    "servicesHighlight": "提供するもの。",
+    "servicesLead": "JETCargoは、貨物の配送を迅速かつ簡単に予約できる信頼性が高く使いやすいプラットフォームです。法人個人問わず、プラットフォームやモバイルアプリで物流を簡単に管理できます。効率性、革新、顧客満足度を重視した、ニーズに合った幅広い配送オプションを提供しています。",
+    "service0": {
+      "title": "シームレスな予約プロセス",
+      "text": "プラットフォームとモバイルアプリにより、配送の予約が迅速かつ簡単に完了します。法人・個人問わず、数クリックで配送を予約できます。"
+    },
+    "service1": {
+      "title": "ドアツードアサービス",
+      "text": "JETCargoは包括的なドアツードアサービスを提供し、ご自宅や拠点から荷物をピックアップし、地域内でも全国的にも直接目的地までお届けします。"
+    },
+    "service2": {
+      "title": "リアルタイム追跡",
+      "text": "リアルタイム追跡システムにより、配送の進行状況をいつでも確認でき、常に最新の状態が把握できます。"
+    },
+    "service3": {
+      "title": "柔軟な配送オプション",
+      "text": "各配送は独自のものであることを理解しています。JETCargoは速便からコスト効率の高いソリューションまで、ニーズに合わせた幅広い配送オプションを提供しています。"
+    },
+    "service4": {
+      "title": "専任カスタマーサポート",
+      "text": "カスタマーサポートチームが、ご質問やお困りの点に常に対応し、スムーズでストレスのない配送体験を保証します。"
+    },
+    "statLabel": "成功",
+    "whyEyebrow": "JETCargoを選ぶ理由",
+    "whyTitle": "JETCargoが",
+    "whyHighlight": "お客様の配送ニーズに最適な理由。",
+    "whyLead": "JETCargoは、小荷物から大量の貨物まで、異なるニーズに合わせたさまざまな価格オプションを提供しています。",
+    "why0": {
+      "title": "イノベーション主導の物流",
+      "text": "JETCargoでは、最新のテクノロジーを使用して配送プロセスを最適化することに専念しています。アプリとプラットフォームは、誰もが物流をよりシンプルで効率的にできるように設計されています。"
+    },
+    "why1": {
+      "title": "手頃で信頼性の高いサービス",
+      "text": "手頃さと信頼性が重要であることを理解しています。そのため、速度や安全性を損なうことなく、予算に合わせた柔軟な配送オプションを提供しています。"
+    },
+    "why2": {
+      "title": "お客様中心のアプローチ",
+      "text": "お客様の満足度が最優先です。予約から配送まで、カスタマーサポートチームが常に問題解決をお手伝いします。シームレスでストレスのない体験を提供します。"
+    },
+    "ctaTitle": "急ぎですか？配送を",
+    "ctaHighlight": "24〜48時間以内に届けます。",
+    "ctaPricing": "価格は配送量に基づいて異なります。",
+    "ctaAdvisor": "専門アドバイザー",
+    "keyEyebrow": "主要サービス",
+    "keyTitle": "小売業様の",
+    "keyHighlight": "独特のニーズを",
+    "keyHighlightEm": "理解しています。",
+    "keyLead": "JETCargoは、競争の激しい市場で小売業者が成功するために必要なツールとサポートを提供し、物流の再定義に専念しています。サプライヤーから店舗まで、商品がスムーズに、効率的に、信頼性を持って流れることで、共に成功を推進します。",
+    "key0": {
+      "title": "貨物オーナー - 個人",
+      "text": "個人配送の便利なサービス。"
+    },
+    "key1": {
+      "title": "貨物オーナー - 小売業者",
+      "text": "Eコマースビジネス向けのカスタマイズされた物流。"
+    },
+    "key2": {
+      "title": "貨物オーナー - 法人クライアント",
+      "text": "ウェブアプリを通じたシームレスな注文管理。"
+    },
+    "key3": {
+      "title": "輸送パートナー - フリートオーナー",
+      "text": "運用を効率化する専用アプリ。"
+    },
+    "key4": {
+      "title": "輸送パートナー - ドライバー",
+      "text": "効率的な貨物管理のためのドライバーアプリ。"
+    },
+    "key5": {
+      "title": "輸送パートナー - 航空会社・バス会社",
+      "text": "貨物監視のための統合ウェブアプリケーション。"
+    },
+    "newsEyebrow": "ブログ＆ニュース",
+    "newsTitle": "最新の",
+    "newsHighlight": "ニュース",
+    "newsLead": "Jema Africaからの最新の更新、成功事例、革新情報をお届けします。私たちのチームは、あらゆる業界で成長と影響力を推進しています。",
+    "readMore": "続きを読む",
+    "news0": {
+      "day": "01",
+      "month": "4月",
+      "date": "2026年4月1日",
+      "category": "Jema Africa",
+      "title": "JEMA Africa Limitedが14周年の成長、革新、影響力を祝う",
+      "href": "https://jemaafrica.co.tz/jema-africa-limited-celebrates-14-years-of-growth-innovation-and-impact/",
+      "img": "https://images.unsplash.com/photo-1522071820081-009f0129c71c?auto=format&fit=crop&w=500&q=85"
+    },
+    "news1": {
+      "day": "08",
+      "month": "12月",
+      "date": "2025年12月8日",
+      "category": "Jema Auto",
+      "title": "タンザニア人が日本の車輸入でJEMA AUTOを選ぶべき理由",
+      "href": "https://jemaafrica.co.tz/kwa-nini-watanzania-wanapaswa-kuchagua-jema-auto-katika-uagizaji-wa-magari-kutoka-japan/",
+      "img": "https://images.unsplash.com/photo-1492144534655-ae79c964c9d7?auto=format&fit=crop&w=500&q=85"
+    },
+    "news2": {
+      "day": "08",
+      "month": "12月",
+      "date": "2025年12月8日",
+      "category": "Jema Africa",
+      "title": "JEMA Africa Ltdが2025年マイニングショー展示会でゴールドスポンサーとして主役を飾る",
+      "href": "https://jemaafrica.co.tz/jema-africa-ltd-leads-the-stage-as-gold-sponsor-at-the-2025-mining-show-exhibition-in-dubai/",
+      "img": "https://images.unsplash.com/photo-1581094794329-c8112a89af12?auto=format&fit=crop&w=500&q=85"
+    },
+    "contactEyebrow": "お問い合わせ",
+    "contactTitle": "配送を",
+    "contactHighlight": "24〜48時間以内に届けます。",
+    "contactLead": "シームレスでストレスのない体験を保証します。",
+    "contactMobile": "携帯電話",
+    "contactPhoneText": "オフィス電話番号 +255 28 255 0380 & +255 677 091 421",
+    "contactLocation": "所在地",
+    "contactAddress1": "Jema Tech Building. Industrial Area. Mwanza. Tanzania.",
+    "contactAddress2": "5th floor, TAN House, Victoria, Dar es Salaam.",
+    "formFirstName": "名",
+    "formLastName": "姓",
+    "formEmail": "メール",
+    "formPhone": "電話",
+    "formSubject": "件名",
+    "formComment": "コメント",
+    "formSubmit": "メッセージ送信",
+    "formSent": "送信完了",
+    "office0": {
+      "title": "鉱業部門本社",
+      "address": "Jema Tech Building. Industrial Area. Mwanza. Tanzania.",
+      "phone": "+255 28 255 0380"
+    },
+    "office1": {
+      "title": "非鉱業部門本社",
+      "address": "5th floor, TAN House, Victoria, Dar es Salaam.",
+      "phone": "+255 677 091 421"
+    },
+    "office2": {
+      "title": "JITメインキャンパス",
+      "address": "Jema Tech Building. Industrial Area. Mwanza. Tanzania.",
+      "phone": "+255 76 628 3530"
+    }
   },
   "finance": {
-    "eyebrow": "ジェマ金融サービス",
-    "title": "成長のための金融ソリューション",
-    "lead": "ジェマ金融サービスは、アフリカの企業とコミュニティを支援するカスタマイズされた金融ソリューションを提供しています。",
-    "cta": "サービス"
+    "heroEyebrow": "Jema Financial Services",
+    "heroTitle": "革新的な金融サービス",
+    "heroHighlight": "より明るい未来のために",
+    "heroLead": "JETFinanceは、essentia金融サービスへのアクセスを提供することで、サービスが行き届いていないコミュニティをエンパワーメントするためのデジタルマイクロファイナンスプラットフォームです。Jema Africa Limitedによってinitiativeとして立ち上げられたJETFinanceは、タンザニアのVicobaや中小企業の金融clusionのギャップを埋めることを目指しています。",
+    "heroCta": "詳細を見る",
+    "heroExpLabel": "年の\n経験",
+    "visionLabel": "ビジョン",
+    "visionText": "革新的なソリューションと優れたカスタマーサービスを通じて、金融clusionと経済成長を推進するタンザニア最大のデジタルマイクロファイナンスプロバイダーになること。",
+    "missionLabel": "ミッション",
+    "missionText": "アクセシブルで手頃な価格の革新的な金融サービスを提供することで、サービスが行き届いていないコミュニティをエンパワーメントし、経済成長を促進し、生活の質を向上させること。",
+    "aboutEyebrow": "Jema Financial Servicesについて",
+    "aboutTitle": "サービスが行き届いていないコミュニティを",
+    "aboutHighlight": "Jema Financial Servicesでエンパワーメント",
+    "aboutP1": "Jema Africa Limitedによって立ち上げられたJema Financial Servicesは、サービスが行き届いていないコミュニティの金融clusionを強化するためのデジタルマイクロファイナンスプラットフォームです。",
+    "aboutP2": "Jema Financial Servicesを通じて、Vicoba（村のコミュニティ銀行）やタンザニアの中小企業にessentia金融サービスを提供しています。",
+    "tag0": "貿易金融ローン",
+    "tag1": "Vicobaグループサポート",
+    "tag2": "金融教育",
+    "tag3": "革新的な金融ソリューション",
+    "aboutP3": "Jema Financial Serviceは、これらのコミュニティが手頃なローン、貯蓄、その他の重要な金融ツールにアクセスできるようにすることで、金融clusionのギャップを埋めることを目指しています。",
+    "aboutP4": "プラットフォームはテクノロジーを活用して借り入れプロセスを簡素化し、従来の銀行システムから除外されてきた個人や企業が金融サービスを利用できるようにしています。",
+    "aboutP5": "マージナル化されたグループのエンパワーメントに焦点を当て、Jema Financial Servicesは経済成長と自立を促進することに貢献しています。",
+    "offeringsEyebrow": "主要サービス",
+    "offeringsTitle": "サービスが行き届いていない層のための",
+    "offeringsHighlight": "デジタル金融ソリューション",
+    "offeringsLead": "Jema Financial Servicesは、タンザニアの金融サービスを革新することにcommitmentしています。イノベーション、顧客中心主義、金融教育に重点を置いて、ユーザーに持続可能な価値を創造し、国のより広範な経済開発に貢献することを目指しています。",
+    "offering0": {
+      "title": "貿易金融ローン",
+      "text": "中小企業が注文を履行できるようfinancial assistanceを提供しています。例えば、姉妹会社のJema Chemicalsのお客様などです。",
+      "img": "/assets/finance/fina-1.png"
+    },
+    "offering1": {
+      "title": "Vicobaグループサポート",
+      "text": "FLAGSHIP製品であるJETFinance Vicoba Appは、Vicobaグループのoperationsを効率化し、安全なfinancial data storage、ローンアクセス、金融教育を提供しています。",
+      "img": "/assets/finance/fina-2.png"
+    },
+    "offering2": {
+      "title": "金融教育",
+      "text": "クライアントの金融リテラシーを向上させるトレーニングモジュールを提供し、informedな金融意思決定とsolidなcredit historyの構築を支援しています。",
+      "img": "/assets/finance/fina-3.png"
+    },
+    "offering3": {
+      "title": "革新的な金融ソリューション",
+      "text": "テクノロジーを活用し、サービスが行き届いていないコミュニティのspecificなニーズに対応するuser-friendlyな金融サービスを提供し、accessibilityとaffordabilityを確保しています。",
+      "img": "/assets/finance/fina-4.png"
+    },
+    "ctaTitle": "タンザニアのfinancial landscapeを革新を目指しています",
+    "ctaHighlight": "",
+    "hotline": "ホットライン",
+    "ctaCta": "コールバックをリクエスト",
+    "whyEyebrow": "選ばれる理由",
+    "whyTitle": "タンザニアの",
+    "whyHighlight": "サービスが行き届いていないコミュニティにポジティブな変化を",
+    "whyP1": "Jema Financial Servicesはfinancial support以上のものを提供することにcommitmentしています。金融教育に焦点を当て、クライアントがcredit scoreを構築し、Jema Financial Servicesとそのパートナーから variousなローン製品にアクセスできるよう支援しています。",
+    "whyP2": "個人や企業に経済的に成長するために必要なツールと知識を提供し、持続可能な開発を推進することが私たちの目標です。",
+    "whyP3": "Jema Financial Servicesは、コミュニティのunderrepresentedグループの金融ニーズに対応するために設立されました。",
+    "whyP4": "SMEやVicobaグループが金融サービスにアクセスする際の課題を認識し、Jema Financial Servicesは経済成長とfinancial independenceを促進するためのtailoredなソリューションを提供しています。",
+    "accessEyebrow": "Jema Financial Services",
+    "accessTitle": "金融サービスへのアクセスを",
+    "accessHighlight": "簡素化",
+    "accessLead": "Jema Financial Servicesでは、サービスが行き届いていないコミュニティが金融製品にアクセスする際の課題を理解しています。だからこそ、Jema Financial Servicesはプロセスを簡素化し、金融サービスをできるだけaccessibilityにするよう設計されています。",
+    "accessFeature0": {
+      "label": "簡単な登録",
+      "text": "ユーザーはシンプルでsecureな登録プロセスを通じて簡単にプラットフォームにサインアップでき、 variousな金融製品にアクセスできます。"
+    },
+    "accessFeature1": {
+      "label": "モバイルベースプラットフォーム",
+      "text": "Jema Financial Servicesはモバイルファーストプラットフォームで、個人や企業がスマートフォンから金融サービスにアクセスでき、on-the-goでfinanceを管理しやすくしています。"
+    },
+    "accessFeature2": {
+      "label": "ローン申請プロセス",
+      "text": "ローン申請プロセスはstraightforwardでquickです。申請者はモバイルデバイスから直接ローンを申請でき、承認後すぐに資金がdisbursedされます。"
+    },
+    "accessFeature3": {
+      "label": "flexibleな返済条件",
+      "text": "Jema Financial Servicesは、個人や中小企業のfinancial situationsに合わせたflexibleな返済プランを提供し、cash flowを管理し、undue hardshipなしでローンを返済できるよう支援しています。"
+    },
+    "accessFeature4": {
+      "label": "24時間365日カスタマーサポート",
+      "text": "専任のカスタマーサポートチームが24時間体制で、プラットフォームの利用中に発生する可能性のある questions やissuesに対応しています。"
+    },
+    "newsEyebrow": "Jema Africaから最新情報",
+    "newsTitle": "Jema Financial Servicesでは、",
+    "newsHighlight": "サービスが行き届いていないコミュニティが必要な金融リソースにアクセスできるよう支援することにcommitmentしています。",
+    "news0": {
+      "day": "01",
+      "month": "4月",
+      "date": "2026年4月1日",
+      "category": "Jema Africa",
+      "title": "JEMA Africa Limitedは14年間の成長、革新、影響を祝う。",
+      "href": "https://jemaafrica.co.tz/jema-africa-limited-celebrates-14-years-of-growth-innovation-and-impact/",
+      "img": "https://images.unsplash.com/photo-1522071820081-009f0129c71c?auto=format&fit=crop&w=500&q=85"
+    },
+    "news1": {
+      "day": "08",
+      "month": "12月",
+      "date": "2025年12月8日",
+      "category": "Jema Auto",
+      "title": "なぜタンザニア人は日本の車輸入でJEMA AUTOを選ぶべきか",
+      "href": "https://jemaafrica.co.tz/kwa-nini-watanzania-wanapaswa-kuchagua-jema-auto-katika-uagizaji-wa-magari-kutoka-japan/",
+      "img": "https://images.unsplash.com/photo-1492144534655-ae79c964c9d7?auto=format&fit=crop&w=500&q=85"
+    },
+    "news2": {
+      "day": "08",
+      "month": "12月",
+      "date": "2025年12月8日",
+      "category": "Jema Africa",
+      "title": "JEMA Africa Ltdが2025年マイニングショー展示会でゴールドスポンサーとしてメインステージを飾る",
+      "href": "https://jemaafrica.co.tz/jema-africa-ltd-leads-the-stage-as-gold-sponsor-at-the-2025-mining-show-exhibition-in-dubai/",
+      "img": "https://images.unsplash.com/photo-1581094794329-c8112a89af12?auto=format&fit=crop&w=500&q=85"
+    },
+    "bottomTitle": "違いを生む準備はできていますか",
+    "bottomHighlight": "Jema Africaと一緒に？",
+    "emailLabel": "メールを送る",
+    "office0": {
+      "title": "鉱山部門本社",
+      "address": "Jema Tech Building. Industrial Area. Mwanza. Tanzania.",
+      "phone": "+255 28 255 0380",
+      "href": "tel:+255282550380"
+    },
+    "office1": {
+      "title": "非鉱山部門本社",
+      "address": "5th floor, TAN House, Victoria, Dar es Salaam.",
+      "phone": "+255 677 091 421",
+      "href": "tel:+255677091421"
+    },
+    "office2": {
+      "title": "JITメインキャンパス",
+      "address": "Jema Tech Building. Industrial Area. Mwanza. Tanzania.",
+      "phone": "+255 76 628 3530",
+      "href": "tel:+255766283530"
+    }
   },
   "footer": {
     "tagline": "プライベートコレクティブ",
@@ -261,11 +1299,154 @@
   },
   "common": {
     "email": "メール",
-    "phone": "電話",
+    "phone": "電話番号",
     "readMore": "続きを読む",
     "learnMore": "詳しく見る",
-    "viewAll": "すべて見る",
+    "viewAll": "すべて表示",
     "close": "閉じる",
     "back": "戻る"
+  },
+  "jione": {
+    "heroEyebrow": "一流の物流会社",
+    "heroHighlight": "あなたの信頼できる",
+    "heroLead": "Jema Jioneは、東アフリカおよび中央アフリカ全体で包括的で信頼性の高い物流ソリューションを提供することに専念する一流の物流会社です。最新のフリートと高度に熟練したプロフェッショナルのチームを備え、化学製品から農産物まで、多様な貨物を扱う能力があります。卓越性、安全、効率へのこだわりにより、商品は迅速かつ確実に目的地に届きます。",
+    "heroCta1": "詳細情報",
+    "heroCta2": "動画を見る",
+    "pillar0": {
+      "title": "専門的な専門知識",
+      "text": "経験豊富なチームが物流の複雑さを理解し、例外的なサービスを提供します。"
+    },
+    "pillar1": {
+      "title": "最先端テクノロジー",
+      "text": "高度なフリート管理とリアルタイム追跡により、貨物の安全と移動を確保します。"
+    },
+    "pillar2": {
+      "title": "お客様中心のアプローチ",
+      "text": "カスタマイズされたソリューションが特定のクライアントの要件を満たし、信頼と信頼性を構築します。"
+    },
+    "rightEyebrow": "Jema Jione",
+    "rightTitle": "適切なことを",
+    "rightHighlight": "適切な時期に行う",
+    "rightLead": "Jema Jioneを選ぶことは、信ことは、信頼性、効率性、お客様中心のアプローチを選ぶことを意味します。高度なフリート管理システムにより、リアルタイム追跡と最適ルーティングを提供し、運用効率を高め、コストを最小限に抑えます。Jema Jioneにすべての物流ニーズを信頼し、品質とサービスの違いを経験してください。",
+    "value0Title": "Jema Jione",
+    "value0Text": "道路輸送から専門物流まで、企業と個人の多様なニーズに対応するサービスを提供しています。",
+    "value1Title": "私たちのこだわり",
+    "value1Text": "卓越性、安全、信頼性へのこだわりが、すべての物流ニーズにおける首选となります。",
+    "contactEyebrow": "お問い合わせ",
+    "contactTitle": "幅広い物流サービスを提供しています",
+    "contactHighlight": "お客様のニーズに合わせて",
+    "contactLead": "高度なフリート管理とリアルタイム追跡により、貨物の安全と移動を確保します。",
+    "contactMobile": "携帯電話",
+    "contactPhoneText": "オフィス電話番号 +255 28 255 0380 & +255 677 091 421",
+    "contactLocation": "所在地",
+    "contactAddress1": "Jema Tech Building. Industrial Area. Mwanza. Tanzania.",
+    "contactAddress2": "5th floor, TAN House, Victoria, Dar es Salaam.",
+    "formFirstName": "名",
+    "formLastName": "姓",
+    "formEmail": "メール",
+    "formPhone": "電話",
+    "formSubject": "件名",
+    "formComment": "コメント",
+    "formSubmit": "メッセージ送信",
+    "formSent": "送信完了",
+    "serviceEyebrow": "私たちのサービス",
+    "serviceTitle": "Jema Jioneに",
+    "serviceHighlight": "お問い合わせください",
+    "serviceLead": "Jema Jioneでは、不同の貨物には不同の取り扱いが必要であることを理解しています。ニーズに合わせた幅広い物流サービスを提供しています：",
+    "service0": {
+      "title": "包括的な物流ソリューション",
+      "item0": {
+        "label": "貨物輸送:",
+        "text": "最新のフリートを活用し、各種商品の timely な配送を行います。"
+      },
+      "item1": {
+        "label": "専門貨物取扱い:",
+        "text": "化学製品や農産物などの敏感な貨物を、注意と規制遵守のもと取り扱う熟練チーム。"
+      }
+    },
+    "service1": {
+      "title": "フリート管理システム",
+      "item0": {
+        "label": "リアルタイム追跡:",
+        "text": "旅全体を通じて貨物の位置と状態を監視します。"
+      },
+      "item1": {
+        "label": "最適ルーティング:",
+        "text": " Transit 時間とコストを最小限にするための最も効率的なルートを活用します。"
+      },
+      "item2": {
+        "label": "安全監視:",
+        "text": "高い安全基準のため、車両のパフォーマンスとドライバーの行動を追跡します。"
+      }
+    },
+    "service2": {
+      "title": "通関・フォワーディング",
+      "item0": {
+        "label": "通関手続き:",
+        "text": "すべての通関書類と手続きを効率的に処理します。"
+      },
+      "item1": {
+        "label": "貨物フォワーディング:",
+        "text": "港から最終目的地までの輸送を調整します。"
+      },
+      "item2": {
+        "label": "規制遵守:",
+        "text": "現地および国際規制に従い、輸送が準拠していることを確保します。"
+      }
+    },
+    "ctaTitle": "私たちのチームは",
+    "ctaHighlight": "あなたの物流ニーズをお手伝いします。",
+    "ctaCta": "動画を見る。",
+    "teamEyebrow": "チームメンバー",
+    "teamTitle": "私たちの専門知識が",
+    "teamHighlight": "あなたをサポートします",
+    "teamLead": "準備はできましたか？化学製品、重機、新鮮な農産物を問わず、Jema Jioneはカスタマイズされた物流ソリューションを提供する準備ができています。競争力のある見積もりと迅速で信頼性の高いサービスについてお問い合わせください。",
+    "team0": {
+      "name": "Ms. Happiness Ndege",
+      "role": "シニア申告官",
+      "img": "/assets/jione/team-ndege.png"
+    },
+    "team1": {
+      "name": "Mr. Fortunatus Wambura",
+      "role": "スーパーバイザー",
+      "img": "/assets/jione/team-wambura.png"
+    },
+    "newsEyebrow": "最新ニュース＆ブログ",
+    "newsTitle": "ビジネスエリアの",
+    "newsHighlight": "最新情報",
+    "readMore": "続きを読む",
+    "news0": {
+      "day": "01",
+      "month": "4月",
+      "date": "2026年4月1日",
+      "category": "Jema Africa",
+      "title": "JEMA Africa Limitedが14周年を祝う",
+      "href": "https://jemaafrica.co.tz/jema-africa-limited-celebrates-14-years-of-growth-innovation-and-impact/",
+      "img": "https://images.unsplash.com/photo-1522071820081-009f0129c71c?auto=format&fit=crop&w=500&q=85"
+    },
+    "news1": {
+      "day": "08",
+      "month": "12月",
+      "date": "2025年12月8日",
+      "category": "Jema Africa",
+      "title": "JEMA Africa Ltdがゴールドスポンサーとして主役を飾る",
+      "href": "https://jemaafrica.co.tz/jema-africa-ltd-leads-the-stage-as-gold-sponsor-at-the-2025-mining-show-exhibition-in-dubai/",
+      "img": "https://images.unsplash.com/photo-1581094794329-c8112a89af12?auto=format&fit=crop&w=500&q=85"
+    },
+    "office0": {
+      "title": "鉱業部門本社",
+      "address": "Jema Tech Building. Industrial Area. Mwanza. Tanzania.",
+      "phone": "+255 28 255 0380"
+    },
+    "office1": {
+      "title": "非鉱業部門本社",
+      "address": "5th floor, TAN House, Victoria, Dar es Salaam.",
+      "phone": "+255 677 091 421"
+    },
+    "office2": {
+      "title": "JITメインキャンパス",
+      "address": "Jema Tech Building. Industrial Area. Mwanza. Tanzania.",
+      "phone": "+255 76 628 3530"
+    }
   }
 }

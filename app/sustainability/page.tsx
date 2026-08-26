@@ -1,7 +1,5 @@
 'use client';
 
-import { useTranslation } from 'react-i18next';
-
 import { useEffect, useRef } from 'react';
 import Link from 'next/link';
 import Navbar from '@/components/Navbar';
@@ -19,8 +17,27 @@ const PARTNER_NAMES = [
   'National Institute for Medical Science', 'Milli-Q', 'TAFC', 'Taken',
 ];
 
+const COMMITMENTS = ['Integrity', 'Transparency', 'Compliance', 'Accountability', 'Fair Trade', 'Zero Harm'];
+
+const TIMELINE = [
+  {
+    year: 'Education',
+    title: 'Skills that outlast projects',
+    text: "Through Jema Institute of Technology, we train the engineers and technicians who will build Africa's industries — with a campus in Mwanza and programs designed for real-world impact.",
+  },
+  {
+    year: 'Community',
+    title: 'Value stays where we work',
+    text: 'We employ locally across our mining and non-mining divisions, partner with regulators and public institutions, and ensure safe, ethical working conditions at every site.',
+  },
+  {
+    year: 'Together',
+    title: 'Partnerships that multiply impact',
+    text: 'Our network connects specialist expertise, regional knowledge, and global capability across every Jema Africa division — progress is built together.',
+  },
+];
+
 export default function SustainabilityPage() {
-  const { t } = useTranslation();
   const statsRef = useRef<HTMLElement>(null);
   const statsCounted = useRef(false);
 
@@ -74,7 +91,7 @@ export default function SustainabilityPage() {
       <Navbar />
 
       {/* HERO */}
-      <section className="sus-hero">
+      <section className="about-hero">
         <div className="container">
           <Reveal>
             <span className="eyebrow">Sustainability &amp; Corporate</span>
@@ -85,15 +102,23 @@ export default function SustainabilityPage() {
           <Reveal delay={2}>
             <p className="lead">At Jema Africa, sustainability and corporate responsibility are embedded in how we operate — across every division, partner, and community we serve.</p>
           </Reveal>
+          <Reveal delay={3}>
+            <div className="about-hero-meta">
+              <span><b>2012</b><small>Founded</small></span>
+              <span><b>3</b><small>Focus Areas</small></span>
+              <span><b>29+</b><small>Strategic Partners</small></span>
+              <span><b>12+</b><small>Years Operating</small></span>
+            </div>
+          </Reveal>
         </div>
       </section>
 
-      {/* APPROACH */}
-      <section className="approach-section">
+      {/* STORY */}
+      <section className="story-section">
         <div className="container">
-          <div className="approach-layout">
+          <div className="story-layout">
             <Reveal>
-              <div className="approach-text">
+              <div className="story-text">
                 <span className="eyebrow">Social Responsibility</span>
                 <h2>Sustainability is at the <em>core</em> of everything we do.</h2>
                 <p>At Jema Africa, we are dedicated to <strong>environmental stewardship, social responsibility, and ethical business practices</strong> that benefit our communities and the environment. Our initiatives are designed to ensure long-term positive impacts and adhere to stringent compliance standards, aligning with both local and international regulations.</p>
@@ -101,19 +126,51 @@ export default function SustainabilityPage() {
               </div>
             </Reveal>
             <Reveal delay={1}>
-              <div className="approach-figure">
-                <div className="approach-frame">
-                  <img src="/assets/who.png" alt="Jema Africa" loading="lazy" />
+              <div className="story-figure">
+                <div className="story-frame">
+                  <img src="/assets/about.jpeg" alt="Jema Africa" loading="lazy" />
                 </div>
-                <span className="approach-badge">Since 2012</span>
+                <span className="story-badge">Since 2012</span>
               </div>
             </Reveal>
           </div>
         </div>
       </section>
 
-      {/* PILLARS */}
-      <section className="pillars-section">
+      {/* STATS */}
+      <section className="about-stats" ref={statsRef}>
+        <div className="container">
+          <div className="about-stats-grid">
+            <Reveal>
+              <div className="about-stat">
+                <span className="num" data-count="95" data-suffix="%">95%</span>
+                <span className="lbl">Sustainable Practices Implemented</span>
+              </div>
+            </Reveal>
+            <Reveal delay={1}>
+              <div className="about-stat">
+                <span className="num" data-count="29" data-suffix="+">29+</span>
+                <span className="lbl">Strategic Partners</span>
+              </div>
+            </Reveal>
+            <Reveal delay={2}>
+              <div className="about-stat">
+                <span className="num" data-count="12" data-suffix="+">12+</span>
+                <span className="lbl">Years Of Responsible Operation</span>
+              </div>
+            </Reveal>
+            <Reveal delay={3}>
+              <div className="about-stat">
+                <span className="num" data-count="76" data-suffix="%">76%</span>
+                <span className="lbl">Repeat Clients Across Divisions</span>
+              </div>
+            </Reveal>
+          </div>
+        </div>
+      </section>
+
+      {/* PURPOSE */}
+      <section className="purpose-section">
         <div className="container">
           <Reveal>
             <div className="section-head">
@@ -121,139 +178,77 @@ export default function SustainabilityPage() {
               <h2>Three pillars guiding our impact.</h2>
             </div>
           </Reveal>
-          <div className="pillars-grid">
+          <div className="purpose-grid">
             <Reveal>
-              <article className="pillar-card">
-                <span className="pillar-num">01 / 03</span>
-                <div className="pillar-icon">
-                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.6">
-                    <path d="M12 2v20M3 12h18M12 12a9 9 0 0 0 9 9M12 12a9 9 0 0 1-9 9M12 12a9 9 0 0 0-9-9M12 12a9 9 0 0 1 9-9" />
-                  </svg>
+              <article className="purpose-card has-image" style={{ backgroundImage: 'url(/assets/elution/elution.png)' }}>
+                <div className="purpose-card-overlay" aria-hidden="true" />
+                <div className="purpose-card-content">
+                  <div className="glyph">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.6"><path d="M12 2v20M3 12h18M12 12a9 9 0 0 0 9 9M12 12a9 9 0 0 1-9 9M12 12a9 9 0 0 0-9-9M12 12a9 9 0 0 1 9-9" /></svg>
+                  </div>
+                  <h3>Environmental Stewardship</h3>
+                  <p>We implement eco-friendly practices to minimize our environmental footprint, including waste reduction, energy efficiency, and sustainable sourcing across all operations.</p>
                 </div>
-                <h3>Environmental Stewardship</h3>
-                <p>We implement eco-friendly practices to minimize our environmental footprint, including waste reduction, energy efficiency, and sustainable sourcing across all operations.</p>
               </article>
             </Reveal>
             <Reveal delay={1}>
-              <article className="pillar-card">
-                <span className="pillar-num">02 / 03</span>
-                <div className="pillar-icon">
-                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.6">
-                    <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2" />
-                    <circle cx="9" cy="7" r="4" />
-                    <path d="M23 21v-2a4 4 0 0 0-3-3.87M16 3.13a4 4 0 0 1 0 7.75" />
-                  </svg>
+              <article className="purpose-card has-image" style={{ backgroundImage: 'url(/assets/jit/campus.png)' }}>
+                <div className="purpose-card-overlay" aria-hidden="true" />
+                <div className="purpose-card-content">
+                  <div className="glyph">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.6"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2" /><circle cx="9" cy="7" r="4" /><path d="M23 21v-2a4 4 0 0 0-3-3.87M16 3.13a4 4 0 0 1 0 7.75" /></svg>
+                  </div>
+                  <h3>Community Engagement</h3>
+                  <p>Our projects aim to uplift local communities through education, health initiatives, and economic empowerment programs that create sustainable opportunities.</p>
                 </div>
-                <h3>Community Engagement</h3>
-                <p>Our projects aim to uplift local communities through education, health initiatives, and economic empowerment programs that create sustainable opportunities.</p>
               </article>
             </Reveal>
             <Reveal delay={2}>
-              <article className="pillar-card">
-                <span className="pillar-num">03 / 03</span>
-                <div className="pillar-icon">
-                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.6">
-                    <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z" />
-                    <path d="m9 12 2 2 4-4" />
-                  </svg>
-                </div>
+              <div className="values-block">
                 <h3>Ethical Business Practices</h3>
-                <p>We maintain the highest standards of integrity and transparency in all our business dealings, ensuring compliance with local and international regulations.</p>
-              </article>
-            </Reveal>
-          </div>
-        </div>
-      </section>
-
-      {/* STATS */}
-      <section className="sus-stats" ref={statsRef}>
-        <div className="container">
-          <div className="sus-stats-grid">
-            <Reveal>
-              <div className="sus-stat">
-                <span className="num" data-count="95" data-suffix="%">95%</span>
-                <span className="lbl">Sustainable Practices Implemented</span>
-              </div>
-            </Reveal>
-            <Reveal delay={1}>
-              <div className="sus-stat">
-                <span className="num" data-count="29" data-suffix="+">29+</span>
-                <span className="lbl">Strategic Partners</span>
-              </div>
-            </Reveal>
-            <Reveal delay={2}>
-              <div className="sus-stat">
-                <span className="num" data-count="12" data-suffix="+">12+</span>
-                <span className="lbl">Years Of Responsible Operation</span>
-              </div>
-            </Reveal>
-            <Reveal delay={3}>
-              <div className="sus-stat">
-                <span className="num" data-count="76" data-suffix="%">76%</span>
-                <span className="lbl">Repeat Clients Across</span>
+                <p>We maintain the highest standards of integrity and transparency in all our business dealings — ensuring compliance with local and international regulations.</p>
+                <div className="values-chips">
+                  {COMMITMENTS.map(v => (
+                    <span className="value-chip" key={v}>{v}</span>
+                  ))}
+                </div>
               </div>
             </Reveal>
           </div>
         </div>
       </section>
 
-      {/* RESPONSIBILITY */}
-      <section className="responsibility-section">
+      {/* JOURNEY */}
+      <section className="journey-section">
         <div className="container">
           <Reveal>
-            <div className="responsibility-head">
+            <div className="journey-head">
               <div>
                 <span className="eyebrow">Corporate Responsibility</span>
                 <h2>Committed to the communities we operate in.</h2>
               </div>
-              <p className="responsibility-copy">From the classroom to the mine site, we invest where our people live and work.</p>
+              <p className="journey-note">From the classroom to the mine site, we invest where our people live and work.</p>
             </div>
           </Reveal>
-          <div className="responsibility-grid">
-            <Reveal>
-              <article className="resp-card">
-                <div className="glyph">
-                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.6">
-                    <path d="M22 10v6M2 10l10-5 10 5-10 5z" />
-                    <path d="M6 12v5c3 3 9 3 12 0v-5" />
-                  </svg>
+          <div className="timeline">
+            {TIMELINE.map((item, i) => (
+              <Reveal key={i}>
+                <div className="tl-item">
+                  <span className="tl-year">{item.year}</span>
+                  <h3>{item.title}</h3>
+                  <p>{item.text}</p>
                 </div>
-                <h3>Education &amp; Skills</h3>
-                <p>Through Jema Institute of Technology, we train the engineers and technicians who will build Africa&apos;s industries — with a campus in Mwanza and programs designed for real-world impact.</p>
-                <ul className="resp-list">
-                  <li>Technical training for the mining and technology sectors</li>
-                  <li>Local talent development and career pathways</li>
-                  <li>Collaboration with educational institutions across the region</li>
-                </ul>
-              </article>
-            </Reveal>
-            <Reveal delay={1}>
-              <article className="resp-card">
-                <div className="glyph">
-                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.6">
-                    <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2" />
-                    <circle cx="9" cy="7" r="4" />
-                    <path d="M23 21v-2a4 4 0 0 0-3-3.87M16 3.13a4 4 0 0 1 0 7.75" />
-                  </svg>
-                </div>
-                <h3>People &amp; Local Growth</h3>
-                <p>We employ locally, partner with Tanzanian institutions, and build supply chains that keep value in the communities where we operate.</p>
-                <ul className="resp-list">
-                  <li>Local hiring across our mining and non-mining divisions</li>
-                  <li>Working with regulators, commissions, and public institutions</li>
-                  <li>Safe, ethical working conditions at every site</li>
-                </ul>
-              </article>
-            </Reveal>
+              </Reveal>
+            ))}
           </div>
         </div>
       </section>
 
       {/* PARTNERS */}
-      <section className="sus-partners-section">
+      <section className="partners-section">
         <div className="container">
           <Reveal>
-            <div className="sus-partners-head">
+            <div className="partners-head">
               <div>
                 <span className="eyebrow">Our Partners</span>
                 <h2>Progress is built together.</h2>
@@ -276,7 +271,7 @@ export default function SustainabilityPage() {
           </Reveal>
 
           <Reveal>
-            <div className="sus-cta">
+            <div className="about-cta">
               <div>
                 <h3>Partner with a group that builds responsibly.</h3>
                 <p>Whether you&apos;re a partner, institution, or community organisation — let&apos;s build something sustainable together.</p>

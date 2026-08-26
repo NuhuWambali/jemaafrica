@@ -1,6 +1,8 @@
+/* eslint-disable @next/next/no-img-element */
 'use client';
 
 import { useEffect, useRef, useState, useCallback } from 'react';
+import Link from 'next/link';
 import Navbar from '@/components/Navbar';
 import Footer from '@/components/Footer';
 import Grain from '@/components/Grain';
@@ -17,50 +19,37 @@ const PARTNER_NAMES = [
   'National Institute for Medical Science', 'Milli-Q', 'TAFC', 'Taken',
 ];
 
+const HERO_SLIDES = [
+  { key: 'brand', img: '/assets/hero-bg.jpg', href: '#mission' },
+  { key: 'mining', img: '/assets/chemicals/chemical.png', href: '/chemicals' },
+  { key: 'logistics', img: '/assets/cargo/cargo-road.png', href: '/jetcargo' },
+  { key: 'tech', img: '/assets/jematech/building.png', href: '/tech' },
+  { key: 'auto', img: '/assets/auto/hero.png', href: '/auto' },
+];
+
 export default function Home() {
-  const { t } = useTranslation();
-  const words = t('hero.typingWords', { returnObjects: true }) as string[];
+  const { t, i18n } = useTranslation();
   const [sent, setSent] = useState(false);
   const [activeFilter, setActiveFilter] = useState('all');
-  const servicesRef = useRef<HTMLElement>(null);
+  const [heroIndex, setHeroIndex] = useState(0);
+  const [heroPaused, setHeroPaused] = useState(false);
+  const words = t(`hero.slides.${HERO_SLIDES[heroIndex].key}.typing`, { returnObjects: true }) as string[];
   const leadershipRef = useRef<HTMLElement>(null);
   const countdownStickyRef = useRef<HTMLDivElement>(null);
-  const countdownNumberRef = useRef<HTMLSpanElement>(null);
   const countdownVideoRef = useRef<HTMLVideoElement>(null);
   const newsListRef = useRef<HTMLDivElement>(null);
   const newsFillRef = useRef<HTMLDivElement>(null);
   const typeTextRef = useRef<HTMLSpanElement>(null);
   const statsRef = useRef<HTMLElement>(null);
   const statsCounted = useRef(false);
+  const heroRef = useRef<HTMLElement>(null);
 
-  useEffect(() => {
-    let servicesFrame: number | undefined;
-    const updateServices = () => {
-      const section = servicesRef.current;
-      if (!section) return;
-      const cards = section.querySelectorAll<HTMLElement>('.service-card');
-      if (!cards.length) return;
-      const scrollable = section.offsetHeight - window.innerHeight;
-      const progress = Math.max(0, Math.min(-section.getBoundingClientRect().top / scrollable, 1));
-      cards.forEach((card, i) => {
-        const start = i / cards.length;
-        const end = (i + 1) / cards.length;
-        const local = Math.max(0, Math.min(1, (progress - start) / (end - start)));
-        const eased = local < 0.5 ? 2 * local * local : 1 - Math.pow(-2 * local + 2, 2) / 2;
-        card.style.setProperty('--p', String(eased));
-      });
-      servicesFrame = undefined;
-    };
-    const requestServicesUpdate = () => {
-      if (!servicesFrame) servicesFrame = requestAnimationFrame(updateServices);
-    };
-    window.addEventListener('scroll', requestServicesUpdate, { passive: true });
-    window.addEventListener('resize', updateServices);
-    updateServices();
-    return () => {
-      window.removeEventListener('scroll', requestServicesUpdate);
-      window.removeEventListener('resize', updateServices);
-    };
+  const handleHeroMouseMove = useCallback((e: React.MouseEvent<HTMLElement>) => {
+    const el = heroRef.current;
+    if (!el) return;
+    const rect = el.getBoundingClientRect();
+    el.style.setProperty('--spot-x', `${e.clientX - rect.left}px`);
+    el.style.setProperty('--spot-y', `${e.clientY - rect.top}px`);
   }, []);
 
   useEffect(() => {
@@ -95,60 +84,28 @@ export default function Home() {
   }, []);
 
   useEffect(() => {
-    let countdownFrame: number | undefined;
-    const updateCountdown = () => {
-      const section = document.querySelector<HTMLElement>('.countdown-reveal');
-      const sticky = countdownStickyRef.current;
-      const number = countdownNumberRef.current;
-      const video = countdownVideoRef.current;
-      if (!section || !sticky || !number) return;
-      const digits = number.querySelectorAll<HTMLElement>('.countdown-digit');
-      const scrollableDistance = section.offsetHeight - window.innerHeight;
-      const progress = Math.max(0, Math.min(-section.getBoundingClientRect().top / scrollableDistance, 1));
+    const section = document.querySelector<HTMLElement>('.countdown-reveal');
+    const sticky = countdownStickyRef.current;
+    const video = countdownVideoRef.current;
+    if (!section || !sticky || !video) return;
 
-      if (progress < 0.22) {
-        number.style.opacity = '1';
-        digits.forEach(d => d.classList.toggle('is-active', d.getAttribute('data-countdown-value') === '3'));
-        number.setAttribute('aria-label', '3');
-        if (video) { video.pause(); video.currentTime = 0; }
-        sticky.classList.remove('is-video-revealing');
-      } else if (progress < 0.38) {
-        number.style.opacity = '1';
-        digits.forEach(d => d.classList.toggle('is-active', d.getAttribute('data-countdown-value') === '2'));
-        number.setAttribute('aria-label', '2');
-        if (video) { video.pause(); video.currentTime = 0; }
-        sticky.classList.remove('is-video-revealing');
-      } else if (progress < 0.52) {
-        number.style.opacity = '1';
-        digits.forEach(d => d.classList.toggle('is-active', d.getAttribute('data-countdown-value') === '1'));
-        number.setAttribute('aria-label', '1');
-        if (video) { video.pause(); video.currentTime = 0; }
-        sticky.classList.remove('is-video-revealing');
-      } else {
-        number.style.opacity = '0';
-        const videoReveal = Math.max(0, Math.min((progress - 0.52) / 0.48, 1));
-        sticky.style.setProperty('--video-reveal', String(videoReveal));
-        sticky.classList.toggle('is-video-revealing', videoReveal > 0);
-        if (videoReveal > 0 && video) {
+    const io = new IntersectionObserver((entries) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          sticky.style.setProperty('--video-reveal', '1');
+          sticky.classList.add('is-video-revealing');
           video.play().catch(() => {});
-        } else if (video) {
+        } else {
+          sticky.style.setProperty('--video-reveal', '0');
+          sticky.classList.remove('is-video-revealing');
           video.pause();
           video.currentTime = 0;
         }
-      }
+      });
+    }, { threshold: 0.12 });
 
-      countdownFrame = undefined;
-    };
-    const requestCountdownUpdate = () => {
-      if (!countdownFrame) countdownFrame = requestAnimationFrame(updateCountdown);
-    };
-    window.addEventListener('scroll', requestCountdownUpdate, { passive: true });
-    window.addEventListener('resize', updateCountdown);
-    updateCountdown();
-    return () => {
-      window.removeEventListener('scroll', requestCountdownUpdate);
-      window.removeEventListener('resize', updateCountdown);
-    };
+    io.observe(section);
+    return () => io.disconnect();
   }, []);
 
   useEffect(() => {
@@ -178,17 +135,18 @@ export default function Home() {
 
   useEffect(() => {
     const typeEl = typeTextRef.current;
-    if (!typeEl) return;
+    if (!typeEl || !Array.isArray(words) || words.length === 0) return;
     let wi = 0, ci = 0, deleting = false;
     let timeout: ReturnType<typeof setTimeout>;
     const tick = () => {
       const word = words[wi];
+      if (!word) return;
       if (!deleting) {
         ci++;
         if (ci >= word.length) {
           deleting = true;
           typeEl.textContent = word;
-          timeout = setTimeout(tick, 2400);
+          timeout = setTimeout(tick, 2000);
           return;
         }
       } else {
@@ -200,6 +158,18 @@ export default function Home() {
     };
     tick();
     return () => clearTimeout(timeout);
+  }, [words, i18n.language, heroIndex]);
+
+  useEffect(() => {
+    if (heroPaused) return;
+    const id = setInterval(() => {
+      setHeroIndex(i => (i + 1) % HERO_SLIDES.length);
+    }, 6500);
+    return () => clearInterval(id);
+  }, [heroPaused, heroIndex]);
+
+  const goToHeroSlide = useCallback((i: number) => {
+    setHeroIndex(((i % HERO_SLIDES.length) + HERO_SLIDES.length) % HERO_SLIDES.length);
   }, []);
 
   useEffect(() => {
@@ -280,38 +250,84 @@ export default function Home() {
       <Navbar />
 
       {/* HERO */}
-      <section className="hero">
+      <section
+        className="hero"
+        ref={heroRef}
+        onMouseMove={handleHeroMouseMove}
+        onMouseEnter={() => heroRef.current?.classList.add('is-wiping')}
+        onMouseLeave={() => heroRef.current?.classList.remove('is-wiping')}
+      >
+        <div className="hero-slides" aria-hidden="true">
+          {HERO_SLIDES.map((slide, i) => (
+            <div key={slide.key} className={`hero-slide${i === heroIndex ? ' is-active' : ''}`}>
+              <div className="hero-slide-bg" style={{ backgroundImage: `url(${slide.img})` }} />
+            </div>
+          ))}
+        </div>
         <div className="hero-orb hero-orb-1" aria-hidden="true" />
         <div className="hero-orb hero-orb-2" aria-hidden="true" />
         <div className="container hero-grid">
-          <div>
-            <div className="hero-eyebrow reveal">
+          <div key={heroIndex} className="hero-content">
+            <div className="hero-eyebrow">
               <span className="rule" />
-              <span className="eyebrow">{t('hero.eyebrow')}</span>
+              <span className="eyebrow">{t(`hero.slides.${HERO_SLIDES[heroIndex].key}.eyebrow`)}</span>
             </div>
             <h1 className="hero-title">
-              <span className="hero-word">{t('hero.title1')}</span>
-              <span className="hero-word">{t('hero.title2')}</span>
-              <span className="hero-word"><em>{t('hero.title3')}</em></span>
+              <span className="hero-word">{t(`hero.slides.${HERO_SLIDES[heroIndex].key}.title1`)}</span>
+              <span className="hero-word">{t(`hero.slides.${HERO_SLIDES[heroIndex].key}.title2`)}</span>
+              <span className="hero-word"><em>{t(`hero.slides.${HERO_SLIDES[heroIndex].key}.title3`)}</em></span>
             </h1>
-            <Reveal delay={2}>
-              <p className="lead">{t('hero.lead')}</p>
-            </Reveal>
+            <p className="lead">{t(`hero.slides.${HERO_SLIDES[heroIndex].key}.lead`)}</p>
             <div className="hero-type">
               <span className="type-label">{t('hero.typeLabel')}</span>
               <span className="type-text" ref={typeTextRef} />
               <span className="type-caret" aria-hidden="true" />
             </div>
-            <Reveal delay={3}>
-              <div className="hero-actions">
-                <a href="#mission" className="btn-primary">{t('hero.ctaPrimary')}</a>
-              </div>
-            </Reveal>
+            <div className="hero-actions">
+              <a href={HERO_SLIDES[heroIndex].href} className="btn-primary">{t(`hero.slides.${HERO_SLIDES[heroIndex].key}.cta`)}</a>
+            </div>
           </div>
+        </div>
+        <div className="hero-progress" key={heroIndex} aria-hidden="true">
+          <div className="hero-progress-fill" />
+        </div>
+        <div
+          className="hero-controls"
+          onMouseEnter={() => setHeroPaused(true)}
+          onMouseLeave={() => setHeroPaused(false)}
+        >
+          <button
+            type="button"
+            className="hero-arrow hero-arrow-prev"
+            aria-label="Previous slide"
+            onClick={() => goToHeroSlide(heroIndex - 1)}
+          >
+            &#8592;
+          </button>
+          <div className="hero-dots" role="tablist" aria-label="Slides">
+            {HERO_SLIDES.map((slide, i) => (
+              // eslint-disable-next-line jsx-a11y/role-supports-aria-props
+              <button
+                key={slide.key}
+                type="button"
+                className={`hero-dot${i === heroIndex ? ' is-active' : ''}`}
+                aria-label={`Slide ${i + 1}`}
+                aria-selected={i === heroIndex}
+                onClick={() => goToHeroSlide(i)}
+              />
+            ))}
+          </div>
+          <button
+            type="button"
+            className="hero-arrow hero-arrow-next"
+            aria-label="Next slide"
+            onClick={() => goToHeroSlide(heroIndex + 1)}
+          >
+            &#8594;
+          </button>
         </div>
         <div className="scroll-cue">
           <span className="line" />
-          <span>{t('hero.scrollCue')}</span>
         </div>
       </section>
 
@@ -366,7 +382,8 @@ export default function Home() {
             <Reveal delay={1}>
               <div className="partnerships-figure">
                 <div className="partnerships-frame">
-                  <img src="/assets/who.png" alt="Jema Africa" loading="lazy" />
+           
+                  <img src="/assets/about.jpeg" alt="Jema Africa" loading="lazy" />
                 </div>
                 <span className="partnerships-badge">{t('partnerships.badge')}</span>
               </div>
@@ -376,9 +393,10 @@ export default function Home() {
       </section>
 
       {/* SERVICES */}
-      <section id="mission" className="services-reveal" ref={servicesRef}>
-        <div className="services-sticky">
-          <div className="container">
+      <section id="mission" className="services-section">
+        <div className="services-bg" aria-hidden="true" />
+        <div className="container">
+          <Reveal>
             <div className="services-head">
               <div className="section-head">
                 <span className="eyebrow">{t('services.eyebrow')}</span>
@@ -386,58 +404,32 @@ export default function Home() {
               </div>
               <p className="services-intro">{t('services.intro')}</p>
             </div>
-            <div className="services-grid">
-              <article className="service-card" data-index="01">
-                <span className="service-number">01 / 04</span>
-                <div className="service-icon" aria-hidden="true">
-                  <svg viewBox="0 0 48 48" fill="none" stroke="currentColor" strokeWidth="1.35">
-                    <path d="M6 37h36M10 37V25l8-7 7 6 7-12 6 5v20M14 25v12M22 24v13M31 22v15M38 17v20" />
-                    <path d="M7 12h11M12.5 6.5v11" />
-                  </svg>
-                </div>
-                <h3>{t('services.card1.title')}</h3>
-                <p>{t('services.card1.text')}</p>
-                <a className="service-link" href="#contact">{t('services.details')}</a>
-              </article>
-              <article className="service-card" data-index="02">
-                <span className="service-number">02 / 04</span>
-                <div className="service-icon" aria-hidden="true">
-                  <svg viewBox="0 0 48 48" fill="none" stroke="currentColor" strokeWidth="1.35">
-                    <path d="M5 31h29l5-11H17l-4 11H5Z" />
-                    <path d="M17 20l4-8h11l7 8M11 31h28M10 31a4 4 0 1 0 8 0M30 31a4 4 0 1 0 8 0" />
-                    <path d="M39 23h4v8h-4" />
-                  </svg>
-                </div>
-                <h3>{t('services.card2.title')}</h3>
-                <p>{t('services.card2.text')}</p>
-                <a className="service-link" href="#contact">{t('services.details')}</a>
-              </article>
-              <article className="service-card" data-index="03">
-                <span className="service-number">03 / 04</span>
-                <div className="service-icon" aria-hidden="true">
-                  <svg viewBox="0 0 48 48" fill="none" stroke="currentColor" strokeWidth="1.35">
-                    <rect x="8" y="7" width="32" height="24" rx="1" />
-                    <path d="M17 41h14M24 31v10M15 19h18M24 12v14M18 13l12 12M30 13 18 25" />
-                  </svg>
-                </div>
-                <h3>{t('services.card3.title')}</h3>
-                <p>{t('services.card3.text')}</p>
-                <a className="service-link" href="#contact">{t('services.details')}</a>
-              </article>
-              <article className="service-card" data-index="04">
-                <span className="service-number">04 / 04</span>
-                <div className="service-icon" aria-hidden="true">
-                  <svg viewBox="0 0 48 48" fill="none" stroke="currentColor" strokeWidth="1.35">
-                    <path d="M7 30h34l-3-11H14L7 30Z" />
-                    <path d="M13 19l4-7h14l5 7M10 30h28M12 30a5 5 0 1 0 10 0M28 30a5 5 0 1 0 10 0" />
-                    <path d="M19 19v-4h10v4" />
-                  </svg>
-                </div>
-                <h3>{t('services.card4.title')}</h3>
-                <p>{t('services.card4.text')}</p>
-                <a className="service-link" href="#contact">{t('services.details')}</a>
-              </article>
-            </div>
+          </Reveal>
+          <div className="services-grid">
+            {[
+              { num: '01', cell: 'cell-a', href: '/chemicals', img: '/assets/elution/equipment.png', icon: <svg viewBox="0 0 48 48" fill="none" stroke="currentColor" strokeWidth="1.35"><path d="M6 37h36M10 37V25l8-7 7 6 7-12 6 5v20M14 25v12M22 24v13M31 22v15M38 17v20" /><path d="M7 12h11M12.5 6.5v11" /></svg>, titleKey: 'services.card1.title', textKey: 'services.card1.text' },
+              { num: '02', cell: 'cell-b', href: '/jetcargo', img: '/assets/cargo/cargo-road.png', icon: <svg viewBox="0 0 48 48" fill="none" stroke="currentColor" strokeWidth="1.35"><path d="M5 31h29l5-11H17l-4 11H5Z" /><path d="M17 20l4-8h11l7 8M11 31h28M10 31a4 4 0 1 0 8 0M30 31a4 4 0 1 0 8 0" /><path d="M39 23h4v8h-4" /></svg>, titleKey: 'services.card2.title', textKey: 'services.card2.text' },
+              { num: '03', cell: 'cell-c', href: '/tech', img: '/assets/jematech/building.png', icon: <svg viewBox="0 0 48 48" fill="none" stroke="currentColor" strokeWidth="1.35"><rect x="8" y="7" width="32" height="24" rx="1" /><path d="M17 41h14M24 31v10M15 19h18M24 12v14M18 13l12 12M30 13 18 25" /></svg>, titleKey: 'services.card3.title', textKey: 'services.card3.text' },
+              { num: '04', cell: 'cell-d', href: '/auto', img: '/assets/auto/bg.png', icon: <svg viewBox="0 0 48 48" fill="none" stroke="currentColor" strokeWidth="1.35"><path d="M7 30h34l-3-11H14L7 30Z" /><path d="M13 19l4-7h14l5 7M10 30h28M12 30a5 5 0 1 0 10 0M28 30a5 5 0 1 0 10 0" /><path d="M19 19v-4h10v4" /></svg>, titleKey: 'services.card4.title', textKey: 'services.card4.text' },
+            ].map((card, i) => (
+              <Reveal key={card.num} delay={(i % 2) as 1 | 2} className={`service-cell ${card.cell}`}>
+                <article className="service-card">
+                  <div className="service-card-inner">
+                    <div className="service-card-face service-card-front">
+                      <div className="service-card-bg" style={{ backgroundImage: `url(${card.img})` }} aria-hidden="true" />
+                      <div className="service-icon" aria-hidden="true">{card.icon}</div>
+                      <span className="service-number" aria-hidden="true">{card.num}</span>
+                    </div>
+                    <div className="service-card-face service-card-back">
+                      <div className="service-icon service-icon-back" aria-hidden="true">{card.icon}</div>
+                      <h3>{t(card.titleKey)}</h3>
+                      <p>{t(card.textKey)}</p>
+                      <Link href={card.href} className="service-link">{t('services.details')}</Link>
+                    </div>
+                  </div>
+                </article>
+              </Reveal>
+            ))}
           </div>
         </div>
       </section>
@@ -593,11 +585,6 @@ export default function Home() {
       {/* COUNTDOWN REVEAL */}
       <section className="countdown-reveal" aria-label="Jema Africa film reveal">
         <div className="countdown-sticky" ref={countdownStickyRef} id="countdown-sticky">
-          <span className="countdown-number" ref={countdownNumberRef} aria-live="polite" aria-label="3">
-            <span className="countdown-digit is-active" data-countdown-value="3" aria-hidden="true">3</span>
-            <span className="countdown-digit" data-countdown-value="2" aria-hidden="true">2</span>
-            <span className="countdown-digit" data-countdown-value="1" aria-hidden="true">1</span>
-          </span>
           <span className="countdown-progress">{t('countdown.progressLabel')}</span>
           <div className="countdown-video">
             <video

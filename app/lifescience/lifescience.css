@@ -65,32 +65,6 @@ body.light-mode .ls-hero {
   margin-top: 40px;
 }
 
-/* =========== YEAR =========== */
-.ls-year {
-  padding: 20px 0 130px;
-}
-.ls-year-in {
-  display: flex;
-  align-items: baseline;
-  gap: 20px;
-  border: 1px solid var(--line);
-  background: var(--obsidian-2);
-  border-radius: 16px;
-  padding: 40px 48px;
-}
-.ls-year-num {
-  font-family: 'Montserrat', sans-serif;
-  font-size: clamp(2.4rem, 4.5vw, 3.4rem);
-  line-height: 1;
-  color: var(--gold);
-}
-.ls-year-lbl {
-  font-size: 0.74rem;
-  letter-spacing: 0.14em;
-  text-transform: uppercase;
-  color: var(--ivory-dim);
-}
-
 /* =========== PILLARS =========== */
 .ls-pillars {
   padding: 30px 0 130px;
@@ -858,13 +832,6 @@ body.light-mode .ls-offices {
   }
   .ls-hero-actions {
     margin-top: 28px;
-  }
-  .ls-year {
-    padding: 10px 0 50px;
-  }
-  .ls-year-in {
-    padding: 28px 22px;
-    border-radius: 12px;
   }
   .ls-pillars,
   .ls-offices {

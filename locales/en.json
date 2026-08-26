@@ -1,6 +1,17 @@
 {
   "nav": {
     "business": "Our Business",
+    "elution": "Elution",
+    "chemicals": "Chemicals",
+    "lifeScience": "Life Science",
+    "technology": "Technology",
+    "auto": "Auto",
+    "instituteOfTechnology": "Institute of Technology",
+    "jetcargo": "JETCargo",
+    "jemaJione": "Jema Jione",
+    "finance": "Finance",
+    "education": "Education",
+    "sustainability": "Sustainability & Corporate",
     "insights": "Insights",
     "careers": "Careers",
     "about": "About",
@@ -8,15 +19,81 @@
     "cta": "Get in Touch"
   },
   "hero": {
-    "eyebrow": "Our Legacy of Innovation and Growth",
-    "title1": "Building",
-    "title2": "Tomorrow,",
-    "title3": "Today.",
-    "lead": "A diversified Pan-African group operating across mining, technology, logistics, finance, education, and industrial services. Since 2012, we have been driving innovation, investment, and sustainable economic transformation across Africa.",
     "typeLabel": "We power",
-    "ctaPrimary": "Explore Our Business",
     "scrollCue": "Scroll",
-    "typingWords": ["Mining", "Technology & Education", "Logistics & Transport", "Finance & Investment", "Industrial Services"]
+    "slides": {
+      "brand": {
+        "eyebrow": "Our Legacy of Innovation and Growth",
+        "title1": "Building",
+        "title2": "Tomorrow,",
+        "title3": "Today.",
+        "lead": "A diversified Pan-African group operating across mining, technology, logistics, finance, education, and industrial services. Since 2012, we have been driving innovation, investment, and sustainable economic transformation across Africa.",
+        "cta": "Explore Our Business",
+        "typing": [
+          "Mining",
+          "Technology & Education",
+          "Logistics & Transport",
+          "Finance & Investment",
+          "Industrial Services"
+        ]
+      },
+      "mining": {
+        "eyebrow": "Mining & Chemicals",
+        "title1": "Unearthing",
+        "title2": "Africa's",
+        "title3": "Wealth.",
+        "lead": "Top-tier solutions for Africa's mining sector — from chemicals and activated carbon to flotation plants and elution services.",
+        "cta": "Explore Mining",
+        "typing": [
+          "Chemicals",
+          "Activated Carbon",
+          "Flotation Plants",
+          "Elution Services"
+        ]
+      },
+      "logistics": {
+        "eyebrow": "Logistics & Transport",
+        "title1": "Moving",
+        "title2": "Africa,",
+        "title3": "Confidently.",
+        "lead": "Efficient, reliable logistics and transportation services for businesses moving across Africa — by road, rail, and beyond.",
+        "cta": "Explore Logistics",
+        "typing": [
+          "Road Transport",
+          "Regional Delivery",
+          "Fleet Management",
+          "Heavy Lifting"
+        ]
+      },
+      "tech": {
+        "eyebrow": "Technology & Education",
+        "title1": "Empowering",
+        "title2": "the Next",
+        "title3": "Generation.",
+        "lead": "Building Africa's future through technology, software, and technical education for the mining and technology sectors.",
+        "cta": "Explore Technology",
+        "typing": [
+          "Software Development",
+          "IoT Solutions",
+          "Data Analytics",
+          "Technical Education"
+        ]
+      },
+      "auto": {
+        "eyebrow": "Automotive Import",
+        "title1": "Driving",
+        "title2": "Your Ambition",
+        "title3": "Forward.",
+        "lead": "Dependable vehicle sourcing and import from Japan — connecting you with quality cars at competitive prices.",
+        "cta": "Explore Automotive",
+        "typing": [
+          "Japanese Imports",
+          "Wide Selection",
+          "Quality Assurance",
+          "Logistics Support"
+        ]
+      }
+    }
   },
   "stats": {
     "years": "Years Of Experience",
@@ -35,15 +112,33 @@
     "heading": "Built to move Africa forward.",
     "intro": "Practical expertise, local knowledge, and dependable delivery across the industries shaping the continent.",
     "details": "Details",
-    "card1": { "title": "Mining Solutions", "text": "Delivering top-tier solutions for Africa's mining sector, from chemicals to flotation plants and elution services." },
-    "card2": { "title": "Logistics & Transportation", "text": "Efficient, reliable logistics and transportation services for businesses moving across Africa." },
-    "card3": { "title": "Technology & Education", "text": "Empowering Africa's future through technology and education for the mining and tech sectors." },
-    "card4": { "title": "Automotive Import", "text": "Dependable vehicle sourcing and import services, connecting businesses and individuals with quality vehicles." }
+    "card1": {
+      "title": "Mining Solutions",
+      "text": "Delivering top-tier solutions for Africa's mining sector, from chemicals to flotation plants and elution services."
+    },
+    "card2": {
+      "title": "Logistics & Transportation",
+      "text": "Efficient, reliable logistics and transportation services for businesses moving across Africa."
+    },
+    "card3": {
+      "title": "Technology & Education",
+      "text": "Empowering Africa's future through technology and education for the mining and tech sectors."
+    },
+    "card4": {
+      "title": "Automotive Import",
+      "text": "Dependable vehicle sourcing and import services, connecting businesses and individuals with quality vehicles."
+    }
   },
   "leadership": {
     "eyebrow": "Our Senior Management",
     "heading": "Driving success across all divisions.",
-    "copy": "Meet the visionary leaders guiding Jema Africa's diverse ventures toward growth and innovation."
+    "copy": "Meet the visionary leaders guiding Jema Africa's diverse ventures toward growth and innovation.",
+    "roles": {
+      "dco": "DCO",
+      "cooMining": "COO - Mining Division",
+      "cooNonMining": "COO - Non Mining Division",
+      "principalJit": "Principal - JIT"
+    }
   },
   "news": {
     "eyebrow": "News & Updates",
@@ -67,9 +162,14 @@
     "eyebrow": "Get In Touch",
     "heading": "Let's build Africa's future together.",
     "intro": "Whether you're an entrepreneur, partner, or investor — we'd love to hear from you. Reach out through any of our channels below.",
+    "branchesCount": "Branches across Tanzania",
+    "officesCount": "Head offices",
+    "support": "Support available",
     "correspondence": "Correspondence",
     "headOffices": "Head Offices",
     "address": "Jema Tech Building. Industrial Area. Mwanza. Tanzania. · 5th floor, TAN House, Victoria, Dar es Salaam.",
+    "touchP1": "At Jema Africa, we believe every connection is an opportunity to create meaningful partnerships. Our team is ready to support you across mining, technology, logistics, finance, and more.",
+    "touchP2": "Whether you need expert advice, want to explore a partnership, or have a question about our services — reach out and let's start a conversation.",
     "followUs": "Follow Us",
     "form": {
       "fullName": "Full Name",
@@ -110,17 +210,99 @@
     "storyP1": "At Jema Africa, we believe every challenge presents an opportunity to create meaningful and sustainable value. Rather than simply solving problems, we build businesses, technologies, and strategic partnerships that transform industries and improve lives across Africa.",
     "storyP2": "From gold elution and mining chemicals to logistics, automotive import, financial services, and technical education, our divisions work as one — sharing expertise, infrastructure, and ambition to move the continent forward.",
     "badge": "Since 2012",
-    "mission": { "title": "Our Mission", "text": "To build businesses, technologies, and partnerships that transform industries and improve lives across Africa — with integrity and lasting impact." },
-    "vision": { "title": "Our Vision", "text": "To be the Pan-African group recognised for driving sustainable economic transformation across every region we operate in." },
+    "mission": {
+      "title": "Our Mission",
+      "text": "To build businesses, technologies, and partnerships that transform industries and improve lives across Africa — with integrity and lasting impact."
+    },
+    "vision": {
+      "title": "Our Vision",
+      "text": "To be the Pan-African group recognised for driving sustainable economic transformation across every region we operate in."
+    },
     "valuesTitle": "Our Values",
-    "values": ["Integrity", "Innovation", "Excellence", "Partnership", "Sustainability", "Impact"],
+    "values": [
+      "Integrity",
+      "Innovation",
+      "Excellence",
+      "Partnership",
+      "Sustainability",
+      "Impact"
+    ],
     "journeyEyebrow": "Our Journey",
     "journeyHeading": "Milestones along the way.",
     "journeyNote": "From a single operation in Mwanza to a diversified group serving clients across the continent.",
+    "timeline": [
+      {
+        "year": "2012",
+        "title": "Jema Africa is founded",
+        "text": "Operations begin in Mwanza, Tanzania, laying the groundwork for a diversified Pan-African group."
+      },
+      {
+        "year": "Expansion",
+        "title": "Mining & chemicals grow",
+        "text": "Gold elution services and mining chemical supply become core strengths, supporting the region's mining sector."
+      },
+      {
+        "year": "Growth",
+        "title": "New divisions join the family",
+        "text": "JetCargo, Jema Auto, Jema Life Science, Jema Financial Services, and Jema Jione extend the group across logistics, automotive, life science, and financial services."
+      },
+      {
+        "year": "Education",
+        "title": "Jema Institute of Technology opens",
+        "text": "JIT empowers the next generation of engineers and technicians at its main campus in Mwanza."
+      },
+      {
+        "year": "2026",
+        "title": "14 years of growth and impact",
+        "text": "Today Jema Africa operates across Tanzania and beyond — driven by the same belief we started with: innovation is the foundation of Africa's future."
+      }
+    ],
     "divisionsEyebrow": "What We Do",
     "divisionsHeading": "Eight divisions, one standard.",
     "divisionsIntro": "Each division brings specialist expertise, while sharing the group's infrastructure, relationships, and ambition.",
     "explore": "Explore",
+    "divisionsList": [
+      {
+        "num": "01 / 08",
+        "name": "Jema Elution",
+        "desc": "Gold elution and smelting services that help Tanzania's miners convert ore into value."
+      },
+      {
+        "num": "02 / 08",
+        "name": "Jema Chemicals",
+        "desc": "Supply of mining chemicals, reagents, and consumables that keep processing plants running."
+      },
+      {
+        "num": "03 / 08",
+        "name": "Jema Life Science",
+        "desc": "Laboratory equipment, reagents, and life science supplies for research and medical institutions."
+      },
+      {
+        "num": "04 / 08",
+        "name": "JetCargo",
+        "desc": "Efficient, reliable logistics and transportation services for businesses moving across Africa."
+      },
+      {
+        "num": "05 / 08",
+        "name": "Jema Auto",
+        "desc": "Dependable vehicle sourcing and import services connecting clients with quality vehicles."
+      },
+      {
+        "num": "06 / 08",
+        "name": "Jema Jione",
+        "desc": "Distribution and trading services that connect quality products to customers across the region."
+      },
+      {
+        "num": "07 / 08",
+        "name": "Jema Financial Services",
+        "desc": "Financial services that support the group's clients, partners, and communities."
+      },
+      {
+        "num": "08 / 08",
+        "name": "JIT",
+        "desc": "Jema Institute of Technology — empowering Africa's next engineers and technicians."
+      }
+    ],
     "purposeEyebrow": "Our Purpose",
     "purposeHeading": "What drives everything we do.",
     "ctaTitle": "Ready to build Africa's future together?",
@@ -128,76 +310,525 @@
     "ctaButton": "Get In Touch"
   },
   "elution": {
-    "eyebrow": "Welcome to Jema Elution",
-    "title": "Leaders in Efficient Gold Recovery and Processing",
-    "titleHighlight": "Gold Recovery",
-    "lead": "Welcome to Jema Elution, where we specialize in efficient gold recovery and processing from activated carbon, delivering results in the shortest time while maximizing cost savings.",
-    "capacityNote": "Our advanced high-pressure, high-temperature machines operate 24 hours, with a capacity of up to 1000kg.",
-    "cta": "Contact Us Today",
-    "whyEyebrow": "Why Jema Africa Elution?",
-    "whyTitle": "Let us help you achieve your goals with the most efficient gold recovery technology available today.",
-    "whyHighlight": "most efficient gold recovery technology",
-    "whyIntro": "At Jema Elution, we regularly maintain our machines, ensuring that the elution plant continues to run optimally, minimizing downtime and maximizing performance.",
-    "processEyebrow": "Jema Elution",
-    "processTitle": "Our Gold Recovery Process.",
-    "processHighlight": "Process.",
-    "processIntro": "At Jema Elution, we use a proven process to ensure the efficient recovery of gold from activated carbon:",
-    "processItem1Title": "Recovery Optimization",
-    "processItem1Text": "By using advanced monitoring and control systems, we optimize every aspect of the recovery process, ensuring consistent and reliable gold extraction.",
-    "processItem2Title": "Sustainability",
-    "processItem2Text": "We are committed to sustainable practices. Our machines are designed to reduce environmental impact, utilizing minimal water and chemicals during the recovery process.",
-    "stat1Label": "Successful Stories",
-    "stat2Label": "Organizations & Financial",
-    "stat3Label": "Machines Operating",
-    "stat4Label": "Maximum Capacity",
-    "callbackTitle": "Jema Elution is here to help.",
-    "callbackHighlight": "help.",
-    "callbackSubtitle": "Speak directly with our team about your gold recovery needs.",
-    "callbackButton": "Request A Call Back",
-    "helpdeskLabel": "HELP DESK 24H/7",
-    "helpdeskPhone": "+255 28 255 0380",
-    "contactEyebrow": "Location",
-    "contactTitle": "Contact us today.",
-    "contactHighlight": "today.",
-    "contactIntro": "We are here to assist you with any questions, support needs, or service inquiries.",
-    "features": {
-      "feature1": { "title": "Company Stability", "text": "We can support your gold mining operations with a dependable, long-standing partner you can trust." },
-      "feature2": { "title": "High Capacity Machines", "text": "Our high-pressure, high-temperature machines operate 24 hours with a capacity of up to 1000kg." },
-      "feature3": { "title": "Reliable Power Supply", "text": "Maximum reliability and efficiency, keeping the elution plant running around the clock." },
-      "feature4": { "title": "Exceptional Customer Care", "text": "A dedicated customer service team ready to support you at every step of your recovery process." },
-      "feature5": { "title": "Transparency", "text": "Full transparency on every batch, every cost, and every result — no surprises." },
-      "feature6": { "title": "Experienced Staff", "text": "A skilled team working with thousands of mining clients across the region." },
-      "feature7": { "title": "Competitive Pricing", "text": "Investment-friendly pricing that maximizes your recovery rate and profitability." },
-      "feature8": { "title": "Security", "text": "Secure handling of your gold recovery from start to finish." }
+    "heroEyebrow": "Jema Africa · Mining Division",
+    "heroTitle": "JEMA",
+    "heroHighlight": "ELUTION",
+    "heroLead": "Advanced Gold Recovery. Reliable Processing. Trusted Partnership.",
+    "heroCapacity": "High-pressure, high-temperature systems engineered for continuous operations — with capacities of up to 1,000 kg per cycle.",
+    "heroCta": "Contact Us",
+    "introLead": "JEMA Elution is a specialized gold recovery and processing business under JEMA Africa, focused on providing efficient and reliable elution services for mining operations.",
+    "introP1": "We specialize in the recovery of gold from activated carbon using advanced elution technology designed to deliver efficient processing, consistent performance, and timely results. Our high-pressure and high-temperature processing systems are engineered for continuous operations and can handle capacities of up to 1,000 kg per cycle.",
+    "introP2": "With strategically located facilities in key mining regions of Tanzania, JEMA Elution is positioned to provide accessible, dependable, and responsive services to both small-scale and large-scale mining operations.",
+    "servicesEyebrow": "What We Do",
+    "servicesTitle": "Our Elution",
+    "servicesHighlight": "Services",
+    "service0": {
+      "title": "Gold Recovery & Elution Processing",
+      "text": "We provide professional elution services designed to efficiently recover gold from activated carbon. Our operations combine modern equipment, experienced personnel, and controlled processing procedures to deliver reliable recovery results."
     },
-    "newsTitle": "JEMA Africa Limited Celebrates 14 Years"
+    "service1": {
+      "title": "High-Capacity Processing",
+      "text": "Our modern elution machines are designed for 24-hour continuous operation, allowing us to process substantial volumes efficiently. With processing capacity of up to 1,000 kg per cycle, our facilities are equipped to support demanding mining operations."
+    },
+    "service2": {
+      "title": "Recovery Optimization",
+      "text": "We use advanced monitoring and process-control practices to optimize the recovery process and maintain consistent operational performance. Our objective is to maximize recovery efficiency while delivering predictable and reliable processing outcomes."
+    },
+    "service3": {
+      "title": "Plant Maintenance & Operational Reliability",
+      "text": "Regular inspection and maintenance of our equipment is an important part of our operations. By maintaining our machines and processing facilities, we work to minimize downtime, improve equipment performance, and maintain continuity of service."
+    },
+    "service4": {
+      "title": "Professional Client Support",
+      "text": "Our commitment extends beyond processing. We provide dedicated customer support, proactive communication, and technical assistance to help clients receive reliable service throughout the processing cycle."
+    },
+    "whyEyebrow": "Why Choose Us",
+    "whyTitle": "Why Choose",
+    "whyHighlight": "JEMA ELUTION?",
+    "reason01": {
+      "title": "Established & Stable Organization",
+      "text": "JEMA Africa was established in 2012 and has developed into a diversified African business operating across mining, logistics, technology, education, and other sectors. This established foundation supports our commitment to long-term business relationships and dependable service delivery."
+    },
+    "reason02": {
+      "title": "Advanced Processing Technology",
+      "text": "Our elution facilities utilize modern high-pressure and high-temperature technology designed to improve processing efficiency, shorten processing times, and support consistent gold recovery. Our equipment is designed for continuous 24-hour operation with a capacity of up to 1,000 kg per cycle."
+    },
+    "reason03": {
+      "title": "Reliable Operations",
+      "text": "We prioritize equipment reliability and operational continuity through regular machine maintenance and monitoring. Our facilities are also supported by standby power solutions to help minimize interruptions during power outages."
+    },
+    "reason04": {
+      "title": "Strategic Mining Locations",
+      "text": "Our presence in major mining regions allows us to remain close to our clients and respond efficiently to their operational requirements."
+    },
+    "reason05": {
+      "title": "Experienced Professionals",
+      "text": "Our operations are supported by experienced personnel with practical knowledge of elution and gold recovery processes. This enables us to maintain professional operating standards and provide clients with dependable processing services."
+    },
+    "reason06": {
+      "title": "Transparency & Accountability",
+      "text": "Transparency is fundamental to the way we conduct business. We emphasize clear communication, accountability, timely updates, and transparent pricing throughout our engagement with clients."
+    },
+    "reason07": {
+      "title": "Competitive & Cost-Effective Solutions",
+      "text": "We aim to provide high-quality processing services at competitive rates. Our approach is focused on delivering value to clients while maintaining professional operational and service standards."
+    },
+    "reason08": {
+      "title": "Security & Controlled Handling",
+      "text": "We recognize the importance of security throughout the gold recovery process. Our facilities incorporate CCTV monitoring and controlled handling procedures designed to safeguard client materials and support secure operations."
+    },
+    "techEyebrow": "Operational Excellence",
+    "techTitle": "Technology & Operational",
+    "techHighlight": "Excellence",
+    "techIntro": "At JEMA Elution, technology is at the heart of our operations. Our high-capacity elution systems are designed to provide:",
+    "techPoint0": "Faster processing times",
+    "techPoint1": "Efficient gold recovery",
+    "techPoint2": "Consistent processing performance",
+    "techPoint3": "High-volume processing capability",
+    "techPoint4": "Continuous 24-hour operation",
+    "techPoint5": "Improved operational efficiency",
+    "techPoint6": "Reduced processing delays",
+    "techOutro": "Our investment in modern equipment and continuous operational improvements enables us to serve the requirements of today's mining industry.",
+    "sustainEyebrow": "Responsible Processing",
+    "sustainTitle": "Sustainability & Responsible",
+    "sustainHighlight": "Processing",
+    "sustainP1": "We recognize the importance of responsible mining and environmentally conscious operations.",
+    "sustainP2": "Our recovery approach is designed with operational efficiency and resource management in mind. We seek to optimize the use of water and processing chemicals while maintaining effective recovery performance and responsible operating practices.",
+    "sustainP3": "As part of JEMA Africa's broader commitment to sustainable and impactful business development, we continue to focus on solutions that create long-term value for our clients, communities, and the mining sector.",
+    "trustEyebrow": "Complete Dependability",
+    "trustTitle": "A Trusted Partner for Mining",
+    "trustHighlight": "Operations",
+    "trustIntro": "At JEMA Elution, we understand that efficient gold recovery is an important part of a successful mining operation. For this reason, we focus on more than processing capacity. We combine:",
+    "formulatechnology": "Technology",
+    "formulaexperience": "Experience",
+    "formulareliability": "Reliability",
+    "formulasecurity": "Security",
+    "formulatransparency": "Transparency",
+    "formulasupport": "Customer Support",
+    "trustOutro": "to provide a complete and dependable elution service. Our goal is to help mining companies achieve efficient processing, minimize operational delays, and maximize the value generated from their gold recovery operations.",
+    "locEyebrow": "Where We Operate",
+    "locTitle": "Our Strategic",
+    "locHighlight": "Locations",
+    "loc0": {
+      "city": "Mwanza",
+      "tag": "Mining Division Headquarters",
+      "address": "Jema Tech Building, Mkuyuni Industrial Area, Mwanza, Tanzania."
+    },
+    "loc1": {
+      "city": "Kahama",
+      "address": "Mbulu Street, Kahama, Tanzania."
+    },
+    "loc2": {
+      "city": "Geita",
+      "address": "Mpomvu Street, Geita, Tanzania."
+    },
+    "loc3": {
+      "city": "Musoma",
+      "address": "Musoma Bus Stop Street, Musoma, Tanzania."
+    },
+    "locNote": "Our regional presence enables JEMA Elution to provide accessible services and responsive support across key mining areas of Tanzania.",
+    "commitEyebrow": "Our Commitment",
+    "commitTitle": "Performance. Integrity.",
+    "commitHighlight": "Innovation. Trust.",
+    "commitIntro": "Our commitment is simple: to deliver efficient gold recovery services through advanced technology, professional operations, and exceptional customer service.",
+    "commitP2": "We continuously invest in our equipment, people, processes, and client relationships to ensure that JEMA Elution remains a reliable partner for Tanzania's growing mining industry.",
+    "commitP3": "We believe that long-term success is built on performance, integrity, innovation, and trust.",
+    "partnerEyebrow": "Get In Touch",
+    "partnerTitle": "Partner With",
+    "partnerHighlight": "JEMA ELUTION",
+    "partnerText": "Whether you are a small-scale miner, large-scale mining operation, gold processing company, or mining business seeking a reliable elution partner, JEMA Elution is ready to support your operation.",
+    "partnerExperience": "Experience efficient processing. Experience professional service. Experience JEMA Elution.",
+    "partnerOfficeLabel": "Mining Division Headquarters",
+    "partnerOfficeAddress": "Jema Tech Building, Mkuyuni Industrial Area, Mwanza, Tanzania",
+    "partnerTagline": "Advanced Gold Recovery | Reliable Processing | Trusted Partnership"
   },
   "chemicals": {
-    "eyebrow": "Jema Chemicals",
-    "title": "Supplying Mining Excellence Across Africa",
-    "lead": "Jema Chemicals supplies high-quality mining chemicals, reagents, and consumables to processing plants across Tanzania and beyond.",
-    "cta": "Explore Our Products",
-    "partnerTitle": "A Partner You Can Trust",
-    "partnerText": "Our partnership with international manufacturers ensures we deliver world-class products with local expertise and support.",
-    "consultTitle": "Need Expert Advice?",
-    "consultText": "Our team of specialists is ready to help you find the right chemicals and solutions for your operation.",
-    "consultButton": "Get in Touch",
-    "stats": {
-      "stat1Label": "Products Supplied",
-      "stat2Label": "Mining Operations",
-      "stat3Label": "Expert Team",
-      "stat4Label": "Years Experience"
+    "heroTitle": "Empowering Mining Excellence Through",
+    "heroHighlight": "Quality Chemical Solutions",
+    "heroLead": "JEMA Chemicals is a specialized mining chemical company under JEMA Africa, dedicated to supplying high-quality mineral processing chemicals and technical solutions to mining operations across Tanzania and the East African region. We deliver reliable products, professional support, and efficient supply chain solutions to small-scale, medium-scale, and large-scale mining companies.",
+    "heroCta": "Explore Our Products",
+    "partnerEyebrow": "Who We Are",
+    "partnerTitle": "A Trusted Partner for",
+    "partnerHighlight": "Mining Operations Across Africa.",
+    "partnerP1": "Established to meet the growing demands of the mining sector, JEMA Chemicals has become a trusted partner by delivering reliable products, professional support, and efficient supply chain solutions. Our commitment is to ensure that mining operations receive the right products, at the right time, and in the right quantities to maintain productivity and operational efficiency.",
+    "partnerP2": "JEMA Chemicals operates as an importer, distributor, storage provider, transporter, and exporter of mining chemicals, supported by a strong network of branches strategically located in major mining regions across Tanzania.",
+    "pillar01": {
+      "title": "Strategic Partnerships",
+      "text": "We collaborate with international manufacturers, suppliers, and technology providers to ensure access to quality products, industry expertise, and best practices. Our partnerships enable us to deliver consistent product quality and competitive pricing to our clients."
+    },
+    "pillar02": {
+      "title": "Safety, Compliance & Responsible Operations",
+      "text": "Safety and compliance are integral parts of our operations. JEMA Chemicals adheres to applicable local regulations and industry standards governing the importation, storage, transportation, and handling of chemicals. We promote responsible chemical use and support environmentally conscious practices throughout our operations."
+    },
+    "pillar03": {
+      "title": "Strategic Branch Network",
+      "text": "JEMA Chemicals operates branches in key mining regions — Mwanza, Geita, Kahama, Musoma, Chunya, and Mpanda — to ensure faster service, product availability, and responsive customer support. Our proximity to mining communities enables us to understand local industry requirements and provide tailored solutions."
+    },
+    "bandTitle": "Get Quality Products Today!",
+    "purposeEyebrow": "Our Purpose",
+    "purposeTitle": "Supporting Mining Success Through",
+    "purposeHighlight": "Reliable Supply",
+    "purposeP1": "Mining operations require a dependable supply of quality chemicals to achieve optimal recovery, efficient processing, and sustainable production. At JEMA Chemicals, our mission is to bridge the gap between global chemical manufacturers and local mining operations.",
+    "purposeP2": "We understand that uninterrupted chemical supply is critical to mining success. Therefore, we invest in inventory management, logistics, storage facilities, and branch networks that ensure timely product availability and reduced operational downtime.",
+    "feature0": {
+      "title": "Premium Mining Chemicals",
+      "text": "JEMA Chemicals supplies a comprehensive range of chemicals used in mineral processing, gold extraction, water treatment, and metallurgical operations."
+    },
+    "feature1": {
+      "title": "Global Sourcing & Supply Chain",
+      "text": "We import products from internationally recognized manufacturers in South Korea, China, India, and Sri Lanka, ensuring consistent product quality and competitive pricing."
+    },
+    "feature2": {
+      "title": "Strategic Locations",
+      "text": "Our branch network in major mining towns ensures timely product availability and responsive customer support across Tanzania."
+    },
+    "feature3": {
+      "title": "Technical Support & Consultancy",
+      "text": "More than a supplier — a technical partner. Our team provides product selection guidance, usage recommendations, process optimization advice, and operational support."
+    },
+    "productsEyebrow": "Our Products",
+    "productsTitle": "Premium Mining Processing",
+    "productsHighlight": "Chemicals",
+    "productsLead": "JEMA Chemicals supplies a comprehensive range of chemicals used in mineral processing, gold extraction, water treatment, and metallurgical operations. From sodium cyanide for gold extraction to grinding balls for ore processing, our products are designed to deliver the highest efficiency and quality.",
+    "product0": {
+      "name": "Sodium Cyanide",
+      "desc": "Widely used in gold extraction processes, playing a vital role in maximizing gold recovery efficiency.",
+      "img": "/assets/chemicals/sodium-cyanide.png"
+    },
+    "product1": {
+      "name": "Activated Carbon",
+      "desc": "High-quality activated carbon used in gold adsorption and recovery processes, supporting efficient extraction and improved plant performance.",
+      "img": "/assets/chemicals/activated-carbon.png"
+    },
+    "product2": {
+      "name": "Flocculants",
+      "desc": "Used in water clarification, tailings treatment, and mineral processing operations to improve separation efficiency.",
+      "img": "/assets/chemicals/flocculants.png"
+    },
+    "product3": {
+      "name": "Hydrogen Peroxide",
+      "desc": "Used in ore treatment processes, detoxification applications, and process optimization.",
+      "img": "/assets/chemicals/hydrogen-peroxide.png"
+    },
+    "product4": {
+      "name": "Sodium Metabisulfite",
+      "desc": "Used for cyanide detoxification and environmental management processes.",
+      "img": "/assets/chemicals/sodium-metabisulfite.png"
+    },
+    "product5": {
+      "name": "Caustic Soda",
+      "desc": "Essential for pH regulation and process control in mining operations.",
+      "img": "/assets/chemicals/caustic-soda-a.png"
+    },
+    "product6": {
+      "name": "Grinding Balls",
+      "desc": "High-quality grinding media used in ball mills to improve ore size reduction and processing efficiency.",
+      "img": "/assets/chemicals/caustic-soda.png"
+    },
+    "whyEyebrow": "Why Choose JEMA Chemicals?",
+    "whyTitle": "Quality Products. Reliable Supply.",
+    "whyHighlight": "Trusted Partnership.",
+    "whyText": "Our commitment to quality, a robust network of branches in major mining towns, and a team of industry experts ensure that you receive tailored solutions for your operations. We build long-term relationships based on trust, responsiveness, and reliability.",
+    "faq0": {
+      "q": "What makes JEMA Chemicals different from other suppliers?",
+      "a": "We combine high-quality products sourced from internationally recognized manufacturers with personalized technical support and a strategic branch network across Tanzania. Our presence in major mining towns ensures quick access to chemicals, backed by a dedicated team ready to support your operations."
+    },
+    "faq1": {
+      "q": "How do you ensure the quality of your mining chemicals?",
+      "a": "Quality is our top priority. We source products from trusted manufacturers in South Korea, China, India, and Sri Lanka, ensuring they meet industry standards. Our team provides ongoing technical support to ensure chemicals perform effectively in your applications."
+    },
+    "faq2": {
+      "q": "Can JEMA Chemicals support large-scale mining operations?",
+      "a": "Absolutely. With our extensive inventory, strategic branch locations in Mwanza, Geita, Kahama, Musoma, Chunya, and Mpanda, and logistics expertise, we are equipped to handle the needs of small, medium, and large-scale mining operations with efficiency and reliability."
+    },
+    "faq3": {
+      "q": "What services do you offer beyond supplying chemicals?",
+      "a": "In addition to product supply, we provide technical consultations, product selection guidance, chemical application support, process optimization advice, and operational support. We also maintain storage facilities, transportation services, and distribution networks to ensure timely delivery."
+    },
+    "consultEyebrow": "Technical Support & Consultancy",
+    "consultTitle": "More Than a Supplier —",
+    "consultHighlight": "A Technical Partner.",
+    "consultText": "At JEMA Chemicals, we believe that providing products alone is not enough. Our team works closely with clients to provide product selection guidance, chemical application support, usage recommendations, process optimization advice, technical consultations, and operational support.",
+    "formSubject": "Subject",
+    "formMessage": "Message",
+    "formComment": "Comment",
+    "teamEyebrow": "Our Team",
+    "teamTitle": "Meet the People Behind the",
+    "teamHighlight": "Excellence",
+    "teamText": "Our team is the backbone of Jema Chemicals. With extensive industry knowledge and a passion for innovation, they are dedicated to delivering the best solutions for our clients. From branch leads across Tanzania to operations and marketing specialists, we are here to make your mining journey seamless.",
+    "member0": {
+      "name": "Samweli Makindi",
+      "role": "Mwanza Branch Lead",
+      "img": "/assets/chemicals/team-makindi.png"
+    },
+    "member1": {
+      "name": "Mr. Felix Mokili",
+      "role": "Operations Lead",
+      "img": "/assets/chemicals/team-felix-mokili.png"
+    },
+    "member2": {
+      "name": "Mr. Juma Luchele",
+      "role": "COO - Mining Division",
+      "img": "/assets/chemicals/team-luchele.png"
+    },
+    "member3": {
+      "name": "Mr. Naim Karama",
+      "role": "Marketing - Mining Division",
+      "img": "/assets/chemicals/team-naim-karama.png"
+    },
+    "member4": {
+      "name": "Mr. Mokili Daniel Sese",
+      "role": "Geita Branch Lead",
+      "img": "/assets/chemicals/team-mokili-sese.png"
+    },
+    "member5": {
+      "name": "Mr. Macdonald Julius Masambe",
+      "role": "Mpanda Projects Lead",
+      "img": "/assets/chemicals/team-macdonald.png"
+    },
+    "member6": {
+      "name": "Mr. Benjamin Daniel",
+      "role": "Chunya Branch Lead",
+      "img": "/assets/chemicals/team-benjamin.png"
+    },
+    "member7": {
+      "name": "Mr. Baraka Lusake",
+      "role": "Musoma Branch Lead",
+      "img": "/assets/chemicals/team-baraka.png"
+    },
+    "branchesEyebrow": "Strategic Branch Network",
+    "branchesTitle": "Close to",
+    "branchesHighlight": "Our Clients.",
+    "branchesText": "JEMA Chemicals operates branches in key mining regions to ensure faster service, product availability, and responsive customer support. Our proximity to mining communities enables us to understand local industry requirements and provide tailored solutions.",
+    "branch0": {
+      "city": "Mwanza Branch",
+      "address": "Jema Tech Building. Industrial Area. Mwanza. Tanzania.",
+      "phone": "+255 677 066 855",
+      "href": "tel:+255677066855"
+    },
+    "branch1": {
+      "city": "Kahama Branch",
+      "address": "Kahama, Tanzania.",
+      "phone": "+255 767 060 719",
+      "href": "tel:+255767060719"
+    },
+    "branch2": {
+      "city": "Geita Branch",
+      "address": "Geita, Tanzania.",
+      "phone": "+255 745 694 989",
+      "href": "tel:+255745694989"
+    },
+    "branch3": {
+      "city": "Chunya Branch",
+      "address": "Chunya, Tanzania.",
+      "phone": "+255 627 067 369",
+      "href": "tel:+255627067369"
+    },
+    "branch4": {
+      "city": "Saza Branch",
+      "address": "Saza, Tanzania.",
+      "phone": "+255 629 260 739",
+      "href": "tel:+255629260739"
+    },
+    "contactEyebrow": "Contact Us",
+    "contactTitle": "Partner With",
+    "contactHighlight": "JEMA Chemicals.",
+    "contactText": "Whether you are a small-scale miner, a growing processing plant, or a large mining operation, we are committed to providing the products, expertise, and service required to help you achieve operational excellence.",
+    "contactOffice": "Mining Division Headquarters",
+    "contactAddress1": "JEMA Tech Building, Mkuyuni Industrial Area",
+    "contactAddress2": "Mwanza, Tanzania",
+    "contactPhone": "Phone: +255 28 255 0380",
+    "contactEmail": "Email: info@jemaafrica.co.tz",
+    "newsEyebrow": "Latest News & Blogs",
+    "newsTitle": "What's New in",
+    "newsHighlight": "Business Area",
+    "news0": {
+      "day": "01",
+      "month": "Apr",
+      "category": "Jema Africa",
+      "date": "April 1, 2026",
+      "title": "JEMA Africa Limited Celebrates 14 Years of Growth, Innovation, and Impact.",
+      "href": "https://jemaafrica.co.tz/jema-africa-limited-celebrates-14-years-of-growth-innovation-and-impact/",
+      "img": "https://images.unsplash.com/photo-1522071820081-009f0129c71c?auto=format&fit=crop&w=500&q=85"
+    },
+    "news1": {
+      "day": "08",
+      "month": "Dec",
+      "category": "Jema Auto",
+      "date": "December 8, 2025",
+      "title": "Kwa Nini Watanzania Wanapaswa Kuchagua JEMA AUTO Katika Uagizaji wa Magari Kutoka Japan",
+      "href": "https://jemaafrica.co.tz/kwa-nini-watanzania-wanapaswa-kuchagua-jema-auto-katika-uagizaji-wa-magari-kutoka-japan/",
+      "img": "https://images.unsplash.com/photo-1492144534655-ae79c964c9d7?auto=format&fit=crop&w=500&q=85"
+    },
+    "news2": {
+      "day": "08",
+      "month": "Dec",
+      "category": "Jema Africa",
+      "date": "December 8, 2025",
+      "title": "JEMA Africa Ltd Leads the Stage as Gold Sponsor at the 2025 Mining Show Exhibition",
+      "href": "https://jemaafrica.co.tz/jema-africa-ltd-leads-the-stage-as-gold-sponsor-at-the-2025-mining-show-exhibition-in-dubai/",
+      "img": "https://images.unsplash.com/photo-1581094794329-c8112a89af12?auto=format&fit=crop&w=500&q=85"
+    },
+    "office0": {
+      "title": "Mining Division HQ",
+      "address": "Jema Tech Building. Industrial Area. Mwanza. Tanzania.",
+      "phone": "+255 28 255 0380",
+      "href": "tel:+255282550380"
+    },
+    "office1": {
+      "title": "Non-Mining Division HQ",
+      "address": "5th floor, TAN House, Victoria, Dar es Salaam.",
+      "phone": "+255 677 091 421",
+      "href": "tel:+255677091421"
+    },
+    "office2": {
+      "title": "JIT Main Campus",
+      "address": "Jema Tech Building. Industrial Area. Mwanza. Tanzania.",
+      "phone": "+255 76 628 3530",
+      "href": "tel:+255766283530"
     }
   },
   "jit": {
-    "eyebrow": "Jema Institute of Technology",
-    "title": "Empowering Africa's Next Generation",
-    "lead": "JIT provides world-class technical education and training, preparing the next generation of engineers and technicians for Africa's growing industries.",
-    "cta": "Learn More",
-    "features": {
-      "feature1": { "title": "Modern Facilities", "text": "State-of-the-art laboratories and workshops equipped with industry-standard equipment." },
-      "feature2": { "title": "Expert Faculty", "text": "Learn from experienced professionals with real-world industry expertise." },
-      "feature3": { "title": "Industry Connections", "text": "Direct pathways to employment with Jema Africa's network of companies." }
+    "heroEyebrow": "JEMA Institute of Technology",
+    "heroTitle": "Investing in Education. Building Skills.",
+    "heroHighlight": "Transforming the Future.",
+    "heroLead": "Jema Institute of Technology (JIT) is a technology-driven technical and vocational education institution established to develop practical skills, technical expertise, innovation, and professional competence for Tanzania's evolving workforce. Owned by JEMA Africa Limited, JIT combines academic learning with hands-on training to prepare students for employment, entrepreneurship, innovation, and lifelong professional development.",
+    "heroCta1": "Apply Now",
+    "heroCta2": "Explore Programmes",
+    "pillar1": {
+      "title": "Our Vision",
+      "text": "To be a technology-driven institution that transforms industries and contributes to sustainable national economic development. Our vision reflects our belief that technical education is an important driver of industrialization, technological advancement, and economic transformation."
+    },
+    "pillar2": {
+      "title": "Our Mission",
+      "text": "To improve lives by integrating technology into the daily livelihood of communities, expanding digital knowledge, and promoting creativity and innovation for a better tomorrow. We pursue this mission by providing practical education, developing technical competencies, encouraging innovation, and creating opportunities for students and professionals to acquire skills relevant to modern industry."
+    },
+    "pillar3": {
+      "title": "Our Core Values",
+      "text": "Our values guide how we teach, work, lead and engage with our students, partners and communities — Integrity, Professionalism, Respect, Innovation, Excellence, Interdependence, and Competence-Based Education."
+    },
+    "aboutEyebrow": "About JIT",
+    "aboutTitle": "Developing Skills for a",
+    "aboutHighlight": "Changing World",
+    "aboutP1": "Jema Institute of Technology was established by JEMA Africa to contribute to the development of technical education and professional skills in Tanzania. JEMA Africa's experience across mining, technology, business and industrial operations provides JIT with an important connection to real-world industry requirements.",
+    "aboutP2": "Today, JIT provides a learning environment where students can develop both theoretical understanding and practical capabilities. Our educational model is designed around four key outcomes:",
+    "aboutP3": "JIT is located at the JEMA Tech Building in Mkuyuni Industrial Area, Mwanza, strategically positioned within an environment connected to technology, mining, business, and industrial activities.",
+    "program0": "Mineral Processing",
+    "program1": "Information and Communication Technology (ICT)",
+    "program2": "Professional Short Courses",
+    "program3": "Industry-Focused Training",
+    "highlightsEyebrow": "Invest in Education for Future Generations",
+    "highlightsTitle": "Where",
+    "highlightsHighlight": "Innovation Meets Education.",
+    "highlightsLead": "At JIT, we believe that education should do more than provide academic knowledge. It should equip people with the practical capabilities, confidence, creativity, and technological skills required to solve real-world problems and contribute meaningfully to society.",
+    "highlight0": {
+      "title": "Competency-Based Education",
+      "text": "We focus on developing practical capabilities that students can apply in real working environments. Our educational model is designed around four key outcomes: Knowledge, Skills, Innovation, and Employability — preparing graduates for employment, entrepreneurship, innovation, and professional success."
+    },
+    "highlight1": {
+      "title": "Modern Learning Facilities",
+      "text": "JIT provides facilities designed to support theoretical instruction, practical learning, technology development, and student activities. Our learning environment includes modern laboratories, classrooms, technical training facilities, library resources, ICT infrastructure, research facilities, innovation spaces, and a gold-processing elution plant that provides students with practical industrial exposure."
+    },
+    "highlight2": {
+      "title": "Practical & Competency-Based Learning",
+      "text": "One of JIT's key strengths is its emphasis on practical learning. Our approach incorporates laboratory sessions, practical assignments, technical demonstrations, field exposure, industrial practical training, project-based learning, technology-based learning, and research and innovation activities."
+    },
+    "highlight3": {
+      "title": "Student Innovation Hub",
+      "text": "The JIT Student Innovation Hub provides a platform for students to explore ideas, develop projects, and experiment with technology. Through the Innovation Hub, students can develop digital solutions, technical projects, entrepreneurship ideas, research projects, prototypes, and technology-based solutions."
+    },
+    "highlight4": {
+      "title": "Research & Innovation",
+      "text": "JIT recognizes research and innovation as essential components of modern technical education. Our research and innovation activities encourage students and staff to identify real-world challenges and develop practical solutions using technology, science and technical knowledge."
+    },
+    "highlight5": {
+      "title": "Industry Connection",
+      "text": "JIT benefits from its relationship with JEMA Africa and the group's diverse business operations across mining, technology, logistics, education, automotive, chemicals and financial services. This connection is particularly valuable in technical disciplines where students need to understand how their knowledge is applied in real operating environments."
+    },
+    "ctaTitle": "INVEST IN EDUCATION",
+    "ctaHighlight": "FOR FUTURE GENERATIONS.",
+    "ctaLabel": "Contact Us",
+    "valueEyebrow": "Why Choose JIT?",
+    "valueTitle": "Six Reasons to Choose",
+    "valueHighlight": "JEMA Institute of Technology.",
+    "valueLead": "From practical education and modern laboratories to experienced lecturers, industry-relevant programmes, research & innovation, and technology-enabled learning — JIT is committed to providing education that is relevant, practical, and responsive to the changing needs of society and industry.",
+    "value0": "Knowledge — Understanding the principles behind a profession.",
+    "value1": "Skills — Developing practical competence through hands-on learning.",
+    "value2": "Innovation — Encouraging creativity and technology-driven problem-solving.",
+    "value3": "Employability — Preparing graduates to contribute effectively to the workplace or establish their own ventures.",
+    "teamEyebrow": "Principal's Message",
+    "teamTitle": "Welcome to",
+    "teamHighlight": "JEMA Institute of Technology",
+    "teamText": "It is with great pride and enthusiasm that I welcome you to JEMA Institute of Technology. JIT is a place where innovation meets excellence, and where aspiring professionals are given the opportunity to develop the knowledge, technical skills, and confidence required to contribute to the future of technology and industry. We are committed to creating an environment where students can learn, experiment, innovate and develop into responsible professionals. Your potential is the beginning. Your skills are the foundation. Your innovation can shape the future.",
+    "member0": {
+      "name": "Mr. Benezeth Kamihanda",
+      "role": "Principal - JIT",
+      "img": "/assets/jit/team-kamihanda.png"
+    },
+    "member1": {
+      "name": "Mr. Japhet Ngoro",
+      "role": "College Manager",
+      "img": "/assets/jit/team-ngoro.png"
+    },
+    "member2": {
+      "name": "Mr. Nibusam Damas Kashind",
+      "role": "College Administrator",
+      "img": "/assets/jit/team-kashind.png"
+    },
+    "contactEyebrow": "Join JEMA Institute of Technology",
+    "contactTitle": "Transform Your Potential Into",
+    "contactHighlight": "Professional Success.",
+    "contactText": "Whether you are a recent secondary school graduate, a professional seeking additional skills, an organization looking to train your workforce, or an aspiring entrepreneur, JIT provides opportunities to develop practical knowledge and professional capabilities.",
+    "contactLocationLabel": "Location",
+    "contactLocation": "P.O. Box 269, Mkuyuni, Mwanza, Tanzania",
+    "contactCallLabel": "Call Us",
+    "newsEyebrow": "What's News & Blog",
+    "newsTitle": "Latest from",
+    "newsHighlight": "Jema Africa",
+    "news0": {
+      "day": "01",
+      "month": "Apr",
+      "date": "April 1, 2026",
+      "category": "Jema Africa",
+      "title": "JEMA Africa Limited Celebrates 14 Years",
+      "href": "https://jemaafrica.co.tz/jema-africa-limited-celebrates-14-years-of-growth-innovation-and-impact/",
+      "img": "https://images.unsplash.com/photo-1522071820081-009f0129c71c?auto=format&fit=crop&w=500&q=85"
+    },
+    "news1": {
+      "day": "08",
+      "month": "Dec",
+      "date": "December 8, 2025",
+      "category": "Jema Auto",
+      "title": "Kwa Nini Watanzania Wanapaswa Kuchagua JEMA",
+      "href": "https://jemaafrica.co.tz/kwa-nini-watanzania-wanapaswa-kuchagua-jema-auto-katika-uagizaji-wa-magari-kutoka-japan/",
+      "img": "https://images.unsplash.com/photo-1492144534655-ae79c964c9d7?auto=format&fit=crop&w=500&q=85"
+    },
+    "news2": {
+      "day": "08",
+      "month": "Dec",
+      "date": "December 8, 2025",
+      "category": "Jema Africa",
+      "title": "JEMA Africa Ltd Leads the Stage",
+      "href": "https://jemaafrica.co.tz/jema-africa-ltd-leads-the-stage-as-gold-sponsor-at-the-2025-mining-show-exhibition-in-dubai/",
+      "img": "https://images.unsplash.com/photo-1581094794329-c8112a89af12?auto=format&fit=crop&w=500&q=85"
+    },
+    "office0": {
+      "title": "JIT Main Campus",
+      "address": "P.O. Box 269, Mkuyuni, Mwanza, Tanzania.",
+      "phone": "+255 76 628 3530",
+      "href": "tel:+255766283530"
+    },
+    "office1": {
+      "title": "Mining Division HQ",
+      "address": "Jema Tech Building. Industrial Area. Mwanza. Tanzania.",
+      "phone": "+255 28 255 0380",
+      "href": "tel:+255282550380"
+    },
+    "office2": {
+      "title": "Email",
+      "address": "info@jit.ac.tz",
+      "phone": "",
+      "href": "mailto:info@jit.ac.tz"
     }
   },
   "tech": {
@@ -213,26 +844,433 @@
     "cta": "Explore Products"
   },
   "auto": {
-    "eyebrow": "Jema Auto",
-    "title": "Quality Vehicles, Trusted Imports",
-    "lead": "Jema Auto connects businesses and individuals with quality vehicles from Japan and beyond, handling the entire import process.",
-    "cta": "Import With Us"
+    "heroEyebrow": "Jema Auto",
+    "heroTitle": "Drive Quality,",
+    "heroHighlight": "Affordably.",
+    "heroDesc": "A premier importer of high-quality used vehicles from Japan, Germany, the USA, Dubai, and other trusted markets. Serving Tanzania and the wider East and Central African regions with reliability, transparency, and customer satisfaction at the forefront.",
+    "heroCta": "More Information",
+    "welcomeBadge": "Since 2012",
+    "welcomeEyebrow": "Welcome To Jema Auto",
+    "welcomeTitle": "Drive Your",
+    "welcomeHighlight": "Dream Car Today with Jema Auto.",
+    "welcomeP1": "Jema Auto is a premier importer of high-quality used vehicles from around the globe, serving Tanzania and the wider East and Central African regions. With a focus on reliability and customer satisfaction, we source vehicles from trusted markets including Japan, Germany, the USA, Dubai, and many other parts of the world.",
+    "welcomeP2": "Our extensive inventory and innovative solutions set us apart in the automotive industry.",
+    "welcomeP3": "Experience the ease and reliability of purchasing a used vehicle with Jema Auto, where quality, transparency, and customer satisfaction are at the forefront of everything we do.",
+    "servicesEyebrow": "Our Services",
+    "servicesTitle": "What Services we Provide for",
+    "servicesHighlight": "Our Customers",
+    "servicesLead": "Whether you're looking for a family car, a luxury vehicle, or a reliable work truck, Jema Auto is your one-stop destination for quality used cars in Tanzania and the broader East and Central African regions.",
+    "service0": {
+      "group": "Vehicle Importation",
+      "title": "Global Sourcing",
+      "text": "We import a diverse range of used vehicles, ensuring a wide selection for our clients. By sourcing from established markets, we guarantee the quality and reliability of our vehicles.",
+      "img": "/assets/auto/sourcing.png"
+    },
+    "service1": {
+      "group": "Vehicle Importation",
+      "title": "Extensive Inventory",
+      "text": "From our platform to the strategic car yards in Dar es Salaam, we host hundreds of thousands of vehicles, offering an array of options to meet the varied needs and preferences of our customers.",
+      "img": "/assets/auto/inventory.png"
+    },
+    "service2": {
+      "group": "Jema Auto Platform",
+      "title": "Access to Auctions",
+      "text": "Our newly launched Jema Auto Platform revolutionizes the car buying experience by providing access to over 200 Japanese car auctions. Browse hundreds of thousands of vehicles from the comfort of your phone or laptop.",
+      "img": "/assets/auto/platform.png"
+    },
+    "service3": {
+      "group": "Jema Auto Platform",
+      "title": "Wide Selection",
+      "text": "Clients can choose from a vast range of cars, catering to different tastes, requirements, and budgets. Whether looking for economy models, luxury cars, or specialized vehicles, our platform offers something for everyone.",
+      "img": "/assets/auto/hero.png"
+    },
+    "service4": {
+      "group": "Jema Auto Platform",
+      "title": "Transparent Pricing",
+      "text": "We pride ourselves on transparency. Our platform ensures that there are no hidden fees, providing a straightforward and honest car buying process.",
+      "img": "/assets/auto/sourcing.png"
+    },
+    "service5": {
+      "group": "Jema Auto Platform",
+      "title": "Convenient Access",
+      "text": "Available 24/7, the Jema Auto Platform allows clients to explore and purchase vehicles at their convenience, making the process seamless and hassle-free.",
+      "img": "/assets/auto/inventory.png"
+    },
+    "ctaTitle": "Your Trusted Source for Quality Used Vehicles in",
+    "ctaHighlight": "East & Central Africa.",
+    "ctaCta": "Discover More",
+    "whyEyebrow": "Why Choose Jema Auto",
+    "whyTitle": "At Jema Auto, we stand out in the automotive market for",
+    "whyHighlight": "several reasons.",
+    "reason0": {
+      "title": "Quality Assurance",
+      "text": "Each vehicle we import undergoes a thorough inspection to ensure it meets our high standards for safety and performance."
+    },
+    "reason1": {
+      "title": "Customer-Centric Approach",
+      "text": "Our commitment to customer satisfaction drives us to offer the best possible service. From the moment you browse our inventory to the delivery of your vehicle, we strive to exceed expectations."
+    },
+    "reason2": {
+      "title": "Competitive Pricing",
+      "text": "By leveraging our global network and efficient operations, we offer competitive prices without compromising on quality."
+    },
+    "reason3": {
+      "title": "Expert Support",
+      "text": "Our knowledgeable team is always ready to assist with any inquiries, providing expert advice and support throughout the purchasing process."
+    },
+    "whyFoot": "To explore our extensive vehicle inventory, please visit our website or contact us directly:",
+    "whyFootCta": "Visit our website",
+    "processEyebrow": "How It Works",
+    "processTitle": "We Follow Some Steps To Buy a Vehicle from",
+    "processHighlight": "Jema Auto",
+    "step0": {
+      "title": "Browse Our Website",
+      "text": "Explore our diverse range of vehicles online, with detailed descriptions and high-quality images for each car."
+    },
+    "step1": {
+      "title": "Inquire About a Vehicle",
+      "text": "Found something you like? Reach out to us for more information, photos, or a test drive."
+    },
+    "step2": {
+      "title": "Secure Financing",
+      "text": "We offer flexible financing options to help you purchase your dream car. Our team will guide you through the process to find the best payment plan."
+    },
+    "step3": {
+      "title": "Receive Your Vehicle",
+      "text": "Once you've made your purchase, we arrange delivery to your location. We ensure a smooth and safe delivery experience across Tanzania and the wider East and Central African regions."
+    },
+    "supportEyebrow": "After-Sales Support",
+    "supportTitle": "We're committed to your satisfaction even after the sale. From servicing to repairs, Jema Auto is here for you.",
+    "supportLabel": "Expert Advisor",
+    "newsEyebrow": "What's News & Blog",
+    "newsTitle": "We're Here to Provide Latest &",
+    "newsHighlight": "Important News",
+    "newsBy": "by",
+    "newsReadMore": "READ MORE",
+    "news0": {
+      "day": "01",
+      "month": "Apr",
+      "author": "Admin Jema Africa",
+      "category": "Jema Africa",
+      "title": "JEMA Africa Limited Celebrates 14 Years",
+      "href": "https://jemaafrica.co.tz/jema-africa-limited-celebrates-14-years-of-growth-innovation-and-impact/",
+      "img": "https://images.unsplash.com/photo-1522071820081-009f0129c71c?auto=format&fit=crop&w=500&q=85"
+    },
+    "news1": {
+      "day": "08",
+      "month": "Dec",
+      "author": "Admin Jema Auto",
+      "category": "Jema Auto",
+      "title": "Kwa Nini Watanzania Wanapaswa Kuchagua JEMA",
+      "href": "https://jemaafrica.co.tz/kwa-nini-watanzania-wanapaswa-kuchagua-jema-auto-katika-uagizaji-wa-magari-kutoka-japan/",
+      "img": "https://images.unsplash.com/photo-1492144534655-ae79c964c9d7?auto=format&fit=crop&w=500&q=85"
+    },
+    "news2": {
+      "day": "08",
+      "month": "Dec",
+      "author": "Admin Jema Africa",
+      "category": "Jema Africa",
+      "title": "JEMA Africa Ltd Leads the Stage",
+      "href": "https://jemaafrica.co.tz/jema-africa-ltd-leads-the-stage-as-gold-sponsor-at-the-2025-mining-show-exhibition-in-dubai/",
+      "img": "https://images.unsplash.com/photo-1581094794329-c8112a89af12?auto=format&fit=crop&w=500&q=85"
+    },
+    "office0": {
+      "title": "Mining Division HQ",
+      "address": "Jema Tech Building. Industrial Area. Mwanza. Tanzania.",
+      "phone": "+255 28 255 0380",
+      "href": "tel:+255282550380"
+    },
+    "office1": {
+      "title": "Non-Mining Division HQ",
+      "address": "5th floor, TAN House, Victoria, Dar es Salaam.",
+      "phone": "+255 677 091 421",
+      "href": "tel:+255677091421"
+    },
+    "office2": {
+      "title": "JIT Main Campus",
+      "address": "Jema Tech Building. Industrial Area. Mwanza. Tanzania.",
+      "phone": "+255 76 628 3530",
+      "href": "tel:+255766283530"
+    }
   },
   "cargo": {
-    "eyebrow": "JETCargo",
-    "title": "Efficient Logistics Across Africa",
-    "lead": "JETCargo provides reliable logistics and transportation services, connecting businesses across Tanzania and the wider African continent.",
-    "cta": "Ship With Us",
-    "stat1Label": "Deliveries Completed",
-    "stat2Label": "Countries Covered",
-    "stat3Label": "Fleet Vehicles",
-    "stat4Label": "Customer Satisfaction"
+    "heroEyebrow": "Welcome",
+    "heroTitle": "Welcome to JETCargo,",
+    "heroHighlight": "where we redefine the future of logistics in Africa.",
+    "heroLead": "Our mission is to provide a seamless, reliable, and efficient cargo transportation solution tailored to meet the diverse needs of our clients. With a focus on innovation and excellence, JETCargo is transforming the logistics landscape through cutting-edge technology and dedicated customer service.",
+    "heroCta": "Contact Us",
+    "servicesEyebrow": "Our Services",
+    "servicesTitle": "What JETCargo",
+    "servicesHighlight": "Offers.",
+    "servicesLead": "JETCargo is your reliable, user-friendly platform for booking cargo shipments quickly and easily. Whether you're a business or an individual, our platform and mobile app make it effortless to manage your logistics. We offer a wide range of delivery options designed to meet your specific shipping needs, with a focus on efficiency, innovation, and customer satisfaction.",
+    "service0": {
+      "title": "Seamless Booking Process",
+      "text": "Our platform and mobile app make booking shipments quick and easy. Whether you are a business or an individual, you can book your shipment in just a few clicks."
+    },
+    "service1": {
+      "title": "Door-to-Door Service",
+      "text": "JETCargo offers comprehensive door-to-door service, picking up packages from your location and delivering them directly to their destination, whether locally or across the country."
+    },
+    "service2": {
+      "title": "Real-Time Tracking",
+      "text": "Our real-time tracking system allows you to monitor your shipment's progress every step of the way, ensuring you are always informed."
+    },
+    "service3": {
+      "title": "Flexible Delivery Options",
+      "text": "We understand that each shipment is unique. JETCargo offers a range of delivery options, from express delivery to cost-effective solutions, to meet your specific needs."
+    },
+    "service4": {
+      "title": "Dedicated Customer Support",
+      "text": "Our customer support team is available to assist you with any questions or issues, ensuring a smooth and hassle-free shipping experience."
+    },
+    "statLabel": "Successful",
+    "whyEyebrow": "Why Choose JETCargo",
+    "whyTitle": "Why JETCargo is the Best Choice for",
+    "whyHighlight": "Your Shipping Needs.",
+    "whyLead": "JETCargo offers various pricing options to suit different needs, whether you are shipping a small parcel or a large volume of goods.",
+    "why0": {
+      "title": "Innovation-Driven Logistics",
+      "text": "At JETCargo, we're committed to using the latest technology to optimize the shipping process. Our app and platform are designed to make logistics simpler and more efficient for everyone."
+    },
+    "why1": {
+      "title": "Affordable & Reliable Services",
+      "text": "We understand that affordability and reliability are key. That's why we offer flexible shipping options to fit your budget without compromising on speed or safety."
+    },
+    "why2": {
+      "title": "Customer-Centric Approach",
+      "text": "Your satisfaction is our top priority. From booking to delivery, our customer support team is always ready to help you resolve any issue. We're here to make sure your experience is seamless and hassle-free."
+    },
+    "ctaTitle": "Need it fast? Get your shipment delivered",
+    "ctaHighlight": "within 24-48 hours.",
+    "ctaPricing": "Pricing varies based on shipment volume.",
+    "ctaAdvisor": "Expert Advisor",
+    "keyEyebrow": "Key Services",
+    "keyTitle": "We understand the",
+    "keyHighlight": "unique demands of",
+    "keyHighlightEm": "retail businesses.",
+    "keyLead": "JETCargo is committed to redefining logistics for retailers, providing them with the tools and support they need to thrive in a competitive market. Together, we drive success by ensuring goods move smoothly, efficiently, and reliably from suppliers to shelves.",
+    "key0": {
+      "title": "Cargo Owners - Individuals",
+      "text": "Convenient services for personal shipments."
+    },
+    "key1": {
+      "title": "Cargo Owners - Retailers",
+      "text": "Tailored logistics for e-commerce businesses."
+    },
+    "key2": {
+      "title": "Cargo Owners - Corporate Clients",
+      "text": "Seamless order placement and management through our web app."
+    },
+    "key3": {
+      "title": "Transport Partners - Fleet Owners",
+      "text": "Specialized app to streamline operations."
+    },
+    "key4": {
+      "title": "Transport Partners - Drivers",
+      "text": "Driver app for efficient cargo management."
+    },
+    "key5": {
+      "title": "Transport Partners - Airlines & Bus Companies",
+      "text": "Centralized web application for cargo monitoring."
+    },
+    "newsEyebrow": "Blog & News",
+    "newsTitle": "Our Latest",
+    "newsHighlight": "News",
+    "newsLead": "Get the latest updates, success stories, and innovations from Jema Africa. Our team is constantly driving growth and making an impact across multiple industries.",
+    "readMore": "READ MORE",
+    "news0": {
+      "day": "01",
+      "month": "Apr",
+      "date": "April 1, 2026",
+      "category": "Jema Africa",
+      "title": "JEMA Africa Limited Celebrates 14 Years of Growth, Innovation, and Impact.",
+      "href": "https://jemaafrica.co.tz/jema-africa-limited-celebrates-14-years-of-growth-innovation-and-impact/",
+      "img": "https://images.unsplash.com/photo-1522071820081-009f0129c71c?auto=format&fit=crop&w=500&q=85"
+    },
+    "news1": {
+      "day": "08",
+      "month": "Dec",
+      "date": "December 8, 2025",
+      "category": "Jema Auto",
+      "title": "Kwa Nini Watanzania Wanapaswa Kuchagua JEMA AUTO Katika Uagizaji wa Magari Kutoka Japan",
+      "href": "https://jemaafrica.co.tz/kwa-nini-watanzania-wanapaswa-kuchagua-jema-auto-katika-uagizaji-wa-magari-kutoka-japan/",
+      "img": "https://images.unsplash.com/photo-1492144534655-ae79c964c9d7?auto=format&fit=crop&w=500&q=85"
+    },
+    "news2": {
+      "day": "08",
+      "month": "Dec",
+      "date": "December 8, 2025",
+      "category": "Jema Africa",
+      "title": "JEMA Africa Ltd Leads the Stage as Gold Sponsor at the 2025 Mining Show Exhibition",
+      "href": "https://jemaafrica.co.tz/jema-africa-ltd-leads-the-stage-as-gold-sponsor-at-the-2025-mining-show-exhibition-in-dubai/",
+      "img": "https://images.unsplash.com/photo-1581094794329-c8112a89af12?auto=format&fit=crop&w=500&q=85"
+    },
+    "contactEyebrow": "Contact Us",
+    "contactTitle": "Get your shipment delivered",
+    "contactHighlight": "within 24-48 hours.",
+    "contactLead": "We're here to make sure your experience is seamless and hassle-free.",
+    "contactMobile": "Mobile",
+    "contactPhoneText": "Office Phone Number +255 28 255 0380 & +255 677 091 421",
+    "contactLocation": "Location",
+    "contactAddress1": "Jema Tech Building. Industrial Area. Mwanza. Tanzania.",
+    "contactAddress2": "5th floor, TAN House, Victoria, Dar es Salaam.",
+    "formFirstName": "First Name",
+    "formLastName": "Last Name",
+    "formEmail": "Email",
+    "formPhone": "Phone",
+    "formSubject": "Subject",
+    "formComment": "Comment",
+    "formSubmit": "Send Message",
+    "formSent": "Message Sent",
+    "office0": {
+      "title": "Mining Division HQ",
+      "address": "Jema Tech Building. Industrial Area. Mwanza. Tanzania.",
+      "phone": "+255 28 255 0380"
+    },
+    "office1": {
+      "title": "Non-Mining Division HQ",
+      "address": "5th floor, TAN House, Victoria, Dar es Salaam.",
+      "phone": "+255 677 091 421"
+    },
+    "office2": {
+      "title": "JIT Main Campus",
+      "address": "Jema Tech Building. Industrial Area. Mwanza. Tanzania.",
+      "phone": "+255 76 628 3530"
+    }
   },
   "finance": {
-    "eyebrow": "Jema Financial Services",
-    "title": "Financial Solutions for Growth",
-    "lead": "Jema Financial Services provides tailored financial solutions to support businesses and communities across Africa.",
-    "cta": "Our Services"
+    "heroEyebrow": "Jema Financial Services",
+    "heroTitle": "Innovative Financial Services",
+    "heroHighlight": "for a Brighter Future",
+    "heroLead": "JETFinance is a digital microfinance platform designed to empower underserved communities by providing access to essential financial services. Launched as an initiative by Jema Africa Limited, JETFinance aims to bridge the gap in financial inclusion for groups such as Vicoba and small to medium-sized enterprises (SMEs) in Tanzania.",
+    "heroCta": "More Information",
+    "heroExpLabel": "Years of\nExperiences",
+    "visionLabel": "Vision",
+    "visionText": "To be the leading digital microfinance provider in Tanzania, driving financial inclusion and economic growth through innovative solutions and exceptional customer service.",
+    "missionLabel": "Mission",
+    "missionText": "To empower underserved communities by providing accessible, affordable, and innovative financial services that foster economic growth and improve quality of life.",
+    "aboutEyebrow": "About Us Jema Financial Services",
+    "aboutTitle": "Empowering Underserved Communities with",
+    "aboutHighlight": "Jema Financial Services",
+    "aboutP1": "Jema Financial Services, launched by Jema Africa Limited, is a digital microfinance platform designed to enhance financial inclusion for underserved communities.",
+    "aboutP2": "Through Jema Financial Services, the platform offers essential financial services to groups such as Vicoba (Village Community Banks) and small to medium-sized enterprises (SMEs) in Tanzania.",
+    "tag0": "Trade Finance Loans",
+    "tag1": "Vicoba Group Support",
+    "tag2": "Financial Education",
+    "tag3": "Innovative Financial Solutions",
+    "aboutP3": "Jema Financial Service seeks to bridge the financial inclusion gap by enabling these communities to access affordable loans, savings, and other crucial financial tools.",
+    "aboutP4": "The platform leverages technology to simplify the borrowing process, making financial services accessible to individuals and businesses previously excluded from traditional banking systems.",
+    "aboutP5": "With a focus on empowering marginalized groups, Jema Financial Services contributes to fostering economic growth and self-reliance.",
+    "offeringsEyebrow": "Key Offerings",
+    "offeringsTitle": "Digital Financial Solutions for",
+    "offeringsHighlight": "the Underserved",
+    "offeringsLead": "Jema Financial Services is committed to revolutionizing financial services in Tanzania. With a strong focus on innovation, customer-centricity, and financial education, we aim to create lasting value for our users and contribute to the broader economic development of the country.",
+    "offering0": {
+      "title": "Trade Finance Loans",
+      "text": "We provide financial assistance to small and medium-sized companies to help them fulfill orders, such as clients from our sister company, Jema Chemicals.",
+      "img": "/assets/finance/fina-1.png"
+    },
+    "offering1": {
+      "title": "Vicoba Group Support",
+      "text": "Our flagship product, the JETFinance Vicoba App, streamlines operations for Vicoba groups, offering secure financial data storage, loan access, and financial education.",
+      "img": "/assets/finance/fina-2.png"
+    },
+    "offering2": {
+      "title": "Financial Education",
+      "text": "We offer training modules to improve financial literacy among our clients, empowering them to make informed financial decisions and build a solid credit history.",
+      "img": "/assets/finance/fina-3.png"
+    },
+    "offering3": {
+      "title": "Innovative Financial Solutions",
+      "text": "By leveraging technology, we provide user-friendly financial services that cater to the specific needs of underserved communities, ensuring accessibility and affordability.",
+      "img": "/assets/finance/fina-4.png"
+    },
+    "ctaTitle": "We aim to revolutionize the financial landscape",
+    "ctaHighlight": "in Tanzania.",
+    "hotline": "Hotline",
+    "ctaCta": "Request A Call Back",
+    "whyEyebrow": "Why Choose Us",
+    "whyTitle": "Driving Positive Change in Tanzania's",
+    "whyHighlight": "Underserved Communities",
+    "whyP1": "Jema Financial Services is dedicated to offering more than just financial support. We focus on financial education, helping our clients build their credit scores and access various loan products from Jema Financial Services and its partners.",
+    "whyP2": "Our goal is to promote sustainable development by empowering individuals and businesses with the necessary tools and knowledge to thrive economically.",
+    "whyP3": "Jema Financial Services was established to address the financial needs of underrepresented groups in our community.",
+    "whyP4": "Recognizing the challenges faced by SMEs and Vicoba groups in accessing financial services, Jema Financial Services provides tailored solutions to foster economic growth and financial independence.",
+    "accessEyebrow": "Jema Financial Services",
+    "accessTitle": "Simplifying Access to Financial",
+    "accessHighlight": "Services",
+    "accessLead": "At Jema Financial Services, we understand the challenges faced by underserved communities when it comes to accessing financial products. That's why Jema Financial Services is designed to simplify the process and make financial services as accessible as possible.",
+    "accessFeature0": {
+      "label": "Easy Registration",
+      "text": "Users can easily sign up on our platform through a simple and secure registration process, providing access to a variety of financial products."
+    },
+    "accessFeature1": {
+      "label": "Mobile-Based Platform",
+      "text": "Jema Financial Services is a mobile-first platform that allows individuals and businesses to access financial services from the convenience of their smartphones, making it easier for them to manage their finances on the go."
+    },
+    "accessFeature2": {
+      "label": "Loan Application Process",
+      "text": "The loan application process is straightforward and quick. Applicants can apply for loans directly through their mobile devices, and funds can be disbursed promptly once approved."
+    },
+    "accessFeature3": {
+      "label": "Flexible Repayment Terms",
+      "text": "Jema Financial Services offers flexible repayment plans to suit the financial situations of individuals and small businesses, helping them manage their cash flow and repay loans without undue hardship."
+    },
+    "accessFeature4": {
+      "label": "24/7 Customer Support",
+      "text": "Our dedicated customer support team is available around the clock to assist users with any questions or issues they may encounter while using the platform."
+    },
+    "newsEyebrow": "Latest from Jema Africa",
+    "newsTitle": "At Jema Financial Services,",
+    "newsHighlight": "we are dedicated to helping underserved communities access the financial resources they need.",
+    "news0": {
+      "day": "01",
+      "month": "Apr",
+      "date": "April 1, 2026",
+      "category": "Jema Africa",
+      "title": "JEMA Africa Limited Celebrates 14 Years of Growth, Innovation, and Impact.",
+      "href": "https://jemaafrica.co.tz/jema-africa-limited-celebrates-14-years-of-growth-innovation-and-impact/",
+      "img": "https://images.unsplash.com/photo-1522071820081-009f0129c71c?auto=format&fit=crop&w=500&q=85"
+    },
+    "news1": {
+      "day": "08",
+      "month": "Dec",
+      "date": "December 8, 2025",
+      "category": "Jema Auto",
+      "title": "Kwa Nini Watanzania Wanapaswa Kuchagua JEMA AUTO Katika Uagizaji wa Magari Kutoka Japan",
+      "href": "https://jemaafrica.co.tz/kwa-nini-watanzania-wanapaswa-kuchagua-jema-auto-katika-uagizaji-wa-magari-kutoka-japan/",
+      "img": "https://images.unsplash.com/photo-1492144534655-ae79c964c9d7?auto=format&fit=crop&w=500&q=85"
+    },
+    "news2": {
+      "day": "08",
+      "month": "Dec",
+      "date": "December 8, 2025",
+      "category": "Jema Africa",
+      "title": "JEMA Africa Ltd Leads the Stage as Gold Sponsor at the 2025 Mining Show Exhibition",
+      "href": "https://jemaafrica.co.tz/jema-africa-ltd-leads-the-stage-as-gold-sponsor-at-the-2025-mining-show-exhibition-in-dubai/",
+      "img": "https://images.unsplash.com/photo-1581094794329-c8112a89af12?auto=format&fit=crop&w=500&q=85"
+    },
+    "bottomTitle": "Ready to Make a Difference",
+    "bottomHighlight": "with Jema Africa?",
+    "emailLabel": "Send Us Email",
+    "office0": {
+      "title": "Mining Division HQ",
+      "address": "Jema Tech Building. Industrial Area. Mwanza. Tanzania.",
+      "phone": "+255 28 255 0380",
+      "href": "tel:+255282550380"
+    },
+    "office1": {
+      "title": "Non-Mining Division HQ",
+      "address": "5th floor, TAN House, Victoria, Dar es Salaam.",
+      "phone": "+255 677 091 421",
+      "href": "tel:+255677091421"
+    },
+    "office2": {
+      "title": "JIT Main Campus",
+      "address": "Jema Tech Building. Industrial Area. Mwanza. Tanzania.",
+      "phone": "+255 76 628 3530",
+      "href": "tel:+255766283530"
+    }
   },
   "footer": {
     "tagline": "A Private Collective",
@@ -267,5 +1305,148 @@
     "viewAll": "View All",
     "close": "Close",
     "back": "Back"
+  },
+  "jione": {
+    "heroEyebrow": "Premier logistics company",
+    "heroHighlight": "YOUR TRUSTED",
+    "heroLead": "Jema Jione is a premier logistics company, dedicated to providing comprehensive and reliable logistics solutions across East and Central Africa. With a modern fleet and a team of highly skilled professionals, we are equipped to handle a diverse range of cargo, from chemical products to farm produce. Our commitment to excellence, safety, and efficiency ensures that your goods reach their destination swiftly and securely.",
+    "heroCta1": "More Information",
+    "heroCta2": "Watch The Video",
+    "pillar0": {
+      "title": "Professional Expertise",
+      "text": "Our experienced team understands logistics complexities and delivers exceptional service."
+    },
+    "pillar1": {
+      "title": "State-of-the-Art Technology",
+      "text": "Advanced fleet management and real-time tracking ensure your cargo is secure and on the move."
+    },
+    "pillar2": {
+      "title": "Customer-Centric Approach",
+      "text": "Tailored solutions meet specific client requirements, building trust and reliability."
+    },
+    "rightEyebrow": "Jema Jione",
+    "rightTitle": "Doing The Right Thing",
+    "rightHighlight": "At The Right Time",
+    "rightLead": "Choosing Jema Jione means opting for reliability, efficiency, and a customer-centric approach. Our advanced fleet management system provides real-time tracking and optimal routing, enhancing operational efficiency and minimizing costs. Trust Jema Jione for all your logistics needs and experience the difference in quality and service.",
+    "value0Title": "Jema Jione",
+    "value0Text": "From road transport to specialized logistics, we provide a range of services that cater to the diverse needs of businesses and individuals.",
+    "value1Title": "Our commitment",
+    "value1Text": "To excellence, safety, and reliability makes us the preferred choice for all your logistics needs.",
+    "contactEyebrow": "Contact Us",
+    "contactTitle": "We offer a wide range of logistics services",
+    "contactHighlight": "tailored to your needs",
+    "contactLead": "Advanced fleet management and real-time tracking ensure your cargo is secure and on the move.",
+    "contactMobile": "Mobile",
+    "contactPhoneText": "Office Number +255 28 255 0380 & +255 677 091 421",
+    "contactLocation": "Location",
+    "contactAddress1": "Jema Tech Building. Industrial Area. Mwanza. Tanzania.",
+    "contactAddress2": "5th floor, TAN House, Victoria, Dar es Salaam.",
+    "formFirstName": "First Name",
+    "formLastName": "Last Name",
+    "formEmail": "Email",
+    "formPhone": "Phone",
+    "formSubject": "Subject",
+    "formComment": "Comment",
+    "formSubmit": "Send Message",
+    "formSent": "Message Sent",
+    "serviceEyebrow": "What We Do",
+    "serviceTitle": "Get in Touch with Jema Jione",
+    "serviceHighlight": "Logistics",
+    "serviceLead": "At Jema Jione, we understand that different types of cargo require different handling. We offer a wide range of logistics services tailored to your needs:",
+    "service0": {
+      "title": "Comprehensive Logistics Solutions",
+      "item0": {
+        "label": "Freight Transport:",
+        "text": "Utilizing our modern fleet for timely delivery of various goods."
+      },
+      "item1": {
+        "label": "Specialized Cargo Handling:",
+        "text": "Trained team handling sensitive cargo like chemicals and agricultural products with care and compliance."
+      }
+    },
+    "service1": {
+      "title": "Fleet Management System",
+      "item0": {
+        "label": "Real-Time Tracking:",
+        "text": "Monitor cargo location and status throughout the journey."
+      },
+      "item1": {
+        "label": "Optimal Routing:",
+        "text": "Utilize the most efficient routes to minimize transit time and costs."
+      },
+      "item2": {
+        "label": "Safety Monitoring:",
+        "text": "Track vehicle performance and driver behavior for high safety standards."
+      }
+    },
+    "service2": {
+      "title": "Clearing and Forwarding",
+      "item0": {
+        "label": "Customs Clearance:",
+        "text": "Efficient handling of all customs documentation and procedures."
+      },
+      "item1": {
+        "label": "Cargo Forwarding:",
+        "text": "Coordinating transportation from ports to final destinations."
+      },
+      "item2": {
+        "label": "Regulatory Compliance:",
+        "text": "Ensuring shipments comply with local and international regulations."
+      }
+    },
+    "ctaTitle": "Our team is here to assist",
+    "ctaHighlight": "you with your logistics needs.",
+    "ctaCta": "Watch The Video.",
+    "teamEyebrow": "Our Team Member",
+    "teamTitle": "Our Expertise",
+    "teamHighlight": "Will Help You",
+    "teamLead": "Ready to get started? Whether you're shipping chemicals, heavy machinery, or fresh produce, Jema Jione is ready to provide a customized logistics solution. Get in touch with us for a competitive quote and fast, reliable service.",
+    "team0": {
+      "name": "Ms. Happiness Ndege",
+      "role": "Senior Declaration Officer",
+      "img": "/assets/jione/team-ndege.png"
+    },
+    "team1": {
+      "name": "Mr. Fortunatus Wambura",
+      "role": "Supervisor",
+      "img": "/assets/jione/team-wambura.png"
+    },
+    "newsEyebrow": "Latest News & Blogs",
+    "newsTitle": "What's New in",
+    "newsHighlight": "Business Area to Know",
+    "readMore": "READ MORE",
+    "news0": {
+      "day": "01",
+      "month": "Apr",
+      "date": "April 1, 2026",
+      "category": "Jema Africa",
+      "title": "JEMA Africa Limited Celebrates 14 Years",
+      "href": "https://jemaafrica.co.tz/jema-africa-limited-celebrates-14-years-of-growth-innovation-and-impact/",
+      "img": "https://images.unsplash.com/photo-1522071820081-009f0129c71c?auto=format&fit=crop&w=500&q=85"
+    },
+    "news1": {
+      "day": "08",
+      "month": "Dec",
+      "date": "December 8, 2025",
+      "category": "Jema Africa",
+      "title": "JEMA Africa Ltd Leads the Stage as Gold Sponsor",
+      "href": "https://jemaafrica.co.tz/jema-africa-ltd-leads-the-stage-as-gold-sponsor-at-the-2025-mining-show-exhibition-in-dubai/",
+      "img": "https://images.unsplash.com/photo-1581094794329-c8112a89af12?auto=format&fit=crop&w=500&q=85"
+    },
+    "office0": {
+      "title": "Mining Division HQ",
+      "address": "Jema Tech Building. Industrial Area. Mwanza. Tanzania.",
+      "phone": "+255 28 255 0380"
+    },
+    "office1": {
+      "title": "Non-Mining Division HQ",
+      "address": "5th floor, TAN House, Victoria, Dar es Salaam.",
+      "phone": "+255 677 091 421"
+    },
+    "office2": {
+      "title": "JIT Main Campus",
+      "address": "Jema Tech Building. Industrial Area. Mwanza. Tanzania.",
+      "phone": "+255 76 628 3530"
+    }
   }
 }

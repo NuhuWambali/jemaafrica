@@ -21,10 +21,10 @@ const DIVISIONS = [
 ];
 
 const LEADERS = [
-  { name: 'Mr. Frederick Otieno', role: 'DCO', img: '/assets/team/mr.-fredrick-otieno.png' },
-  { name: 'Mr. Juma Luchele', role: 'COO - Mining Division', img: '/assets/team/luchele.png' },
-  { name: 'Ms. Agnes Daniel', role: 'COO - Non Mining Division', img: '/assets/team/608.png' },
-  { name: 'Mr. Benezeth Kamihanda', role: 'Principal - JIT', img: '/assets/team/mr.-benezeth-kamihanda.png' },
+  { name: 'Mr. Frederick Otieno', roleKey: 'leadership.roles.dco', img: '/assets/team/mr.-fredrick-otieno.png' },
+  { name: 'Mr. Juma Luchele', roleKey: 'leadership.roles.cooMining', img: '/assets/team/luchele.png' },
+  { name: 'Ms. Agnes Daniel', roleKey: 'leadership.roles.cooNonMining', img: '/assets/team/608.png' },
+  { name: 'Mr. Benezeth Kamihanda', roleKey: 'leadership.roles.principalJit', img: '/assets/team/mr.-benezeth-kamihanda.png' },
 ];
 
 const TIMELINE = [
@@ -129,7 +129,7 @@ export default function AboutPage() {
             <Reveal delay={1}>
               <div className="story-figure">
                 <div className="story-frame">
-                  <img src="/assets/who.png" alt="Jema Africa" loading="lazy" />
+                  <img src="/assets/about.jpeg" alt="Jema Africa" loading="lazy" />
                 </div>
                 <span className="story-badge">{t('about.badge')}</span>
               </div>
@@ -181,28 +181,34 @@ export default function AboutPage() {
           </Reveal>
           <div className="purpose-grid">
             <Reveal>
-              <article className="purpose-card">
-                <div className="glyph">
-                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.6"><circle cx="12" cy="12" r="10"/><circle cx="12" cy="12" r="4"/></svg>
+              <article className="purpose-card has-image" style={{ backgroundImage: 'url(https://images.unsplash.com/photo-1581094794329-c8112a89af12?auto=format&fit=crop&w=900&q=80)' }}>
+                <div className="purpose-card-overlay" aria-hidden="true" />
+                <div className="purpose-card-content">
+                  <div className="glyph">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.6"><circle cx="12" cy="12" r="10"/><circle cx="12" cy="12" r="4"/></svg>
+                  </div>
+                  <h3>{t('about.mission.title')}</h3>
+                  <p>{t('about.mission.text')}</p>
                 </div>
-                <h3>{t('about.mission.title')}</h3>
-                <p>{t('about.mission.text')}</p>
               </article>
             </Reveal>
             <Reveal delay={1}>
-              <article className="purpose-card">
-                <div className="glyph">
-                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.6"><path d="M2 12s3.5-7 10-7 10 7 10 7-3.5 7-10 7-10-7-10-7z"/><circle cx="12" cy="12" r="3"/></svg>
+              <article className="purpose-card has-image" style={{ backgroundImage: 'url(https://images.unsplash.com/photo-1522071820081-009f0129c71c?auto=format&fit=crop&w=900&q=80)' }}>
+                <div className="purpose-card-overlay" aria-hidden="true" />
+                <div className="purpose-card-content">
+                  <div className="glyph">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.6"><path d="M2 12s3.5-7 10-7 10 7 10 7-3.5 7-10 7-10-7-10-7z"/><circle cx="12" cy="12" r="3"/></svg>
+                  </div>
+                  <h3>{t('about.vision.title')}</h3>
+                  <p>{t('about.vision.text')}</p>
                 </div>
-                <h3>{t('about.vision.title')}</h3>
-                <p>{t('about.vision.text')}</p>
               </article>
             </Reveal>
             <Reveal delay={2}>
               <div className="values-block">
                 <h3>{t('about.valuesTitle')}</h3>
                 <div className="values-chips">
-                  {VALUES.map(v => (
+                  {(t('about.values', { returnObjects: true }) as string[]).map(v => (
                     <span className="value-chip" key={v}>{v}</span>
                   ))}
                 </div>
@@ -225,7 +231,7 @@ export default function AboutPage() {
             </div>
           </Reveal>
           <div className="timeline">
-            {TIMELINE.map((item, i) => (
+            {(t('about.timeline', { returnObjects: true }) as typeof TIMELINE).map((item, i) => (
               <Reveal key={i}>
                 <div className="tl-item">
                   <span className="tl-year">{item.year}</span>
@@ -259,7 +265,7 @@ export default function AboutPage() {
                   </div>
                   <div className="leader-details">
                     <h3>{leader.name}</h3>
-                    <p>{leader.role}</p>
+                    <p>{t(leader.roleKey)}</p>
                   </div>
                 </article>
               </Reveal>
@@ -281,7 +287,7 @@ export default function AboutPage() {
             </div>
           </Reveal>
           <div className="divisions-grid">
-            {DIVISIONS.map((div, i) => (
+            {(t('about.divisionsList', { returnObjects: true }) as typeof DIVISIONS).map((div, i) => (
               <Reveal key={div.name} delay={((i % 4) + 1) as 1 | 2 | 3 | 4}>
                 <article className="division-card">
                   <span className="division-num">{div.num}</span>

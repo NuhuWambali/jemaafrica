@@ -148,18 +148,6 @@ export default function LifeSciencePage() {
         </div>
       </section>
 
-      {/* YEAR STAT */}
-      <section className="ls-year">
-        <div className="container">
-          <Reveal>
-            <div className="ls-year-in">
-              <span className="ls-year-num">2023</span>
-              <span className="ls-year-lbl">We&apos;ve Year Of Experiences</span>
-            </div>
-          </Reveal>
-        </div>
-      </section>
-
       {/* PILLARS */}
       <section className="ls-pillars">
         <div className="container">
